@@ -1,0 +1,2102 @@
+[
+  {
+    "image_name": "seq16_000000.png",
+    "split": "val",
+    "insight": "Image: seq16_000000.png [val]. Dominant: Building (47.2%). Top 3: Building (47.2%), Background clutter (19.5%), Tree (16.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 18.7%. Road: 11.2%. Moving car: 0.26%. Static car: 2.64%. Human: 0.438%.",
+    "class_stats": {
+      "Background clutter": 19.5042,
+      "Building": 47.2338,
+      "Road": 11.2498,
+      "Tree": 16.5179,
+      "Low vegetation": 2.1522,
+      "Moving car": 0.2612,
+      "Static car": 2.6429,
+      "Human": 0.4379
+    },
+    "metrics": {
+      "pixel_accuracy": 14.5552,
+      "mean_iou": 4.4684,
+      "fw_iou": 6.7725,
+      "per_class_iou": {
+        "Background clutter": 5.958,
+        "Building": 7.3948,
+        "Road": 16.7748,
+        "Tree": 0.624,
+        "Low vegetation": 0.0348,
+        "Moving car": 0.0,
+        "Static car": 4.7602,
+        "Human": 0.2011
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000100.png",
+    "split": "val",
+    "insight": "Image: seq16_000100.png [val]. Dominant: Building (53.0%). Top 3: Building (53.0%), Background clutter (20.8%), Road (11.3%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 13.0%. Road: 11.3%. Moving car: 0.21%. Static car: 0.99%. Human: 0.619%.",
+    "class_stats": {
+      "Background clutter": 20.7801,
+      "Building": 53.0349,
+      "Road": 11.3326,
+      "Tree": 9.4983,
+      "Low vegetation": 3.539,
+      "Moving car": 0.2093,
+      "Static car": 0.9873,
+      "Human": 0.6186
+    },
+    "metrics": {
+      "pixel_accuracy": 14.311,
+      "mean_iou": 4.1195,
+      "fw_iou": 5.7952,
+      "per_class_iou": {
+        "Background clutter": 6.0155,
+        "Building": 3.9277,
+        "Road": 19.9974,
+        "Tree": 1.9737,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.5428,
+        "Human": 0.4988
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000200.png",
+    "split": "val",
+    "insight": "Image: seq16_000200.png [val]. Dominant: Building (60.7%). Top 3: Building (60.7%), Road (13.2%), Background clutter (12.3%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 12.1%. Road: 13.2%. Moving car: 0.30%. Static car: 0.96%. Human: 0.482%.",
+    "class_stats": {
+      "Background clutter": 12.2691,
+      "Building": 60.6981,
+      "Road": 13.1765,
+      "Tree": 9.6771,
+      "Low vegetation": 2.4387,
+      "Moving car": 0.2992,
+      "Static car": 0.9597,
+      "Human": 0.4817
+    },
+    "metrics": {
+      "pixel_accuracy": 16.7081,
+      "mean_iou": 4.1411,
+      "fw_iou": 6.5793,
+      "per_class_iou": {
+        "Background clutter": 6.3409,
+        "Building": 4.8455,
+        "Road": 21.6079,
+        "Tree": 0.1169,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.1323,
+        "Human": 0.0852
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000300.png",
+    "split": "val",
+    "insight": "Image: seq16_000300.png [val]. Dominant: Building (66.4%). Top 3: Building (66.4%), Road (12.0%), Tree (10.3%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 13.1%. Road: 12.0%. Moving car: 0.18%. Static car: 0.64%. Human: 0.221%.",
+    "class_stats": {
+      "Background clutter": 7.398,
+      "Building": 66.4333,
+      "Road": 11.9923,
+      "Tree": 10.2585,
+      "Low vegetation": 2.8727,
+      "Moving car": 0.1817,
+      "Static car": 0.6424,
+      "Human": 0.2213
+    },
+    "metrics": {
+      "pixel_accuracy": 13.3833,
+      "mean_iou": 3.0887,
+      "fw_iou": 4.87,
+      "per_class_iou": {
+        "Background clutter": 3.6696,
+        "Building": 3.8643,
+        "Road": 16.4791,
+        "Tree": 0.5277,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.1497,
+        "Human": 0.0195
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000400.png",
+    "split": "val",
+    "insight": "Image: seq16_000400.png [val]. Dominant: Building (68.5%). Top 3: Building (68.5%), Tree (12.1%), Road (10.9%). Present (>1%): Background clutter, Building, Road, Tree. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 12.5%. Road: 10.9%. Moving car: 0.10%. Static car: 0.59%. Human: 0.119%.",
+    "class_stats": {
+      "Background clutter": 7.2886,
+      "Building": 68.5054,
+      "Road": 10.9028,
+      "Tree": 12.0606,
+      "Low vegetation": 0.4334,
+      "Moving car": 0.098,
+      "Static car": 0.5918,
+      "Human": 0.1194
+    },
+    "metrics": {
+      "pixel_accuracy": 11.4271,
+      "mean_iou": 3.1212,
+      "fw_iou": 5.1338,
+      "per_class_iou": {
+        "Background clutter": 4.178,
+        "Building": 4.6483,
+        "Road": 11.7839,
+        "Tree": 2.9155,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.4441,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000500.png",
+    "split": "val",
+    "insight": "Image: seq16_000500.png [val]. Dominant: Building (59.5%). Top 3: Building (59.5%), Tree (14.9%), Road (13.3%). Present (>1%): Background clutter, Building, Road, Tree, Static car. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 15.6%. Road: 13.3%. Moving car: 0.10%. Static car: 1.51%. Human: 0.117%.",
+    "class_stats": {
+      "Background clutter": 9.8752,
+      "Building": 59.5471,
+      "Road": 13.2533,
+      "Tree": 14.9398,
+      "Low vegetation": 0.6574,
+      "Moving car": 0.0986,
+      "Static car": 1.5122,
+      "Human": 0.1165
+    },
+    "metrics": {
+      "pixel_accuracy": 10.0606,
+      "mean_iou": 2.9273,
+      "fw_iou": 5.0384,
+      "per_class_iou": {
+        "Background clutter": 4.83,
+        "Building": 4.6742,
+        "Road": 8.7138,
+        "Tree": 4.0556,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.145,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000600.png",
+    "split": "val",
+    "insight": "Image: seq16_000600.png [val]. Dominant: Building (70.3%). Top 3: Building (70.3%), Tree (18.4%), Background clutter (4.8%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 19.4%. Road: 4.7%. Moving car: 0.30%. Static car: 0.48%. Human: 0.032%.",
+    "class_stats": {
+      "Background clutter": 4.7795,
+      "Building": 70.3335,
+      "Road": 4.6622,
+      "Tree": 18.3681,
+      "Low vegetation": 1.0455,
+      "Moving car": 0.2984,
+      "Static car": 0.4809,
+      "Human": 0.0318
+    },
+    "metrics": {
+      "pixel_accuracy": 9.8735,
+      "mean_iou": 2.7599,
+      "fw_iou": 6.4621,
+      "per_class_iou": {
+        "Background clutter": 5.4379,
+        "Building": 7.2678,
+        "Road": 4.5574,
+        "Tree": 4.7792,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0367,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000700.png",
+    "split": "val",
+    "insight": "Image: seq16_000700.png [val]. Dominant: Building (70.6%). Top 3: Building (70.6%), Tree (18.9%), Road (4.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 21.3%. Road: 4.5%. Moving car: 0.23%. Static car: 0.48%. Human: 0.009%.",
+    "class_stats": {
+      "Background clutter": 2.9851,
+      "Building": 70.5723,
+      "Road": 4.4693,
+      "Tree": 18.8779,
+      "Low vegetation": 2.3777,
+      "Moving car": 0.2272,
+      "Static car": 0.4815,
+      "Human": 0.0089
+    },
+    "metrics": {
+      "pixel_accuracy": 8.0212,
+      "mean_iou": 2.6234,
+      "fw_iou": 4.6756,
+      "per_class_iou": {
+        "Background clutter": 3.4385,
+        "Building": 4.541,
+        "Road": 6.7013,
+        "Tree": 5.641,
+        "Low vegetation": 0.034,
+        "Moving car": 0.0,
+        "Static car": 0.6312,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000800.png",
+    "split": "val",
+    "insight": "Image: seq16_000800.png [val]. Dominant: Building (70.4%). Top 3: Building (70.4%), Tree (19.1%), Road (4.7%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Urban Dense. Vegetation: 21.2%. Road: 4.7%. Moving car: 0.09%. Static car: 0.52%. Human: 0.036%.",
+    "class_stats": {
+      "Background clutter": 3.0882,
+      "Building": 70.4101,
+      "Road": 4.6744,
+      "Tree": 19.1046,
+      "Low vegetation": 2.0729,
+      "Moving car": 0.0945,
+      "Static car": 0.5189,
+      "Human": 0.0365
+    },
+    "metrics": {
+      "pixel_accuracy": 8.0141,
+      "mean_iou": 2.6155,
+      "fw_iou": 4.5785,
+      "per_class_iou": {
+        "Background clutter": 3.7299,
+        "Building": 4.656,
+        "Road": 6.8502,
+        "Tree": 4.4943,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.1936,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq16_000900.png",
+    "split": "val",
+    "insight": "Image: seq16_000900.png [val]. Dominant: Building (70.4%). Top 3: Building (70.4%), Tree (18.9%), Road (4.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 21.1%. Road: 4.5%. Moving car: 0.14%. Static car: 0.53%. Human: 0.033%.",
+    "class_stats": {
+      "Background clutter": 3.3848,
+      "Building": 70.3534,
+      "Road": 4.4776,
+      "Tree": 18.9439,
+      "Low vegetation": 2.1447,
+      "Moving car": 0.1368,
+      "Static car": 0.5262,
+      "Human": 0.0326
+    },
+    "metrics": {
+      "pixel_accuracy": 7.9334,
+      "mean_iou": 2.5418,
+      "fw_iou": 4.3265,
+      "per_class_iou": {
+        "Background clutter": 3.9176,
+        "Building": 4.2237,
+        "Road": 6.9109,
+        "Tree": 4.8056,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.4767,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000000.png",
+    "split": "val",
+    "insight": "Image: seq17_000000.png [val]. Dominant: Tree (29.7%). Top 3: Tree (29.7%), Background clutter (29.7%), Building (18.7%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 42.7%. Road: 8.6%. Moving car: 0.00%. Static car: 0.32%. Human: 0.009%.",
+    "class_stats": {
+      "Background clutter": 29.7078,
+      "Building": 18.6576,
+      "Road": 8.646,
+      "Tree": 29.7143,
+      "Low vegetation": 12.9423,
+      "Moving car": 0.0021,
+      "Static car": 0.321,
+      "Human": 0.0089
+    },
+    "metrics": {
+      "pixel_accuracy": 13.2182,
+      "mean_iou": 4.1618,
+      "fw_iou": 7.376,
+      "per_class_iou": {
+        "Background clutter": 18.5397,
+        "Building": 6.7181,
+        "Road": 6.0043,
+        "Tree": 0.3034,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.7288,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000100.png",
+    "split": "val",
+    "insight": "Image: seq17_000100.png [val]. Dominant: Background clutter (29.0%). Top 3: Background clutter (29.0%), Tree (26.7%), Building (20.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Mixed Urban. Vegetation: 41.4%. Road: 9.0%. Moving car: 0.00%. Static car: 0.05%. Human: 0.009%.",
+    "class_stats": {
+      "Background clutter": 29.0301,
+      "Building": 20.4763,
+      "Road": 9.0264,
+      "Tree": 26.6885,
+      "Low vegetation": 14.7218,
+      "Moving car": 0.0021,
+      "Static car": 0.0457,
+      "Human": 0.0091
+    },
+    "metrics": {
+      "pixel_accuracy": 13.751,
+      "mean_iou": 4.0942,
+      "fw_iou": 7.9262,
+      "per_class_iou": {
+        "Background clutter": 22.1395,
+        "Building": 4.0836,
+        "Road": 5.6024,
+        "Tree": 0.4153,
+        "Low vegetation": 0.3144,
+        "Moving car": 0.0,
+        "Static car": 0.1987,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000200.png",
+    "split": "val",
+    "insight": "Image: seq17_000200.png [val]. Dominant: Background clutter (30.0%). Top 3: Background clutter (30.0%), Tree (22.2%), Building (21.3%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Mixed Urban. Vegetation: 39.5%. Road: 9.1%. Moving car: 0.00%. Static car: 0.07%. Human: 0.017%.",
+    "class_stats": {
+      "Background clutter": 29.9618,
+      "Building": 21.3239,
+      "Road": 9.0907,
+      "Tree": 22.1547,
+      "Low vegetation": 17.3767,
+      "Moving car": 0.0014,
+      "Static car": 0.0741,
+      "Human": 0.0168
+    },
+    "metrics": {
+      "pixel_accuracy": 13.4988,
+      "mean_iou": 4.2004,
+      "fw_iou": 8.2176,
+      "per_class_iou": {
+        "Background clutter": 19.7564,
+        "Building": 7.6288,
+        "Road": 4.7384,
+        "Tree": 1.0851,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.3946,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000300.png",
+    "split": "val",
+    "insight": "Image: seq17_000300.png [val]. Dominant: Building (33.4%). Top 3: Building (33.4%), Background clutter (29.9%), Tree (16.2%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Urban Dense. Vegetation: 26.7%. Road: 10.0%. Moving car: 0.00%. Static car: 0.04%. Human: 0.016%.",
+    "class_stats": {
+      "Background clutter": 29.9306,
+      "Building": 33.3709,
+      "Road": 9.952,
+      "Tree": 16.2438,
+      "Low vegetation": 10.4398,
+      "Moving car": 0.0019,
+      "Static car": 0.0448,
+      "Human": 0.0162
+    },
+    "metrics": {
+      "pixel_accuracy": 14.1478,
+      "mean_iou": 3.7103,
+      "fw_iou": 7.3086,
+      "per_class_iou": {
+        "Background clutter": 16.5874,
+        "Building": 3.9218,
+        "Road": 7.2292,
+        "Tree": 1.9439,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000400.png",
+    "split": "val",
+    "insight": "Image: seq17_000400.png [val]. Dominant: Building (55.9%). Top 3: Building (55.9%), Background clutter (24.0%), Road (9.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Urban Dense. Vegetation: 10.2%. Road: 9.9%. Moving car: 0.00%. Static car: 0.00%. Human: 0.017%.",
+    "class_stats": {
+      "Background clutter": 23.9848,
+      "Building": 55.8686,
+      "Road": 9.885,
+      "Tree": 5.4838,
+      "Low vegetation": 4.7595,
+      "Moving car": 0.0,
+      "Static car": 0.0014,
+      "Human": 0.017
+    },
+    "metrics": {
+      "pixel_accuracy": 15.435,
+      "mean_iou": 4.9252,
+      "fw_iou": 9.1842,
+      "per_class_iou": {
+        "Background clutter": 20.5672,
+        "Building": 5.9685,
+        "Road": 4.7984,
+        "Tree": 8.0674,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000500.png",
+    "split": "val",
+    "insight": "Image: seq17_000500.png [val]. Dominant: Building (59.3%). Top 3: Building (59.3%), Background clutter (23.0%), Tree (7.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Urban Dense. Vegetation: 12.4%. Road: 5.0%. Moving car: 0.00%. Static car: 0.24%. Human: 0.029%.",
+    "class_stats": {
+      "Background clutter": 22.9527,
+      "Building": 59.3175,
+      "Road": 5.0176,
+      "Tree": 7.4169,
+      "Low vegetation": 5.0305,
+      "Moving car": 0.0,
+      "Static car": 0.2353,
+      "Human": 0.0295
+    },
+    "metrics": {
+      "pixel_accuracy": 19.8171,
+      "mean_iou": 4.6599,
+      "fw_iou": 11.829,
+      "per_class_iou": {
+        "Background clutter": 21.289,
+        "Building": 11.1522,
+        "Road": 1.3079,
+        "Tree": 3.5301,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000600.png",
+    "split": "val",
+    "insight": "Image: seq17_000600.png [val]. Dominant: Building (82.1%). Top 3: Building (82.1%), Background clutter (6.5%), Tree (5.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Urban Dense. Vegetation: 7.7%. Road: 3.5%. Moving car: 0.00%. Static car: 0.15%. Human: 0.005%.",
+    "class_stats": {
+      "Background clutter": 6.4952,
+      "Building": 82.0961,
+      "Road": 3.5322,
+      "Tree": 5.401,
+      "Low vegetation": 2.3221,
+      "Moving car": 0.0,
+      "Static car": 0.1483,
+      "Human": 0.005
+    },
+    "metrics": {
+      "pixel_accuracy": 11.0577,
+      "mean_iou": 4.3839,
+      "fw_iou": 6.4917,
+      "per_class_iou": {
+        "Background clutter": 9.1173,
+        "Building": 6.2158,
+        "Road": 14.4209,
+        "Tree": 5.3174,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000700.png",
+    "split": "val",
+    "insight": "Image: seq17_000700.png [val]. Dominant: Building (53.8%). Top 3: Building (53.8%), Background clutter (20.0%), Road (10.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Urban Dense. Vegetation: 15.2%. Road: 10.5%. Moving car: 0.04%. Static car: 0.43%. Human: 0.020%.",
+    "class_stats": {
+      "Background clutter": 19.9934,
+      "Building": 53.7606,
+      "Road": 10.5255,
+      "Tree": 10.071,
+      "Low vegetation": 5.1551,
+      "Moving car": 0.0424,
+      "Static car": 0.4319,
+      "Human": 0.0201
+    },
+    "metrics": {
+      "pixel_accuracy": 25.3409,
+      "mean_iou": 7.3508,
+      "fw_iou": 17.9745,
+      "per_class_iou": {
+        "Background clutter": 20.2219,
+        "Building": 23.1446,
+        "Road": 12.7222,
+        "Tree": 1.4314,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.2865,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000800.png",
+    "split": "val",
+    "insight": "Image: seq17_000800.png [val]. Dominant: Background clutter (31.3%). Top 3: Background clutter (31.3%), Building (27.6%), Tree (25.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 33.7%. Road: 7.1%. Moving car: 0.07%. Static car: 0.27%. Human: 0.013%.",
+    "class_stats": {
+      "Background clutter": 31.2512,
+      "Building": 27.5963,
+      "Road": 7.081,
+      "Tree": 25.0328,
+      "Low vegetation": 8.6908,
+      "Moving car": 0.0669,
+      "Static car": 0.2681,
+      "Human": 0.0129
+    },
+    "metrics": {
+      "pixel_accuracy": 16.309,
+      "mean_iou": 5.143,
+      "fw_iou": 11.2016,
+      "per_class_iou": {
+        "Background clutter": 22.2961,
+        "Building": 12.6972,
+        "Road": 3.7802,
+        "Tree": 1.8407,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.5296,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq17_000900.png",
+    "split": "val",
+    "insight": "Image: seq17_000900.png [val]. Dominant: Tree (37.7%). Top 3: Tree (37.7%), Background clutter (31.2%), Low vegetation (13.3%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Mixed Urban. Vegetation: 51.0%. Road: 6.0%. Moving car: 0.05%. Static car: 0.04%. Human: 0.006%.",
+    "class_stats": {
+      "Background clutter": 31.218,
+      "Building": 11.6439,
+      "Road": 6.0046,
+      "Tree": 37.7278,
+      "Low vegetation": 13.3096,
+      "Moving car": 0.0463,
+      "Static car": 0.044,
+      "Human": 0.0058
+    },
+    "metrics": {
+      "pixel_accuracy": 8.7205,
+      "mean_iou": 2.336,
+      "fw_iou": 4.032,
+      "per_class_iou": {
+        "Background clutter": 10.2943,
+        "Building": 0.1877,
+        "Road": 6.9148,
+        "Tree": 1.0102,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.2807,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000000.png",
+    "split": "val",
+    "insight": "Image: seq18_000000.png [val]. Dominant: Building (37.4%). Top 3: Building (37.4%), Road (18.6%), Tree (18.3%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car, Human. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 20.1%. Road: 18.6%. Moving car: 2.54%. Static car: 3.36%. Human: 1.143%.",
+    "class_stats": {
+      "Background clutter": 16.8011,
+      "Building": 37.4414,
+      "Road": 18.5826,
+      "Tree": 18.3301,
+      "Low vegetation": 1.8042,
+      "Moving car": 2.5351,
+      "Static car": 3.3627,
+      "Human": 1.1429
+    },
+    "metrics": {
+      "pixel_accuracy": 19.2228,
+      "mean_iou": 5.1599,
+      "fw_iou": 8.7572,
+      "per_class_iou": {
+        "Background clutter": 6.0469,
+        "Building": 7.5098,
+        "Road": 19.4775,
+        "Tree": 6.9007,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.3441,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000100.png",
+    "split": "val",
+    "insight": "Image: seq18_000100.png [val]. Dominant: Building (39.6%). Top 3: Building (39.6%), Road (19.9%), Tree (16.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car, Human. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 17.6%. Road: 19.9%. Moving car: 3.12%. Static car: 3.71%. Human: 1.797%.",
+    "class_stats": {
+      "Background clutter": 14.2828,
+      "Building": 39.599,
+      "Road": 19.885,
+      "Tree": 15.9923,
+      "Low vegetation": 1.6088,
+      "Moving car": 3.1215,
+      "Static car": 3.7135,
+      "Human": 1.7971
+    },
+    "metrics": {
+      "pixel_accuracy": 19.6073,
+      "mean_iou": 4.7421,
+      "fw_iou": 8.4427,
+      "per_class_iou": {
+        "Background clutter": 1.2406,
+        "Building": 8.2717,
+        "Road": 19.4135,
+        "Tree": 6.4747,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 2.5359,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000200.png",
+    "split": "val",
+    "insight": "Image: seq18_000200.png [val]. Dominant: Building (42.0%). Top 3: Building (42.0%), Background clutter (19.1%), Tree (17.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 19.2%. Road: 12.7%. Moving car: 3.41%. Static car: 2.75%. Human: 0.734%.",
+    "class_stats": {
+      "Background clutter": 19.1483,
+      "Building": 42.0305,
+      "Road": 12.6813,
+      "Tree": 17.9091,
+      "Low vegetation": 1.3326,
+      "Moving car": 3.4103,
+      "Static car": 2.7537,
+      "Human": 0.7342
+    },
+    "metrics": {
+      "pixel_accuracy": 15.4238,
+      "mean_iou": 3.9525,
+      "fw_iou": 6.0044,
+      "per_class_iou": {
+        "Background clutter": 3.8578,
+        "Building": 6.3643,
+        "Road": 14.1094,
+        "Tree": 3.8485,
+        "Low vegetation": 0.0,
+        "Moving car": 2.6779,
+        "Static car": 0.7622,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000300.png",
+    "split": "val",
+    "insight": "Image: seq18_000300.png [val]. Dominant: Building (42.3%). Top 3: Building (42.3%), Background clutter (22.6%), Road (12.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 15.0%. Road: 12.9%. Moving car: 3.10%. Static car: 3.33%. Human: 0.685%.",
+    "class_stats": {
+      "Background clutter": 22.6495,
+      "Building": 42.3167,
+      "Road": 12.9313,
+      "Tree": 12.8027,
+      "Low vegetation": 2.1831,
+      "Moving car": 3.0965,
+      "Static car": 3.3349,
+      "Human": 0.6854
+    },
+    "metrics": {
+      "pixel_accuracy": 16.9813,
+      "mean_iou": 4.1639,
+      "fw_iou": 7.9221,
+      "per_class_iou": {
+        "Background clutter": 2.5708,
+        "Building": 12.0957,
+        "Road": 15.1541,
+        "Tree": 1.5349,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.9555,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000400.png",
+    "split": "val",
+    "insight": "Image: seq18_000400.png [val]. Dominant: Building (40.8%). Top 3: Building (40.8%), Background clutter (21.1%), Road (14.2%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 15.9%. Road: 14.2%. Moving car: 2.89%. Static car: 4.57%. Human: 0.597%.",
+    "class_stats": {
+      "Background clutter": 21.1015,
+      "Building": 40.7535,
+      "Road": 14.191,
+      "Tree": 13.8738,
+      "Low vegetation": 2.0193,
+      "Moving car": 2.8912,
+      "Static car": 4.5733,
+      "Human": 0.5965
+    },
+    "metrics": {
+      "pixel_accuracy": 18.3256,
+      "mean_iou": 4.4121,
+      "fw_iou": 8.2223,
+      "per_class_iou": {
+        "Background clutter": 1.1049,
+        "Building": 13.1444,
+        "Road": 16.3902,
+        "Tree": 1.0045,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 3.6528,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000500.png",
+    "split": "val",
+    "insight": "Image: seq18_000500.png [val]. Dominant: Building (39.8%). Top 3: Building (39.8%), Background clutter (20.7%), Tree (16.6%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 19.1%. Road: 13.3%. Moving car: 2.68%. Static car: 3.86%. Human: 0.506%.",
+    "class_stats": {
+      "Background clutter": 20.7284,
+      "Building": 39.8042,
+      "Road": 13.3175,
+      "Tree": 16.6173,
+      "Low vegetation": 2.4934,
+      "Moving car": 2.6761,
+      "Static car": 3.8574,
+      "Human": 0.5056
+    },
+    "metrics": {
+      "pixel_accuracy": 15.3492,
+      "mean_iou": 4.1729,
+      "fw_iou": 8.1992,
+      "per_class_iou": {
+        "Background clutter": 0.9723,
+        "Building": 14.9364,
+        "Road": 12.1117,
+        "Tree": 1.8225,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 3.5402,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000600.png",
+    "split": "val",
+    "insight": "Image: seq18_000600.png [val]. Dominant: Building (37.4%). Top 3: Building (37.4%), Background clutter (22.8%), Tree (17.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 19.1%. Road: 13.5%. Moving car: 2.82%. Static car: 3.66%. Human: 0.659%.",
+    "class_stats": {
+      "Background clutter": 22.8304,
+      "Building": 37.3713,
+      "Road": 13.5241,
+      "Tree": 17.0145,
+      "Low vegetation": 2.1279,
+      "Moving car": 2.8171,
+      "Static car": 3.6555,
+      "Human": 0.6591
+    },
+    "metrics": {
+      "pixel_accuracy": 13.0245,
+      "mean_iou": 3.5067,
+      "fw_iou": 5.7664,
+      "per_class_iou": {
+        "Background clutter": 2.5336,
+        "Building": 7.673,
+        "Road": 11.523,
+        "Tree": 3.9742,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 2.3501,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000700.png",
+    "split": "val",
+    "insight": "Image: seq18_000700.png [val]. Dominant: Building (35.8%). Top 3: Building (35.8%), Background clutter (24.0%), Tree (16.3%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 18.7%. Road: 14.5%. Moving car: 3.19%. Static car: 3.05%. Human: 0.769%.",
+    "class_stats": {
+      "Background clutter": 23.963,
+      "Building": 35.7612,
+      "Road": 14.5407,
+      "Tree": 16.2799,
+      "Low vegetation": 2.4416,
+      "Moving car": 3.191,
+      "Static car": 3.0534,
+      "Human": 0.7693
+    },
+    "metrics": {
+      "pixel_accuracy": 16.8787,
+      "mean_iou": 4.7764,
+      "fw_iou": 7.2813,
+      "per_class_iou": {
+        "Background clutter": 6.2258,
+        "Building": 7.4799,
+        "Road": 16.9637,
+        "Tree": 3.1574,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 4.3842,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000800.png",
+    "split": "val",
+    "insight": "Image: seq18_000800.png [val]. Dominant: Building (35.4%). Top 3: Building (35.4%), Background clutter (23.1%), Tree (16.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 19.8%. Road: 14.2%. Moving car: 3.49%. Static car: 3.05%. Human: 0.930%.",
+    "class_stats": {
+      "Background clutter": 23.0505,
+      "Building": 35.439,
+      "Road": 14.235,
+      "Tree": 16.3634,
+      "Low vegetation": 3.4504,
+      "Moving car": 3.4857,
+      "Static car": 3.0455,
+      "Human": 0.9304
+    },
+    "metrics": {
+      "pixel_accuracy": 18.048,
+      "mean_iou": 5.0433,
+      "fw_iou": 8.3575,
+      "per_class_iou": {
+        "Background clutter": 4.1255,
+        "Building": 11.9335,
+        "Road": 16.7783,
+        "Tree": 4.2134,
+        "Low vegetation": 0.0,
+        "Moving car": 0.3909,
+        "Static car": 2.7864,
+        "Human": 0.1187
+      }
+    }
+  },
+  {
+    "image_name": "seq18_000900.png",
+    "split": "val",
+    "insight": "Image: seq18_000900.png [val]. Dominant: Building (36.4%). Top 3: Building (36.4%), Background clutter (20.2%), Tree (18.7%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 22.9%. Road: 13.5%. Moving car: 3.28%. Static car: 2.98%. Human: 0.781%.",
+    "class_stats": {
+      "Background clutter": 20.1676,
+      "Building": 36.3729,
+      "Road": 13.5365,
+      "Tree": 18.7375,
+      "Low vegetation": 4.1435,
+      "Moving car": 3.2826,
+      "Static car": 2.978,
+      "Human": 0.7814
+    },
+    "metrics": {
+      "pixel_accuracy": 16.5008,
+      "mean_iou": 4.2951,
+      "fw_iou": 8.1142,
+      "per_class_iou": {
+        "Background clutter": 3.2757,
+        "Building": 13.7687,
+        "Road": 13.5862,
+        "Tree": 3.1557,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.4838,
+        "Human": 0.0903
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000000.png",
+    "split": "val",
+    "insight": "Image: seq19_000000.png [val]. Dominant: Tree (46.3%). Top 3: Tree (46.3%), Building (16.6%), Background clutter (15.8%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 62.0%. Road: 5.5%. Moving car: 0.00%. Static car: 0.16%. Human: 0.081%.",
+    "class_stats": {
+      "Background clutter": 15.7575,
+      "Building": 16.5639,
+      "Road": 5.4614,
+      "Tree": 46.3196,
+      "Low vegetation": 15.6574,
+      "Moving car": 0.0,
+      "Static car": 0.1591,
+      "Human": 0.081
+    },
+    "metrics": {
+      "pixel_accuracy": 12.316,
+      "mean_iou": 3.6116,
+      "fw_iou": 6.1433,
+      "per_class_iou": {
+        "Background clutter": 11.2628,
+        "Building": 1.6215,
+        "Road": 5.602,
+        "Tree": 7.9148,
+        "Low vegetation": 0.8004,
+        "Moving car": 0.0,
+        "Static car": 1.5928,
+        "Human": 0.0982
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000100.png",
+    "split": "val",
+    "insight": "Image: seq19_000100.png [val]. Dominant: Tree (59.1%). Top 3: Tree (59.1%), Building (18.6%), Background clutter (18.1%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Mixed Urban. Vegetation: 61.3%. Road: 1.9%. Moving car: 0.03%. Static car: 0.06%. Human: 0.025%.",
+    "class_stats": {
+      "Background clutter": 18.0889,
+      "Building": 18.5725,
+      "Road": 1.9062,
+      "Tree": 59.1055,
+      "Low vegetation": 2.2139,
+      "Moving car": 0.0289,
+      "Static car": 0.0584,
+      "Human": 0.0255
+    },
+    "metrics": {
+      "pixel_accuracy": 9.2662,
+      "mean_iou": 2.3886,
+      "fw_iou": 5.2288,
+      "per_class_iou": {
+        "Background clutter": 11.6254,
+        "Building": 0.0029,
+        "Road": 2.2162,
+        "Tree": 5.2148,
+        "Low vegetation": 0.039,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0105
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000200.png",
+    "split": "val",
+    "insight": "Image: seq19_000200.png [val]. Dominant: Tree (63.9%). Top 3: Tree (63.9%), Background clutter (19.1%), Building (10.5%). Present (>1%): Background clutter, Building, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Mixed Urban. Vegetation: 69.8%. Road: 0.7%. Moving car: 0.00%. Static car: 0.00%. Human: 0.046%.",
+    "class_stats": {
+      "Background clutter": 19.0654,
+      "Building": 10.4742,
+      "Road": 0.6578,
+      "Tree": 63.9282,
+      "Low vegetation": 5.8283,
+      "Moving car": 0.0,
+      "Static car": 0.0,
+      "Human": 0.0461
+    },
+    "metrics": {
+      "pixel_accuracy": 6.9159,
+      "mean_iou": 1.8498,
+      "fw_iou": 4.5938,
+      "per_class_iou": {
+        "Background clutter": 9.7737,
+        "Building": 0.0,
+        "Road": 0.6996,
+        "Tree": 4.2638,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0613
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000300.png",
+    "split": "val",
+    "insight": "Image: seq19_000300.png [val]. Dominant: Tree (40.3%). Top 3: Tree (40.3%), Building (25.1%), Background clutter (21.7%). Present (>1%): Background clutter, Building, Tree, Low vegetation. Absent (<0.1%): Moving car, Static car, Human. Scene: Mixed Urban. Vegetation: 52.2%. Road: 0.9%. Moving car: 0.00%. Static car: 0.06%. Human: 0.051%.",
+    "class_stats": {
+      "Background clutter": 21.7105,
+      "Building": 25.0656,
+      "Road": 0.8953,
+      "Tree": 40.3113,
+      "Low vegetation": 11.9045,
+      "Moving car": 0.0,
+      "Static car": 0.0615,
+      "Human": 0.0513
+    },
+    "metrics": {
+      "pixel_accuracy": 6.4419,
+      "mean_iou": 1.8699,
+      "fw_iou": 3.1372,
+      "per_class_iou": {
+        "Background clutter": 12.7384,
+        "Building": 0.0023,
+        "Road": 0.8841,
+        "Tree": 0.8387,
+        "Low vegetation": 0.2085,
+        "Moving car": 0.0,
+        "Static car": 0.2684,
+        "Human": 0.019
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000400.png",
+    "split": "val",
+    "insight": "Image: seq19_000400.png [val]. Dominant: Building (34.1%). Top 3: Building (34.1%), Tree (28.8%), Background clutter (20.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 40.4%. Road: 4.6%. Moving car: 0.00%. Static car: 0.34%. Human: 0.111%.",
+    "class_stats": {
+      "Background clutter": 20.4776,
+      "Building": 34.141,
+      "Road": 4.5569,
+      "Tree": 28.8206,
+      "Low vegetation": 11.5554,
+      "Moving car": 0.0,
+      "Static car": 0.3376,
+      "Human": 0.1109
+    },
+    "metrics": {
+      "pixel_accuracy": 10.5855,
+      "mean_iou": 2.7763,
+      "fw_iou": 4.0972,
+      "per_class_iou": {
+        "Background clutter": 17.4252,
+        "Building": 0.8292,
+        "Road": 2.9579,
+        "Tree": 0.3785,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.5613,
+        "Human": 0.0579
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000500.png",
+    "split": "val",
+    "insight": "Image: seq19_000500.png [val]. Dominant: Building (33.4%). Top 3: Building (33.4%), Tree (25.4%), Background clutter (25.2%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 36.4%. Road: 3.8%. Moving car: 0.00%. Static car: 0.98%. Human: 0.120%.",
+    "class_stats": {
+      "Background clutter": 25.2402,
+      "Building": 33.4387,
+      "Road": 3.7938,
+      "Tree": 25.4433,
+      "Low vegetation": 10.9828,
+      "Moving car": 0.0,
+      "Static car": 0.9813,
+      "Human": 0.12
+    },
+    "metrics": {
+      "pixel_accuracy": 11.1111,
+      "mean_iou": 3.5131,
+      "fw_iou": 5.6186,
+      "per_class_iou": {
+        "Background clutter": 19.081,
+        "Building": 1.9314,
+        "Road": 2.9673,
+        "Tree": 0.0,
+        "Low vegetation": 0.0443,
+        "Moving car": 0.0,
+        "Static car": 3.9885,
+        "Human": 0.0925
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000600.png",
+    "split": "val",
+    "insight": "Image: seq19_000600.png [val]. Dominant: Building (33.9%). Top 3: Building (33.9%), Tree (24.4%), Background clutter (21.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Urban Dense. Vegetation: 35.2%. Road: 8.8%. Moving car: 0.00%. Static car: 0.48%. Human: 0.091%.",
+    "class_stats": {
+      "Background clutter": 21.5064,
+      "Building": 33.8806,
+      "Road": 8.8079,
+      "Tree": 24.3808,
+      "Low vegetation": 10.849,
+      "Moving car": 0.0,
+      "Static car": 0.484,
+      "Human": 0.0914
+    },
+    "metrics": {
+      "pixel_accuracy": 13.7336,
+      "mean_iou": 3.912,
+      "fw_iou": 5.1083,
+      "per_class_iou": {
+        "Background clutter": 16.6564,
+        "Building": 2.582,
+        "Road": 6.3176,
+        "Tree": 0.2888,
+        "Low vegetation": 0.1653,
+        "Moving car": 0.0,
+        "Static car": 1.3412,
+        "Human": 0.0329
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000700.png",
+    "split": "val",
+    "insight": "Image: seq19_000700.png [val]. Dominant: Building (33.8%). Top 3: Building (33.8%), Background clutter (22.4%), Low vegetation (17.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 29.9%. Road: 12.9%. Moving car: 0.23%. Static car: 0.68%. Human: 0.100%.",
+    "class_stats": {
+      "Background clutter": 22.4091,
+      "Building": 33.7795,
+      "Road": 12.8661,
+      "Tree": 12.9066,
+      "Low vegetation": 17.0285,
+      "Moving car": 0.2299,
+      "Static car": 0.6806,
+      "Human": 0.0995
+    },
+    "metrics": {
+      "pixel_accuracy": 17.3277,
+      "mean_iou": 4.3325,
+      "fw_iou": 5.988,
+      "per_class_iou": {
+        "Background clutter": 18.4564,
+        "Building": 0.4656,
+        "Road": 12.5861,
+        "Tree": 0.0,
+        "Low vegetation": 0.3325,
+        "Moving car": 0.0,
+        "Static car": 2.7648,
+        "Human": 0.0549
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000800.png",
+    "split": "val",
+    "insight": "Image: seq19_000800.png [val]. Dominant: Building (37.9%). Top 3: Building (37.9%), Background clutter (22.5%), Tree (19.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 30.8%. Road: 7.6%. Moving car: 0.03%. Static car: 0.84%. Human: 0.260%.",
+    "class_stats": {
+      "Background clutter": 22.4743,
+      "Building": 37.9142,
+      "Road": 7.6366,
+      "Tree": 19.495,
+      "Low vegetation": 11.3472,
+      "Moving car": 0.0295,
+      "Static car": 0.8432,
+      "Human": 0.26
+    },
+    "metrics": {
+      "pixel_accuracy": 13.5087,
+      "mean_iou": 3.5995,
+      "fw_iou": 4.8779,
+      "per_class_iou": {
+        "Background clutter": 15.1062,
+        "Building": 2.1557,
+        "Road": 8.3404,
+        "Tree": 0.0109,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 3.1265,
+        "Human": 0.0566
+      }
+    }
+  },
+  {
+    "image_name": "seq19_000900.png",
+    "split": "val",
+    "insight": "Image: seq19_000900.png [val]. Dominant: Building (33.2%). Top 3: Building (33.2%), Background clutter (22.8%), Tree (22.8%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 39.6%. Road: 3.6%. Moving car: 0.12%. Static car: 0.63%. Human: 0.136%.",
+    "class_stats": {
+      "Background clutter": 22.794,
+      "Building": 33.1505,
+      "Road": 3.5984,
+      "Tree": 22.7531,
+      "Low vegetation": 16.8148,
+      "Moving car": 0.1186,
+      "Static car": 0.6343,
+      "Human": 0.1364
+    },
+    "metrics": {
+      "pixel_accuracy": 11.2434,
+      "mean_iou": 3.3716,
+      "fw_iou": 4.5226,
+      "per_class_iou": {
+        "Background clutter": 16.2809,
+        "Building": 1.1662,
+        "Road": 5.1304,
+        "Tree": 0.8769,
+        "Low vegetation": 0.1158,
+        "Moving car": 0.0,
+        "Static car": 3.3492,
+        "Human": 0.0534
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000000.png",
+    "split": "val",
+    "insight": "Image: seq20_000000.png [val]. Dominant: Building (38.0%). Top 3: Building (38.0%), Tree (26.0%), Background clutter (22.2%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 29.5%. Road: 8.5%. Moving car: 1.38%. Static car: 0.37%. Human: 0.134%.",
+    "class_stats": {
+      "Background clutter": 22.1757,
+      "Building": 37.9659,
+      "Road": 8.461,
+      "Tree": 26.0357,
+      "Low vegetation": 3.478,
+      "Moving car": 1.3833,
+      "Static car": 0.3665,
+      "Human": 0.1339
+    },
+    "metrics": {
+      "pixel_accuracy": 9.0627,
+      "mean_iou": 2.6914,
+      "fw_iou": 4.4622,
+      "per_class_iou": {
+        "Background clutter": 5.9283,
+        "Building": 4.9883,
+        "Road": 7.8506,
+        "Tree": 2.2579,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.402,
+        "Human": 0.1041
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000100.png",
+    "split": "val",
+    "insight": "Image: seq20_000100.png [val]. Dominant: Building (37.5%). Top 3: Building (37.5%), Tree (27.4%), Background clutter (23.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 28.7%. Road: 8.9%. Moving car: 1.55%. Static car: 0.34%. Human: 0.097%.",
+    "class_stats": {
+      "Background clutter": 22.9554,
+      "Building": 37.5141,
+      "Road": 8.8617,
+      "Tree": 27.3719,
+      "Low vegetation": 1.3088,
+      "Moving car": 1.5527,
+      "Static car": 0.3389,
+      "Human": 0.0965
+    },
+    "metrics": {
+      "pixel_accuracy": 9.6221,
+      "mean_iou": 3.0675,
+      "fw_iou": 4.5652,
+      "per_class_iou": {
+        "Background clutter": 9.489,
+        "Building": 3.3938,
+        "Road": 7.7416,
+        "Tree": 1.4619,
+        "Low vegetation": 0.0,
+        "Moving car": 1.6039,
+        "Static car": 0.7627,
+        "Human": 0.0869
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000200.png",
+    "split": "val",
+    "insight": "Image: seq20_000200.png [val]. Dominant: Building (37.3%). Top 3: Building (37.3%), Tree (25.8%), Background clutter (24.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): Static car. Scene: Urban Dense. Vegetation: 27.4%. Road: 9.5%. Moving car: 1.22%. Static car: 0.01%. Human: 0.108%.",
+    "class_stats": {
+      "Background clutter": 24.5241,
+      "Building": 37.2645,
+      "Road": 9.4647,
+      "Tree": 25.7641,
+      "Low vegetation": 1.6462,
+      "Moving car": 1.2151,
+      "Static car": 0.0133,
+      "Human": 0.108
+    },
+    "metrics": {
+      "pixel_accuracy": 11.9041,
+      "mean_iou": 3.5609,
+      "fw_iou": 6.3377,
+      "per_class_iou": {
+        "Background clutter": 8.809,
+        "Building": 4.8013,
+        "Road": 8.6908,
+        "Tree": 6.0761,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.1097
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000300.png",
+    "split": "val",
+    "insight": "Image: seq20_000300.png [val]. Dominant: Building (35.7%). Top 3: Building (35.7%), Tree (29.8%), Background clutter (16.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 34.3%. Road: 11.4%. Moving car: 1.39%. Static car: 0.13%. Human: 0.078%.",
+    "class_stats": {
+      "Background clutter": 16.9396,
+      "Building": 35.7056,
+      "Road": 11.4481,
+      "Tree": 29.8465,
+      "Low vegetation": 4.4684,
+      "Moving car": 1.3879,
+      "Static car": 0.126,
+      "Human": 0.0779
+    },
+    "metrics": {
+      "pixel_accuracy": 11.8281,
+      "mean_iou": 3.3386,
+      "fw_iou": 5.0635,
+      "per_class_iou": {
+        "Background clutter": 11.1018,
+        "Building": 3.0654,
+        "Road": 8.9839,
+        "Tree": 3.5513,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0066
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000400.png",
+    "split": "val",
+    "insight": "Image: seq20_000400.png [val]. Dominant: Tree (40.6%). Top 3: Tree (40.6%), Building (30.7%), Road (13.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 43.3%. Road: 13.0%. Moving car: 1.01%. Static car: 0.44%. Human: 0.137%.",
+    "class_stats": {
+      "Background clutter": 11.5056,
+      "Building": 30.6698,
+      "Road": 12.9639,
+      "Tree": 40.6291,
+      "Low vegetation": 2.652,
+      "Moving car": 1.0066,
+      "Static car": 0.4361,
+      "Human": 0.137
+    },
+    "metrics": {
+      "pixel_accuracy": 11.771,
+      "mean_iou": 3.1985,
+      "fw_iou": 3.2117,
+      "per_class_iou": {
+        "Background clutter": 9.4572,
+        "Building": 1.4277,
+        "Road": 12.5003,
+        "Tree": 0.139,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.9949,
+        "Human": 0.0691
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000500.png",
+    "split": "val",
+    "insight": "Image: seq20_000500.png [val]. Dominant: Tree (43.3%). Top 3: Tree (43.3%), Building (31.8%), Road (12.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 45.8%. Road: 12.5%. Moving car: 0.85%. Static car: 0.19%. Human: 0.085%.",
+    "class_stats": {
+      "Background clutter": 8.8274,
+      "Building": 31.7816,
+      "Road": 12.4869,
+      "Tree": 43.3409,
+      "Low vegetation": 2.435,
+      "Moving car": 0.8524,
+      "Static car": 0.1906,
+      "Human": 0.0853
+    },
+    "metrics": {
+      "pixel_accuracy": 9.5704,
+      "mean_iou": 2.3736,
+      "fw_iou": 2.4411,
+      "per_class_iou": {
+        "Background clutter": 4.9546,
+        "Building": 0.6317,
+        "Road": 12.3264,
+        "Tree": 0.6061,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0524,
+        "Static car": 0.3006,
+        "Human": 0.1169
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000600.png",
+    "split": "val",
+    "insight": "Image: seq20_000600.png [val]. Dominant: Tree (39.8%). Top 3: Tree (39.8%), Building (34.0%), Road (13.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): Human. Scene: Urban Dense. Vegetation: 42.6%. Road: 13.0%. Moving car: 1.20%. Static car: 0.17%. Human: 0.077%.",
+    "class_stats": {
+      "Background clutter": 8.9796,
+      "Building": 33.9873,
+      "Road": 13.0237,
+      "Tree": 39.7658,
+      "Low vegetation": 2.7951,
+      "Moving car": 1.1993,
+      "Static car": 0.1717,
+      "Human": 0.0775
+    },
+    "metrics": {
+      "pixel_accuracy": 9.3345,
+      "mean_iou": 2.4126,
+      "fw_iou": 2.4888,
+      "per_class_iou": {
+        "Background clutter": 4.6385,
+        "Building": 0.7606,
+        "Road": 13.4755,
+        "Tree": 0.1467,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.1559,
+        "Human": 0.1238
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000700.png",
+    "split": "val",
+    "insight": "Image: seq20_000700.png [val]. Dominant: Building (33.0%). Top 3: Building (33.0%), Tree (31.4%), Background clutter (18.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): none. Scene: Urban Dense. Vegetation: 37.9%. Road: 8.9%. Moving car: 1.39%. Static car: 0.59%. Human: 0.127%.",
+    "class_stats": {
+      "Background clutter": 18.0255,
+      "Building": 32.9913,
+      "Road": 8.9377,
+      "Tree": 31.4026,
+      "Low vegetation": 6.5382,
+      "Moving car": 1.3904,
+      "Static car": 0.5876,
+      "Human": 0.1267
+    },
+    "metrics": {
+      "pixel_accuracy": 11.4078,
+      "mean_iou": 2.8887,
+      "fw_iou": 3.6446,
+      "per_class_iou": {
+        "Background clutter": 12.0896,
+        "Building": 1.7632,
+        "Road": 8.8887,
+        "Tree": 0.2833,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0419,
+        "Human": 0.0431
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000800.png",
+    "split": "val",
+    "insight": "Image: seq20_000800.png [val]. Dominant: Tree (43.6%). Top 3: Tree (43.6%), Building (25.2%), Background clutter (16.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): none. Scene: Mixed Urban. Vegetation: 47.4%. Road: 8.6%. Moving car: 1.39%. Static car: 0.93%. Human: 0.112%.",
+    "class_stats": {
+      "Background clutter": 16.4198,
+      "Building": 25.1919,
+      "Road": 8.5654,
+      "Tree": 43.5978,
+      "Low vegetation": 3.7948,
+      "Moving car": 1.3918,
+      "Static car": 0.9263,
+      "Human": 0.1123
+    },
+    "metrics": {
+      "pixel_accuracy": 11.2309,
+      "mean_iou": 3.3108,
+      "fw_iou": 4.1575,
+      "per_class_iou": {
+        "Background clutter": 12.4128,
+        "Building": 5.3114,
+        "Road": 7.5378,
+        "Tree": 0.2875,
+        "Low vegetation": 0.0,
+        "Moving car": 0.417,
+        "Static car": 0.4873,
+        "Human": 0.0325
+      }
+    }
+  },
+  {
+    "image_name": "seq20_000900.png",
+    "split": "val",
+    "insight": "Image: seq20_000900.png [val]. Dominant: Tree (40.9%). Top 3: Tree (40.9%), Building (23.2%), Background clutter (17.7%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car, Static car. Absent (<0.1%): none. Scene: Mixed Urban. Vegetation: 48.7%. Road: 7.5%. Moving car: 1.56%. Static car: 1.14%. Human: 0.101%.",
+    "class_stats": {
+      "Background clutter": 17.7319,
+      "Building": 23.2224,
+      "Road": 7.5407,
+      "Tree": 40.8723,
+      "Low vegetation": 7.8403,
+      "Moving car": 1.5561,
+      "Static car": 1.1352,
+      "Human": 0.1011
+    },
+    "metrics": {
+      "pixel_accuracy": 11.3837,
+      "mean_iou": 3.2967,
+      "fw_iou": 3.8622,
+      "per_class_iou": {
+        "Background clutter": 13.2995,
+        "Building": 2.8559,
+        "Road": 8.7939,
+        "Tree": 0.4065,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.0178,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000000.png",
+    "split": "val",
+    "insight": "Image: seq36_000000.png [val]. Dominant: Low vegetation (42.0%). Top 3: Low vegetation (42.0%), Tree (22.2%), Building (18.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 64.2%. Road: 3.5%. Moving car: 0.00%. Static car: 0.11%. Human: 0.050%.",
+    "class_stats": {
+      "Background clutter": 13.1858,
+      "Building": 18.939,
+      "Road": 3.5224,
+      "Tree": 22.229,
+      "Low vegetation": 41.9655,
+      "Moving car": 0.0,
+      "Static car": 0.1088,
+      "Human": 0.0496
+    },
+    "metrics": {
+      "pixel_accuracy": 5.3061,
+      "mean_iou": 1.8518,
+      "fw_iou": 1.9729,
+      "per_class_iou": {
+        "Background clutter": 6.9165,
+        "Building": 0.0098,
+        "Road": 3.6655,
+        "Tree": 4.1832,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0063,
+        "Human": 0.033
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000100.png",
+    "split": "val",
+    "insight": "Image: seq36_000100.png [val]. Dominant: Low vegetation (39.9%). Top 3: Low vegetation (39.9%), Tree (23.1%), Building (19.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 63.0%. Road: 8.1%. Moving car: 0.00%. Static car: 0.22%. Human: 0.076%.",
+    "class_stats": {
+      "Background clutter": 9.1065,
+      "Building": 19.5093,
+      "Road": 8.1065,
+      "Tree": 23.0546,
+      "Low vegetation": 39.9286,
+      "Moving car": 0.0,
+      "Static car": 0.2186,
+      "Human": 0.076
+    },
+    "metrics": {
+      "pixel_accuracy": 6.8196,
+      "mean_iou": 1.9363,
+      "fw_iou": 1.5751,
+      "per_class_iou": {
+        "Background clutter": 8.1335,
+        "Building": 0.0,
+        "Road": 5.8866,
+        "Tree": 1.2322,
+        "Low vegetation": 0.1832,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.0547
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000200.png",
+    "split": "val",
+    "insight": "Image: seq36_000200.png [val]. Dominant: Low vegetation (53.6%). Top 3: Low vegetation (53.6%), Building (19.3%), Tree (14.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 67.9%. Road: 3.1%. Moving car: 0.00%. Static car: 0.17%. Human: 0.090%.",
+    "class_stats": {
+      "Background clutter": 9.3941,
+      "Building": 19.3279,
+      "Road": 3.093,
+      "Tree": 14.3619,
+      "Low vegetation": 53.5602,
+      "Moving car": 0.0,
+      "Static car": 0.173,
+      "Human": 0.0899
+    },
+    "metrics": {
+      "pixel_accuracy": 5.2726,
+      "mean_iou": 1.7288,
+      "fw_iou": 1.3046,
+      "per_class_iou": {
+        "Background clutter": 7.0255,
+        "Building": 1.7614,
+        "Road": 3.656,
+        "Tree": 1.3305,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0076,
+        "Human": 0.0498
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000300.png",
+    "split": "val",
+    "insight": "Image: seq36_000300.png [val]. Dominant: Low vegetation (57.8%). Top 3: Low vegetation (57.8%), Building (17.9%), Background clutter (10.7%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 67.6%. Road: 3.4%. Moving car: 0.00%. Static car: 0.30%. Human: 0.053%.",
+    "class_stats": {
+      "Background clutter": 10.6541,
+      "Building": 17.9471,
+      "Road": 3.4441,
+      "Tree": 9.8027,
+      "Low vegetation": 57.8007,
+      "Moving car": 0.0,
+      "Static car": 0.2984,
+      "Human": 0.0529
+    },
+    "metrics": {
+      "pixel_accuracy": 6.0862,
+      "mean_iou": 2.0182,
+      "fw_iou": 1.449,
+      "per_class_iou": {
+        "Background clutter": 10.8682,
+        "Building": 0.6375,
+        "Road": 3.3763,
+        "Tree": 0.4491,
+        "Low vegetation": 0.0244,
+        "Moving car": 0.0,
+        "Static car": 0.7624,
+        "Human": 0.0281
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000400.png",
+    "split": "val",
+    "insight": "Image: seq36_000400.png [val]. Dominant: Low vegetation (53.9%). Top 3: Low vegetation (53.9%), Building (22.8%), Background clutter (13.5%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car, Human. Scene: Mixed Urban. Vegetation: 59.5%. Road: 3.9%. Moving car: 0.00%. Static car: 0.24%. Human: 0.097%.",
+    "class_stats": {
+      "Background clutter": 13.505,
+      "Building": 22.8378,
+      "Road": 3.8588,
+      "Tree": 5.5924,
+      "Low vegetation": 53.8688,
+      "Moving car": 0.0,
+      "Static car": 0.2404,
+      "Human": 0.0968
+    },
+    "metrics": {
+      "pixel_accuracy": 7.0789,
+      "mean_iou": 2.1653,
+      "fw_iou": 1.7993,
+      "per_class_iou": {
+        "Background clutter": 11.6929,
+        "Building": 0.134,
+        "Road": 4.6612,
+        "Tree": 0.0913,
+        "Low vegetation": 0.0054,
+        "Moving car": 0.0,
+        "Static car": 0.6659,
+        "Human": 0.0717
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000500.png",
+    "split": "val",
+    "insight": "Image: seq36_000500.png [val]. Dominant: Low vegetation (49.6%). Top 3: Low vegetation (49.6%), Building (24.1%), Background clutter (13.6%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Mixed Urban. Vegetation: 58.3%. Road: 3.4%. Moving car: 0.00%. Static car: 0.46%. Human: 0.108%.",
+    "class_stats": {
+      "Background clutter": 13.6223,
+      "Building": 24.1188,
+      "Road": 3.412,
+      "Tree": 8.7052,
+      "Low vegetation": 49.5712,
+      "Moving car": 0.0,
+      "Static car": 0.4628,
+      "Human": 0.1076
+    },
+    "metrics": {
+      "pixel_accuracy": 6.3642,
+      "mean_iou": 2.3151,
+      "fw_iou": 1.9896,
+      "per_class_iou": {
+        "Background clutter": 9.196,
+        "Building": 0.9952,
+        "Road": 4.1703,
+        "Tree": 4.0191,
+        "Low vegetation": 0.0091,
+        "Moving car": 0.0,
+        "Static car": 0.0,
+        "Human": 0.1312
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000600.png",
+    "split": "val",
+    "insight": "Image: seq36_000600.png [val]. Dominant: Building (34.5%). Top 3: Building (34.5%), Low vegetation (27.2%), Background clutter (21.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 38.3%. Road: 4.6%. Moving car: 0.00%. Static car: 0.58%. Human: 0.133%.",
+    "class_stats": {
+      "Background clutter": 21.9209,
+      "Building": 34.4745,
+      "Road": 4.5791,
+      "Tree": 11.1624,
+      "Low vegetation": 27.1545,
+      "Moving car": 0.0,
+      "Static car": 0.5754,
+      "Human": 0.1331
+    },
+    "metrics": {
+      "pixel_accuracy": 11.9832,
+      "mean_iou": 3.0239,
+      "fw_iou": 4.2395,
+      "per_class_iou": {
+        "Background clutter": 17.0848,
+        "Building": 0.2753,
+        "Road": 5.7368,
+        "Tree": 0.5333,
+        "Low vegetation": 0.2809,
+        "Moving car": 0.0,
+        "Static car": 0.146,
+        "Human": 0.1341
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000700.png",
+    "split": "val",
+    "insight": "Image: seq36_000700.png [val]. Dominant: Building (35.0%). Top 3: Building (35.0%), Background clutter (27.3%), Low vegetation (27.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 32.2%. Road: 4.6%. Moving car: 0.00%. Static car: 0.69%. Human: 0.128%.",
+    "class_stats": {
+      "Background clutter": 27.2911,
+      "Building": 35.0147,
+      "Road": 4.6375,
+      "Tree": 5.2334,
+      "Low vegetation": 27.0095,
+      "Moving car": 0.0,
+      "Static car": 0.6863,
+      "Human": 0.1275
+    },
+    "metrics": {
+      "pixel_accuracy": 11.6302,
+      "mean_iou": 3.2773,
+      "fw_iou": 5.8802,
+      "per_class_iou": {
+        "Background clutter": 17.8613,
+        "Building": 1.0058,
+        "Road": 2.5893,
+        "Tree": 2.5522,
+        "Low vegetation": 1.4634,
+        "Moving car": 0.0,
+        "Static car": 0.645,
+        "Human": 0.1012
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000800.png",
+    "split": "val",
+    "insight": "Image: seq36_000800.png [val]. Dominant: Building (35.1%). Top 3: Building (35.1%), Low vegetation (22.4%), Background clutter (19.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Urban Dense. Vegetation: 38.8%. Road: 5.1%. Moving car: 0.00%. Static car: 0.98%. Human: 0.124%.",
+    "class_stats": {
+      "Background clutter": 19.8526,
+      "Building": 35.1416,
+      "Road": 5.1393,
+      "Tree": 16.3549,
+      "Low vegetation": 22.412,
+      "Moving car": 0.0,
+      "Static car": 0.9757,
+      "Human": 0.1238
+    },
+    "metrics": {
+      "pixel_accuracy": 10.6887,
+      "mean_iou": 3.5817,
+      "fw_iou": 4.8194,
+      "per_class_iou": {
+        "Background clutter": 13.7816,
+        "Building": 2.7718,
+        "Road": 5.0146,
+        "Tree": 5.0937,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.8853,
+        "Human": 0.107
+      }
+    }
+  },
+  {
+    "image_name": "seq36_000900.png",
+    "split": "val",
+    "insight": "Image: seq36_000900.png [val]. Dominant: Building (27.1%). Top 3: Building (27.1%), Low vegetation (23.6%), Tree (22.1%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Moving car. Scene: Mixed Urban. Vegetation: 45.7%. Road: 6.6%. Moving car: 0.00%. Static car: 0.98%. Human: 0.130%.",
+    "class_stats": {
+      "Background clutter": 19.4932,
+      "Building": 27.1163,
+      "Road": 6.5694,
+      "Tree": 22.093,
+      "Low vegetation": 23.6169,
+      "Moving car": 0.0,
+      "Static car": 0.9811,
+      "Human": 0.13
+    },
+    "metrics": {
+      "pixel_accuracy": 16.9292,
+      "mean_iou": 6.0613,
+      "fw_iou": 9.1375,
+      "per_class_iou": {
+        "Background clutter": 15.5423,
+        "Building": 3.1532,
+        "Road": 7.8946,
+        "Tree": 21.2345,
+        "Low vegetation": 0.162,
+        "Moving car": 0.0,
+        "Static car": 0.4601,
+        "Human": 0.0438
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000000.png",
+    "split": "val",
+    "insight": "Image: seq37_000000.png [val]. Dominant: Low vegetation (35.6%). Top 3: Low vegetation (35.6%), Tree (22.9%), Road (15.9%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Mixed Urban. Vegetation: 58.5%. Road: 15.9%. Moving car: 0.67%. Static car: 0.17%. Human: 0.007%.",
+    "class_stats": {
+      "Background clutter": 14.6348,
+      "Building": 10.0488,
+      "Road": 15.9497,
+      "Tree": 22.9055,
+      "Low vegetation": 35.6208,
+      "Moving car": 0.6655,
+      "Static car": 0.168,
+      "Human": 0.0069
+    },
+    "metrics": {
+      "pixel_accuracy": 11.2851,
+      "mean_iou": 3.082,
+      "fw_iou": 3.8402,
+      "per_class_iou": {
+        "Background clutter": 8.9896,
+        "Building": 0.2356,
+        "Road": 13.2391,
+        "Tree": 1.6962,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.4954,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000100.png",
+    "split": "val",
+    "insight": "Image: seq37_000100.png [val]. Dominant: Low vegetation (32.5%). Top 3: Low vegetation (32.5%), Tree (24.0%), Road (17.2%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Natural/Open. Vegetation: 56.6%. Road: 17.2%. Moving car: 0.47%. Static car: 0.24%. Human: 0.014%.",
+    "class_stats": {
+      "Background clutter": 16.0575,
+      "Building": 9.4402,
+      "Road": 17.2031,
+      "Tree": 24.0328,
+      "Low vegetation": 32.5382,
+      "Moving car": 0.4697,
+      "Static car": 0.2446,
+      "Human": 0.0139
+    },
+    "metrics": {
+      "pixel_accuracy": 15.1005,
+      "mean_iou": 4.3867,
+      "fw_iou": 5.9445,
+      "per_class_iou": {
+        "Background clutter": 10.4505,
+        "Building": 1.1994,
+        "Road": 16.8864,
+        "Tree": 5.174,
+        "Low vegetation": 0.0041,
+        "Moving car": 0.0,
+        "Static car": 1.379,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000200.png",
+    "split": "val",
+    "insight": "Image: seq37_000200.png [val]. Dominant: Low vegetation (29.3%). Top 3: Low vegetation (29.3%), Tree (23.7%), Road (19.2%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Natural/Open. Vegetation: 53.0%. Road: 19.2%. Moving car: 0.61%. Static car: 0.38%. Human: 0.019%.",
+    "class_stats": {
+      "Background clutter": 17.5201,
+      "Building": 9.2629,
+      "Road": 19.2434,
+      "Tree": 23.6526,
+      "Low vegetation": 29.3158,
+      "Moving car": 0.6067,
+      "Static car": 0.3792,
+      "Human": 0.0193
+    },
+    "metrics": {
+      "pixel_accuracy": 16.6076,
+      "mean_iou": 5.3669,
+      "fw_iou": 8.2102,
+      "per_class_iou": {
+        "Background clutter": 10.4939,
+        "Building": 1.7522,
+        "Road": 15.2873,
+        "Tree": 13.7888,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.6127,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000300.png",
+    "split": "val",
+    "insight": "Image: seq37_000300.png [val]. Dominant: Low vegetation (27.5%). Top 3: Low vegetation (27.5%), Road (21.4%), Tree (21.1%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Natural/Open. Vegetation: 48.7%. Road: 21.4%. Moving car: 0.76%. Static car: 0.63%. Human: 0.041%.",
+    "class_stats": {
+      "Background clutter": 19.8862,
+      "Building": 8.6468,
+      "Road": 21.3536,
+      "Tree": 21.1341,
+      "Low vegetation": 27.5488,
+      "Moving car": 0.7585,
+      "Static car": 0.6316,
+      "Human": 0.0405
+    },
+    "metrics": {
+      "pixel_accuracy": 17.2106,
+      "mean_iou": 5.6943,
+      "fw_iou": 8.8714,
+      "per_class_iou": {
+        "Background clutter": 11.9236,
+        "Building": 0.558,
+        "Road": 12.7569,
+        "Tree": 17.557,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 2.759,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000400.png",
+    "split": "val",
+    "insight": "Image: seq37_000400.png [val]. Dominant: Low vegetation (25.3%). Top 3: Low vegetation (25.3%), Background clutter (22.1%), Tree (22.0%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Natural/Open. Vegetation: 47.3%. Road: 20.9%. Moving car: 0.69%. Static car: 0.59%. Human: 0.048%.",
+    "class_stats": {
+      "Background clutter": 22.0826,
+      "Building": 8.4292,
+      "Road": 20.8603,
+      "Tree": 21.9877,
+      "Low vegetation": 25.3189,
+      "Moving car": 0.6875,
+      "Static car": 0.5856,
+      "Human": 0.0482
+    },
+    "metrics": {
+      "pixel_accuracy": 19.7353,
+      "mean_iou": 5.7589,
+      "fw_iou": 9.629,
+      "per_class_iou": {
+        "Background clutter": 12.0582,
+        "Building": 1.446,
+        "Road": 17.6433,
+        "Tree": 14.3747,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.5493,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000500.png",
+    "split": "val",
+    "insight": "Image: seq37_000500.png [val]. Dominant: Tree (26.6%). Top 3: Tree (26.6%), Low vegetation (25.2%), Background clutter (22.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): Static car, Human. Scene: Natural/Open. Vegetation: 51.8%. Road: 16.0%. Moving car: 1.07%. Static car: 0.03%. Human: 0.052%.",
+    "class_stats": {
+      "Background clutter": 22.3698,
+      "Building": 8.7122,
+      "Road": 15.9958,
+      "Tree": 26.6042,
+      "Low vegetation": 25.1632,
+      "Moving car": 1.0702,
+      "Static car": 0.0328,
+      "Human": 0.0519
+    },
+    "metrics": {
+      "pixel_accuracy": 20.0856,
+      "mean_iou": 5.8549,
+      "fw_iou": 9.471,
+      "per_class_iou": {
+        "Background clutter": 12.811,
+        "Building": 0.3317,
+        "Road": 21.9123,
+        "Tree": 11.544,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.24,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000600.png",
+    "split": "val",
+    "insight": "Image: seq37_000600.png [val]. Dominant: Tree (26.5%). Top 3: Tree (26.5%), Low vegetation (26.2%), Background clutter (20.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Natural/Open. Vegetation: 52.7%. Road: 17.0%. Moving car: 0.76%. Static car: 0.13%. Human: 0.018%.",
+    "class_stats": {
+      "Background clutter": 20.4302,
+      "Building": 8.9172,
+      "Road": 17.0114,
+      "Tree": 26.4848,
+      "Low vegetation": 26.2467,
+      "Moving car": 0.7569,
+      "Static car": 0.1346,
+      "Human": 0.0181
+    },
+    "metrics": {
+      "pixel_accuracy": 15.994,
+      "mean_iou": 4.6689,
+      "fw_iou": 7.4744,
+      "per_class_iou": {
+        "Background clutter": 10.3486,
+        "Building": 1.1366,
+        "Road": 16.7482,
+        "Tree": 9.0984,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.0194,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000700.png",
+    "split": "val",
+    "insight": "Image: seq37_000700.png [val]. Dominant: Tree (28.5%). Top 3: Tree (28.5%), Background clutter (22.3%), Low vegetation (21.2%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Static car, Human. Scene: Natural/Open. Vegetation: 49.7%. Road: 17.6%. Moving car: 0.80%. Static car: 0.09%. Human: 0.026%.",
+    "class_stats": {
+      "Background clutter": 22.2533,
+      "Building": 9.5216,
+      "Road": 17.619,
+      "Tree": 28.4616,
+      "Low vegetation": 21.2299,
+      "Moving car": 0.7996,
+      "Static car": 0.0887,
+      "Human": 0.0262
+    },
+    "metrics": {
+      "pixel_accuracy": 17.5459,
+      "mean_iou": 4.8066,
+      "fw_iou": 8.3449,
+      "per_class_iou": {
+        "Background clutter": 15.2132,
+        "Building": 0.3086,
+        "Road": 13.8408,
+        "Tree": 8.7527,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 0.3375,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000800.png",
+    "split": "val",
+    "insight": "Image: seq37_000800.png [val]. Dominant: Tree (30.9%). Top 3: Tree (30.9%), Background clutter (20.6%), Low vegetation (19.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation, Moving car. Absent (<0.1%): Human. Scene: Natural/Open. Vegetation: 50.3%. Road: 18.0%. Moving car: 1.12%. Static car: 0.12%. Human: 0.021%.",
+    "class_stats": {
+      "Background clutter": 20.5955,
+      "Building": 9.7988,
+      "Road": 18.015,
+      "Tree": 30.8999,
+      "Low vegetation": 19.4319,
+      "Moving car": 1.1179,
+      "Static car": 0.1202,
+      "Human": 0.0208
+    },
+    "metrics": {
+      "pixel_accuracy": 16.9327,
+      "mean_iou": 4.6441,
+      "fw_iou": 7.9166,
+      "per_class_iou": {
+        "Background clutter": 15.9283,
+        "Building": 0.5113,
+        "Road": 11.1451,
+        "Tree": 8.3389,
+        "Low vegetation": 0.0,
+        "Moving car": 0.0,
+        "Static car": 1.2294,
+        "Human": 0.0
+      }
+    }
+  },
+  {
+    "image_name": "seq37_000900.png",
+    "split": "val",
+    "insight": "Image: seq37_000900.png [val]. Dominant: Tree (30.6%). Top 3: Tree (30.6%), Background clutter (20.7%), Road (20.4%). Present (>1%): Background clutter, Building, Road, Tree, Low vegetation. Absent (<0.1%): Human. Scene: Natural/Open. Vegetation: 49.4%. Road: 20.4%. Moving car: 0.98%. Static car: 0.26%. Human: 0.040%.",
+    "class_stats": {
+      "Background clutter": 20.7357,
+      "Building": 8.1885,
+      "Road": 20.4273,
+      "Tree": 30.6254,
+      "Low vegetation": 18.7405,
+      "Moving car": 0.9823,
+      "Static car": 0.26,
+      "Human": 0.0403
+    },
+    "metrics": {
+      "pixel_accuracy": 19.059,
+      "mean_iou": 5.1319,
+      "fw_iou": 8.6901,
+      "per_class_iou": {
+        "Background clutter": 16.6184,
+        "Building": 0.7305,
+        "Road": 14.8103,
+        "Tree": 6.9645,
+        "Low vegetation": 0.114,
+        "Moving car": 0.0,
+        "Static car": 1.8172,
+        "Human": 0.0
+      }
+    }
+  }
+]

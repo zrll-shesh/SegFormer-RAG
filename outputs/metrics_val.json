@@ -1,0 +1,27 @@
+{
+  "split": "val",
+  "images_evaluated": 70,
+  "pixel_accuracy": 13.0318,
+  "mean_iou": 3.9092,
+  "fw_iou": 5.3122,
+  "per_class_iou": {
+    "Background clutter": 10.6258,
+    "Building": 4.3184,
+    "Road": 9.8402,
+    "Tree": 3.882,
+    "Low vegetation": 0.2282,
+    "Moving car": 1.0284,
+    "Static car": 1.265,
+    "Human": 0.0857
+  },
+  "per_class_freq_pct": {
+    "Background clutter": 18.3257,
+    "Building": 33.6684,
+    "Road": 9.9765,
+    "Tree": 22.651,
+    "Low vegetation": 13.5324,
+    "Moving car": 0.769,
+    "Static car": 0.8741,
+    "Human": 0.2029
+  }
+}
