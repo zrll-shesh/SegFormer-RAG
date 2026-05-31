@@ -55,7 +55,6 @@ def build_segformer_model(checkpoint_path: Path = None):
     model.eval()
     return model
 
-
 def preprocess_image(image: Image.Image, size: int = IMAGE_SIZE):
     from torchvision import transforms
     image_rgb = image.convert("RGB")

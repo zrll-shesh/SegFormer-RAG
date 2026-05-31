@@ -1,18 +1,18 @@
 {
   "split": "train",
   "images_evaluated": 200,
-  "pixel_accuracy": 21.8911,
-  "mean_iou": 4.4285,
-  "fw_iou": 7.7565,
+  "pixel_accuracy": 81.663,
+  "mean_iou": 51.8923,
+  "fw_iou": 64.0613,
   "per_class_iou": {
-    "Background clutter": 1.4424,
-    "Building": 22.2236,
-    "Road": 7.1894,
-    "Tree": 1.2208,
-    "Low vegetation": 0.207,
-    "Moving car": 1.2949,
-    "Static car": 1.6645,
-    "Human": 0.1852
+    "Background clutter": 47.9362,
+    "Building": 80.8958,
+    "Road": 65.6839,
+    "Tree": 68.3322,
+    "Low vegetation": 49.2724,
+    "Moving car": 33.4053,
+    "Static car": 17.7205,
+    "Human": 0.0
   },
   "per_class_freq_pct": {
     "Background clutter": 19.8201,

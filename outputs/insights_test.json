@@ -2,2251 +2,2251 @@
   {
     "image_name": "seq21_000000.png",
     "split": "test",
-    "insight": "Image: seq21_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (24.9%). Road: 15.1%. Building: 12.8%. Inference time: 0.98s.",
+    "insight": "Image: seq21_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (44.4%). Road: 12.8%. Building: 44.4%. Inference time: 1.18s.",
     "class_stats": {
-      "Background clutter": 17.9817,
-      "Building": 12.8162,
-      "Road": 15.1202,
-      "Tree": 24.8588,
-      "Low vegetation": 0.0021,
-      "Moving car": 22.2498,
-      "Static car": 5.9018,
-      "Human": 1.0694
+      "Background clutter": 12.2751,
+      "Building": 44.4238,
+      "Road": 12.8216,
+      "Tree": 19.9992,
+      "Low vegetation": 8.9834,
+      "Moving car": 0.7998,
+      "Static car": 0.6971,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000100.png",
     "split": "test",
-    "insight": "Image: seq21_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (20.8%). Road: 18.6%. Building: 13.7%. Inference time: 0.92s.",
+    "insight": "Image: seq21_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (45.3%). Road: 12.5%. Building: 45.3%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 16.599,
-      "Building": 13.7078,
-      "Road": 18.5592,
-      "Tree": 20.8254,
-      "Low vegetation": 0.2188,
-      "Moving car": 20.4603,
-      "Static car": 7.7731,
-      "Human": 1.8565
+      "Background clutter": 12.038,
+      "Building": 45.3436,
+      "Road": 12.5025,
+      "Tree": 20.814,
+      "Low vegetation": 8.1489,
+      "Moving car": 0.6686,
+      "Static car": 0.4844,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000200.png",
     "split": "test",
-    "insight": "Image: seq21_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (25.5%). Road: 18.1%. Building: 12.5%. Inference time: 0.94s.",
+    "insight": "Image: seq21_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (45.1%). Road: 12.9%. Building: 45.1%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 17.9084,
-      "Building": 12.5172,
-      "Road": 18.0824,
-      "Tree": 25.5116,
-      "Low vegetation": 0.1885,
-      "Moving car": 15.9896,
-      "Static car": 8.8534,
-      "Human": 0.9491
+      "Background clutter": 13.0747,
+      "Building": 45.1082,
+      "Road": 12.8846,
+      "Tree": 18.9877,
+      "Low vegetation": 8.5557,
+      "Moving car": 0.4192,
+      "Static car": 0.9699,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000300.png",
     "split": "test",
-    "insight": "Image: seq21_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (31.6%). Road: 31.6%. Building: 10.5%. Inference time: 0.94s.",
+    "insight": "Image: seq21_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (46.2%). Road: 11.0%. Building: 46.2%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 23.6578,
-      "Building": 10.5386,
-      "Road": 31.5768,
-      "Tree": 17.5789,
-      "Low vegetation": 0.0392,
-      "Moving car": 7.5453,
-      "Static car": 8.4545,
-      "Human": 0.609
+      "Background clutter": 17.0096,
+      "Building": 46.2398,
+      "Road": 11.0272,
+      "Tree": 20.7577,
+      "Low vegetation": 4.5721,
+      "Moving car": 0.3241,
+      "Static car": 0.0694,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000400.png",
     "split": "test",
-    "insight": "Image: seq21_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.4%). Road: 20.8%. Building: 8.6%. Inference time: 1.13s.",
+    "insight": "Image: seq21_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (35.7%). Road: 13.7%. Building: 35.7%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 11.5793,
-      "Building": 8.6111,
-      "Road": 20.7901,
-      "Tree": 32.3941,
-      "Low vegetation": 0.0646,
-      "Moving car": 17.8193,
-      "Static car": 8.0257,
-      "Human": 0.7159
+      "Background clutter": 20.577,
+      "Building": 35.6528,
+      "Road": 13.7463,
+      "Tree": 26.6373,
+      "Low vegetation": 3.0513,
+      "Moving car": 0.2994,
+      "Static car": 0.0359,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000500.png",
     "split": "test",
-    "insight": "Image: seq21_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.2%). Road: 13.0%. Building: 6.8%. Inference time: 1.12s.",
+    "insight": "Image: seq21_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.4%). Road: 14.5%. Building: 30.0%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 11.4329,
-      "Building": 6.8152,
-      "Road": 13.0459,
-      "Tree": 38.1653,
-      "Low vegetation": 0.0,
-      "Moving car": 22.4959,
-      "Static car": 7.6321,
-      "Human": 0.4126
+      "Background clutter": 21.4298,
+      "Building": 29.9701,
+      "Road": 14.4896,
+      "Tree": 31.4226,
+      "Low vegetation": 2.2741,
+      "Moving car": 0.2647,
+      "Static car": 0.1491,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000600.png",
     "split": "test",
-    "insight": "Image: seq21_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.5%). Road: 16.2%. Building: 5.6%. Inference time: 0.95s.",
+    "insight": "Image: seq21_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.7%). Road: 13.8%. Building: 28.2%. Inference time: 0.88s.",
     "class_stats": {
-      "Background clutter": 17.6865,
-      "Building": 5.6082,
-      "Road": 16.1601,
-      "Tree": 31.5471,
-      "Low vegetation": 0.1462,
-      "Moving car": 21.3482,
-      "Static car": 7.3682,
-      "Human": 0.1354
+      "Background clutter": 23.2965,
+      "Building": 28.1534,
+      "Road": 13.7836,
+      "Tree": 30.6775,
+      "Low vegetation": 3.8428,
+      "Moving car": 0.0802,
+      "Static car": 0.1661,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000700.png",
     "split": "test",
-    "insight": "Image: seq21_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (39.9%). Road: 14.0%. Building: 6.4%. Inference time: 0.98s.",
+    "insight": "Image: seq21_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (30.6%). Road: 15.0%. Building: 30.6%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 10.8725,
-      "Building": 6.4223,
-      "Road": 13.9637,
-      "Tree": 39.9294,
-      "Low vegetation": 0.0,
-      "Moving car": 19.0164,
-      "Static car": 8.4043,
-      "Human": 1.3914
+      "Background clutter": 20.8636,
+      "Building": 30.6314,
+      "Road": 14.9817,
+      "Tree": 29.7467,
+      "Low vegetation": 3.3353,
+      "Moving car": 0.2706,
+      "Static car": 0.1707,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000800.png",
     "split": "test",
-    "insight": "Image: seq21_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (41.9%). Road: 10.8%. Building: 4.5%. Inference time: 0.96s.",
+    "insight": "Image: seq21_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.6%). Road: 15.8%. Building: 23.0%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 10.4471,
-      "Building": 4.4846,
-      "Road": 10.7859,
-      "Tree": 41.8796,
-      "Low vegetation": 0.011,
-      "Moving car": 19.9707,
-      "Static car": 12.0058,
-      "Human": 0.4153
+      "Background clutter": 23.2056,
+      "Building": 22.9697,
+      "Road": 15.8216,
+      "Tree": 33.5905,
+      "Low vegetation": 3.9113,
+      "Moving car": 0.31,
+      "Static car": 0.1914,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq21_000900.png",
     "split": "test",
-    "insight": "Image: seq21_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (47.6%). Road: 9.8%. Building: 3.0%. Inference time: 0.92s.",
+    "insight": "Image: seq21_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.1%). Road: 18.8%. Building: 11.9%. Inference time: 1.11s.",
     "class_stats": {
-      "Background clutter": 4.0864,
-      "Building": 3.0079,
-      "Road": 9.788,
-      "Tree": 47.5513,
-      "Low vegetation": 0.0037,
-      "Moving car": 17.9761,
-      "Static car": 13.9468,
-      "Human": 3.6399
+      "Background clutter": 26.7514,
+      "Building": 11.8588,
+      "Road": 18.7614,
+      "Tree": 38.0802,
+      "Low vegetation": 3.8696,
+      "Moving car": 0.4792,
+      "Static car": 0.1995,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000000.png",
     "split": "test",
-    "insight": "Image: seq22_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (36.4%). Road: 33.4%. Building: 3.2%. Inference time: 0.99s.",
+    "insight": "Image: seq22_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (45.8%). Road: 20.4%. Building: 45.8%. Inference time: 1.14s.",
     "class_stats": {
-      "Background clutter": 7.9508,
-      "Building": 3.1821,
-      "Road": 33.4338,
-      "Tree": 36.4161,
-      "Low vegetation": 0.0139,
-      "Moving car": 16.0243,
-      "Static car": 2.9699,
-      "Human": 0.0091
+      "Background clutter": 13.93,
+      "Building": 45.7575,
+      "Road": 20.4047,
+      "Tree": 10.6692,
+      "Low vegetation": 7.0276,
+      "Moving car": 1.9207,
+      "Static car": 0.2903,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000100.png",
     "split": "test",
-    "insight": "Image: seq22_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (41.0%). Road: 26.3%. Building: 2.8%. Inference time: 0.94s.",
+    "insight": "Image: seq22_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (44.5%). Road: 19.2%. Building: 44.5%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 6.0768,
-      "Building": 2.7894,
-      "Road": 26.2814,
-      "Tree": 40.9599,
-      "Low vegetation": 0.0127,
-      "Moving car": 19.3204,
-      "Static car": 4.559,
-      "Human": 0.0004
+      "Background clutter": 15.0856,
+      "Building": 44.5025,
+      "Road": 19.1939,
+      "Tree": 10.7502,
+      "Low vegetation": 8.2145,
+      "Moving car": 1.9493,
+      "Static car": 0.304,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000200.png",
     "split": "test",
-    "insight": "Image: seq22_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.3%). Road: 28.0%. Building: 6.9%. Inference time: 0.93s.",
+    "insight": "Image: seq22_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (45.1%). Road: 18.7%. Building: 45.1%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 10.4979,
-      "Building": 6.912,
-      "Road": 27.9863,
-      "Tree": 33.2882,
-      "Low vegetation": 0.1586,
-      "Moving car": 16.1155,
-      "Static car": 4.6032,
-      "Human": 0.4383
+      "Background clutter": 14.0104,
+      "Building": 45.1273,
+      "Road": 18.6753,
+      "Tree": 10.9743,
+      "Low vegetation": 9.2583,
+      "Moving car": 1.5951,
+      "Static car": 0.3592,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000300.png",
     "split": "test",
-    "insight": "Image: seq22_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.4%). Road: 25.1%. Building: 7.8%. Inference time: 0.93s.",
+    "insight": "Image: seq22_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (44.0%). Road: 18.3%. Building: 44.0%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 9.8638,
-      "Building": 7.8223,
-      "Road": 25.0903,
-      "Tree": 32.4427,
-      "Low vegetation": 0.2834,
-      "Moving car": 19.5909,
-      "Static car": 4.8416,
-      "Human": 0.065
+      "Background clutter": 15.446,
+      "Building": 44.0052,
+      "Road": 18.338,
+      "Tree": 11.3486,
+      "Low vegetation": 9.5633,
+      "Moving car": 1.1225,
+      "Static car": 0.1765,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000400.png",
     "split": "test",
-    "insight": "Image: seq22_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.6%). Road: 17.1%. Building: 5.4%. Inference time: 0.96s.",
+    "insight": "Image: seq22_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (46.3%). Road: 16.6%. Building: 46.3%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 12.2319,
-      "Building": 5.3657,
-      "Road": 17.1437,
-      "Tree": 32.6032,
-      "Low vegetation": 0.4601,
-      "Moving car": 25.3293,
-      "Static car": 6.1192,
-      "Human": 0.7469
+      "Background clutter": 15.8939,
+      "Building": 46.2583,
+      "Road": 16.555,
+      "Tree": 12.9263,
+      "Low vegetation": 7.1863,
+      "Moving car": 0.3796,
+      "Static car": 0.8005,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000500.png",
     "split": "test",
-    "insight": "Image: seq22_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.8%). Road: 12.3%. Building: 7.1%. Inference time: 0.97s.",
+    "insight": "Image: seq22_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (42.3%). Road: 17.1%. Building: 42.3%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 6.3744,
-      "Building": 7.1065,
-      "Road": 12.3383,
-      "Tree": 33.8059,
-      "Low vegetation": 0.2616,
-      "Moving car": 33.0874,
-      "Static car": 6.9448,
-      "Human": 0.081
+      "Background clutter": 15.278,
+      "Building": 42.3493,
+      "Road": 17.1306,
+      "Tree": 15.4562,
+      "Low vegetation": 7.7566,
+      "Moving car": 0.8804,
+      "Static car": 1.1489,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000600.png",
     "split": "test",
-    "insight": "Image: seq22_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (45.0%). Road: 8.2%. Building: 9.9%. Inference time: 0.96s.",
+    "insight": "Image: seq22_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (42.4%). Road: 16.6%. Building: 42.4%. Inference time: 0.88s.",
     "class_stats": {
-      "Background clutter": 9.55,
-      "Building": 9.8611,
-      "Road": 8.2024,
-      "Tree": 21.5826,
-      "Low vegetation": 0.2072,
-      "Moving car": 45.0035,
-      "Static car": 5.4813,
-      "Human": 0.1121
+      "Background clutter": 17.0554,
+      "Building": 42.402,
+      "Road": 16.5924,
+      "Tree": 17.2166,
+      "Low vegetation": 5.7276,
+      "Moving car": 0.4738,
+      "Static car": 0.5322,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000700.png",
     "split": "test",
-    "insight": "Image: seq22_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (33.6%). Road: 12.0%. Building: 10.6%. Inference time: 0.90s.",
+    "insight": "Image: seq22_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (40.7%). Road: 18.6%. Building: 40.7%. Inference time: 0.88s.",
     "class_stats": {
-      "Background clutter": 12.1298,
-      "Building": 10.5847,
-      "Road": 12.0422,
-      "Tree": 24.7033,
-      "Low vegetation": 0.5608,
-      "Moving car": 33.5783,
-      "Static car": 6.3933,
-      "Human": 0.0075
+      "Background clutter": 15.4111,
+      "Building": 40.6757,
+      "Road": 18.6022,
+      "Tree": 19.4165,
+      "Low vegetation": 3.7315,
+      "Moving car": 0.9267,
+      "Static car": 1.2363,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000800.png",
     "split": "test",
-    "insight": "Image: seq22_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (30.6%). Road: 15.2%. Building: 5.9%. Inference time: 1.04s.",
+    "insight": "Image: seq22_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (34.9%). Road: 15.4%. Building: 34.9%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 11.9701,
-      "Building": 5.9352,
-      "Road": 15.2184,
-      "Tree": 29.6736,
-      "Low vegetation": 0.2305,
-      "Moving car": 30.5633,
-      "Static car": 5.7857,
-      "Human": 0.6233
+      "Background clutter": 23.8588,
+      "Building": 34.9228,
+      "Road": 15.3818,
+      "Tree": 18.4925,
+      "Low vegetation": 3.8821,
+      "Moving car": 1.8569,
+      "Static car": 1.6051,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq22_000900.png",
     "split": "test",
-    "insight": "Image: seq22_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (36.5%). Road: 11.3%. Building: 3.4%. Inference time: 0.90s.",
+    "insight": "Image: seq22_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (36.0%). Road: 15.4%. Building: 36.0%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 18.3484,
-      "Building": 3.3642,
-      "Road": 11.299,
-      "Tree": 36.4572,
-      "Low vegetation": 0.3395,
-      "Moving car": 20.2662,
-      "Static car": 9.2398,
-      "Human": 0.6858
+      "Background clutter": 25.5575,
+      "Building": 35.9506,
+      "Road": 15.4307,
+      "Tree": 19.1462,
+      "Low vegetation": 0.7282,
+      "Moving car": 1.6796,
+      "Static car": 1.5071,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000000.png",
     "split": "test",
-    "insight": "Image: seq23_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (28.9%). Road: 13.8%. Building: 5.0%. Inference time: 0.93s.",
+    "insight": "Image: seq23_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (30.2%). Road: 7.9%. Building: 30.2%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 20.7348,
-      "Building": 4.9711,
-      "Road": 13.8009,
-      "Tree": 20.3187,
-      "Low vegetation": 0.1694,
-      "Moving car": 28.8709,
-      "Static car": 8.3574,
-      "Human": 2.7768
+      "Background clutter": 21.2421,
+      "Building": 30.1943,
+      "Road": 7.9026,
+      "Tree": 24.2772,
+      "Low vegetation": 16.376,
+      "Moving car": 0.0079,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000100.png",
     "split": "test",
-    "insight": "Image: seq23_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (32.5%). Road: 14.9%. Building: 9.3%. Inference time: 0.93s.",
+    "insight": "Image: seq23_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (31.6%). Road: 7.8%. Building: 21.9%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 12.0903,
-      "Building": 9.327,
-      "Road": 14.8846,
-      "Tree": 17.9516,
-      "Low vegetation": 0.0091,
-      "Moving car": 32.5405,
-      "Static car": 12.1609,
-      "Human": 1.0361
+      "Background clutter": 31.5731,
+      "Building": 21.8754,
+      "Road": 7.8241,
+      "Tree": 26.6892,
+      "Low vegetation": 12.0023,
+      "Moving car": 0.0359,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000200.png",
     "split": "test",
-    "insight": "Image: seq23_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (28.1%). Road: 10.5%. Building: 6.6%. Inference time: 0.95s.",
+    "insight": "Image: seq23_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (27.1%). Road: 8.0%. Building: 25.1%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 25.8247,
-      "Building": 6.5627,
-      "Road": 10.5282,
-      "Tree": 15.8673,
-      "Low vegetation": 0.0,
-      "Moving car": 28.075,
-      "Static car": 9.9452,
-      "Human": 3.197
+      "Background clutter": 23.0596,
+      "Building": 25.1163,
+      "Road": 8.0218,
+      "Tree": 27.1387,
+      "Low vegetation": 16.6088,
+      "Moving car": 0.0548,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000300.png",
     "split": "test",
-    "insight": "Image: seq23_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (30.5%). Road: 20.8%. Building: 5.2%. Inference time: 0.92s.",
+    "insight": "Image: seq23_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (28.5%). Road: 7.2%. Building: 15.5%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 8.1154,
-      "Building": 5.2209,
-      "Road": 20.7936,
-      "Tree": 17.6429,
-      "Low vegetation": 0.001,
-      "Moving car": 30.4695,
-      "Static car": 9.5131,
-      "Human": 8.2436
+      "Background clutter": 28.4597,
+      "Building": 15.5162,
+      "Road": 7.1696,
+      "Tree": 25.5156,
+      "Low vegetation": 23.2456,
+      "Moving car": 0.0893,
+      "Static car": 0.0041,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000400.png",
     "split": "test",
-    "insight": "Image: seq23_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (38.6%). Road: 22.9%. Building: 4.8%. Inference time: 0.95s.",
+    "insight": "Image: seq23_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (35.9%). Road: 7.6%. Building: 18.1%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 6.9632,
-      "Building": 4.7895,
-      "Road": 22.9327,
-      "Tree": 8.7378,
-      "Low vegetation": 0.0,
-      "Moving car": 38.6345,
-      "Static car": 7.7431,
-      "Human": 10.1993
+      "Background clutter": 22.3409,
+      "Building": 18.0988,
+      "Road": 7.5519,
+      "Tree": 16.0681,
+      "Low vegetation": 35.8972,
+      "Moving car": 0.0432,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000500.png",
     "split": "test",
-    "insight": "Image: seq23_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (25.1%). Road: 25.1%. Building: 7.3%. Inference time: 0.93s.",
+    "insight": "Image: seq23_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (33.7%). Road: 7.4%. Building: 23.5%. Inference time: 0.99s.",
     "class_stats": {
-      "Background clutter": 19.9171,
-      "Building": 7.262,
-      "Road": 25.0905,
-      "Tree": 10.7841,
-      "Low vegetation": 0.0,
-      "Moving car": 18.2427,
-      "Static car": 10.6659,
-      "Human": 8.0378
+      "Background clutter": 24.2795,
+      "Building": 23.4886,
+      "Road": 7.4441,
+      "Tree": 11.0903,
+      "Low vegetation": 33.6883,
+      "Moving car": 0.0093,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000600.png",
     "split": "test",
-    "insight": "Image: seq23_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (25.1%). Road: 25.1%. Building: 6.8%. Inference time: 0.90s.",
+    "insight": "Image: seq23_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (30.9%). Road: 6.3%. Building: 23.7%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 23.0586,
-      "Building": 6.7514,
-      "Road": 25.0571,
-      "Tree": 13.5658,
-      "Low vegetation": 0.0,
-      "Moving car": 17.9527,
-      "Static car": 10.9003,
-      "Human": 2.7141
+      "Background clutter": 30.892,
+      "Building": 23.6528,
+      "Road": 6.3437,
+      "Tree": 13.6182,
+      "Low vegetation": 25.3301,
+      "Moving car": 0.1632,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000700.png",
     "split": "test",
-    "insight": "Image: seq23_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (27.4%). Road: 22.4%. Building: 3.4%. Inference time: 0.94s.",
+    "insight": "Image: seq23_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (36.9%). Road: 5.0%. Building: 17.3%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 27.3947,
-      "Building": 3.3889,
-      "Road": 22.4394,
-      "Tree": 16.7834,
-      "Low vegetation": 0.235,
-      "Moving car": 19.1892,
-      "Static car": 7.8162,
-      "Human": 2.7533
+      "Background clutter": 36.8738,
+      "Building": 17.3337,
+      "Road": 5.0201,
+      "Tree": 16.7924,
+      "Low vegetation": 23.9198,
+      "Moving car": 0.0602,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000800.png",
     "split": "test",
-    "insight": "Image: seq23_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (26.9%). Road: 2.0%. Building: 14.9%. Inference time: 0.97s.",
+    "insight": "Image: seq23_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (38.6%). Road: 0.0%. Building: 9.7%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 8.706,
-      "Building": 14.9016,
-      "Road": 2.0395,
-      "Tree": 26.9437,
-      "Low vegetation": 0.0,
-      "Moving car": 15.765,
-      "Static car": 22.0486,
-      "Human": 9.5955
+      "Background clutter": 17.8887,
+      "Building": 9.6894,
+      "Road": 0.0,
+      "Tree": 33.825,
+      "Low vegetation": 38.5968,
+      "Moving car": 0.0,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq23_000900.png",
     "split": "test",
-    "insight": "Image: seq23_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (24.0%). Road: 5.6%. Building: 14.4%. Inference time: 1.01s.",
+    "insight": "Image: seq23_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (50.5%). Road: 8.8%. Building: 6.4%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 14.3061,
-      "Building": 14.3924,
-      "Road": 5.5922,
-      "Tree": 24.0266,
-      "Low vegetation": 0.0122,
-      "Moving car": 17.4336,
-      "Static car": 16.1169,
-      "Human": 8.12
+      "Background clutter": 18.0241,
+      "Building": 6.4176,
+      "Road": 8.7905,
+      "Tree": 50.4585,
+      "Low vegetation": 16.2029,
+      "Moving car": 0.0961,
+      "Static car": 0.0102,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000000.png",
     "split": "test",
-    "insight": "Image: seq24_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (22.1%). Road: 14.8%. Building: 16.2%. Inference time: 0.91s.",
+    "insight": "Image: seq24_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.6%). Road: 6.2%. Building: 19.4%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 22.1082,
-      "Building": 16.2193,
-      "Road": 14.8314,
-      "Tree": 15.2184,
-      "Low vegetation": 0.0,
-      "Moving car": 18.9676,
-      "Static car": 11.8245,
-      "Human": 0.8306
+      "Background clutter": 19.1476,
+      "Building": 19.3598,
+      "Road": 6.1973,
+      "Tree": 31.5849,
+      "Low vegetation": 23.679,
+      "Moving car": 0.0314,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000100.png",
     "split": "test",
-    "insight": "Image: seq24_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (26.3%). Road: 11.1%. Building: 8.3%. Inference time: 0.91s.",
+    "insight": "Image: seq24_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (28.8%). Road: 6.0%. Building: 24.1%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 26.288,
-      "Building": 8.2793,
-      "Road": 11.1223,
-      "Tree": 23.1395,
-      "Low vegetation": 0.3862,
-      "Moving car": 13.3146,
-      "Static car": 14.9296,
-      "Human": 2.5405
+      "Background clutter": 19.913,
+      "Building": 24.1431,
+      "Road": 5.9589,
+      "Tree": 28.772,
+      "Low vegetation": 21.2068,
+      "Moving car": 0.0062,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000200.png",
     "split": "test",
-    "insight": "Image: seq24_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (26.9%). Road: 10.3%. Building: 10.0%. Inference time: 0.93s.",
+    "insight": "Image: seq24_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.7%). Road: 6.9%. Building: 27.4%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 23.7317,
-      "Building": 9.9626,
-      "Road": 10.2758,
-      "Tree": 16.5712,
-      "Low vegetation": 0.0887,
-      "Moving car": 26.9373,
-      "Static car": 9.0793,
-      "Human": 3.3534
+      "Background clutter": 18.94,
+      "Building": 27.3511,
+      "Road": 6.8794,
+      "Tree": 32.7018,
+      "Low vegetation": 14.0791,
+      "Moving car": 0.0486,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000300.png",
     "split": "test",
-    "insight": "Image: seq24_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (21.3%). Road: 15.9%. Building: 12.8%. Inference time: 0.98s.",
+    "insight": "Image: seq24_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (34.7%). Road: 6.9%. Building: 25.1%. Inference time: 1.04s.",
     "class_stats": {
-      "Background clutter": 20.0168,
-      "Building": 12.8011,
-      "Road": 15.9163,
-      "Tree": 17.2863,
-      "Low vegetation": 0.1528,
-      "Moving car": 21.2589,
-      "Static car": 5.0177,
-      "Human": 7.5502
+      "Background clutter": 22.412,
+      "Building": 25.0583,
+      "Road": 6.9196,
+      "Tree": 34.7224,
+      "Low vegetation": 10.8214,
+      "Moving car": 0.0664,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000400.png",
     "split": "test",
-    "insight": "Image: seq24_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (21.8%). Road: 19.1%. Building: 11.5%. Inference time: 0.93s.",
+    "insight": "Image: seq24_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (34.5%). Road: 5.3%. Building: 27.8%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 21.7637,
-      "Building": 11.4873,
-      "Road": 19.0789,
-      "Tree": 13.7481,
-      "Low vegetation": 0.2386,
-      "Moving car": 18.3939,
-      "Static car": 7.4269,
-      "Human": 7.8627
+      "Background clutter": 22.2921,
+      "Building": 27.7506,
+      "Road": 5.331,
+      "Tree": 34.5386,
+      "Low vegetation": 10.0285,
+      "Moving car": 0.0592,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000500.png",
     "split": "test",
-    "insight": "Image: seq24_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (18.1%). Road: 17.2%. Building: 13.6%. Inference time: 0.99s.",
+    "insight": "Image: seq24_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (27.3%). Road: 5.8%. Building: 26.9%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 18.1483,
-      "Building": 13.6119,
-      "Road": 17.1912,
-      "Tree": 14.7811,
-      "Low vegetation": 0.1123,
-      "Moving car": 16.7346,
-      "Static car": 13.169,
-      "Human": 6.2517
+      "Background clutter": 22.2309,
+      "Building": 26.929,
+      "Road": 5.8358,
+      "Tree": 27.3111,
+      "Low vegetation": 17.6586,
+      "Moving car": 0.0345,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000600.png",
     "split": "test",
-    "insight": "Image: seq24_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (23.1%). Road: 13.1%. Building: 18.9%. Inference time: 0.99s.",
+    "insight": "Image: seq24_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.1%). Road: 5.9%. Building: 29.7%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 17.5662,
-      "Building": 18.9389,
-      "Road": 13.1096,
-      "Tree": 13.3891,
-      "Low vegetation": 0.0656,
-      "Moving car": 23.099,
-      "Static car": 9.6562,
-      "Human": 4.1755
+      "Background clutter": 21.9263,
+      "Building": 29.724,
+      "Road": 5.9433,
+      "Tree": 33.1499,
+      "Low vegetation": 9.2521,
+      "Moving car": 0.0044,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000700.png",
     "split": "test",
-    "insight": "Image: seq24_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (20.9%). Road: 16.7%. Building: 17.8%. Inference time: 1.05s.",
+    "insight": "Image: seq24_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.6%). Road: 5.6%. Building: 32.0%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 19.0824,
-      "Building": 17.751,
-      "Road": 16.7083,
-      "Tree": 20.95,
-      "Low vegetation": 0.4394,
-      "Moving car": 12.4967,
-      "Static car": 7.5727,
-      "Human": 4.9994
+      "Background clutter": 21.4506,
+      "Building": 32.039,
+      "Road": 5.5658,
+      "Tree": 32.5681,
+      "Low vegetation": 8.3243,
+      "Moving car": 0.0509,
+      "Static car": 0.0014,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000800.png",
     "split": "test",
-    "insight": "Image: seq24_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (24.7%). Road: 14.2%. Building: 12.6%. Inference time: 0.99s.",
+    "insight": "Image: seq24_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (33.8%). Road: 7.9%. Building: 33.8%. Inference time: 0.88s.",
     "class_stats": {
-      "Background clutter": 16.1692,
-      "Building": 12.6414,
-      "Road": 14.2095,
-      "Tree": 16.3019,
-      "Low vegetation": 0.6732,
-      "Moving car": 24.7442,
-      "Static car": 12.6786,
-      "Human": 2.582
+      "Background clutter": 19.9498,
+      "Building": 33.7531,
+      "Road": 7.8746,
+      "Tree": 31.169,
+      "Low vegetation": 7.0685,
+      "Moving car": 0.0901,
+      "Static car": 0.0949,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq24_000900.png",
     "split": "test",
-    "insight": "Image: seq24_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (25.5%). Road: 12.5%. Building: 12.0%. Inference time: 0.97s.",
+    "insight": "Image: seq24_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (29.5%). Road: 8.4%. Building: 29.2%. Inference time: 1.04s.",
     "class_stats": {
-      "Background clutter": 13.337,
-      "Building": 12.0488,
-      "Road": 12.5274,
-      "Tree": 18.0141,
-      "Low vegetation": 0.0995,
-      "Moving car": 25.4647,
-      "Static car": 16.5226,
-      "Human": 1.9859
+      "Background clutter": 23.9759,
+      "Building": 29.2251,
+      "Road": 8.3868,
+      "Tree": 29.4904,
+      "Low vegetation": 8.6806,
+      "Moving car": 0.0604,
+      "Static car": 0.1809,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000000.png",
     "split": "test",
-    "insight": "Image: seq25_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (28.4%). Road: 28.4%. Building: 17.8%. Inference time: 0.96s.",
+    "insight": "Image: seq25_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (33.5%). Road: 16.6%. Building: 33.5%. Inference time: 0.95s.",
     "class_stats": {
-      "Background clutter": 6.2996,
-      "Building": 17.7967,
-      "Road": 28.4273,
-      "Tree": 18.3245,
-      "Low vegetation": 0.0,
-      "Moving car": 23.3488,
-      "Static car": 4.9709,
-      "Human": 0.8324
+      "Background clutter": 12.4981,
+      "Building": 33.4817,
+      "Road": 16.5619,
+      "Tree": 26.3999,
+      "Low vegetation": 9.3505,
+      "Moving car": 0.4851,
+      "Static car": 1.2228,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000100.png",
     "split": "test",
-    "insight": "Image: seq25_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (27.8%). Road: 27.8%. Building: 6.1%. Inference time: 0.95s.",
+    "insight": "Image: seq25_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (41.8%). Road: 11.0%. Building: 41.8%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 19.2921,
-      "Building": 6.0502,
-      "Road": 27.7521,
-      "Tree": 18.2265,
-      "Low vegetation": 0.0,
-      "Moving car": 16.9348,
-      "Static car": 9.0357,
-      "Human": 2.7087
+      "Background clutter": 9.8243,
+      "Building": 41.8351,
+      "Road": 11.0027,
+      "Tree": 23.7496,
+      "Low vegetation": 12.5488,
+      "Moving car": 0.7101,
+      "Static car": 0.3295,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000200.png",
     "split": "test",
-    "insight": "Image: seq25_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (39.2%). Road: 39.2%. Building: 6.2%. Inference time: 0.95s.",
+    "insight": "Image: seq25_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (52.6%). Road: 11.1%. Building: 52.6%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 23.347,
-      "Building": 6.1591,
-      "Road": 39.1923,
-      "Tree": 11.0951,
-      "Low vegetation": 0.0037,
-      "Moving car": 11.8204,
-      "Static car": 7.7593,
-      "Human": 0.6231
+      "Background clutter": 10.0731,
+      "Building": 52.5864,
+      "Road": 11.061,
+      "Tree": 22.0158,
+      "Low vegetation": 3.7041,
+      "Moving car": 0.5239,
+      "Static car": 0.0357,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000300.png",
     "split": "test",
-    "insight": "Image: seq25_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (28.4%). Road: 28.4%. Building: 10.1%. Inference time: 1.08s.",
+    "insight": "Image: seq25_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (45.7%). Road: 9.7%. Building: 45.7%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 22.435,
-      "Building": 10.1387,
-      "Road": 28.3598,
-      "Tree": 18.5864,
-      "Low vegetation": 0.0411,
-      "Moving car": 11.6296,
-      "Static car": 8.7969,
-      "Human": 0.0125
+      "Background clutter": 16.1505,
+      "Building": 45.6603,
+      "Road": 9.6858,
+      "Tree": 24.7265,
+      "Low vegetation": 2.5548,
+      "Moving car": 1.1331,
+      "Static car": 0.0891,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000400.png",
     "split": "test",
-    "insight": "Image: seq25_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (26.5%). Road: 25.4%. Building: 4.8%. Inference time: 0.95s.",
+    "insight": "Image: seq25_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (41.8%). Road: 9.9%. Building: 41.8%. Inference time: 1.01s.",
     "class_stats": {
-      "Background clutter": 14.9263,
-      "Building": 4.7562,
-      "Road": 25.4379,
-      "Tree": 26.468,
-      "Low vegetation": 0.0382,
-      "Moving car": 16.4165,
-      "Static car": 11.5706,
-      "Human": 0.3864
+      "Background clutter": 17.5856,
+      "Building": 41.7676,
+      "Road": 9.8505,
+      "Tree": 26.7627,
+      "Low vegetation": 2.9169,
+      "Moving car": 0.7637,
+      "Static car": 0.353,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000500.png",
     "split": "test",
-    "insight": "Image: seq25_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (27.4%). Road: 17.3%. Building: 2.8%. Inference time: 1.03s.",
+    "insight": "Image: seq25_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (32.3%). Road: 10.8%. Building: 32.3%. Inference time: 1.14s.",
     "class_stats": {
-      "Background clutter": 18.452,
-      "Building": 2.8364,
-      "Road": 17.303,
-      "Tree": 27.3706,
-      "Low vegetation": 0.0,
-      "Moving car": 18.9734,
-      "Static car": 13.2612,
-      "Human": 1.8034
+      "Background clutter": 22.0073,
+      "Building": 32.314,
+      "Road": 10.7915,
+      "Tree": 32.0739,
+      "Low vegetation": 2.0455,
+      "Moving car": 0.3239,
+      "Static car": 0.4439,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000600.png",
     "split": "test",
-    "insight": "Image: seq25_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (26.0%). Road: 23.4%. Building: 8.4%. Inference time: 0.96s.",
+    "insight": "Image: seq25_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (34.3%). Road: 0.8%. Building: 26.7%. Inference time: 1.13s.",
     "class_stats": {
-      "Background clutter": 12.163,
-      "Building": 8.3765,
-      "Road": 23.3684,
-      "Tree": 26.0449,
-      "Low vegetation": 0.0608,
-      "Moving car": 18.3142,
-      "Static car": 10.9431,
-      "Human": 0.729
+      "Background clutter": 34.3459,
+      "Building": 26.6863,
+      "Road": 0.7907,
+      "Tree": 32.2685,
+      "Low vegetation": 5.7853,
+      "Moving car": 0.0,
+      "Static car": 0.1233,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000700.png",
     "split": "test",
-    "insight": "Image: seq25_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (37.0%). Road: 37.0%. Building: 12.7%. Inference time: 0.99s.",
+    "insight": "Image: seq25_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (46.6%). Road: 13.2%. Building: 46.6%. Inference time: 0.99s.",
     "class_stats": {
-      "Background clutter": 9.7386,
-      "Building": 12.735,
-      "Road": 36.9983,
-      "Tree": 25.1954,
-      "Low vegetation": 0.001,
-      "Moving car": 11.4066,
-      "Static car": 3.9252,
+      "Background clutter": 9.9047,
+      "Building": 46.5845,
+      "Road": 13.1852,
+      "Tree": 14.9144,
+      "Low vegetation": 14.9437,
+      "Moving car": 0.3983,
+      "Static car": 0.0693,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000800.png",
     "split": "test",
-    "insight": "Image: seq25_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (33.8%). Road: 33.8%. Building: 13.7%. Inference time: 0.97s.",
+    "insight": "Image: seq25_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (49.3%). Road: 8.9%. Building: 49.3%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 16.7583,
-      "Building": 13.7243,
-      "Road": 33.7971,
-      "Tree": 20.0829,
-      "Low vegetation": 0.0,
-      "Moving car": 11.1447,
-      "Static car": 3.6898,
-      "Human": 0.8029
+      "Background clutter": 15.4821,
+      "Building": 49.3395,
+      "Road": 8.9429,
+      "Tree": 11.2475,
+      "Low vegetation": 14.8364,
+      "Moving car": 0.0376,
+      "Static car": 0.114,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq25_000900.png",
     "split": "test",
-    "insight": "Image: seq25_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (24.7%). Road: 20.4%. Building: 13.4%. Inference time: 1.03s.",
+    "insight": "Image: seq25_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (48.4%). Road: 9.3%. Building: 48.4%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 12.7411,
-      "Building": 13.4062,
-      "Road": 20.4333,
-      "Tree": 24.1597,
-      "Low vegetation": 0.0359,
-      "Moving car": 24.6611,
-      "Static car": 4.2377,
-      "Human": 0.325
+      "Background clutter": 15.5797,
+      "Building": 48.4417,
+      "Road": 9.2612,
+      "Tree": 14.8358,
+      "Low vegetation": 11.2413,
+      "Moving car": 0.354,
+      "Static car": 0.2863,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000000.png",
     "split": "test",
-    "insight": "Image: seq26_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (32.6%). Road: 23.7%. Building: 3.0%. Inference time: 0.93s.",
+    "insight": "Image: seq26_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (27.4%). Road: 21.8%. Building: 9.9%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 32.566,
-      "Building": 3.0455,
-      "Road": 23.6582,
-      "Tree": 19.8225,
-      "Low vegetation": 0.1406,
-      "Moving car": 6.9099,
-      "Static car": 9.7631,
-      "Human": 4.0941
+      "Background clutter": 27.3981,
+      "Building": 9.8522,
+      "Road": 21.8005,
+      "Tree": 14.2043,
+      "Low vegetation": 26.0241,
+      "Moving car": 0.7207,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000100.png",
     "split": "test",
-    "insight": "Image: seq26_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (34.5%). Road: 22.6%. Building: 1.0%. Inference time: 0.96s.",
+    "insight": "Image: seq26_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (29.4%). Road: 23.8%. Building: 8.6%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 34.5195,
-      "Building": 1.0,
-      "Road": 22.5914,
-      "Tree": 13.5795,
-      "Low vegetation": 0.636,
-      "Moving car": 10.5328,
-      "Static car": 14.8372,
-      "Human": 2.3036
+      "Background clutter": 29.4066,
+      "Building": 8.635,
+      "Road": 23.8204,
+      "Tree": 12.0276,
+      "Low vegetation": 25.4477,
+      "Moving car": 0.6626,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000200.png",
     "split": "test",
-    "insight": "Image: seq26_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (41.6%). Road: 20.9%. Building: 2.7%. Inference time: 1.00s.",
+    "insight": "Image: seq26_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (36.9%). Road: 25.4%. Building: 9.2%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 41.6414,
-      "Building": 2.68,
-      "Road": 20.8519,
-      "Tree": 14.7213,
-      "Low vegetation": 0.1381,
-      "Moving car": 9.8353,
-      "Static car": 7.7656,
-      "Human": 2.3665
+      "Background clutter": 36.9396,
+      "Building": 9.1997,
+      "Road": 25.381,
+      "Tree": 11.3808,
+      "Low vegetation": 15.6449,
+      "Moving car": 1.2272,
+      "Static car": 0.2269,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000300.png",
     "split": "test",
-    "insight": "Image: seq26_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (33.0%). Road: 21.0%. Building: 9.0%. Inference time: 1.10s.",
+    "insight": "Image: seq26_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (32.3%). Road: 27.3%. Building: 15.8%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 33.0004,
-      "Building": 9.0295,
-      "Road": 20.9948,
-      "Tree": 15.1688,
-      "Low vegetation": 0.0152,
-      "Moving car": 13.6439,
-      "Static car": 7.2413,
-      "Human": 0.9061
+      "Background clutter": 32.3025,
+      "Building": 15.8042,
+      "Road": 27.2595,
+      "Tree": 15.8098,
+      "Low vegetation": 7.9408,
+      "Moving car": 0.5422,
+      "Static car": 0.341,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000400.png",
     "split": "test",
-    "insight": "Image: seq26_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (46.3%). Road: 46.3%. Building: 5.6%. Inference time: 1.10s.",
+    "insight": "Image: seq26_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (26.5%). Road: 23.3%. Building: 20.7%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 14.4217,
-      "Building": 5.619,
-      "Road": 46.2949,
-      "Tree": 15.6653,
-      "Low vegetation": 0.5052,
-      "Moving car": 8.7429,
-      "Static car": 8.7284,
-      "Human": 0.0226
+      "Background clutter": 26.4898,
+      "Building": 20.7427,
+      "Road": 23.2679,
+      "Tree": 24.2081,
+      "Low vegetation": 4.5941,
+      "Moving car": 0.6973,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000500.png",
     "split": "test",
-    "insight": "Image: seq26_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (31.9%). Road: 28.4%. Building: 10.6%. Inference time: 1.17s.",
+    "insight": "Image: seq26_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (27.6%). Road: 23.5%. Building: 24.5%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 31.9142,
-      "Building": 10.6283,
-      "Road": 28.3821,
-      "Tree": 8.6125,
-      "Low vegetation": 0.0122,
-      "Moving car": 10.537,
-      "Static car": 8.4238,
-      "Human": 1.49
+      "Background clutter": 27.5505,
+      "Building": 24.5351,
+      "Road": 23.5062,
+      "Tree": 16.6867,
+      "Low vegetation": 7.0143,
+      "Moving car": 0.642,
+      "Static car": 0.0652,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000600.png",
     "split": "test",
-    "insight": "Image: seq26_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (33.1%). Road: 33.1%. Building: 8.2%. Inference time: 0.97s.",
+    "insight": "Image: seq26_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (27.5%). Road: 24.9%. Building: 27.1%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 16.9408,
-      "Building": 8.2429,
-      "Road": 33.1047,
-      "Tree": 30.1065,
-      "Low vegetation": 0.4971,
-      "Moving car": 5.5968,
-      "Static car": 5.2704,
-      "Human": 0.2407
+      "Background clutter": 27.4861,
+      "Building": 27.1346,
+      "Road": 24.9392,
+      "Tree": 9.2201,
+      "Low vegetation": 10.651,
+      "Moving car": 0.5629,
+      "Static car": 0.006,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000700.png",
     "split": "test",
-    "insight": "Image: seq26_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (30.1%). Road: 21.2%. Building: 10.2%. Inference time: 0.95s.",
+    "insight": "Image: seq26_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (30.6%). Road: 26.0%. Building: 21.5%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 30.1395,
-      "Building": 10.1622,
-      "Road": 21.2066,
-      "Tree": 25.8573,
-      "Low vegetation": 1.0274,
-      "Moving car": 5.8814,
-      "Static car": 5.7242,
-      "Human": 0.0015
+      "Background clutter": 30.6275,
+      "Building": 21.494,
+      "Road": 25.9639,
+      "Tree": 12.1053,
+      "Low vegetation": 8.7486,
+      "Moving car": 1.0297,
+      "Static car": 0.0309,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000800.png",
     "split": "test",
-    "insight": "Image: seq26_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.2%). Road: 14.5%. Building: 9.1%. Inference time: 0.98s.",
+    "insight": "Image: seq26_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (32.5%). Road: 23.6%. Building: 10.2%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 19.7072,
-      "Building": 9.0855,
-      "Road": 14.5017,
-      "Tree": 38.2282,
-      "Low vegetation": 0.0,
-      "Moving car": 6.0831,
-      "Static car": 11.2469,
-      "Human": 1.1474
+      "Background clutter": 32.5289,
+      "Building": 10.1819,
+      "Road": 23.5577,
+      "Tree": 20.2608,
+      "Low vegetation": 12.3193,
+      "Moving car": 1.1451,
+      "Static car": 0.0064,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq26_000900.png",
     "split": "test",
-    "insight": "Image: seq26_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (35.3%). Road: 9.8%. Building: 11.8%. Inference time: 0.98s.",
+    "insight": "Image: seq26_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (29.8%). Road: 23.8%. Building: 9.7%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 35.3281,
-      "Building": 11.8326,
-      "Road": 9.8069,
-      "Tree": 25.8765,
-      "Low vegetation": 0.0397,
-      "Moving car": 6.9917,
-      "Static car": 6.7625,
-      "Human": 3.3619
+      "Background clutter": 29.7811,
+      "Building": 9.6657,
+      "Road": 23.8372,
+      "Tree": 17.8783,
+      "Low vegetation": 16.4414,
+      "Moving car": 2.3225,
+      "Static car": 0.0739,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000000.png",
     "split": "test",
-    "insight": "Image: seq27_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (28.9%). Road: 15.2%. Building: 1.9%. Inference time: 0.99s.",
+    "insight": "Image: seq27_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (58.5%). Road: 12.3%. Building: 14.9%. Inference time: 1.07s.",
     "class_stats": {
-      "Background clutter": 7.462,
-      "Building": 1.8987,
-      "Road": 15.1931,
-      "Tree": 25.7155,
-      "Low vegetation": 0.0123,
-      "Moving car": 28.9205,
-      "Static car": 17.2708,
-      "Human": 3.527
+      "Background clutter": 11.2805,
+      "Building": 14.897,
+      "Road": 12.2872,
+      "Tree": 58.4747,
+      "Low vegetation": 1.5025,
+      "Moving car": 1.5538,
+      "Static car": 0.0042,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000100.png",
     "split": "test",
-    "insight": "Image: seq27_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (24.3%). Road: 11.3%. Building: 7.2%. Inference time: 0.91s.",
+    "insight": "Image: seq27_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (51.5%). Road: 15.5%. Building: 15.4%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 13.5723,
-      "Building": 7.1501,
-      "Road": 11.3102,
-      "Tree": 24.3306,
-      "Low vegetation": 0.0,
-      "Moving car": 24.2535,
-      "Static car": 15.2635,
-      "Human": 4.1198
+      "Background clutter": 12.2867,
+      "Building": 15.4209,
+      "Road": 15.4701,
+      "Tree": 51.485,
+      "Low vegetation": 3.572,
+      "Moving car": 1.7521,
+      "Static car": 0.0133,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000200.png",
     "split": "test",
-    "insight": "Image: seq27_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (23.3%). Road: 13.1%. Building: 11.6%. Inference time: 1.01s.",
+    "insight": "Image: seq27_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (45.8%). Road: 14.9%. Building: 11.1%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 23.2901,
-      "Building": 11.6397,
-      "Road": 13.1381,
-      "Tree": 20.2706,
-      "Low vegetation": 0.0,
-      "Moving car": 16.1792,
-      "Static car": 14.8935,
-      "Human": 0.5887
+      "Background clutter": 19.5694,
+      "Building": 11.0662,
+      "Road": 14.9047,
+      "Tree": 45.8148,
+      "Low vegetation": 6.9508,
+      "Moving car": 1.6941,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000300.png",
     "split": "test",
-    "insight": "Image: seq27_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (20.2%). Road: 13.9%. Building: 14.7%. Inference time: 0.93s.",
+    "insight": "Image: seq27_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (47.4%). Road: 14.9%. Building: 9.4%. Inference time: 1.08s.",
     "class_stats": {
-      "Background clutter": 19.4419,
-      "Building": 14.674,
-      "Road": 13.8536,
-      "Tree": 20.2432,
-      "Low vegetation": 0.0,
-      "Moving car": 14.1017,
-      "Static car": 15.8929,
-      "Human": 1.7926
+      "Background clutter": 21.8997,
+      "Building": 9.3588,
+      "Road": 14.9246,
+      "Tree": 47.3503,
+      "Low vegetation": 5.1804,
+      "Moving car": 1.2859,
+      "Static car": 0.0004,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000400.png",
     "split": "test",
-    "insight": "Image: seq27_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (27.2%). Road: 6.9%. Building: 7.4%. Inference time: 0.99s.",
+    "insight": "Image: seq27_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (48.1%). Road: 13.2%. Building: 10.4%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 11.7402,
-      "Building": 7.392,
-      "Road": 6.9184,
-      "Tree": 27.1775,
-      "Low vegetation": 0.1078,
-      "Moving car": 24.4336,
-      "Static car": 20.0407,
-      "Human": 2.1898
+      "Background clutter": 24.1279,
+      "Building": 10.4172,
+      "Road": 13.2353,
+      "Tree": 48.1055,
+      "Low vegetation": 2.9365,
+      "Moving car": 1.1775,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000500.png",
     "split": "test",
-    "insight": "Image: seq27_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.2%). Road: 7.1%. Building: 1.4%. Inference time: 0.96s.",
+    "insight": "Image: seq27_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (49.0%). Road: 12.5%. Building: 10.5%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 10.8341,
-      "Building": 1.3864,
-      "Road": 7.0556,
-      "Tree": 30.1765,
-      "Low vegetation": 0.0,
-      "Moving car": 26.4277,
-      "Static car": 22.9282,
-      "Human": 1.1916
+      "Background clutter": 22.1258,
+      "Building": 10.4811,
+      "Road": 12.5365,
+      "Tree": 49.0014,
+      "Low vegetation": 4.026,
+      "Moving car": 1.8293,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000600.png",
     "split": "test",
-    "insight": "Image: seq27_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.4%). Road: 8.4%. Building: 4.2%. Inference time: 0.94s.",
+    "insight": "Image: seq27_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (52.9%). Road: 11.7%. Building: 8.0%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 10.7135,
-      "Building": 4.2488,
-      "Road": 8.4198,
-      "Tree": 30.3511,
-      "Low vegetation": 0.0,
-      "Moving car": 22.9142,
-      "Static car": 21.8675,
-      "Human": 1.4851
+      "Background clutter": 22.1136,
+      "Building": 8.0162,
+      "Road": 11.7369,
+      "Tree": 52.8831,
+      "Low vegetation": 3.3864,
+      "Moving car": 1.8634,
+      "Static car": 0.0004,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000700.png",
     "split": "test",
-    "insight": "Image: seq27_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (35.8%). Road: 7.2%. Building: 6.6%. Inference time: 0.95s.",
+    "insight": "Image: seq27_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (57.1%). Road: 11.7%. Building: 9.4%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 13.5378,
-      "Building": 6.5835,
-      "Road": 7.2211,
-      "Tree": 23.8856,
-      "Low vegetation": 0.0,
-      "Moving car": 35.7826,
-      "Static car": 11.1296,
-      "Human": 1.8598
+      "Background clutter": 17.386,
+      "Building": 9.3985,
+      "Road": 11.6591,
+      "Tree": 57.1368,
+      "Low vegetation": 2.6541,
+      "Moving car": 1.7625,
+      "Static car": 0.0029,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000800.png",
     "split": "test",
-    "insight": "Image: seq27_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (40.4%). Road: 6.0%. Building: 8.7%. Inference time: 0.94s.",
+    "insight": "Image: seq27_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (55.5%). Road: 10.9%. Building: 10.3%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 13.9398,
-      "Building": 8.6686,
-      "Road": 6.0469,
-      "Tree": 19.249,
-      "Low vegetation": 0.0367,
-      "Moving car": 40.3922,
-      "Static car": 9.343,
-      "Human": 2.3239
+      "Background clutter": 15.8573,
+      "Building": 10.3102,
+      "Road": 10.8787,
+      "Tree": 55.5162,
+      "Low vegetation": 5.2434,
+      "Moving car": 2.174,
+      "Static car": 0.0203,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq27_000900.png",
     "split": "test",
-    "insight": "Image: seq27_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (38.1%). Road: 6.7%. Building: 7.6%. Inference time: 0.95s.",
+    "insight": "Image: seq27_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (59.4%). Road: 11.0%. Building: 9.4%. Inference time: 1.14s.",
     "class_stats": {
-      "Background clutter": 11.4821,
-      "Building": 7.6277,
-      "Road": 6.7249,
-      "Tree": 24.0529,
-      "Low vegetation": 0.0,
-      "Moving car": 38.0664,
-      "Static car": 11.1422,
-      "Human": 0.9039
+      "Background clutter": 15.3816,
+      "Building": 9.381,
+      "Road": 11.0307,
+      "Tree": 59.354,
+      "Low vegetation": 2.9275,
+      "Moving car": 1.9248,
+      "Static car": 0.0006,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000000.png",
     "split": "test",
-    "insight": "Image: seq28_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (38.1%). Road: 8.0%. Building: 7.6%. Inference time: 0.90s.",
+    "insight": "Image: seq28_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (58.6%). Road: 11.3%. Building: 9.6%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 9.5465,
-      "Building": 7.5635,
-      "Road": 8.01,
-      "Tree": 21.0122,
-      "Low vegetation": 0.0,
-      "Moving car": 38.1242,
-      "Static car": 14.6887,
-      "Human": 1.055
+      "Background clutter": 15.7913,
+      "Building": 9.6499,
+      "Road": 11.2649,
+      "Tree": 58.5581,
+      "Low vegetation": 3.1501,
+      "Moving car": 1.5426,
+      "Static car": 0.0432,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000100.png",
     "split": "test",
-    "insight": "Image: seq28_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (34.6%). Road: 7.4%. Building: 7.7%. Inference time: 1.04s.",
+    "insight": "Image: seq28_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (59.5%). Road: 11.2%. Building: 10.0%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 7.9373,
-      "Building": 7.6867,
-      "Road": 7.4385,
-      "Tree": 26.2083,
-      "Low vegetation": 0.0,
-      "Moving car": 34.5511,
-      "Static car": 15.0523,
-      "Human": 1.1258
+      "Background clutter": 14.6719,
+      "Building": 10.0438,
+      "Road": 11.1659,
+      "Tree": 59.5336,
+      "Low vegetation": 2.7369,
+      "Moving car": 1.8447,
+      "Static car": 0.0033,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000200.png",
     "split": "test",
-    "insight": "Image: seq28_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.9%). Road: 13.5%. Building: 2.4%. Inference time: 0.95s.",
+    "insight": "Image: seq28_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (50.8%). Road: 14.7%. Building: 17.2%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 19.456,
-      "Building": 2.4005,
-      "Road": 13.5338,
-      "Tree": 30.869,
-      "Low vegetation": 0.0089,
-      "Moving car": 6.5403,
-      "Static car": 25.6889,
-      "Human": 1.5027
+      "Background clutter": 10.2249,
+      "Building": 17.2124,
+      "Road": 14.7118,
+      "Tree": 50.7546,
+      "Low vegetation": 5.0243,
+      "Moving car": 2.072,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000300.png",
     "split": "test",
-    "insight": "Image: seq28_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (29.9%). Road: 17.9%. Building: 3.8%. Inference time: 0.98s.",
+    "insight": "Image: seq28_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (47.2%). Road: 14.2%. Building: 19.2%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 20.2365,
-      "Building": 3.7683,
-      "Road": 17.8983,
-      "Tree": 29.9404,
-      "Low vegetation": 0.0986,
-      "Moving car": 9.5685,
-      "Static car": 17.7022,
-      "Human": 0.7872
+      "Background clutter": 13.3897,
+      "Building": 19.2097,
+      "Road": 14.2018,
+      "Tree": 47.2446,
+      "Low vegetation": 3.8873,
+      "Moving car": 2.0669,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000400.png",
     "split": "test",
-    "insight": "Image: seq28_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.1%). Road: 20.2%. Building: 2.7%. Inference time: 1.04s.",
+    "insight": "Image: seq28_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (45.8%). Road: 13.4%. Building: 23.9%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 14.5774,
-      "Building": 2.6871,
-      "Road": 20.2052,
-      "Tree": 33.1017,
-      "Low vegetation": 0.4302,
-      "Moving car": 11.9034,
-      "Static car": 13.8042,
-      "Human": 3.2909
+      "Background clutter": 11.4695,
+      "Building": 23.8987,
+      "Road": 13.4147,
+      "Tree": 45.8449,
+      "Low vegetation": 2.7076,
+      "Moving car": 2.6377,
+      "Static car": 0.0268,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000500.png",
     "split": "test",
-    "insight": "Image: seq28_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (28.7%). Road: 23.3%. Building: 3.2%. Inference time: 1.08s.",
+    "insight": "Image: seq28_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (44.0%). Road: 13.2%. Building: 23.7%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 15.0424,
-      "Building": 3.2267,
-      "Road": 23.3279,
-      "Tree": 28.7319,
-      "Low vegetation": 0.2087,
-      "Moving car": 15.7355,
-      "Static car": 12.14,
-      "Human": 1.5868
+      "Background clutter": 12.2897,
+      "Building": 23.6669,
+      "Road": 13.2137,
+      "Tree": 44.0449,
+      "Low vegetation": 4.072,
+      "Moving car": 2.695,
+      "Static car": 0.0177,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000600.png",
     "split": "test",
-    "insight": "Image: seq28_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.4%). Road: 16.9%. Building: 3.4%. Inference time: 0.95s.",
+    "insight": "Image: seq28_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (42.8%). Road: 12.9%. Building: 24.9%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 15.028,
-      "Building": 3.4113,
-      "Road": 16.8673,
-      "Tree": 38.3987,
-      "Low vegetation": 0.0023,
-      "Moving car": 12.0613,
-      "Static car": 13.8868,
-      "Human": 0.3443
+      "Background clutter": 12.3459,
+      "Building": 24.9255,
+      "Road": 12.9462,
+      "Tree": 42.7899,
+      "Low vegetation": 4.282,
+      "Moving car": 2.6343,
+      "Static car": 0.0762,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000700.png",
     "split": "test",
-    "insight": "Image: seq28_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.6%). Road: 20.0%. Building: 3.5%. Inference time: 0.94s.",
+    "insight": "Image: seq28_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (42.4%). Road: 13.0%. Building: 25.5%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 19.1545,
-      "Building": 3.4705,
-      "Road": 20.044,
-      "Tree": 32.6161,
-      "Low vegetation": 0.0039,
-      "Moving car": 9.6755,
-      "Static car": 14.7951,
-      "Human": 0.2404
+      "Background clutter": 11.7147,
+      "Building": 25.4603,
+      "Road": 12.999,
+      "Tree": 42.3962,
+      "Low vegetation": 4.7917,
+      "Moving car": 2.5708,
+      "Static car": 0.0673,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000800.png",
     "split": "test",
-    "insight": "Image: seq28_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (29.5%). Road: 26.6%. Building: 5.6%. Inference time: 0.95s.",
+    "insight": "Image: seq28_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (42.5%). Road: 13.2%. Building: 26.2%. Inference time: 0.88s.",
     "class_stats": {
-      "Background clutter": 17.1993,
-      "Building": 5.5745,
-      "Road": 26.5901,
-      "Tree": 29.4514,
-      "Low vegetation": 0.1277,
-      "Moving car": 8.7247,
-      "Static car": 12.1678,
-      "Human": 0.1645
+      "Background clutter": 9.6624,
+      "Building": 26.2076,
+      "Road": 13.1628,
+      "Tree": 42.5455,
+      "Low vegetation": 5.7857,
+      "Moving car": 2.3166,
+      "Static car": 0.3194,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq28_000900.png",
     "split": "test",
-    "insight": "Image: seq28_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (26.8%). Road: 16.1%. Building: 6.9%. Inference time: 0.93s.",
+    "insight": "Image: seq28_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (49.9%). Road: 14.0%. Building: 22.4%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 26.8193,
-      "Building": 6.9205,
-      "Road": 16.1161,
-      "Tree": 17.0914,
-      "Low vegetation": 0.0154,
-      "Moving car": 14.0756,
-      "Static car": 18.8719,
-      "Human": 0.0897
+      "Background clutter": 6.561,
+      "Building": 22.3682,
+      "Road": 13.962,
+      "Tree": 49.8958,
+      "Low vegetation": 5.3301,
+      "Moving car": 1.8779,
+      "Static car": 0.005,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000000.png",
     "split": "test",
-    "insight": "Image: seq29_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (27.6%). Road: 22.6%. Building: 9.7%. Inference time: 0.94s.",
+    "insight": "Image: seq29_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (41.6%). Road: 0.0%. Building: 41.6%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 8.8652,
-      "Building": 9.7087,
-      "Road": 22.5993,
-      "Tree": 27.6493,
-      "Low vegetation": 0.1956,
-      "Moving car": 19.6169,
-      "Static car": 11.0245,
-      "Human": 0.3405
+      "Background clutter": 31.4958,
+      "Building": 41.5542,
+      "Road": 0.0,
+      "Tree": 4.6323,
+      "Low vegetation": 22.131,
+      "Moving car": 0.0,
+      "Static car": 0.1867,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000100.png",
     "split": "test",
-    "insight": "Image: seq29_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (22.3%). Road: 22.3%. Building: 11.6%. Inference time: 0.99s.",
+    "insight": "Image: seq29_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (50.4%). Road: 0.1%. Building: 50.4%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 7.6352,
-      "Building": 11.6302,
-      "Road": 22.2658,
-      "Tree": 21.4458,
-      "Low vegetation": 0.2967,
-      "Moving car": 19.1497,
-      "Static car": 17.5766,
+      "Background clutter": 21.0631,
+      "Building": 50.3607,
+      "Road": 0.0664,
+      "Tree": 6.2035,
+      "Low vegetation": 22.124,
+      "Moving car": 0.0814,
+      "Static car": 0.1009,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000200.png",
     "split": "test",
-    "insight": "Image: seq29_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (33.5%). Road: 12.1%. Building: 11.0%. Inference time: 0.94s.",
+    "insight": "Image: seq29_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (36.2%). Road: 0.6%. Building: 36.2%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 8.0299,
-      "Building": 11.015,
-      "Road": 12.0662,
-      "Tree": 24.1111,
-      "Low vegetation": 0.0,
-      "Moving car": 33.516,
-      "Static car": 11.108,
-      "Human": 0.1537
+      "Background clutter": 27.5868,
+      "Building": 36.2409,
+      "Road": 0.6235,
+      "Tree": 8.1979,
+      "Low vegetation": 27.2608,
+      "Moving car": 0.0,
+      "Static car": 0.0901,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000300.png",
     "split": "test",
-    "insight": "Image: seq29_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (32.3%). Road: 12.3%. Building: 18.0%. Inference time: 0.93s.",
+    "insight": "Image: seq29_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (47.2%). Road: 0.2%. Building: 47.2%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 10.5077,
-      "Building": 17.999,
-      "Road": 12.2903,
-      "Tree": 17.325,
-      "Low vegetation": 0.2849,
-      "Moving car": 32.309,
-      "Static car": 9.2789,
-      "Human": 0.005
+      "Background clutter": 21.6458,
+      "Building": 47.2469,
+      "Road": 0.1856,
+      "Tree": 12.6692,
+      "Low vegetation": 18.1916,
+      "Moving car": 0.0,
+      "Static car": 0.061,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000400.png",
     "split": "test",
-    "insight": "Image: seq29_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (39.2%). Road: 11.7%. Building: 9.1%. Inference time: 0.93s.",
+    "insight": "Image: seq29_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (41.8%). Road: 1.4%. Building: 41.8%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 11.7272,
-      "Building": 9.1445,
-      "Road": 11.7128,
-      "Tree": 39.1746,
-      "Low vegetation": 0.4041,
-      "Moving car": 14.561,
-      "Static car": 13.2502,
-      "Human": 0.0257
+      "Background clutter": 22.8958,
+      "Building": 41.8497,
+      "Road": 1.3738,
+      "Tree": 15.6983,
+      "Low vegetation": 18.0567,
+      "Moving car": 0.037,
+      "Static car": 0.0885,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000500.png",
     "split": "test",
-    "insight": "Image: seq29_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (29.6%). Road: 8.5%. Building: 10.9%. Inference time: 1.03s.",
+    "insight": "Image: seq29_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (34.6%). Road: 2.9%. Building: 34.6%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 12.0507,
-      "Building": 10.9416,
-      "Road": 8.4904,
-      "Tree": 29.637,
-      "Low vegetation": 0.1443,
-      "Moving car": 25.749,
-      "Static car": 12.9871,
+      "Background clutter": 27.7932,
+      "Building": 34.593,
+      "Road": 2.8731,
+      "Tree": 13.6786,
+      "Low vegetation": 20.8405,
+      "Moving car": 0.0,
+      "Static car": 0.2216,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000600.png",
     "split": "test",
-    "insight": "Image: seq29_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.4%). Road: 7.3%. Building: 13.2%. Inference time: 0.92s.",
+    "insight": "Image: seq29_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (45.4%). Road: 0.0%. Building: 45.4%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 5.7571,
-      "Building": 13.1744,
-      "Road": 7.3113,
-      "Tree": 31.4184,
-      "Low vegetation": 0.0039,
-      "Moving car": 30.3889,
-      "Static car": 11.946,
+      "Background clutter": 13.8702,
+      "Building": 45.4294,
+      "Road": 0.0037,
+      "Tree": 13.2828,
+      "Low vegetation": 27.3956,
+      "Moving car": 0.0,
+      "Static car": 0.0183,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000700.png",
     "split": "test",
-    "insight": "Image: seq29_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (40.4%). Road: 9.9%. Building: 3.6%. Inference time: 1.13s.",
+    "insight": "Image: seq29_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (34.2%). Road: 0.5%. Building: 28.6%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 14.5756,
-      "Building": 3.5577,
-      "Road": 9.9082,
-      "Tree": 40.3767,
-      "Low vegetation": 0.0407,
-      "Moving car": 14.7542,
-      "Static car": 16.7407,
-      "Human": 0.0461
+      "Background clutter": 13.3175,
+      "Building": 28.6101,
+      "Road": 0.4894,
+      "Tree": 23.3791,
+      "Low vegetation": 34.1919,
+      "Moving car": 0.0,
+      "Static car": 0.012,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000800.png",
     "split": "test",
-    "insight": "Image: seq29_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.7%). Road: 11.3%. Building: 11.0%. Inference time: 0.96s.",
+    "insight": "Image: seq29_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.3%). Road: 0.9%. Building: 17.9%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 7.6833,
-      "Building": 10.9535,
-      "Road": 11.3295,
-      "Tree": 33.685,
-      "Low vegetation": 0.0,
-      "Moving car": 18.588,
-      "Static car": 17.1584,
-      "Human": 0.6024
+      "Background clutter": 4.7598,
+      "Building": 17.9294,
+      "Road": 0.9437,
+      "Tree": 38.3333,
+      "Low vegetation": 37.9965,
+      "Moving car": 0.0,
+      "Static car": 0.0372,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq29_000900.png",
     "split": "test",
-    "insight": "Image: seq29_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.9%). Road: 8.4%. Building: 6.2%. Inference time: 0.93s.",
+    "insight": "Image: seq29_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (52.2%). Road: 1.6%. Building: 21.0%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 9.4404,
-      "Building": 6.1545,
-      "Road": 8.4307,
-      "Tree": 38.8702,
-      "Low vegetation": 0.0,
-      "Moving car": 12.9614,
-      "Static car": 23.63,
-      "Human": 0.5127
+      "Background clutter": 8.8916,
+      "Building": 20.9865,
+      "Road": 1.5652,
+      "Tree": 16.3042,
+      "Low vegetation": 52.2056,
+      "Moving car": 0.0,
+      "Static car": 0.0469,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000000.png",
     "split": "test",
-    "insight": "Image: seq30_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.3%). Road: 15.2%. Building: 6.6%. Inference time: 0.91s.",
+    "insight": "Image: seq30_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (22.6%). Road: 19.3%. Building: 20.3%. Inference time: 1.08s.",
     "class_stats": {
-      "Background clutter": 11.7338,
-      "Building": 6.5702,
-      "Road": 15.2315,
-      "Tree": 31.2716,
-      "Low vegetation": 0.0693,
-      "Moving car": 14.8493,
-      "Static car": 20.2743,
+      "Background clutter": 22.6074,
+      "Building": 20.3293,
+      "Road": 19.2868,
+      "Tree": 14.2919,
+      "Low vegetation": 22.5442,
+      "Moving car": 0.3447,
+      "Static car": 0.5957,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000100.png",
     "split": "test",
-    "insight": "Image: seq30_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.4%). Road: 25.9%. Building: 2.5%. Inference time: 1.00s.",
+    "insight": "Image: seq30_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (28.2%). Road: 6.3%. Building: 28.2%. Inference time: 1.00s.",
     "class_stats": {
-      "Background clutter": 6.2571,
-      "Building": 2.5496,
-      "Road": 25.9111,
-      "Tree": 30.441,
-      "Low vegetation": 0.0538,
-      "Moving car": 20.8183,
-      "Static car": 13.9684,
-      "Human": 0.0008
+      "Background clutter": 23.3162,
+      "Building": 28.2351,
+      "Road": 6.2946,
+      "Tree": 26.87,
+      "Low vegetation": 14.9844,
+      "Moving car": 0.0563,
+      "Static car": 0.2434,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000200.png",
     "split": "test",
-    "insight": "Image: seq30_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (26.2%). Road: 17.1%. Building: 5.3%. Inference time: 0.91s.",
+    "insight": "Image: seq30_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (25.9%). Road: 11.3%. Building: 23.7%. Inference time: 1.03s.",
     "class_stats": {
-      "Background clutter": 11.0052,
-      "Building": 5.3374,
-      "Road": 17.1003,
-      "Tree": 25.9983,
-      "Low vegetation": 1.3023,
-      "Moving car": 26.2492,
-      "Static car": 12.7668,
-      "Human": 0.2405
+      "Background clutter": 20.0768,
+      "Building": 23.7116,
+      "Road": 11.2838,
+      "Tree": 18.3139,
+      "Low vegetation": 25.9086,
+      "Moving car": 0.3634,
+      "Static car": 0.342,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000300.png",
     "split": "test",
-    "insight": "Image: seq30_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.9%). Road: 19.4%. Building: 2.2%. Inference time: 1.00s.",
+    "insight": "Image: seq30_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (32.8%). Road: 14.4%. Building: 32.8%. Inference time: 1.14s.",
     "class_stats": {
-      "Background clutter": 10.1701,
-      "Building": 2.1796,
-      "Road": 19.391,
-      "Tree": 33.8574,
-      "Low vegetation": 0.1414,
-      "Moving car": 24.0694,
-      "Static car": 10.191,
+      "Background clutter": 16.4936,
+      "Building": 32.7799,
+      "Road": 14.3987,
+      "Tree": 10.0187,
+      "Low vegetation": 25.9529,
+      "Moving car": 0.2562,
+      "Static car": 0.0999,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000400.png",
     "split": "test",
-    "insight": "Image: seq30_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.5%). Road: 18.4%. Building: 4.2%. Inference time: 1.02s.",
+    "insight": "Image: seq30_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (35.3%). Road: 11.9%. Building: 35.3%. Inference time: 1.02s.",
     "class_stats": {
-      "Background clutter": 12.4136,
-      "Building": 4.2378,
-      "Road": 18.3922,
-      "Tree": 31.4797,
-      "Low vegetation": 0.3976,
-      "Moving car": 24.9311,
-      "Static car": 8.0691,
-      "Human": 0.0789
+      "Background clutter": 16.9377,
+      "Building": 35.2805,
+      "Road": 11.9194,
+      "Tree": 13.841,
+      "Low vegetation": 20.3852,
+      "Moving car": 1.3914,
+      "Static car": 0.2448,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000500.png",
     "split": "test",
-    "insight": "Image: seq30_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (25.3%). Road: 18.0%. Building: 5.2%. Inference time: 1.02s.",
+    "insight": "Image: seq30_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (27.8%). Road: 12.9%. Building: 27.8%. Inference time: 1.00s.",
     "class_stats": {
-      "Background clutter": 20.7645,
-      "Building": 5.178,
-      "Road": 17.9998,
-      "Tree": 25.304,
-      "Low vegetation": 0.0,
-      "Moving car": 18.0951,
-      "Static car": 12.6182,
-      "Human": 0.0403
+      "Background clutter": 21.217,
+      "Building": 27.7799,
+      "Road": 12.8567,
+      "Tree": 23.4886,
+      "Low vegetation": 12.8474,
+      "Moving car": 1.011,
+      "Static car": 0.7994,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000600.png",
     "split": "test",
-    "insight": "Image: seq30_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (37.7%). Road: 19.0%. Building: 4.9%. Inference time: 0.93s.",
+    "insight": "Image: seq30_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (51.7%). Road: 0.0%. Building: 51.7%. Inference time: 0.95s.",
     "class_stats": {
-      "Background clutter": 4.2157,
-      "Building": 4.8765,
-      "Road": 18.9956,
-      "Tree": 37.6586,
-      "Low vegetation": 0.5916,
-      "Moving car": 16.5243,
-      "Static car": 17.0752,
-      "Human": 0.0625
+      "Background clutter": 12.1215,
+      "Building": 51.6659,
+      "Road": 0.0,
+      "Tree": 20.3401,
+      "Low vegetation": 15.5494,
+      "Moving car": 0.0,
+      "Static car": 0.3231,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000700.png",
     "split": "test",
-    "insight": "Image: seq30_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (33.8%). Road: 13.0%. Building: 6.5%. Inference time: 0.97s.",
+    "insight": "Image: seq30_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (27.9%). Road: 12.5%. Building: 27.9%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 8.261,
-      "Building": 6.5006,
-      "Road": 13.0353,
-      "Tree": 26.216,
-      "Low vegetation": 0.0864,
-      "Moving car": 33.8272,
-      "Static car": 12.055,
-      "Human": 0.0185
+      "Background clutter": 17.0432,
+      "Building": 27.8945,
+      "Road": 12.468,
+      "Tree": 19.1173,
+      "Low vegetation": 22.8196,
+      "Moving car": 0.294,
+      "Static car": 0.3634,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000800.png",
     "split": "test",
-    "insight": "Image: seq30_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.5%). Road: 19.6%. Building: 6.0%. Inference time: 0.96s.",
+    "insight": "Image: seq30_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (31.0%). Road: 8.8%. Building: 31.0%. Inference time: 0.99s.",
     "class_stats": {
-      "Background clutter": 8.4562,
-      "Building": 5.9796,
-      "Road": 19.641,
-      "Tree": 31.4936,
-      "Low vegetation": 0.2884,
-      "Moving car": 21.0122,
-      "Static car": 12.1086,
-      "Human": 1.0204
+      "Background clutter": 22.2616,
+      "Building": 30.9992,
+      "Road": 8.809,
+      "Tree": 14.7795,
+      "Low vegetation": 21.9967,
+      "Moving car": 0.2423,
+      "Static car": 0.9117,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq30_000900.png",
     "split": "test",
-    "insight": "Image: seq30_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (28.9%). Road: 15.5%. Building: 6.7%. Inference time: 0.95s.",
+    "insight": "Image: seq30_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (21.8%). Road: 19.4%. Building: 21.8%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 11.0278,
-      "Building": 6.6917,
-      "Road": 15.4545,
-      "Tree": 28.9022,
-      "Low vegetation": 0.898,
-      "Moving car": 21.8727,
-      "Static car": 14.9782,
-      "Human": 0.175
+      "Background clutter": 21.5644,
+      "Building": 21.7782,
+      "Road": 19.4309,
+      "Tree": 17.2797,
+      "Low vegetation": 19.0318,
+      "Moving car": 0.4767,
+      "Static car": 0.4383,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000000.png",
     "split": "test",
-    "insight": "Image: seq38_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (39.4%). Road: 8.4%. Building: 14.6%. Inference time: 0.95s.",
+    "insight": "Image: seq38_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (32.2%). Road: 3.4%. Building: 32.2%. Inference time: 0.97s.",
     "class_stats": {
-      "Background clutter": 1.8237,
-      "Building": 14.6092,
-      "Road": 8.4001,
-      "Tree": 39.4099,
-      "Low vegetation": 0.1659,
-      "Moving car": 25.7625,
-      "Static car": 9.7546,
-      "Human": 0.0741
+      "Background clutter": 26.5282,
+      "Building": 32.2008,
+      "Road": 3.3854,
+      "Tree": 14.7139,
+      "Low vegetation": 22.9234,
+      "Moving car": 0.0,
+      "Static car": 0.2483,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000100.png",
     "split": "test",
-    "insight": "Image: seq38_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (40.5%). Road: 11.6%. Building: 10.0%. Inference time: 0.96s.",
+    "insight": "Image: seq38_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (38.9%). Road: 6.8%. Building: 38.9%. Inference time: 0.97s.",
     "class_stats": {
-      "Background clutter": 4.0075,
-      "Building": 10.0386,
-      "Road": 11.6236,
-      "Tree": 40.474,
-      "Low vegetation": 0.044,
-      "Moving car": 23.7894,
-      "Static car": 10.0091,
-      "Human": 0.0139
+      "Background clutter": 13.7232,
+      "Building": 38.9331,
+      "Road": 6.8472,
+      "Tree": 16.0619,
+      "Low vegetation": 24.1863,
+      "Moving car": 0.0419,
+      "Static car": 0.2064,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000200.png",
     "split": "test",
-    "insight": "Image: seq38_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (39.3%). Road: 7.6%. Building: 13.3%. Inference time: 1.00s.",
+    "insight": "Image: seq38_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (39.2%). Road: 0.8%. Building: 39.2%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 4.8351,
-      "Building": 13.3312,
-      "Road": 7.6281,
-      "Tree": 39.2679,
-      "Low vegetation": 0.0083,
-      "Moving car": 24.4263,
-      "Static car": 10.4929,
-      "Human": 0.0102
+      "Background clutter": 13.2865,
+      "Building": 39.2267,
+      "Road": 0.7735,
+      "Tree": 11.576,
+      "Low vegetation": 35.1316,
+      "Moving car": 0.0,
+      "Static car": 0.0058,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000300.png",
     "split": "test",
-    "insight": "Image: seq38_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (36.3%). Road: 14.4%. Building: 14.5%. Inference time: 0.93s.",
+    "insight": "Image: seq38_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (33.7%). Road: 4.0%. Building: 33.7%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 5.576,
-      "Building": 14.5079,
-      "Road": 14.4101,
-      "Tree": 36.2745,
-      "Low vegetation": 0.0488,
-      "Moving car": 19.1858,
-      "Static car": 9.9969,
+      "Background clutter": 28.7604,
+      "Building": 33.7415,
+      "Road": 4.0486,
+      "Tree": 13.2153,
+      "Low vegetation": 19.946,
+      "Moving car": 0.0,
+      "Static car": 0.2882,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000400.png",
     "split": "test",
-    "insight": "Image: seq38_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (39.8%). Road: 10.8%. Building: 8.5%. Inference time: 0.91s.",
+    "insight": "Image: seq38_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (50.4%). Road: 0.2%. Building: 50.4%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 7.9635,
-      "Building": 8.5473,
-      "Road": 10.7976,
-      "Tree": 39.8285,
-      "Low vegetation": 0.0752,
-      "Moving car": 22.1117,
-      "Static car": 10.6761,
+      "Background clutter": 20.8553,
+      "Building": 50.38,
+      "Road": 0.1535,
+      "Tree": 7.7917,
+      "Low vegetation": 20.7865,
+      "Moving car": 0.0,
+      "Static car": 0.033,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000500.png",
     "split": "test",
-    "insight": "Image: seq38_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.7%). Road: 6.4%. Building: 24.2%. Inference time: 0.94s.",
+    "insight": "Image: seq38_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (38.6%). Road: 0.3%. Building: 38.6%. Inference time: 1.05s.",
     "class_stats": {
-      "Background clutter": 6.7595,
-      "Building": 24.1665,
-      "Road": 6.4217,
-      "Tree": 31.7029,
-      "Low vegetation": 0.0693,
-      "Moving car": 19.3569,
-      "Static car": 11.5233,
+      "Background clutter": 21.5245,
+      "Building": 38.6084,
+      "Road": 0.2542,
+      "Tree": 12.1127,
+      "Low vegetation": 27.3891,
+      "Moving car": 0.0,
+      "Static car": 0.1111,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000600.png",
     "split": "test",
-    "insight": "Image: seq38_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (29.1%). Road: 8.0%. Building: 14.0%. Inference time: 0.95s.",
+    "insight": "Image: seq38_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (45.1%). Road: 0.5%. Building: 45.1%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 5.523,
-      "Building": 13.9904,
-      "Road": 8.0475,
-      "Tree": 29.1177,
-      "Low vegetation": 0.3117,
-      "Moving car": 23.5804,
-      "Static car": 19.4223,
-      "Human": 0.0071
+      "Background clutter": 14.9269,
+      "Building": 45.0538,
+      "Road": 0.544,
+      "Tree": 9.087,
+      "Low vegetation": 30.1728,
+      "Moving car": 0.0,
+      "Static car": 0.2155,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000700.png",
     "split": "test",
-    "insight": "Image: seq38_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.5%). Road: 12.4%. Building: 16.6%. Inference time: 0.94s.",
+    "insight": "Image: seq38_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (49.7%). Road: 0.1%. Building: 49.7%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 4.2924,
-      "Building": 16.5903,
-      "Road": 12.3652,
-      "Tree": 33.4842,
-      "Low vegetation": 0.0698,
-      "Moving car": 26.7504,
-      "Static car": 6.4167,
-      "Human": 0.0311
+      "Background clutter": 20.6939,
+      "Building": 49.6858,
+      "Road": 0.0675,
+      "Tree": 2.7066,
+      "Low vegetation": 26.7344,
+      "Moving car": 0.0226,
+      "Static car": 0.0893,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000800.png",
     "split": "test",
-    "insight": "Image: seq38_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (34.7%). Road: 19.1%. Building: 10.7%. Inference time: 0.96s.",
+    "insight": "Image: seq38_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (58.6%). Road: 0.2%. Building: 58.6%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 8.4606,
-      "Building": 10.7317,
-      "Road": 19.0656,
-      "Tree": 34.7375,
-      "Low vegetation": 0.3277,
-      "Moving car": 20.5534,
-      "Static car": 6.1225,
-      "Human": 0.001
+      "Background clutter": 15.4213,
+      "Building": 58.6175,
+      "Road": 0.1784,
+      "Tree": 3.3791,
+      "Low vegetation": 22.2847,
+      "Moving car": 0.0,
+      "Static car": 0.119,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq38_000900.png",
     "split": "test",
-    "insight": "Image: seq38_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.6%). Road: 16.0%. Building: 11.4%. Inference time: 0.94s.",
+    "insight": "Image: seq38_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (55.1%). Road: 0.1%. Building: 55.1%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 4.6686,
-      "Building": 11.3578,
-      "Road": 16.0046,
-      "Tree": 33.5507,
-      "Low vegetation": 0.6595,
-      "Moving car": 24.0448,
-      "Static car": 9.6354,
-      "Human": 0.0785
+      "Background clutter": 21.7209,
+      "Building": 55.1381,
+      "Road": 0.1094,
+      "Tree": 8.5276,
+      "Low vegetation": 14.2766,
+      "Moving car": 0.0,
+      "Static car": 0.2274,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000000.png",
     "split": "test",
-    "insight": "Image: seq39_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (32.7%). Road: 14.4%. Building: 3.9%. Inference time: 0.93s.",
+    "insight": "Image: seq39_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (42.6%). Road: 20.5%. Building: 42.6%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 32.6597,
-      "Building": 3.928,
-      "Road": 14.4213,
-      "Tree": 22.2218,
-      "Low vegetation": 0.5405,
-      "Moving car": 13.9815,
-      "Static car": 12.2359,
-      "Human": 0.0112
+      "Background clutter": 16.1248,
+      "Building": 42.6061,
+      "Road": 20.4682,
+      "Tree": 15.8208,
+      "Low vegetation": 1.9323,
+      "Moving car": 2.2556,
+      "Static car": 0.7922,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000100.png",
     "split": "test",
-    "insight": "Image: seq39_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (33.2%). Road: 18.3%. Building: 2.4%. Inference time: 0.94s.",
+    "insight": "Image: seq39_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (48.9%). Road: 19.1%. Building: 48.9%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 33.2272,
-      "Building": 2.3906,
-      "Road": 18.2575,
-      "Tree": 27.5187,
-      "Low vegetation": 0.3767,
-      "Moving car": 10.6063,
-      "Static car": 7.5847,
-      "Human": 0.0382
+      "Background clutter": 12.8688,
+      "Building": 48.8981,
+      "Road": 19.0856,
+      "Tree": 13.3439,
+      "Low vegetation": 3.3405,
+      "Moving car": 1.9005,
+      "Static car": 0.5625,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000200.png",
     "split": "test",
-    "insight": "Image: seq39_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (32.8%). Road: 14.5%. Building: 4.0%. Inference time: 0.94s.",
+    "insight": "Image: seq39_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (51.7%). Road: 21.2%. Building: 51.7%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 32.8436,
-      "Building": 3.968,
-      "Road": 14.5027,
-      "Tree": 29.5891,
-      "Low vegetation": 0.6331,
-      "Moving car": 8.8652,
-      "Static car": 9.5984,
+      "Background clutter": 10.0249,
+      "Building": 51.7191,
+      "Road": 21.1796,
+      "Tree": 12.2697,
+      "Low vegetation": 2.8688,
+      "Moving car": 1.2542,
+      "Static car": 0.6836,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000300.png",
     "split": "test",
-    "insight": "Image: seq39_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (23.8%). Road: 16.8%. Building: 9.0%. Inference time: 0.93s.",
+    "insight": "Image: seq39_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (31.1%). Road: 22.2%. Building: 31.1%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 23.7757,
-      "Building": 8.9664,
-      "Road": 16.8021,
-      "Tree": 22.1113,
-      "Low vegetation": 0.6867,
-      "Moving car": 15.0191,
-      "Static car": 11.2459,
-      "Human": 1.3927
+      "Background clutter": 23.0667,
+      "Building": 31.055,
+      "Road": 22.1863,
+      "Tree": 15.7095,
+      "Low vegetation": 6.0936,
+      "Moving car": 1.7658,
+      "Static car": 0.1231,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000400.png",
     "split": "test",
-    "insight": "Image: seq39_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (22.9%). Road: 13.7%. Building: 11.5%. Inference time: 0.94s.",
+    "insight": "Image: seq39_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (31.4%). Road: 20.0%. Building: 31.4%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 21.9039,
-      "Building": 11.467,
-      "Road": 13.74,
-      "Tree": 22.859,
-      "Low vegetation": 1.2182,
-      "Moving car": 16.663,
-      "Static car": 10.8551,
-      "Human": 1.2938
+      "Background clutter": 13.4605,
+      "Building": 31.4007,
+      "Road": 19.9853,
+      "Tree": 25.2479,
+      "Low vegetation": 8.0941,
+      "Moving car": 1.7857,
+      "Static car": 0.0258,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000500.png",
     "split": "test",
-    "insight": "Image: seq39_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (23.4%). Road: 14.1%. Building: 15.7%. Inference time: 1.01s.",
+    "insight": "Image: seq39_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (33.8%). Road: 20.2%. Building: 33.8%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 19.6684,
-      "Building": 15.7251,
-      "Road": 14.075,
-      "Tree": 23.3663,
-      "Low vegetation": 0.4383,
-      "Moving car": 14.7193,
-      "Static car": 10.5889,
-      "Human": 1.4186
+      "Background clutter": 13.0824,
+      "Building": 33.8023,
+      "Road": 20.2386,
+      "Tree": 23.6483,
+      "Low vegetation": 7.7606,
+      "Moving car": 1.2853,
+      "Static car": 0.1825,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000600.png",
     "split": "test",
-    "insight": "Image: seq39_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (27.7%). Road: 20.1%. Building: 7.3%. Inference time: 0.93s.",
+    "insight": "Image: seq39_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (27.4%). Road: 22.9%. Building: 27.4%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 22.186,
-      "Building": 7.3042,
-      "Road": 20.0507,
-      "Tree": 27.6669,
-      "Low vegetation": 0.6848,
-      "Moving car": 10.1059,
-      "Static car": 11.9836,
-      "Human": 0.0179
+      "Background clutter": 18.0436,
+      "Building": 27.4205,
+      "Road": 22.9489,
+      "Tree": 21.3619,
+      "Low vegetation": 9.3125,
+      "Moving car": 0.751,
+      "Static car": 0.1617,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000700.png",
     "split": "test",
-    "insight": "Image: seq39_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (29.6%). Road: 12.4%. Building: 15.6%. Inference time: 1.02s.",
+    "insight": "Image: seq39_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Building (22.5%). Road: 21.8%. Building: 22.5%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 19.4593,
-      "Building": 15.5567,
-      "Road": 12.4387,
-      "Tree": 29.6086,
-      "Low vegetation": 0.1283,
-      "Moving car": 6.4981,
-      "Static car": 15.0039,
-      "Human": 1.3065
+      "Background clutter": 20.4988,
+      "Building": 22.4778,
+      "Road": 21.7955,
+      "Tree": 21.1885,
+      "Low vegetation": 12.8345,
+      "Moving car": 1.1017,
+      "Static car": 0.1032,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000800.png",
     "split": "test",
-    "insight": "Image: seq39_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.2%). Road: 10.8%. Building: 5.9%. Inference time: 1.03s.",
+    "insight": "Image: seq39_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (25.4%). Road: 25.4%. Building: 23.8%. Inference time: 0.98s.",
     "class_stats": {
-      "Background clutter": 19.4242,
-      "Building": 5.8991,
-      "Road": 10.7504,
-      "Tree": 38.1501,
-      "Low vegetation": 0.2618,
-      "Moving car": 14.4703,
-      "Static car": 10.7535,
-      "Human": 0.2907
+      "Background clutter": 24.2527,
+      "Building": 23.7521,
+      "Road": 25.4468,
+      "Tree": 19.4138,
+      "Low vegetation": 6.3902,
+      "Moving car": 0.4145,
+      "Static car": 0.3299,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq39_000900.png",
     "split": "test",
-    "insight": "Image: seq39_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (35.8%). Road: 8.1%. Building: 13.3%. Inference time: 0.98s.",
+    "insight": "Image: seq39_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (31.9%). Road: 21.4%. Building: 30.1%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 23.1699,
-      "Building": 13.3403,
-      "Road": 8.1375,
-      "Tree": 35.8403,
-      "Low vegetation": 0.0363,
-      "Moving car": 11.9477,
-      "Static car": 7.0469,
-      "Human": 0.4811
+      "Background clutter": 31.8983,
+      "Building": 30.1339,
+      "Road": 21.3756,
+      "Tree": 9.5934,
+      "Low vegetation": 6.7506,
+      "Moving car": 0.0953,
+      "Static car": 0.153,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000000.png",
     "split": "test",
-    "insight": "Image: seq40_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (20.2%). Road: 18.9%. Building: 6.1%. Inference time: 0.98s.",
+    "insight": "Image: seq40_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (31.4%). Road: 11.2%. Building: 7.4%. Inference time: 1.01s.",
     "class_stats": {
-      "Background clutter": 19.7728,
-      "Building": 6.0502,
-      "Road": 18.9032,
-      "Tree": 15.0127,
-      "Low vegetation": 0.0012,
-      "Moving car": 20.1777,
-      "Static car": 11.5999,
-      "Human": 8.4824
+      "Background clutter": 25.1541,
+      "Building": 7.3985,
+      "Road": 11.2259,
+      "Tree": 24.6292,
+      "Low vegetation": 31.397,
+      "Moving car": 0.1831,
+      "Static car": 0.0122,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000100.png",
     "split": "test",
-    "insight": "Image: seq40_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (20.5%). Road: 17.4%. Building: 6.2%. Inference time: 1.03s.",
+    "insight": "Image: seq40_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (33.9%). Road: 11.5%. Building: 4.9%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 18.936,
-      "Building": 6.2467,
-      "Road": 17.3665,
-      "Tree": 17.7392,
-      "Low vegetation": 0.0619,
-      "Moving car": 20.4606,
-      "Static car": 13.5594,
-      "Human": 5.6296
+      "Background clutter": 22.9223,
+      "Building": 4.8787,
+      "Road": 11.5095,
+      "Tree": 26.4832,
+      "Low vegetation": 33.9132,
+      "Moving car": 0.2932,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000200.png",
     "split": "test",
-    "insight": "Image: seq40_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (20.9%). Road: 20.9%. Building: 5.8%. Inference time: 1.02s.",
+    "insight": "Image: seq40_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (30.7%). Road: 12.8%. Building: 2.5%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 16.2465,
-      "Building": 5.7506,
-      "Road": 20.8611,
-      "Tree": 16.3924,
-      "Low vegetation": 0.0781,
-      "Moving car": 19.028,
-      "Static car": 14.3582,
-      "Human": 7.2851
+      "Background clutter": 25.8931,
+      "Building": 2.4934,
+      "Road": 12.7581,
+      "Tree": 27.6032,
+      "Low vegetation": 30.7014,
+      "Moving car": 0.5278,
+      "Static car": 0.023,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000300.png",
     "split": "test",
-    "insight": "Image: seq40_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Moving car (26.0%). Road: 20.3%. Building: 8.3%. Inference time: 1.03s.",
+    "insight": "Image: seq40_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (28.7%). Road: 13.7%. Building: 4.0%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 6.1194,
-      "Building": 8.2583,
-      "Road": 20.3084,
-      "Tree": 22.0149,
-      "Low vegetation": 0.0235,
-      "Moving car": 25.9516,
-      "Static car": 13.1123,
-      "Human": 4.2116
+      "Background clutter": 27.2932,
+      "Building": 3.9578,
+      "Road": 13.685,
+      "Tree": 28.6869,
+      "Low vegetation": 25.6624,
+      "Moving car": 0.6887,
+      "Static car": 0.026,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000400.png",
     "split": "test",
-    "insight": "Image: seq40_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (22.9%). Road: 17.8%. Building: 10.4%. Inference time: 1.07s.",
+    "insight": "Image: seq40_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (30.7%). Road: 12.8%. Building: 3.7%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 8.8904,
-      "Building": 10.4481,
-      "Road": 17.8445,
-      "Tree": 22.9101,
-      "Low vegetation": 0.141,
-      "Moving car": 21.2215,
-      "Static car": 13.3349,
-      "Human": 5.2095
+      "Background clutter": 30.6838,
+      "Building": 3.6553,
+      "Road": 12.7814,
+      "Tree": 28.4307,
+      "Low vegetation": 23.7357,
+      "Moving car": 0.5359,
+      "Static car": 0.1771,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000500.png",
     "split": "test",
-    "insight": "Image: seq40_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (28.2%). Road: 14.6%. Building: 8.7%. Inference time: 1.12s.",
+    "insight": "Image: seq40_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.6%). Road: 15.5%. Building: 3.6%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 4.0035,
-      "Building": 8.7323,
-      "Road": 14.588,
-      "Tree": 28.1644,
-      "Low vegetation": 0.1628,
-      "Moving car": 18.3702,
-      "Static car": 23.2087,
-      "Human": 2.7703
+      "Background clutter": 27.2984,
+      "Building": 3.5993,
+      "Road": 15.4803,
+      "Tree": 30.5804,
+      "Low vegetation": 22.3139,
+      "Moving car": 0.6684,
+      "Static car": 0.0592,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000600.png",
     "split": "test",
-    "insight": "Image: seq40_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (28.4%). Road: 10.2%. Building: 13.2%. Inference time: 1.07s.",
+    "insight": "Image: seq40_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.4%). Road: 18.3%. Building: 4.1%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 4.3816,
-      "Building": 13.1784,
-      "Road": 10.1707,
-      "Tree": 28.4174,
-      "Low vegetation": 0.0571,
-      "Moving car": 18.0673,
-      "Static car": 23.6806,
-      "Human": 2.0469
+      "Background clutter": 22.8418,
+      "Building": 4.0586,
+      "Road": 18.2795,
+      "Tree": 33.4051,
+      "Low vegetation": 20.4929,
+      "Moving car": 0.7948,
+      "Static car": 0.1273,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000700.png",
     "split": "test",
-    "insight": "Image: seq40_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Static car (37.1%). Road: 6.1%. Building: 14.4%. Inference time: 1.06s.",
+    "insight": "Image: seq40_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.0%). Road: 23.9%. Building: 2.4%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 6.5943,
-      "Building": 14.3702,
-      "Road": 6.0542,
-      "Tree": 19.4815,
-      "Low vegetation": 0.0,
-      "Moving car": 15.1373,
-      "Static car": 37.1001,
-      "Human": 1.2623
+      "Background clutter": 19.0791,
+      "Building": 2.3501,
+      "Road": 23.9215,
+      "Tree": 32.0098,
+      "Low vegetation": 21.5924,
+      "Moving car": 0.9936,
+      "Static car": 0.0534,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000800.png",
     "split": "test",
-    "insight": "Image: seq40_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Static car (23.9%). Road: 6.2%. Building: 16.6%. Inference time: 1.16s.",
+    "insight": "Image: seq40_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.9%). Road: 21.7%. Building: 0.3%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 11.3356,
-      "Building": 16.5835,
-      "Road": 6.1952,
-      "Tree": 17.1929,
-      "Low vegetation": 0.0,
-      "Moving car": 19.6566,
-      "Static car": 23.8918,
-      "Human": 5.1443
+      "Background clutter": 17.6686,
+      "Building": 0.2685,
+      "Road": 21.6919,
+      "Tree": 30.891,
+      "Low vegetation": 27.9767,
+      "Moving car": 1.3459,
+      "Static car": 0.1574,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq40_000900.png",
     "split": "test",
-    "insight": "Image: seq40_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (29.1%). Road: 10.1%. Building: 7.1%. Inference time: 1.14s.",
+    "insight": "Image: seq40_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Low vegetation (36.6%). Road: 18.0%. Building: 0.5%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 11.3349,
-      "Building": 7.1485,
-      "Road": 10.1308,
-      "Tree": 29.0563,
-      "Low vegetation": 0.0,
-      "Moving car": 18.7949,
-      "Static car": 13.9869,
-      "Human": 9.5476
+      "Background clutter": 17.8839,
+      "Building": 0.4927,
+      "Road": 17.9959,
+      "Tree": 26.3872,
+      "Low vegetation": 36.5716,
+      "Moving car": 0.3943,
+      "Static car": 0.2745,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000000.png",
     "split": "test",
-    "insight": "Image: seq41_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.7%). Road: 10.5%. Building: 3.7%. Inference time: 1.10s.",
+    "insight": "Image: seq41_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (29.3%). Road: 8.9%. Building: 10.4%. Inference time: 0.99s.",
     "class_stats": {
-      "Background clutter": 9.7259,
-      "Building": 3.6811,
-      "Road": 10.4628,
-      "Tree": 33.6931,
-      "Low vegetation": 0.0295,
-      "Moving car": 17.3021,
-      "Static car": 17.1665,
-      "Human": 7.939
+      "Background clutter": 29.2778,
+      "Building": 10.4468,
+      "Road": 8.8804,
+      "Tree": 28.2402,
+      "Low vegetation": 22.359,
+      "Moving car": 0.7604,
+      "Static car": 0.0355,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000100.png",
     "split": "test",
-    "insight": "Image: seq41_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.5%). Road: 16.6%. Building: 6.5%. Inference time: 1.12s.",
+    "insight": "Image: seq41_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (34.3%). Road: 12.0%. Building: 12.7%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 12.4423,
-      "Building": 6.5193,
-      "Road": 16.5993,
-      "Tree": 30.4597,
-      "Low vegetation": 0.1283,
-      "Moving car": 17.4273,
-      "Static car": 14.4269,
-      "Human": 1.9969
+      "Background clutter": 31.7458,
+      "Building": 12.6995,
+      "Road": 12.0365,
+      "Tree": 34.2735,
+      "Low vegetation": 7.5858,
+      "Moving car": 1.2431,
+      "Static car": 0.4159,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000200.png",
     "split": "test",
-    "insight": "Image: seq41_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (24.0%). Road: 17.1%. Building: 9.3%. Inference time: 0.96s.",
+    "insight": "Image: seq41_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (37.9%). Road: 14.8%. Building: 9.0%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 15.9144,
-      "Building": 9.2764,
-      "Road": 17.0712,
-      "Tree": 24.0158,
-      "Low vegetation": 0.0145,
-      "Moving car": 20.6345,
-      "Static car": 12.4304,
-      "Human": 0.6429
+      "Background clutter": 37.8611,
+      "Building": 8.9988,
+      "Road": 14.7992,
+      "Tree": 30.8318,
+      "Low vegetation": 5.0529,
+      "Moving car": 1.6834,
+      "Static car": 0.7728,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000300.png",
     "split": "test",
-    "insight": "Image: seq41_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (26.2%). Road: 15.7%. Building: 7.1%. Inference time: 0.94s.",
+    "insight": "Image: seq41_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (40.9%). Road: 11.6%. Building: 6.6%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 26.2321,
-      "Building": 7.0934,
-      "Road": 15.7301,
-      "Tree": 20.072,
-      "Low vegetation": 0.0023,
-      "Moving car": 12.0498,
-      "Static car": 18.6665,
-      "Human": 0.1539
+      "Background clutter": 40.8866,
+      "Building": 6.6179,
+      "Road": 11.6387,
+      "Tree": 34.6501,
+      "Low vegetation": 4.0079,
+      "Moving car": 1.881,
+      "Static car": 0.3179,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000400.png",
     "split": "test",
-    "insight": "Image: seq41_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Static car (34.0%). Road: 7.3%. Building: 3.0%. Inference time: 1.04s.",
+    "insight": "Image: seq41_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (41.7%). Road: 5.1%. Building: 6.3%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 17.1923,
-      "Building": 2.9734,
-      "Road": 7.3438,
-      "Tree": 26.6555,
-      "Low vegetation": 0.05,
-      "Moving car": 10.3586,
-      "Static car": 33.9726,
-      "Human": 1.4539
+      "Background clutter": 37.43,
+      "Building": 6.3235,
+      "Road": 5.1431,
+      "Tree": 41.7176,
+      "Low vegetation": 7.1142,
+      "Moving car": 2.2716,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000500.png",
     "split": "test",
-    "insight": "Image: seq41_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.8%). Road: 8.9%. Building: 0.9%. Inference time: 0.96s.",
+    "insight": "Image: seq41_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (40.3%). Road: 5.0%. Building: 7.5%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 20.3985,
-      "Building": 0.9097,
-      "Road": 8.8669,
-      "Tree": 30.7643,
-      "Low vegetation": 0.0,
-      "Moving car": 9.374,
-      "Static car": 29.3509,
-      "Human": 0.3356
+      "Background clutter": 40.3056,
+      "Building": 7.5021,
+      "Road": 4.9633,
+      "Tree": 37.4886,
+      "Low vegetation": 7.5268,
+      "Moving car": 2.2135,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000600.png",
     "split": "test",
-    "insight": "Image: seq41_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (31.4%). Road: 9.9%. Building: 2.6%. Inference time: 0.93s.",
+    "insight": "Image: seq41_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (42.5%). Road: 4.3%. Building: 7.6%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 17.7405,
-      "Building": 2.6273,
-      "Road": 9.9035,
-      "Tree": 31.4003,
-      "Low vegetation": 0.0733,
-      "Moving car": 13.3613,
-      "Static car": 24.1833,
-      "Human": 0.7105
+      "Background clutter": 42.5231,
+      "Building": 7.5864,
+      "Road": 4.3185,
+      "Tree": 39.2595,
+      "Low vegetation": 3.6157,
+      "Moving car": 2.6964,
+      "Static car": 0.0004,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000700.png",
     "split": "test",
-    "insight": "Image: seq41_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (40.5%). Road: 6.5%. Building: 2.6%. Inference time: 0.95s.",
+    "insight": "Image: seq41_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (43.4%). Road: 5.5%. Building: 7.8%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 18.6103,
-      "Building": 2.5938,
-      "Road": 6.5386,
-      "Tree": 40.5,
-      "Low vegetation": 0.0,
-      "Moving car": 8.1638,
-      "Static car": 21.9045,
-      "Human": 1.689
+      "Background clutter": 43.4307,
+      "Building": 7.7562,
+      "Road": 5.5222,
+      "Tree": 38.4456,
+      "Low vegetation": 2.8914,
+      "Moving car": 1.9539,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000800.png",
     "split": "test",
-    "insight": "Image: seq41_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (34.1%). Road: 12.1%. Building: 9.2%. Inference time: 0.93s.",
+    "insight": "Image: seq41_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (52.2%). Road: 6.3%. Building: 12.3%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 25.2087,
-      "Building": 9.1784,
-      "Road": 12.14,
-      "Tree": 34.1148,
-      "Low vegetation": 0.0,
-      "Moving car": 7.1804,
-      "Static car": 12.1377,
-      "Human": 0.0399
+      "Background clutter": 52.2481,
+      "Building": 12.3466,
+      "Road": 6.3457,
+      "Tree": 25.1113,
+      "Low vegetation": 1.8488,
+      "Moving car": 2.0995,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq41_000900.png",
     "split": "test",
-    "insight": "Image: seq41_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.1%). Road: 15.0%. Building: 6.3%. Inference time: 0.93s.",
+    "insight": "Image: seq41_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (38.5%). Road: 4.7%. Building: 16.9%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 17.8964,
-      "Building": 6.3166,
-      "Road": 15.0469,
-      "Tree": 30.0658,
-      "Low vegetation": 1.3492,
-      "Moving car": 17.2577,
-      "Static car": 11.9796,
-      "Human": 0.088
+      "Background clutter": 35.8088,
+      "Building": 16.8675,
+      "Road": 4.7083,
+      "Tree": 38.548,
+      "Low vegetation": 2.3447,
+      "Moving car": 1.7226,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000000.png",
     "split": "test",
-    "insight": "Image: seq42_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (32.2%). Road: 13.4%. Building: 10.1%. Inference time: 0.99s.",
+    "insight": "Image: seq42_000000.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (41.1%). Road: 16.0%. Building: 0.9%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 6.091,
-      "Building": 10.1337,
-      "Road": 13.3769,
-      "Tree": 32.1802,
-      "Low vegetation": 0.0,
-      "Moving car": 24.3399,
-      "Static car": 12.1204,
-      "Human": 1.7579
+      "Background clutter": 29.147,
+      "Building": 0.8702,
+      "Road": 15.9971,
+      "Tree": 41.1478,
+      "Low vegetation": 12.3237,
+      "Moving car": 0.4684,
+      "Static car": 0.0459,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000100.png",
     "split": "test",
-    "insight": "Image: seq42_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (33.9%). Road: 12.6%. Building: 7.7%. Inference time: 0.92s.",
+    "insight": "Image: seq42_000100.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (41.0%). Road: 13.1%. Building: 1.1%. Inference time: 0.96s.",
     "class_stats": {
-      "Background clutter": 9.053,
-      "Building": 7.7195,
-      "Road": 12.6225,
-      "Tree": 33.8885,
-      "Low vegetation": 0.0002,
-      "Moving car": 20.6007,
-      "Static car": 14.8247,
-      "Human": 1.2909
+      "Background clutter": 40.9716,
+      "Building": 1.1032,
+      "Road": 13.1142,
+      "Tree": 34.5239,
+      "Low vegetation": 9.8783,
+      "Moving car": 0.4088,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000200.png",
     "split": "test",
-    "insight": "Image: seq42_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (34.1%). Road: 9.2%. Building: 9.8%. Inference time: 0.96s.",
+    "insight": "Image: seq42_000200.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (33.9%). Road: 16.6%. Building: 0.3%. Inference time: 0.93s.",
     "class_stats": {
-      "Background clutter": 16.6364,
-      "Building": 9.8399,
-      "Road": 9.1711,
-      "Tree": 34.0644,
-      "Low vegetation": 0.1705,
-      "Moving car": 20.9113,
-      "Static car": 6.7463,
-      "Human": 2.4601
+      "Background clutter": 33.9466,
+      "Building": 0.3237,
+      "Road": 16.6441,
+      "Tree": 27.7521,
+      "Low vegetation": 20.6634,
+      "Moving car": 0.6204,
+      "Static car": 0.0498,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000300.png",
     "split": "test",
-    "insight": "Image: seq42_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (44.7%). Road: 9.4%. Building: 3.7%. Inference time: 0.97s.",
+    "insight": "Image: seq42_000300.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (38.7%). Road: 19.0%. Building: 1.1%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 9.5216,
-      "Building": 3.6765,
-      "Road": 9.4439,
-      "Tree": 44.7016,
-      "Low vegetation": 0.0,
-      "Moving car": 19.6026,
-      "Static car": 11.7216,
-      "Human": 1.3322
+      "Background clutter": 38.7342,
+      "Building": 1.0953,
+      "Road": 18.9834,
+      "Tree": 28.6669,
+      "Low vegetation": 12.1838,
+      "Moving car": 0.3364,
+      "Static car": 0.0,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000400.png",
     "split": "test",
-    "insight": "Image: seq42_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.4%). Road: 9.8%. Building: 1.6%. Inference time: 0.93s.",
+    "insight": "Image: seq42_000400.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (53.0%). Road: 17.2%. Building: 0.0%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 24.332,
-      "Building": 1.5569,
-      "Road": 9.798,
-      "Tree": 30.4192,
-      "Low vegetation": 0.2514,
-      "Moving car": 23.7133,
-      "Static car": 9.9288,
-      "Human": 0.0004
+      "Background clutter": 53.0023,
+      "Building": 0.0,
+      "Road": 17.1634,
+      "Tree": 15.6512,
+      "Low vegetation": 13.0349,
+      "Moving car": 1.1395,
+      "Static car": 0.0087,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000500.png",
     "split": "test",
-    "insight": "Image: seq42_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (31.8%). Road: 31.8%. Building: 3.4%. Inference time: 1.09s.",
+    "insight": "Image: seq42_000500.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (57.1%). Road: 12.5%. Building: 3.8%. Inference time: 0.90s.",
     "class_stats": {
-      "Background clutter": 17.9138,
-      "Building": 3.4055,
-      "Road": 31.8403,
-      "Tree": 30.1119,
-      "Low vegetation": 0.0741,
-      "Moving car": 13.4155,
-      "Static car": 3.2355,
-      "Human": 0.0035
+      "Background clutter": 57.0814,
+      "Building": 3.7949,
+      "Road": 12.466,
+      "Tree": 19.6148,
+      "Low vegetation": 5.9435,
+      "Moving car": 1.0909,
+      "Static car": 0.0085,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000600.png",
     "split": "test",
-    "insight": "Image: seq42_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Road (25.5%). Road: 25.5%. Building: 6.4%. Inference time: 0.98s.",
+    "insight": "Image: seq42_000600.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (54.0%). Road: 10.6%. Building: 4.6%. Inference time: 0.91s.",
     "class_stats": {
-      "Background clutter": 25.3241,
-      "Building": 6.391,
-      "Road": 25.4973,
-      "Tree": 22.0158,
-      "Low vegetation": 0.0,
-      "Moving car": 15.57,
-      "Static car": 5.2018,
+      "Background clutter": 53.9792,
+      "Building": 4.6294,
+      "Road": 10.6489,
+      "Tree": 24.6001,
+      "Low vegetation": 5.075,
+      "Moving car": 0.9363,
+      "Static car": 0.131,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000700.png",
     "split": "test",
-    "insight": "Image: seq42_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (39.0%). Road: 16.2%. Building: 10.9%. Inference time: 0.93s.",
+    "insight": "Image: seq42_000700.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (49.5%). Road: 12.1%. Building: 7.3%. Inference time: 0.94s.",
     "class_stats": {
-      "Background clutter": 38.9645,
-      "Building": 10.9315,
-      "Road": 16.1555,
-      "Tree": 14.1607,
-      "Low vegetation": 0.7957,
-      "Moving car": 11.6483,
-      "Static car": 7.3438,
+      "Background clutter": 49.5363,
+      "Building": 7.2724,
+      "Road": 12.0947,
+      "Tree": 23.0002,
+      "Low vegetation": 6.9541,
+      "Moving car": 0.7105,
+      "Static car": 0.4319,
       "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000800.png",
     "split": "test",
-    "insight": "Image: seq42_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (24.1%). Road: 13.5%. Building: 17.3%. Inference time: 0.92s.",
+    "insight": "Image: seq42_000800.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (35.5%). Road: 18.2%. Building: 5.7%. Inference time: 0.92s.",
     "class_stats": {
-      "Background clutter": 24.0588,
-      "Building": 17.3407,
-      "Road": 13.5089,
-      "Tree": 19.1476,
-      "Low vegetation": 0.2712,
-      "Moving car": 15.4888,
-      "Static car": 10.1341,
-      "Human": 0.05
+      "Background clutter": 35.4506,
+      "Building": 5.6854,
+      "Road": 18.163,
+      "Tree": 27.7637,
+      "Low vegetation": 11.6188,
+      "Moving car": 1.189,
+      "Static car": 0.1294,
+      "Human": 0.0
     }
   },
   {
     "image_name": "seq42_000900.png",
     "split": "test",
-    "insight": "Image: seq42_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Background clutter (22.8%). Road: 7.9%. Building: 20.3%. Inference time: 1.04s.",
+    "insight": "Image: seq42_000900.png [test]. SegFormer-B0 prediction (no GT label). Dominant: Tree (30.4%). Road: 16.9%. Building: 2.5%. Inference time: 0.89s.",
     "class_stats": {
-      "Background clutter": 22.7876,
-      "Building": 20.3389,
-      "Road": 7.8891,
-      "Tree": 20.9416,
-      "Low vegetation": 0.005,
-      "Moving car": 14.3966,
-      "Static car": 12.311,
-      "Human": 1.3302
+      "Background clutter": 29.0666,
+      "Building": 2.5455,
+      "Road": 16.9307,
+      "Tree": 30.3926,
+      "Low vegetation": 20.233,
+      "Moving car": 0.8113,
+      "Static car": 0.0203,
+      "Human": 0.0
     }
   }
 ]

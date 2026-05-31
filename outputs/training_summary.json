@@ -1,0 +1,30 @@
+{
+  "model": "SegFormer-B0 (nvidia/mit-b0)",
+  "dataset": "Modified UAVid",
+  "num_classes": 8,
+  "best_val_miou": 40.2037,
+  "final_train_loss": 0.654256,
+  "epochs_trained": 20,
+  "config": {
+    "image_size": 512,
+    "batch_size": 2,
+    "gradient_accum": 4,
+    "num_epochs": 20,
+    "lr": 6e-05,
+    "warmup_epochs": 3,
+    "weight_decay": 0.01,
+    "early_stop_patience": 8,
+    "num_workers": 0,
+    "seed": 42
+  },
+  "class_names": [
+    "Background clutter",
+    "Building",
+    "Road",
+    "Tree",
+    "Low vegetation",
+    "Moving car",
+    "Static car",
+    "Human"
+  ]
+}

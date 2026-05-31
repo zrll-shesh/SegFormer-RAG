@@ -14,17 +14,17 @@
       "Human": 0.0392
     },
     "metrics": {
-      "pixel_accuracy": 11.4726,
-      "mean_iou": 3.8945,
-      "fw_iou": 7.55,
+      "pixel_accuracy": 77.5637,
+      "mean_iou": 48.8645,
+      "fw_iou": 63.9657,
       "per_class_iou": {
-        "Background clutter": 0.8114,
-        "Building": 4.3759,
-        "Road": 24.5636,
-        "Tree": 0.6785,
-        "Low vegetation": 0.0,
-        "Moving car": 0.7243,
-        "Static car": 0.0025,
+        "Background clutter": 49.0172,
+        "Building": 91.5876,
+        "Road": 72.3799,
+        "Tree": 49.6543,
+        "Low vegetation": 65.6725,
+        "Moving car": 45.8052,
+        "Static car": 16.7992,
         "Human": 0.0
       }
     }
@@ -44,17 +44,17 @@
       "Human": 0.0617
     },
     "metrics": {
-      "pixel_accuracy": 11.2033,
-      "mean_iou": 3.0342,
-      "fw_iou": 6.3299,
+      "pixel_accuracy": 82.5338,
+      "mean_iou": 52.0708,
+      "fw_iou": 71.2501,
       "per_class_iou": {
-        "Background clutter": 0.5237,
-        "Building": 6.3476,
-        "Road": 15.1551,
-        "Tree": 0.2191,
-        "Low vegetation": 0.0,
-        "Moving car": 1.8646,
-        "Static car": 0.1635,
+        "Background clutter": 38.7288,
+        "Building": 92.8786,
+        "Road": 80.5472,
+        "Tree": 61.9356,
+        "Low vegetation": 70.3258,
+        "Moving car": 46.152,
+        "Static car": 25.9989,
         "Human": 0.0
       }
     }
@@ -74,17 +74,17 @@
       "Human": 0.0436
     },
     "metrics": {
-      "pixel_accuracy": 10.3657,
-      "mean_iou": 2.0098,
-      "fw_iou": 4.8725,
+      "pixel_accuracy": 86.4635,
+      "mean_iou": 54.1615,
+      "fw_iou": 77.5933,
       "per_class_iou": {
-        "Background clutter": 0.3479,
-        "Building": 7.8256,
-        "Road": 7.7722,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.1328,
+        "Background clutter": 31.7004,
+        "Building": 92.4732,
+        "Road": 86.2642,
+        "Tree": 75.8103,
+        "Low vegetation": 63.3383,
+        "Moving car": 47.6766,
+        "Static car": 36.0289,
         "Human": 0.0
       }
     }
@@ -104,17 +104,17 @@
       "Human": 0.0478
     },
     "metrics": {
-      "pixel_accuracy": 8.7151,
-      "mean_iou": 2.2127,
-      "fw_iou": 4.8734,
+      "pixel_accuracy": 85.7284,
+      "mean_iou": 53.3957,
+      "fw_iou": 76.0774,
       "per_class_iou": {
-        "Background clutter": 1.4428,
-        "Building": 4.6753,
-        "Road": 9.4017,
-        "Tree": 0.6988,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 1.483,
+        "Background clutter": 34.7842,
+        "Building": 89.885,
+        "Road": 84.4537,
+        "Tree": 81.7894,
+        "Low vegetation": 51.9309,
+        "Moving car": 48.8073,
+        "Static car": 35.5147,
         "Human": 0.0
       }
     }
@@ -134,17 +134,17 @@
       "Human": 0.0428
     },
     "metrics": {
-      "pixel_accuracy": 15.6503,
-      "mean_iou": 4.0982,
-      "fw_iou": 10.9497,
+      "pixel_accuracy": 84.1615,
+      "mean_iou": 50.158,
+      "fw_iou": 73.8373,
       "per_class_iou": {
-        "Background clutter": 2.3182,
-        "Building": 4.7671,
-        "Road": 24.3433,
-        "Tree": 0.8578,
-        "Low vegetation": 0.0,
-        "Moving car": 0.2539,
-        "Static car": 0.2449,
+        "Background clutter": 52.0026,
+        "Building": 87.667,
+        "Road": 84.7599,
+        "Tree": 74.6731,
+        "Low vegetation": 56.7841,
+        "Moving car": 44.4863,
+        "Static car": 0.8911,
         "Human": 0.0
       }
     }
@@ -164,17 +164,17 @@
       "Human": 0.0347
     },
     "metrics": {
-      "pixel_accuracy": 10.0963,
-      "mean_iou": 2.5151,
-      "fw_iou": 3.9022,
+      "pixel_accuracy": 85.6206,
+      "mean_iou": 55.5353,
+      "fw_iou": 75.2157,
       "per_class_iou": {
-        "Background clutter": 2.896,
-        "Building": 8.2143,
-        "Road": 8.3109,
-        "Tree": 0.6996,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 68.9127,
+        "Building": 91.4019,
+        "Road": 78.9126,
+        "Tree": 71.9001,
+        "Low vegetation": 73.1624,
+        "Moving car": 22.5268,
+        "Static car": 37.4661,
         "Human": 0.0
       }
     }
@@ -194,17 +194,17 @@
       "Human": 0.0729
     },
     "metrics": {
-      "pixel_accuracy": 13.0675,
-      "mean_iou": 2.9996,
-      "fw_iou": 5.6825,
+      "pixel_accuracy": 85.0932,
+      "mean_iou": 52.5792,
+      "fw_iou": 75.3451,
       "per_class_iou": {
-        "Background clutter": 7.9292,
-        "Building": 11.4779,
-        "Road": 3.8831,
-        "Tree": 0.2568,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.4495,
+        "Background clutter": 71.4371,
+        "Building": 89.3826,
+        "Road": 77.6182,
+        "Tree": 76.0174,
+        "Low vegetation": 36.3997,
+        "Moving car": 35.0749,
+        "Static car": 34.704,
         "Human": 0.0
       }
     }
@@ -224,17 +224,17 @@
       "Human": 0.0862
     },
     "metrics": {
-      "pixel_accuracy": 13.0978,
-      "mean_iou": 3.5222,
-      "fw_iou": 4.6457,
+      "pixel_accuracy": 81.5993,
+      "mean_iou": 45.4717,
+      "fw_iou": 68.9587,
       "per_class_iou": {
-        "Background clutter": 2.7141,
-        "Building": 12.8416,
-        "Road": 6.5775,
-        "Tree": 1.7955,
-        "Low vegetation": 0.0,
-        "Moving car": 4.2492,
-        "Static car": 0.0,
+        "Background clutter": 76.9226,
+        "Building": 84.8283,
+        "Road": 29.952,
+        "Tree": 25.188,
+        "Low vegetation": 64.582,
+        "Moving car": 50.9307,
+        "Static car": 31.3699,
         "Human": 0.0
       }
     }
@@ -254,17 +254,17 @@
       "Human": 0.0673
     },
     "metrics": {
-      "pixel_accuracy": 8.9589,
-      "mean_iou": 2.1211,
-      "fw_iou": 3.2051,
+      "pixel_accuracy": 77.8052,
+      "mean_iou": 46.9684,
+      "fw_iou": 64.3689,
       "per_class_iou": {
-        "Background clutter": 1.575,
-        "Building": 7.186,
-        "Road": 7.2275,
-        "Tree": 0.7926,
-        "Low vegetation": 0.1879,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 67.3099,
+        "Building": 83.9318,
+        "Road": 72.4029,
+        "Tree": 40.1452,
+        "Low vegetation": 55.7513,
+        "Moving car": 47.6499,
+        "Static car": 8.5561,
         "Human": 0.0
       }
     }
@@ -284,16 +284,16 @@
       "Human": 0.0556
     },
     "metrics": {
-      "pixel_accuracy": 14.5048,
-      "mean_iou": 3.231,
-      "fw_iou": 5.3132,
+      "pixel_accuracy": 77.929,
+      "mean_iou": 45.9983,
+      "fw_iou": 65.1833,
       "per_class_iou": {
-        "Background clutter": 2.3988,
-        "Building": 12.2934,
-        "Road": 10.5311,
-        "Tree": 0.6172,
-        "Low vegetation": 0.0078,
-        "Moving car": 0.0,
+        "Background clutter": 64.2707,
+        "Building": 85.487,
+        "Road": 77.2659,
+        "Tree": 40.4782,
+        "Low vegetation": 51.9492,
+        "Moving car": 48.5354,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -314,18 +314,18 @@
       "Human": 0.1572
     },
     "metrics": {
-      "pixel_accuracy": 16.2731,
-      "mean_iou": 2.6436,
-      "fw_iou": 3.9281,
+      "pixel_accuracy": 83.1318,
+      "mean_iou": 43.6549,
+      "fw_iou": 71.4273,
       "per_class_iou": {
-        "Background clutter": 4.7813,
-        "Building": 16.1016,
-        "Road": 0.0603,
-        "Tree": 0.039,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 40.5827,
+        "Building": 80.2728,
+        "Road": 68.4184,
+        "Tree": 82.6867,
+        "Low vegetation": 48.3979,
+        "Moving car": 28.8809,
         "Static car": 0.0,
-        "Human": 0.1662
+        "Human": 0.0
       }
     }
   },
@@ -344,18 +344,18 @@
       "Human": 0.136
     },
     "metrics": {
-      "pixel_accuracy": 17.7249,
-      "mean_iou": 2.5433,
-      "fw_iou": 3.6963,
+      "pixel_accuracy": 82.9132,
+      "mean_iou": 45.7448,
+      "fw_iou": 71.9436,
       "per_class_iou": {
-        "Background clutter": 0.0487,
-        "Building": 18.3213,
-        "Road": 1.5969,
-        "Tree": 0.3539,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0255
+        "Background clutter": 31.0381,
+        "Building": 77.7743,
+        "Road": 64.987,
+        "Tree": 84.2301,
+        "Low vegetation": 51.3863,
+        "Moving car": 32.5478,
+        "Static car": 23.995,
+        "Human": 0.0
       }
     }
   },
@@ -374,16 +374,16 @@
       "Human": 0.1738
     },
     "metrics": {
-      "pixel_accuracy": 18.1771,
-      "mean_iou": 2.7816,
-      "fw_iou": 4.1822,
+      "pixel_accuracy": 81.6358,
+      "mean_iou": 42.7756,
+      "fw_iou": 69.4148,
       "per_class_iou": {
-        "Background clutter": 0.5157,
-        "Building": 18.1483,
-        "Road": 3.5648,
-        "Tree": 0.0241,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 30.0653,
+        "Building": 77.1127,
+        "Road": 66.7767,
+        "Tree": 82.0142,
+        "Low vegetation": 54.5653,
+        "Moving car": 31.6709,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -404,16 +404,16 @@
       "Human": 0.1833
     },
     "metrics": {
-      "pixel_accuracy": 20.6387,
-      "mean_iou": 3.0793,
-      "fw_iou": 5.3749,
+      "pixel_accuracy": 82.6275,
+      "mean_iou": 46.3205,
+      "fw_iou": 70.9048,
       "per_class_iou": {
-        "Background clutter": 0.1638,
-        "Building": 20.6164,
-        "Road": 3.0851,
-        "Tree": 0.7694,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 41.4393,
+        "Building": 80.6157,
+        "Road": 67.6391,
+        "Tree": 80.6467,
+        "Low vegetation": 65.077,
+        "Moving car": 35.146,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -434,16 +434,16 @@
       "Human": 0.148
     },
     "metrics": {
-      "pixel_accuracy": 20.8519,
-      "mean_iou": 4.0104,
-      "fw_iou": 6.7663,
+      "pixel_accuracy": 86.2845,
+      "mean_iou": 49.7817,
+      "fw_iou": 76.0422,
       "per_class_iou": {
-        "Background clutter": 1.4272,
-        "Building": 21.0089,
-        "Road": 7.6955,
-        "Tree": 0.6677,
-        "Low vegetation": 0.0,
-        "Moving car": 1.2839,
+        "Background clutter": 39.2142,
+        "Building": 84.5496,
+        "Road": 75.0106,
+        "Tree": 84.6121,
+        "Low vegetation": 80.7737,
+        "Moving car": 34.0939,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -464,18 +464,18 @@
       "Human": 0.1281
     },
     "metrics": {
-      "pixel_accuracy": 24.9369,
-      "mean_iou": 3.2655,
-      "fw_iou": 7.8654,
+      "pixel_accuracy": 85.5139,
+      "mean_iou": 47.6171,
+      "fw_iou": 75.3257,
       "per_class_iou": {
-        "Background clutter": 0.3681,
-        "Building": 24.9476,
-        "Road": 0.0,
-        "Tree": 0.7673,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 33.9956,
+        "Building": 86.1621,
+        "Road": 62.6435,
+        "Tree": 82.7076,
+        "Low vegetation": 81.4507,
+        "Moving car": 33.9773,
         "Static car": 0.0,
-        "Human": 0.0413
+        "Human": 0.0
       }
     }
   },
@@ -494,18 +494,18 @@
       "Human": 0.1269
     },
     "metrics": {
-      "pixel_accuracy": 26.3123,
-      "mean_iou": 5.107,
-      "fw_iou": 11.5207,
+      "pixel_accuracy": 83.0309,
+      "mean_iou": 46.8828,
+      "fw_iou": 72.0168,
       "per_class_iou": {
-        "Background clutter": 0.5333,
-        "Building": 26.008,
-        "Road": 11.9726,
-        "Tree": 2.205,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.1367
+        "Background clutter": 41.5142,
+        "Building": 88.6668,
+        "Road": 57.441,
+        "Tree": 77.3088,
+        "Low vegetation": 57.3383,
+        "Moving car": 32.7688,
+        "Static car": 20.0245,
+        "Human": 0.0
       }
     }
   },
@@ -524,17 +524,17 @@
       "Human": 0.2687
     },
     "metrics": {
-      "pixel_accuracy": 23.9838,
-      "mean_iou": 3.5595,
-      "fw_iou": 9.9686,
+      "pixel_accuracy": 85.881,
+      "mean_iou": 45.1016,
+      "fw_iou": 76.3425,
       "per_class_iou": {
-        "Background clutter": 0.2596,
-        "Building": 23.9944,
-        "Road": 2.7827,
-        "Tree": 1.4392,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 48.446,
+        "Building": 89.7292,
+        "Road": 52.2886,
+        "Tree": 83.6535,
+        "Low vegetation": 56.0213,
+        "Moving car": 24.4348,
+        "Static car": 6.2393,
         "Human": 0.0
       }
     }
@@ -554,17 +554,17 @@
       "Human": 0.1007
     },
     "metrics": {
-      "pixel_accuracy": 25.6532,
-      "mean_iou": 4.7023,
-      "fw_iou": 11.2429,
+      "pixel_accuracy": 86.2461,
+      "mean_iou": 43.4202,
+      "fw_iou": 76.6602,
       "per_class_iou": {
-        "Background clutter": 0.0038,
-        "Building": 25.4125,
-        "Road": 10.4582,
-        "Tree": 1.6756,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.068,
+        "Background clutter": 52.4092,
+        "Building": 90.2497,
+        "Road": 57.7991,
+        "Tree": 82.6145,
+        "Low vegetation": 19.7892,
+        "Moving car": 34.0004,
+        "Static car": 10.4996,
         "Human": 0.0
       }
     }
@@ -584,16 +584,16 @@
       "Human": 0.1127
     },
     "metrics": {
-      "pixel_accuracy": 29.109,
-      "mean_iou": 3.9234,
-      "fw_iou": 12.6698,
+      "pixel_accuracy": 85.7469,
+      "mean_iou": 42.7488,
+      "fw_iou": 75.5069,
       "per_class_iou": {
-        "Background clutter": 0.0058,
-        "Building": 29.866,
-        "Road": 0.4547,
-        "Tree": 1.0612,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 56.2333,
+        "Building": 88.2459,
+        "Road": 63.8546,
+        "Tree": 80.8015,
+        "Low vegetation": 16.9905,
+        "Moving car": 35.8647,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -614,18 +614,18 @@
       "Human": 0.1368
     },
     "metrics": {
-      "pixel_accuracy": 12.9867,
-      "mean_iou": 2.2924,
-      "fw_iou": 3.4585,
+      "pixel_accuracy": 79.973,
+      "mean_iou": 44.0156,
+      "fw_iou": 67.1435,
       "per_class_iou": {
-        "Background clutter": 0.0603,
-        "Building": 12.1221,
-        "Road": 3.2015,
-        "Tree": 2.921,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0343
+        "Background clutter": 42.377,
+        "Building": 70.1425,
+        "Road": 56.6303,
+        "Tree": 79.3595,
+        "Low vegetation": 70.8487,
+        "Moving car": 32.5892,
+        "Static car": 0.1779,
+        "Human": 0.0
       }
     }
   },
@@ -644,17 +644,17 @@
       "Human": 0.1564
     },
     "metrics": {
-      "pixel_accuracy": 13.5494,
-      "mean_iou": 2.0557,
-      "fw_iou": 2.5198,
+      "pixel_accuracy": 79.9579,
+      "mean_iou": 44.7406,
+      "fw_iou": 67.1388,
       "per_class_iou": {
-        "Background clutter": 0.0291,
-        "Building": 13.5874,
-        "Road": 0.0,
-        "Tree": 0.7596,
-        "Low vegetation": 0.0,
-        "Moving car": 2.0695,
-        "Static car": 0.0,
+        "Background clutter": 42.5322,
+        "Building": 70.0054,
+        "Road": 58.4657,
+        "Tree": 78.9484,
+        "Low vegetation": 77.8928,
+        "Moving car": 29.1889,
+        "Static car": 0.8915,
         "Human": 0.0
       }
     }
@@ -674,17 +674,17 @@
       "Human": 0.1387
     },
     "metrics": {
-      "pixel_accuracy": 13.7105,
-      "mean_iou": 2.9512,
-      "fw_iou": 3.869,
+      "pixel_accuracy": 81.2708,
+      "mean_iou": 46.01,
+      "fw_iou": 69.2377,
       "per_class_iou": {
-        "Background clutter": 3.4053,
-        "Building": 12.5922,
-        "Road": 4.2282,
-        "Tree": 1.6435,
-        "Low vegetation": 0.0,
-        "Moving car": 1.7408,
-        "Static car": 0.0,
+        "Background clutter": 38.853,
+        "Building": 73.5341,
+        "Road": 64.7571,
+        "Tree": 81.4068,
+        "Low vegetation": 83.8889,
+        "Moving car": 24.3231,
+        "Static car": 1.3168,
         "Human": 0.0
       }
     }
@@ -704,17 +704,17 @@
       "Human": 0.1022
     },
     "metrics": {
-      "pixel_accuracy": 12.9726,
-      "mean_iou": 1.8317,
-      "fw_iou": 2.5777,
+      "pixel_accuracy": 81.3983,
+      "mean_iou": 46.8253,
+      "fw_iou": 69.1419,
       "per_class_iou": {
-        "Background clutter": 1.0996,
-        "Building": 13.0279,
-        "Road": 0.148,
-        "Tree": 0.3782,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 37.4281,
+        "Building": 76.2542,
+        "Road": 68.8822,
+        "Tree": 81.607,
+        "Low vegetation": 80.976,
+        "Moving car": 25.2204,
+        "Static car": 4.2349,
         "Human": 0.0
       }
     }
@@ -734,17 +734,17 @@
       "Human": 0.1188
     },
     "metrics": {
-      "pixel_accuracy": 9.3711,
-      "mean_iou": 1.2635,
-      "fw_iou": 1.1329,
+      "pixel_accuracy": 81.1723,
+      "mean_iou": 45.7401,
+      "fw_iou": 69.2784,
       "per_class_iou": {
-        "Background clutter": 0.1629,
-        "Building": 9.5089,
-        "Road": 0.3892,
-        "Tree": 0.0162,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0308,
+        "Background clutter": 39.5478,
+        "Building": 66.0839,
+        "Road": 66.8576,
+        "Tree": 84.6088,
+        "Low vegetation": 80.6165,
+        "Moving car": 28.2063,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -764,17 +764,17 @@
       "Human": 0.1574
     },
     "metrics": {
-      "pixel_accuracy": 7.9437,
-      "mean_iou": 1.6321,
-      "fw_iou": 1.2179,
+      "pixel_accuracy": 82.0258,
+      "mean_iou": 41.8112,
+      "fw_iou": 69.9466,
       "per_class_iou": {
-        "Background clutter": 0.0918,
-        "Building": 7.798,
-        "Road": 1.8541,
-        "Tree": 0.1243,
-        "Low vegetation": 0.0,
-        "Moving car": 3.1597,
-        "Static car": 0.0287,
+        "Background clutter": 48.2344,
+        "Building": 66.2266,
+        "Road": 75.6117,
+        "Tree": 85.2848,
+        "Low vegetation": 28.0551,
+        "Moving car": 31.0771,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -794,17 +794,17 @@
       "Human": 0.1559
     },
     "metrics": {
-      "pixel_accuracy": 7.886,
-      "mean_iou": 1.837,
-      "fw_iou": 1.4051,
+      "pixel_accuracy": 81.64,
+      "mean_iou": 40.4461,
+      "fw_iou": 69.6794,
       "per_class_iou": {
-        "Background clutter": 1.4441,
-        "Building": 7.63,
-        "Road": 1.988,
-        "Tree": 0.1559,
-        "Low vegetation": 0.0,
-        "Moving car": 3.4783,
-        "Static car": 0.0,
+        "Background clutter": 41.6497,
+        "Building": 64.3067,
+        "Road": 74.3247,
+        "Tree": 84.4243,
+        "Low vegetation": 25.6362,
+        "Moving car": 32.479,
+        "Static car": 0.748,
         "Human": 0.0
       }
     }
@@ -824,17 +824,17 @@
       "Human": 0.1418
     },
     "metrics": {
-      "pixel_accuracy": 7.652,
-      "mean_iou": 1.0493,
-      "fw_iou": 0.7007,
+      "pixel_accuracy": 82.7471,
+      "mean_iou": 40.7223,
+      "fw_iou": 71.2658,
       "per_class_iou": {
-        "Background clutter": 0.0327,
-        "Building": 7.8276,
-        "Road": 0.1774,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.3567,
-        "Static car": 0.0,
+        "Background clutter": 42.2807,
+        "Building": 67.0511,
+        "Road": 73.8705,
+        "Tree": 86.0921,
+        "Low vegetation": 30.8944,
+        "Moving car": 25.0504,
+        "Static car": 0.5387,
         "Human": 0.0
       }
     }
@@ -854,17 +854,17 @@
       "Human": 0.14
     },
     "metrics": {
-      "pixel_accuracy": 18.7517,
-      "mean_iou": 4.5234,
-      "fw_iou": 5.7391,
+      "pixel_accuracy": 82.6385,
+      "mean_iou": 47.6768,
+      "fw_iou": 71.5217,
       "per_class_iou": {
-        "Background clutter": 0.0523,
-        "Building": 16.5683,
-        "Road": 13.6022,
-        "Tree": 1.0506,
-        "Low vegetation": 0.0,
-        "Moving car": 4.914,
-        "Static car": 0.0,
+        "Background clutter": 40.497,
+        "Building": 74.6439,
+        "Road": 68.6669,
+        "Tree": 86.2055,
+        "Low vegetation": 27.4907,
+        "Moving car": 47.2578,
+        "Static car": 36.6525,
         "Human": 0.0
       }
     }
@@ -884,17 +884,17 @@
       "Human": 0.1406
     },
     "metrics": {
-      "pixel_accuracy": 18.7396,
-      "mean_iou": 4.475,
-      "fw_iou": 6.1387,
+      "pixel_accuracy": 80.3625,
+      "mean_iou": 44.6071,
+      "fw_iou": 68.0332,
       "per_class_iou": {
-        "Background clutter": 0.5804,
-        "Building": 15.9125,
-        "Road": 18.9713,
-        "Tree": 0.3358,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 32.3664,
+        "Building": 74.7376,
+        "Road": 69.2375,
+        "Tree": 83.5784,
+        "Low vegetation": 39.6127,
+        "Moving car": 37.0023,
+        "Static car": 20.3216,
         "Human": 0.0
       }
     }
@@ -914,18 +914,18 @@
       "Human": 0.1076
     },
     "metrics": {
-      "pixel_accuracy": 11.1611,
-      "mean_iou": 3.8272,
-      "fw_iou": 2.735,
+      "pixel_accuracy": 76.0611,
+      "mean_iou": 40.9086,
+      "fw_iou": 60.5599,
       "per_class_iou": {
-        "Background clutter": 0.1047,
-        "Building": 10.394,
-        "Road": 18.1941,
-        "Tree": 1.5578,
-        "Low vegetation": 0.3056,
+        "Background clutter": 26.6758,
+        "Building": 72.0854,
+        "Road": 60.0818,
+        "Tree": 57.4375,
+        "Low vegetation": 70.0795,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0615
+        "Human": 0.0
       }
     }
   },
@@ -944,18 +944,18 @@
       "Human": 0.1223
     },
     "metrics": {
-      "pixel_accuracy": 19.7029,
-      "mean_iou": 4.5068,
-      "fw_iou": 5.2175,
+      "pixel_accuracy": 74.5027,
+      "mean_iou": 38.2261,
+      "fw_iou": 60.2845,
       "per_class_iou": {
-        "Background clutter": 0.2042,
-        "Building": 20.5763,
-        "Road": 14.7586,
-        "Tree": 0.1816,
-        "Low vegetation": 0.2085,
+        "Background clutter": 25.1719,
+        "Building": 75.0345,
+        "Road": 33.2429,
+        "Tree": 71.3008,
+        "Low vegetation": 56.3045,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.125
+        "Static car": 6.5282,
+        "Human": 0.0
       }
     }
   },
@@ -974,18 +974,18 @@
       "Human": 0.0716
     },
     "metrics": {
-      "pixel_accuracy": 15.5314,
-      "mean_iou": 2.9557,
-      "fw_iou": 3.4809,
+      "pixel_accuracy": 80.4699,
+      "mean_iou": 51.0387,
+      "fw_iou": 67.547,
       "per_class_iou": {
-        "Background clutter": 1.1158,
-        "Building": 18.5925,
-        "Road": 3.3162,
-        "Tree": 0.4264,
-        "Low vegetation": 0.079,
+        "Background clutter": 20.6218,
+        "Building": 73.5603,
+        "Road": 66.0802,
+        "Tree": 75.8154,
+        "Low vegetation": 70.1545,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.1161
+        "Human": 0.0
       }
     }
   },
@@ -1004,18 +1004,18 @@
       "Human": 0.1119
     },
     "metrics": {
-      "pixel_accuracy": 12.2583,
-      "mean_iou": 2.2846,
-      "fw_iou": 2.5737,
+      "pixel_accuracy": 77.6418,
+      "mean_iou": 36.5253,
+      "fw_iou": 64.1219,
       "per_class_iou": {
-        "Background clutter": 1.0655,
-        "Building": 12.2547,
-        "Road": 3.7215,
-        "Tree": 1.1198,
-        "Low vegetation": 0.0,
+        "Background clutter": 24.8402,
+        "Building": 69.4114,
+        "Road": 56.9922,
+        "Tree": 73.1177,
+        "Low vegetation": 67.8405,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.1156
+        "Human": 0.0
       }
     }
   },
@@ -1034,18 +1034,18 @@
       "Human": 0.0764
     },
     "metrics": {
-      "pixel_accuracy": 16.3839,
-      "mean_iou": 2.2872,
-      "fw_iou": 3.289,
+      "pixel_accuracy": 70.0845,
+      "mean_iou": 37.5739,
+      "fw_iou": 55.3186,
       "per_class_iou": {
-        "Background clutter": 0.0623,
-        "Building": 16.9838,
-        "Road": 0.0,
-        "Tree": 0.6726,
-        "Low vegetation": 0.0,
+        "Background clutter": 34.703,
+        "Building": 59.988,
+        "Road": 57.1295,
+        "Tree": 62.5222,
+        "Low vegetation": 48.6744,
         "Moving car": 0.0,
-        "Static car": 0.4543,
-        "Human": 0.1245
+        "Static car": 0.0,
+        "Human": 0.0
       }
     }
   },
@@ -1064,18 +1064,18 @@
       "Human": 0.0556
     },
     "metrics": {
-      "pixel_accuracy": 11.1142,
-      "mean_iou": 1.9853,
-      "fw_iou": 1.7937,
+      "pixel_accuracy": 69.5658,
+      "mean_iou": 40.2168,
+      "fw_iou": 53.4114,
       "per_class_iou": {
-        "Background clutter": 0.1109,
-        "Building": 11.8199,
-        "Road": 3.9002,
-        "Tree": 0.0069,
-        "Low vegetation": 0.0,
+        "Background clutter": 47.3832,
+        "Building": 73.6025,
+        "Road": 59.6668,
+        "Tree": 49.0781,
+        "Low vegetation": 51.7869,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0443
+        "Human": 0.0
       }
     }
   },
@@ -1094,18 +1094,18 @@
       "Human": 0.0716
     },
     "metrics": {
-      "pixel_accuracy": 15.0502,
-      "mean_iou": 2.0808,
-      "fw_iou": 2.8867,
+      "pixel_accuracy": 82.6485,
+      "mean_iou": 41.4907,
+      "fw_iou": 70.2801,
       "per_class_iou": {
-        "Background clutter": 0.5683,
-        "Building": 16.039,
-        "Road": 0.0,
-        "Tree": 0.0049,
-        "Low vegetation": 0.0,
+        "Background clutter": 45.8038,
+        "Building": 75.1482,
+        "Road": 64.2827,
+        "Tree": 67.7632,
+        "Low vegetation": 78.928,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0344
+        "Human": 0.0
       }
     }
   },
@@ -1124,15 +1124,15 @@
       "Human": 0.1252
     },
     "metrics": {
-      "pixel_accuracy": 26.0264,
-      "mean_iou": 5.5173,
-      "fw_iou": 8.3594,
+      "pixel_accuracy": 79.9747,
+      "mean_iou": 40.4444,
+      "fw_iou": 66.5559,
       "per_class_iou": {
-        "Background clutter": 0.0063,
-        "Building": 26.9588,
-        "Road": 16.755,
-        "Tree": 0.4181,
-        "Low vegetation": 0.0,
+        "Background clutter": 34.2602,
+        "Building": 77.4135,
+        "Road": 65.8742,
+        "Tree": 74.6604,
+        "Low vegetation": 71.3468,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -1154,15 +1154,15 @@
       "Human": 0.0826
     },
     "metrics": {
-      "pixel_accuracy": 26.809,
-      "mean_iou": 3.803,
-      "fw_iou": 7.8705,
+      "pixel_accuracy": 79.581,
+      "mean_iou": 40.8505,
+      "fw_iou": 65.9721,
       "per_class_iou": {
-        "Background clutter": 0.1017,
-        "Building": 28.196,
-        "Road": 2.1037,
-        "Tree": 0.0228,
-        "Low vegetation": 0.0,
+        "Background clutter": 38.4823,
+        "Building": 78.8427,
+        "Road": 70.7079,
+        "Tree": 73.1385,
+        "Low vegetation": 65.6327,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -1184,18 +1184,18 @@
       "Human": 0.0662
     },
     "metrics": {
-      "pixel_accuracy": 23.5876,
-      "mean_iou": 3.7962,
-      "fw_iou": 7.2998,
+      "pixel_accuracy": 81.6024,
+      "mean_iou": 41.3808,
+      "fw_iou": 69.0522,
       "per_class_iou": {
-        "Background clutter": 0.6253,
-        "Building": 26.2731,
-        "Road": 2.402,
-        "Tree": 1.0325,
-        "Low vegetation": 0.0024,
+        "Background clutter": 35.8325,
+        "Building": 80.2722,
+        "Road": 61.8918,
+        "Tree": 74.1857,
+        "Low vegetation": 70.5518,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0341
+        "Static car": 8.3123,
+        "Human": 0.0
       }
     }
   },
@@ -1214,18 +1214,18 @@
       "Human": 0.1551
     },
     "metrics": {
-      "pixel_accuracy": 14.3231,
-      "mean_iou": 3.8987,
-      "fw_iou": 5.8351,
+      "pixel_accuracy": 73.1323,
+      "mean_iou": 42.9652,
+      "fw_iou": 56.9358,
       "per_class_iou": {
-        "Background clutter": 2.3648,
-        "Building": 12.7559,
-        "Road": 14.0422,
-        "Tree": 1.5656,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.2883,
-        "Human": 0.1728
+        "Background clutter": 39.5138,
+        "Building": 75.8678,
+        "Road": 72.3377,
+        "Tree": 41.3215,
+        "Low vegetation": 62.8903,
+        "Moving car": 28.0664,
+        "Static car": 23.7239,
+        "Human": 0.0
       }
     }
   },
@@ -1244,18 +1244,18 @@
       "Human": 0.1572
     },
     "metrics": {
-      "pixel_accuracy": 9.5147,
-      "mean_iou": 2.7407,
-      "fw_iou": 3.8097,
+      "pixel_accuracy": 69.3119,
+      "mean_iou": 39.3123,
+      "fw_iou": 53.1141,
       "per_class_iou": {
-        "Background clutter": 0.6971,
-        "Building": 9.4707,
-        "Road": 9.7985,
-        "Tree": 1.5801,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.27,
-        "Human": 0.1095
+        "Background clutter": 39.7864,
+        "Building": 54.2542,
+        "Road": 69.1763,
+        "Tree": 52.4666,
+        "Low vegetation": 57.7195,
+        "Moving car": 33.6357,
+        "Static car": 7.4599,
+        "Human": 0.0
       }
     }
   },
@@ -1274,18 +1274,18 @@
       "Human": 0.1256
     },
     "metrics": {
-      "pixel_accuracy": 16.8509,
-      "mean_iou": 4.2474,
-      "fw_iou": 7.1909,
+      "pixel_accuracy": 74.5806,
+      "mean_iou": 41.1772,
+      "fw_iou": 59.8873,
       "per_class_iou": {
-        "Background clutter": 0.4703,
-        "Building": 17.9298,
-        "Road": 12.8838,
-        "Tree": 2.0172,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.5921,
-        "Human": 0.0863
+        "Background clutter": 43.0436,
+        "Building": 70.4645,
+        "Road": 77.8294,
+        "Tree": 61.6408,
+        "Low vegetation": 56.4363,
+        "Moving car": 4.1481,
+        "Static car": 15.8552,
+        "Human": 0.0
       }
     }
   },
@@ -1304,17 +1304,17 @@
       "Human": 0.087
     },
     "metrics": {
-      "pixel_accuracy": 30.1713,
-      "mean_iou": 5.0877,
-      "fw_iou": 15.1723,
+      "pixel_accuracy": 73.1387,
+      "mean_iou": 35.3575,
+      "fw_iou": 59.4143,
       "per_class_iou": {
-        "Background clutter": 0.6337,
-        "Building": 32.3984,
-        "Road": 7.1609,
-        "Tree": 0.1652,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.3435,
+        "Background clutter": 46.4859,
+        "Building": 75.2602,
+        "Road": 64.6359,
+        "Tree": 44.3576,
+        "Low vegetation": 32.2512,
+        "Moving car": 7.8264,
+        "Static car": 12.0427,
         "Human": 0.0
       }
     }
@@ -1334,18 +1334,18 @@
       "Human": 0.1074
     },
     "metrics": {
-      "pixel_accuracy": 34.9078,
-      "mean_iou": 5.2233,
-      "fw_iou": 17.5372,
+      "pixel_accuracy": 81.2313,
+      "mean_iou": 45.4307,
+      "fw_iou": 68.7689,
       "per_class_iou": {
-        "Background clutter": 0.0105,
-        "Building": 37.7513,
-        "Road": 3.5563,
-        "Tree": 0.2852,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.1832
+        "Background clutter": 57.3185,
+        "Building": 83.6982,
+        "Road": 78.1003,
+        "Tree": 34.6893,
+        "Low vegetation": 60.1682,
+        "Moving car": 47.7857,
+        "Static car": 1.6853,
+        "Human": 0.0
       }
     }
   },
@@ -1364,18 +1364,18 @@
       "Human": 0.1466
     },
     "metrics": {
-      "pixel_accuracy": 41.6088,
-      "mean_iou": 6.5007,
-      "fw_iou": 22.9948,
+      "pixel_accuracy": 79.1856,
+      "mean_iou": 40.6479,
+      "fw_iou": 65.803,
       "per_class_iou": {
-        "Background clutter": 0.2586,
-        "Building": 44.7137,
-        "Road": 5.5508,
-        "Tree": 1.2839,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.1988
+        "Background clutter": 52.3772,
+        "Building": 79.4301,
+        "Road": 64.5704,
+        "Tree": 46.6244,
+        "Low vegetation": 53.3074,
+        "Moving car": 18.4211,
+        "Static car": 10.4527,
+        "Human": 0.0
       }
     }
   },
@@ -1394,18 +1394,18 @@
       "Human": 0.1096
     },
     "metrics": {
-      "pixel_accuracy": 36.3661,
-      "mean_iou": 6.6867,
-      "fw_iou": 19.2164,
+      "pixel_accuracy": 78.1067,
+      "mean_iou": 38.5052,
+      "fw_iou": 63.9733,
       "per_class_iou": {
-        "Background clutter": 1.3973,
-        "Building": 39.3125,
-        "Road": 6.8067,
-        "Tree": 4.0552,
-        "Low vegetation": 0.0,
+        "Background clutter": 53.2088,
+        "Building": 77.5207,
+        "Road": 54.103,
+        "Tree": 51.1387,
+        "Low vegetation": 61.1162,
         "Moving car": 0.0,
-        "Static car": 1.9128,
-        "Human": 0.0089
+        "Static car": 10.9545,
+        "Human": 0.0
       }
     }
   },
@@ -1424,18 +1424,18 @@
       "Human": 0.0997
     },
     "metrics": {
-      "pixel_accuracy": 41.2926,
-      "mean_iou": 6.2524,
-      "fw_iou": 23.7607,
+      "pixel_accuracy": 75.1998,
+      "mean_iou": 40.507,
+      "fw_iou": 60.688,
       "per_class_iou": {
-        "Background clutter": 0.6971,
-        "Building": 43.9419,
-        "Road": 5.2833,
-        "Tree": 0.0338,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0269,
-        "Human": 0.0363
+        "Background clutter": 32.9272,
+        "Building": 76.8497,
+        "Road": 47.181,
+        "Tree": 48.3688,
+        "Low vegetation": 63.8485,
+        "Moving car": 48.8152,
+        "Static car": 6.0657,
+        "Human": 0.0
       }
     }
   },
@@ -1454,18 +1454,18 @@
       "Human": 0.1678
     },
     "metrics": {
-      "pixel_accuracy": 23.4012,
-      "mean_iou": 5.6829,
-      "fw_iou": 11.1254,
+      "pixel_accuracy": 71.1134,
+      "mean_iou": 37.4595,
+      "fw_iou": 55.1703,
       "per_class_iou": {
-        "Background clutter": 0.6862,
-        "Building": 25.2474,
-        "Road": 16.0475,
-        "Tree": 1.413,
-        "Low vegetation": 0.0,
+        "Background clutter": 38.7644,
+        "Building": 69.5944,
+        "Road": 51.4272,
+        "Tree": 65.0629,
+        "Low vegetation": 54.8292,
         "Moving car": 0.0,
-        "Static car": 1.9085,
-        "Human": 0.1606
+        "Static car": 19.9977,
+        "Human": 0.0
       }
     }
   },
@@ -1484,17 +1484,17 @@
       "Human": 0.0557
     },
     "metrics": {
-      "pixel_accuracy": 35.0619,
-      "mean_iou": 5.3599,
-      "fw_iou": 16.9122,
+      "pixel_accuracy": 77.4579,
+      "mean_iou": 39.083,
+      "fw_iou": 63.704,
       "per_class_iou": {
-        "Background clutter": 0.0105,
-        "Building": 38.457,
-        "Road": 4.1999,
-        "Tree": 0.2116,
-        "Low vegetation": 0.0,
+        "Background clutter": 50.4859,
+        "Building": 77.0011,
+        "Road": 62.4241,
+        "Tree": 67.3865,
+        "Low vegetation": 49.8372,
         "Moving car": 0.0,
-        "Static car": 0.0,
+        "Static car": 5.5292,
         "Human": 0.0
       }
     }
@@ -1514,18 +1514,18 @@
       "Human": 0.0748
     },
     "metrics": {
-      "pixel_accuracy": 17.9441,
-      "mean_iou": 3.8765,
-      "fw_iou": 5.2933,
+      "pixel_accuracy": 78.3322,
+      "mean_iou": 46.3219,
+      "fw_iou": 64.4795,
       "per_class_iou": {
-        "Background clutter": 0.1433,
-        "Building": 19.3765,
-        "Road": 9.9599,
-        "Tree": 1.4994,
-        "Low vegetation": 0.0,
+        "Background clutter": 44.0457,
+        "Building": 74.5735,
+        "Road": 58.4814,
+        "Tree": 65.826,
+        "Low vegetation": 68.2679,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.033
+        "Static car": 13.0592,
+        "Human": 0.0
       }
     }
   },
@@ -1544,18 +1544,18 @@
       "Human": 0.0795
     },
     "metrics": {
-      "pixel_accuracy": 17.9313,
-      "mean_iou": 5.0156,
-      "fw_iou": 4.3176,
+      "pixel_accuracy": 76.7176,
+      "mean_iou": 45.7735,
+      "fw_iou": 62.0145,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 18.1241,
-        "Road": 16.1294,
-        "Tree": 0.8015,
-        "Low vegetation": 0.0,
+        "Background clutter": 33.3314,
+        "Building": 70.3344,
+        "Road": 60.665,
+        "Tree": 65.4039,
+        "Low vegetation": 66.474,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0544
+        "Static car": 24.2059,
+        "Human": 0.0
       }
     }
   },
@@ -1574,18 +1574,18 @@
       "Human": 0.0604
     },
     "metrics": {
-      "pixel_accuracy": 15.8191,
-      "mean_iou": 2.311,
-      "fw_iou": 3.3314,
+      "pixel_accuracy": 73.24,
+      "mean_iou": 43.1554,
+      "fw_iou": 57.814,
       "per_class_iou": {
-        "Background clutter": 0.1578,
-        "Building": 17.5828,
-        "Road": 0.309,
-        "Tree": 0.4203,
-        "Low vegetation": 0.0,
+        "Background clutter": 40.4074,
+        "Building": 65.3378,
+        "Road": 59.7253,
+        "Tree": 69.6363,
+        "Low vegetation": 52.5199,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0182
+        "Static car": 14.4609,
+        "Human": 0.0
       }
     }
   },
@@ -1604,18 +1604,18 @@
       "Human": 0.039
     },
     "metrics": {
-      "pixel_accuracy": 8.4884,
-      "mean_iou": 1.5504,
-      "fw_iou": 1.0264,
+      "pixel_accuracy": 75.3756,
+      "mean_iou": 40.6389,
+      "fw_iou": 60.1748,
       "per_class_iou": {
-        "Background clutter": 0.0731,
-        "Building": 9.2395,
-        "Road": 2.8621,
-        "Tree": 0.0797,
-        "Low vegetation": 0.0,
+        "Background clutter": 43.2451,
+        "Building": 68.4217,
+        "Road": 43.3773,
+        "Tree": 67.1005,
+        "Low vegetation": 62.3278,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.1491
+        "Human": 0.0
       }
     }
   },
@@ -1634,18 +1634,18 @@
       "Human": 0.0185
     },
     "metrics": {
-      "pixel_accuracy": 2.9958,
-      "mean_iou": 1.6411,
-      "fw_iou": 1.1414,
+      "pixel_accuracy": 83.2575,
+      "mean_iou": 43.1043,
+      "fw_iou": 70.9399,
       "per_class_iou": {
-        "Background clutter": 0.2752,
-        "Building": 1.3788,
-        "Road": 9.4479,
-        "Tree": 1.9297,
-        "Low vegetation": 0.0396,
+        "Background clutter": 60.6788,
+        "Building": 0.9439,
+        "Road": 46.7319,
+        "Tree": 71.623,
+        "Low vegetation": 78.6484,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.058
+        "Human": 0.0
       }
     }
   },
@@ -1664,18 +1664,18 @@
       "Human": 0.0044
     },
     "metrics": {
-      "pixel_accuracy": 0.0044,
-      "mean_iou": 0.0053,
-      "fw_iou": 0.0,
+      "pixel_accuracy": 96.8227,
+      "mean_iou": 42.2766,
+      "fw_iou": 94.5354,
       "per_class_iou": {
-        "Background clutter": 0.0,
+        "Background clutter": 4.4979,
         "Building": 0.0,
         "Road": 0.0,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
+        "Tree": 67.5271,
+        "Low vegetation": 97.0813,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0421
+        "Human": 0.0
       }
     }
   },
@@ -1694,15 +1694,15 @@
       "Human": 0.034
     },
     "metrics": {
-      "pixel_accuracy": 5.0365,
-      "mean_iou": 1.3137,
-      "fw_iou": 0.9055,
+      "pixel_accuracy": 85.4286,
+      "mean_iou": 41.0784,
+      "fw_iou": 77.3181,
       "per_class_iou": {
-        "Background clutter": 0.2408,
-        "Building": 4.9884,
-        "Road": 4.4367,
-        "Tree": 0.1617,
-        "Low vegetation": 0.6822,
+        "Background clutter": 7.3767,
+        "Building": 50.3754,
+        "Road": 25.5336,
+        "Tree": 71.1595,
+        "Low vegetation": 92.0255,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -1724,18 +1724,18 @@
       "Human": 0.0554
     },
     "metrics": {
-      "pixel_accuracy": 11.9176,
-      "mean_iou": 2.1352,
-      "fw_iou": 2.4197,
+      "pixel_accuracy": 82.1017,
+      "mean_iou": 33.4101,
+      "fw_iou": 72.3407,
       "per_class_iou": {
-        "Background clutter": 0.0483,
-        "Building": 12.7687,
-        "Road": 2.0415,
-        "Tree": 1.9744,
-        "Low vegetation": 0.1246,
+        "Background clutter": 11.2057,
+        "Building": 68.3813,
+        "Road": 3.2842,
+        "Tree": 65.457,
+        "Low vegetation": 85.5425,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.1239
+        "Human": 0.0
       }
     }
   },
@@ -1754,18 +1754,18 @@
       "Human": 0.054
     },
     "metrics": {
-      "pixel_accuracy": 9.4934,
-      "mean_iou": 2.9011,
-      "fw_iou": 2.0499,
+      "pixel_accuracy": 84.581,
+      "mean_iou": 36.5881,
+      "fw_iou": 74.5981,
       "per_class_iou": {
-        "Background clutter": 3.1452,
-        "Building": 9.5374,
-        "Road": 9.5722,
-        "Tree": 0.8423,
-        "Low vegetation": 0.0,
+        "Background clutter": 16.6871,
+        "Building": 77.593,
+        "Road": 1.1932,
+        "Tree": 74.7737,
+        "Low vegetation": 85.8695,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.1117
+        "Human": 0.0
       }
     }
   },
@@ -1784,18 +1784,18 @@
       "Human": 0.0559
     },
     "metrics": {
-      "pixel_accuracy": 15.1624,
-      "mean_iou": 3.7622,
-      "fw_iou": 3.7377,
+      "pixel_accuracy": 80.3632,
+      "mean_iou": 34.3211,
+      "fw_iou": 68.505,
       "per_class_iou": {
-        "Background clutter": 4.6431,
-        "Building": 17.2869,
-        "Road": 7.645,
-        "Tree": 0.4795,
-        "Low vegetation": 0.0,
+        "Background clutter": 27.5917,
+        "Building": 75.7888,
+        "Road": 26.9154,
+        "Tree": 63.8663,
+        "Low vegetation": 80.4067,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0429
+        "Human": 0.0
       }
     }
   },
@@ -1814,17 +1814,17 @@
       "Human": 0.7211
     },
     "metrics": {
-      "pixel_accuracy": 13.048,
-      "mean_iou": 3.0862,
-      "fw_iou": 5.9599,
+      "pixel_accuracy": 81.2328,
+      "mean_iou": 50.035,
+      "fw_iou": 68.688,
       "per_class_iou": {
-        "Background clutter": 0.3057,
-        "Building": 12.0228,
-        "Road": 7.4874,
-        "Tree": 2.9881,
-        "Low vegetation": 0.0,
-        "Moving car": 1.4792,
-        "Static car": 0.4061,
+        "Background clutter": 54.8663,
+        "Building": 84.3681,
+        "Road": 63.8175,
+        "Tree": 76.1135,
+        "Low vegetation": 41.1858,
+        "Moving car": 44.7853,
+        "Static car": 35.1432,
         "Human": 0.0
       }
     }
@@ -1844,18 +1844,18 @@
       "Human": 0.6786
     },
     "metrics": {
-      "pixel_accuracy": 17.1943,
-      "mean_iou": 4.6408,
-      "fw_iou": 8.1236,
+      "pixel_accuracy": 83.8513,
+      "mean_iou": 50.1396,
+      "fw_iou": 73.0779,
       "per_class_iou": {
-        "Background clutter": 0.1856,
-        "Building": 17.3349,
-        "Road": 7.6957,
-        "Tree": 3.0781,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 8.7395,
-        "Human": 0.0927
+        "Background clutter": 65.7784,
+        "Building": 91.7936,
+        "Road": 69.3775,
+        "Tree": 73.7626,
+        "Low vegetation": 20.851,
+        "Moving car": 43.7142,
+        "Static car": 35.8393,
+        "Human": 0.0
       }
     }
   },
@@ -1874,18 +1874,18 @@
       "Human": 0.8185
     },
     "metrics": {
-      "pixel_accuracy": 20.4551,
-      "mean_iou": 4.3564,
-      "fw_iou": 10.207,
+      "pixel_accuracy": 83.8918,
+      "mean_iou": 49.6168,
+      "fw_iou": 73.5228,
       "per_class_iou": {
-        "Background clutter": 0.8505,
-        "Building": 22.1832,
-        "Road": 3.9799,
-        "Tree": 4.7055,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 3.0087,
-        "Human": 0.1236
+        "Background clutter": 64.8909,
+        "Building": 91.7126,
+        "Road": 68.958,
+        "Tree": 72.5641,
+        "Low vegetation": 28.3826,
+        "Moving car": 34.874,
+        "Static car": 35.5519,
+        "Human": 0.0
       }
     }
   },
@@ -1904,18 +1904,18 @@
       "Human": 0.6582
     },
     "metrics": {
-      "pixel_accuracy": 21.735,
-      "mean_iou": 5.6732,
-      "fw_iou": 11.8025,
+      "pixel_accuracy": 82.4954,
+      "mean_iou": 47.6032,
+      "fw_iou": 71.2731,
       "per_class_iou": {
-        "Background clutter": 2.0289,
-        "Building": 22.9911,
-        "Road": 11.01,
-        "Tree": 3.2386,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 5.4159,
-        "Human": 0.7009
+        "Background clutter": 61.5374,
+        "Building": 89.8629,
+        "Road": 66.3384,
+        "Tree": 70.2518,
+        "Low vegetation": 36.5284,
+        "Moving car": 34.3214,
+        "Static car": 21.9853,
+        "Human": 0.0
       }
     }
   },
@@ -1934,18 +1934,18 @@
       "Human": 0.7404
     },
     "metrics": {
-      "pixel_accuracy": 20.3966,
-      "mean_iou": 3.8504,
-      "fw_iou": 9.7863,
+      "pixel_accuracy": 80.9198,
+      "mean_iou": 42.6317,
+      "fw_iou": 69.0657,
       "per_class_iou": {
-        "Background clutter": 1.1924,
-        "Building": 22.6976,
-        "Road": 1.9847,
-        "Tree": 2.3262,
-        "Low vegetation": 0.0,
-        "Moving car": 0.1685,
-        "Static car": 1.8608,
-        "Human": 0.5728
+        "Background clutter": 56.8509,
+        "Building": 88.7203,
+        "Road": 62.8574,
+        "Tree": 67.9306,
+        "Low vegetation": 33.403,
+        "Moving car": 30.5579,
+        "Static car": 0.7336,
+        "Human": 0.0
       }
     }
   },
@@ -1964,18 +1964,18 @@
       "Human": 0.5062
     },
     "metrics": {
-      "pixel_accuracy": 36.0228,
-      "mean_iou": 6.106,
-      "fw_iou": 20.3544,
+      "pixel_accuracy": 84.4416,
+      "mean_iou": 42.2385,
+      "fw_iou": 74.4826,
       "per_class_iou": {
-        "Background clutter": 1.4383,
-        "Building": 36.12,
-        "Road": 9.9881,
-        "Tree": 0.8761,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0425,
-        "Human": 0.3833
+        "Background clutter": 37.2635,
+        "Building": 90.6752,
+        "Road": 71.0241,
+        "Tree": 72.2656,
+        "Low vegetation": 20.6445,
+        "Moving car": 42.8752,
+        "Static car": 3.1602,
+        "Human": 0.0
       }
     }
   },
@@ -1994,18 +1994,18 @@
       "Human": 0.8194
     },
     "metrics": {
-      "pixel_accuracy": 31.223,
-      "mean_iou": 6.7892,
-      "fw_iou": 16.2148,
+      "pixel_accuracy": 80.099,
+      "mean_iou": 42.7484,
+      "fw_iou": 68.1167,
       "per_class_iou": {
-        "Background clutter": 1.6632,
-        "Building": 31.415,
-        "Road": 19.523,
-        "Tree": 0.6053,
-        "Low vegetation": 0.0,
-        "Moving car": 1.0385,
-        "Static car": 0.0361,
-        "Human": 0.0322
+        "Background clutter": 49.8886,
+        "Building": 87.4681,
+        "Road": 68.072,
+        "Tree": 67.3106,
+        "Low vegetation": 21.5254,
+        "Moving car": 38.677,
+        "Static car": 9.0455,
+        "Human": 0.0
       }
     }
   },
@@ -2024,18 +2024,18 @@
       "Human": 0.4516
     },
     "metrics": {
-      "pixel_accuracy": 34.4797,
-      "mean_iou": 7.61,
-      "fw_iou": 19.188,
+      "pixel_accuracy": 81.4223,
+      "mean_iou": 42.8004,
+      "fw_iou": 70.6353,
       "per_class_iou": {
-        "Background clutter": 3.5317,
-        "Building": 36.26,
-        "Road": 16.4789,
-        "Tree": 1.6779,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0053,
-        "Static car": 2.4285,
-        "Human": 0.4978
+        "Background clutter": 47.5304,
+        "Building": 88.9509,
+        "Road": 74.877,
+        "Tree": 67.5285,
+        "Low vegetation": 19.8092,
+        "Moving car": 26.0778,
+        "Static car": 17.6294,
+        "Human": 0.0
       }
     }
   },
@@ -2054,18 +2054,18 @@
       "Human": 0.936
     },
     "metrics": {
-      "pixel_accuracy": 24.6032,
-      "mean_iou": 6.8132,
-      "fw_iou": 13.306,
+      "pixel_accuracy": 81.1599,
+      "mean_iou": 46.169,
+      "fw_iou": 69.645,
       "per_class_iou": {
-        "Background clutter": 0.4858,
-        "Building": 21.2712,
-        "Road": 23.3371,
-        "Tree": 2.9828,
-        "Low vegetation": 0.0,
-        "Moving car": 2.6619,
-        "Static car": 3.1331,
-        "Human": 0.6336
+        "Background clutter": 47.9065,
+        "Building": 88.2055,
+        "Road": 76.2765,
+        "Tree": 72.6255,
+        "Low vegetation": 32.4735,
+        "Moving car": 33.5488,
+        "Static car": 18.3154,
+        "Human": 0.0
       }
     }
   },
@@ -2084,17 +2084,17 @@
       "Human": 0.3156
     },
     "metrics": {
-      "pixel_accuracy": 26.8127,
-      "mean_iou": 5.6538,
-      "fw_iou": 12.4304,
+      "pixel_accuracy": 83.059,
+      "mean_iou": 47.1889,
+      "fw_iou": 72.0741,
       "per_class_iou": {
-        "Background clutter": 0.5553,
-        "Building": 26.6747,
-        "Road": 14.1708,
-        "Tree": 0.9729,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 2.8569,
+        "Background clutter": 47.2126,
+        "Building": 90.7467,
+        "Road": 77.9048,
+        "Tree": 71.7443,
+        "Low vegetation": 32.1801,
+        "Moving car": 36.3981,
+        "Static car": 21.325,
         "Human": 0.0
       }
     }
@@ -2114,17 +2114,17 @@
       "Human": 0.0253
     },
     "metrics": {
-      "pixel_accuracy": 58.8023,
-      "mean_iou": 8.6526,
-      "fw_iou": 43.7535,
+      "pixel_accuracy": 92.5658,
+      "mean_iou": 43.7233,
+      "fw_iou": 86.5833,
       "per_class_iou": {
-        "Background clutter": 4.1353,
-        "Building": 61.4856,
-        "Road": 2.1655,
-        "Tree": 0.9881,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.4463,
+        "Background clutter": 7.6666,
+        "Building": 94.086,
+        "Road": 82.504,
+        "Tree": 79.1558,
+        "Low vegetation": 49.5729,
+        "Moving car": 35.9249,
+        "Static car": 0.876,
         "Human": 0.0
       }
     }
@@ -2144,18 +2144,18 @@
       "Human": 0.038
     },
     "metrics": {
-      "pixel_accuracy": 59.5829,
-      "mean_iou": 8.2941,
-      "fw_iou": 44.1428,
+      "pixel_accuracy": 92.521,
+      "mean_iou": 40.7891,
+      "fw_iou": 86.6692,
       "per_class_iou": {
-        "Background clutter": 2.1473,
-        "Building": 61.9853,
-        "Road": 0.2124,
-        "Tree": 1.0076,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.511,
-        "Human": 0.4894
+        "Background clutter": 7.6541,
+        "Building": 94.6091,
+        "Road": 81.966,
+        "Tree": 77.784,
+        "Low vegetation": 47.9302,
+        "Moving car": 15.7068,
+        "Static car": 0.6625,
+        "Human": 0.0
       }
     }
   },
@@ -2174,18 +2174,18 @@
       "Human": 0.0397
     },
     "metrics": {
-      "pixel_accuracy": 58.6495,
-      "mean_iou": 8.6175,
-      "fw_iou": 43.4042,
+      "pixel_accuracy": 92.3266,
+      "mean_iou": 45.0021,
+      "fw_iou": 86.2982,
       "per_class_iou": {
-        "Background clutter": 2.2074,
-        "Building": 61.1161,
-        "Road": 3.3053,
-        "Tree": 1.2158,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.5185,
-        "Human": 0.5769
+        "Background clutter": 6.5668,
+        "Building": 93.8572,
+        "Road": 79.9728,
+        "Tree": 79.5533,
+        "Low vegetation": 39.2296,
+        "Moving car": 50.7177,
+        "Static car": 10.1193,
+        "Human": 0.0
       }
     }
   },
@@ -2204,17 +2204,17 @@
       "Human": 0.032
     },
     "metrics": {
-      "pixel_accuracy": 60.1514,
-      "mean_iou": 8.2378,
-      "fw_iou": 42.2263,
+      "pixel_accuracy": 91.8927,
+      "mean_iou": 38.8306,
+      "fw_iou": 85.4586,
       "per_class_iou": {
-        "Background clutter": 1.0185,
-        "Building": 61.6549,
-        "Road": 2.1918,
-        "Tree": 1.0372,
-        "Low vegetation": 0.0,
+        "Background clutter": 16.9149,
+        "Building": 94.3462,
+        "Road": 79.8177,
+        "Tree": 77.1125,
+        "Low vegetation": 34.142,
         "Moving car": 0.0,
-        "Static car": 0.0,
+        "Static car": 8.3113,
         "Human": 0.0
       }
     }
@@ -2234,18 +2234,18 @@
       "Human": 0.0268
     },
     "metrics": {
-      "pixel_accuracy": 61.3534,
-      "mean_iou": 9.1508,
-      "fw_iou": 43.898,
+      "pixel_accuracy": 91.5669,
+      "mean_iou": 33.7377,
+      "fw_iou": 84.5812,
       "per_class_iou": {
-        "Background clutter": 7.552,
-        "Building": 63.1718,
-        "Road": 1.4083,
-        "Tree": 0.6239,
-        "Low vegetation": 0.0,
+        "Background clutter": 1.9338,
+        "Building": 92.7306,
+        "Road": 84.2801,
+        "Tree": 78.5866,
+        "Low vegetation": 12.3709,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.4508
+        "Human": 0.0
       }
     }
   },
@@ -2264,18 +2264,18 @@
       "Human": 0.0127
     },
     "metrics": {
-      "pixel_accuracy": 63.4543,
-      "mean_iou": 9.5899,
-      "fw_iou": 45.9069,
+      "pixel_accuracy": 91.966,
+      "mean_iou": 37.9284,
+      "fw_iou": 85.7939,
       "per_class_iou": {
-        "Background clutter": 0.3898,
-        "Building": 65.0096,
-        "Road": 10.727,
-        "Tree": 0.1321,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.2055,
-        "Human": 0.2549
+        "Background clutter": 0.8097,
+        "Building": 93.9314,
+        "Road": 81.8864,
+        "Tree": 78.261,
+        "Low vegetation": 8.5788,
+        "Moving car": 39.9601,
+        "Static car": 0.0,
+        "Human": 0.0
       }
     }
   },
@@ -2294,16 +2294,16 @@
       "Human": 0.0446
     },
     "metrics": {
-      "pixel_accuracy": 56.5623,
-      "mean_iou": 10.0152,
-      "fw_iou": 42.9528,
+      "pixel_accuracy": 93.1323,
+      "mean_iou": 44.3426,
+      "fw_iou": 87.5053,
       "per_class_iou": {
-        "Background clutter": 4.3194,
-        "Building": 61.54,
-        "Road": 13.4616,
-        "Tree": 0.8009,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 16.1532,
+        "Building": 93.5165,
+        "Road": 85.9782,
+        "Tree": 81.943,
+        "Low vegetation": 55.9411,
+        "Moving car": 21.2088,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -2324,16 +2324,16 @@
       "Human": 0.049
     },
     "metrics": {
-      "pixel_accuracy": 55.4138,
-      "mean_iou": 8.7275,
-      "fw_iou": 39.6592,
+      "pixel_accuracy": 91.994,
+      "mean_iou": 41.2487,
+      "fw_iou": 86.0212,
       "per_class_iou": {
-        "Background clutter": 1.6442,
-        "Building": 58.3689,
-        "Road": 9.7553,
-        "Tree": 0.0513,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 20.698,
+        "Building": 94.1512,
+        "Road": 82.8455,
+        "Tree": 78.9769,
+        "Low vegetation": 22.1678,
+        "Moving car": 31.1499,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -2354,18 +2354,18 @@
       "Human": 0.0604
     },
     "metrics": {
-      "pixel_accuracy": 52.826,
-      "mean_iou": 9.0934,
-      "fw_iou": 36.7557,
+      "pixel_accuracy": 91.5444,
+      "mean_iou": 43.0485,
+      "fw_iou": 84.3725,
       "per_class_iou": {
-        "Background clutter": 0.6988,
-        "Building": 54.3602,
-        "Road": 10.4997,
-        "Tree": 1.3777,
-        "Low vegetation": 0.0,
-        "Moving car": 5.7597,
+        "Background clutter": 7.1216,
+        "Building": 91.5334,
+        "Road": 83.7098,
+        "Tree": 83.2959,
+        "Low vegetation": 59.7021,
+        "Moving car": 19.0252,
         "Static car": 0.0,
-        "Human": 0.0511
+        "Human": 0.0
       }
     }
   },
@@ -2384,16 +2384,16 @@
       "Human": 0.0255
     },
     "metrics": {
-      "pixel_accuracy": 38.739,
-      "mean_iou": 6.4551,
-      "fw_iou": 26.8077,
+      "pixel_accuracy": 91.0451,
+      "mean_iou": 45.0554,
+      "fw_iou": 84.3195,
       "per_class_iou": {
-        "Background clutter": 5.2906,
-        "Building": 39.0405,
-        "Road": 4.2166,
-        "Tree": 2.2344,
-        "Low vegetation": 0.0,
-        "Moving car": 0.8591,
+        "Background clutter": 25.17,
+        "Building": 91.5217,
+        "Road": 71.6694,
+        "Tree": 82.6091,
+        "Low vegetation": 25.3221,
+        "Moving car": 64.1509,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -2414,18 +2414,18 @@
       "Human": 0.1138
     },
     "metrics": {
-      "pixel_accuracy": 22.0631,
-      "mean_iou": 3.3719,
-      "fw_iou": 7.2551,
+      "pixel_accuracy": 71.5849,
+      "mean_iou": 37.7586,
+      "fw_iou": 55.4529,
       "per_class_iou": {
-        "Background clutter": 0.539,
-        "Building": 24.3281,
-        "Road": 1.1662,
-        "Tree": 0.8807,
-        "Low vegetation": 0.0,
+        "Background clutter": 48.8726,
+        "Building": 74.9747,
+        "Road": 45.8161,
+        "Tree": 38.9113,
+        "Low vegetation": 55.7358,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0612
+        "Human": 0.0
       }
     }
   },
@@ -2444,18 +2444,18 @@
       "Human": 0.1271
     },
     "metrics": {
-      "pixel_accuracy": 27.6246,
-      "mean_iou": 3.7679,
-      "fw_iou": 10.6359,
+      "pixel_accuracy": 77.6329,
+      "mean_iou": 42.5747,
+      "fw_iou": 63.6786,
       "per_class_iou": {
-        "Background clutter": 0.0669,
-        "Building": 29.3398,
-        "Road": 0.0,
-        "Tree": 0.5117,
-        "Low vegetation": 0.0,
+        "Background clutter": 44.4089,
+        "Building": 79.8187,
+        "Road": 53.0107,
+        "Tree": 45.6941,
+        "Low vegetation": 69.1091,
         "Moving car": 0.0,
-        "Static car": 0.1457,
-        "Human": 0.0785
+        "Static car": 5.9816,
+        "Human": 0.0
       }
     }
   },
@@ -2474,18 +2474,18 @@
       "Human": 0.1624
     },
     "metrics": {
-      "pixel_accuracy": 25.6701,
-      "mean_iou": 4.2833,
-      "fw_iou": 9.2181,
+      "pixel_accuracy": 72.6659,
+      "mean_iou": 37.0678,
+      "fw_iou": 56.7177,
       "per_class_iou": {
-        "Background clutter": 0.0738,
-        "Building": 27.1075,
-        "Road": 1.3154,
-        "Tree": 2.9851,
-        "Low vegetation": 0.0,
+        "Background clutter": 46.2483,
+        "Building": 70.8056,
+        "Road": 20.6336,
+        "Tree": 56.4302,
+        "Low vegetation": 61.5416,
         "Moving car": 0.0,
-        "Static car": 2.7496,
-        "Human": 0.0349
+        "Static car": 3.815,
+        "Human": 0.0
       }
     }
   },
@@ -2504,18 +2504,18 @@
       "Human": 0.1414
     },
     "metrics": {
-      "pixel_accuracy": 24.7787,
-      "mean_iou": 3.9522,
-      "fw_iou": 10.6053,
+      "pixel_accuracy": 73.1613,
+      "mean_iou": 33.8436,
+      "fw_iou": 58.8288,
       "per_class_iou": {
-        "Background clutter": 1.2825,
-        "Building": 26.348,
-        "Road": 3.8826,
-        "Tree": 0.0354,
-        "Low vegetation": 0.0,
+        "Background clutter": 38.5672,
+        "Building": 77.0558,
+        "Road": 31.7745,
+        "Tree": 63.3679,
+        "Low vegetation": 59.9519,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0694
+        "Static car": 0.0317,
+        "Human": 0.0
       }
     }
   },
@@ -2534,18 +2534,18 @@
       "Human": 0.1406
     },
     "metrics": {
-      "pixel_accuracy": 29.6181,
-      "mean_iou": 4.725,
-      "fw_iou": 12.616,
+      "pixel_accuracy": 71.8166,
+      "mean_iou": 31.0932,
+      "fw_iou": 56.3501,
       "per_class_iou": {
-        "Background clutter": 0.2555,
-        "Building": 32.0545,
-        "Road": 3.3814,
-        "Tree": 0.6546,
-        "Low vegetation": 0.0877,
+        "Background clutter": 40.3021,
+        "Building": 74.5215,
+        "Road": 33.6703,
+        "Tree": 36.3962,
+        "Low vegetation": 63.3184,
         "Moving car": 0.0,
-        "Static car": 1.265,
-        "Human": 0.1016
+        "Static car": 0.5371,
+        "Human": 0.0
       }
     }
   },
@@ -2564,18 +2564,18 @@
       "Human": 0.1588
     },
     "metrics": {
-      "pixel_accuracy": 26.4431,
-      "mean_iou": 4.1237,
-      "fw_iou": 10.4455,
+      "pixel_accuracy": 72.012,
+      "mean_iou": 37.2029,
+      "fw_iou": 56.0848,
       "per_class_iou": {
-        "Background clutter": 3.1817,
-        "Building": 28.6068,
-        "Road": 0.3629,
-        "Tree": 0.5344,
-        "Low vegetation": 0.0,
+        "Background clutter": 41.5254,
+        "Building": 72.4063,
+        "Road": 40.0174,
+        "Tree": 41.2272,
+        "Low vegetation": 65.2443,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.3042
+        "Human": 0.0
       }
     }
   },
@@ -2594,18 +2594,18 @@
       "Human": 0.4371
     },
     "metrics": {
-      "pixel_accuracy": 31.4782,
-      "mean_iou": 5.3029,
-      "fw_iou": 13.2941,
+      "pixel_accuracy": 72.1061,
+      "mean_iou": 32.3402,
+      "fw_iou": 58.1096,
       "per_class_iou": {
-        "Background clutter": 0.8166,
-        "Building": 32.576,
-        "Road": 8.8023,
-        "Tree": 0.0,
-        "Low vegetation": 0.0821,
+        "Background clutter": 34.1442,
+        "Building": 79.9502,
+        "Road": 22.858,
+        "Tree": 40.0837,
+        "Low vegetation": 64.7647,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.1464
+        "Static car": 16.9206,
+        "Human": 0.0
       }
     }
   },
@@ -2624,18 +2624,18 @@
       "Human": 0.1985
     },
     "metrics": {
-      "pixel_accuracy": 28.8343,
-      "mean_iou": 4.8417,
-      "fw_iou": 12.0956,
+      "pixel_accuracy": 70.5023,
+      "mean_iou": 37.5054,
+      "fw_iou": 55.9709,
       "per_class_iou": {
-        "Background clutter": 1.6494,
-        "Building": 31.4619,
-        "Road": 3.29,
-        "Tree": 0.8093,
-        "Low vegetation": 0.0887,
+        "Background clutter": 32.9386,
+        "Building": 77.2622,
+        "Road": 27.1187,
+        "Tree": 46.0411,
+        "Low vegetation": 63.3263,
         "Moving car": 0.0,
-        "Static car": 1.1063,
-        "Human": 0.3279
+        "Static car": 15.8506,
+        "Human": 0.0
       }
     }
   },
@@ -2654,18 +2654,18 @@
       "Human": 0.1454
     },
     "metrics": {
-      "pixel_accuracy": 31.8567,
-      "mean_iou": 7.0463,
-      "fw_iou": 15.1541,
+      "pixel_accuracy": 67.6109,
+      "mean_iou": 31.9855,
+      "fw_iou": 51.9699,
       "per_class_iou": {
-        "Background clutter": 5.2296,
-        "Building": 32.8783,
-        "Road": 16.5849,
-        "Tree": 0.018,
-        "Low vegetation": 0.0,
+        "Background clutter": 32.0493,
+        "Building": 73.0733,
+        "Road": 36.3183,
+        "Tree": 45.7807,
+        "Low vegetation": 49.5921,
         "Moving car": 0.0,
-        "Static car": 1.5727,
-        "Human": 0.0866
+        "Static car": 19.0701,
+        "Human": 0.0
       }
     }
   },
@@ -2684,18 +2684,18 @@
       "Human": 0.135
     },
     "metrics": {
-      "pixel_accuracy": 35.5926,
-      "mean_iou": 5.5141,
-      "fw_iou": 16.0301,
+      "pixel_accuracy": 68.9452,
+      "mean_iou": 31.9124,
+      "fw_iou": 54.2438,
       "per_class_iou": {
-        "Background clutter": 0.0161,
-        "Building": 36.7887,
-        "Road": 4.5514,
-        "Tree": 2.6761,
-        "Low vegetation": 0.0,
+        "Background clutter": 24.866,
+        "Building": 75.2163,
+        "Road": 13.1102,
+        "Tree": 53.8277,
+        "Low vegetation": 50.6694,
         "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0801
+        "Static car": 5.6973,
+        "Human": 0.0
       }
     }
   },
@@ -2714,18 +2714,18 @@
       "Human": 0.0787
     },
     "metrics": {
-      "pixel_accuracy": 10.304,
-      "mean_iou": 3.0045,
-      "fw_iou": 5.3651,
+      "pixel_accuracy": 76.7895,
+      "mean_iou": 44.4186,
+      "fw_iou": 63.6136,
       "per_class_iou": {
-        "Background clutter": 2.5833,
-        "Building": 7.1702,
-        "Road": 11.1295,
-        "Tree": 0.3879,
-        "Low vegetation": 0.0,
-        "Moving car": 1.3421,
-        "Static car": 1.3285,
-        "Human": 0.0946
+        "Background clutter": 55.8893,
+        "Building": 79.7538,
+        "Road": 79.6694,
+        "Tree": 35.4761,
+        "Low vegetation": 53.7831,
+        "Moving car": 39.3939,
+        "Static car": 11.3831,
+        "Human": 0.0
       }
     }
   },
@@ -2744,17 +2744,17 @@
       "Human": 0.0249
     },
     "metrics": {
-      "pixel_accuracy": 15.3368,
-      "mean_iou": 4.5391,
-      "fw_iou": 9.8868,
+      "pixel_accuracy": 76.9226,
+      "mean_iou": 43.1715,
+      "fw_iou": 63.6943,
       "per_class_iou": {
-        "Background clutter": 2.4702,
-        "Building": 3.8585,
-        "Road": 25.7687,
-        "Tree": 0.4054,
-        "Low vegetation": 0.0,
-        "Moving car": 0.5115,
-        "Static car": 3.2982,
+        "Background clutter": 47.543,
+        "Building": 79.5055,
+        "Road": 79.441,
+        "Tree": 27.4281,
+        "Low vegetation": 61.553,
+        "Moving car": 41.8043,
+        "Static car": 8.0968,
         "Human": 0.0
       }
     }
@@ -2774,18 +2774,18 @@
       "Human": 0.0328
     },
     "metrics": {
-      "pixel_accuracy": 10.3293,
-      "mean_iou": 3.6414,
-      "fw_iou": 5.1142,
+      "pixel_accuracy": 77.6744,
+      "mean_iou": 44.2003,
+      "fw_iou": 65.7309,
       "per_class_iou": {
-        "Background clutter": 1.1558,
-        "Building": 6.486,
-        "Road": 11.4509,
-        "Tree": 0.0682,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 9.9577,
-        "Human": 0.0125
+        "Background clutter": 47.7725,
+        "Building": 86.8503,
+        "Road": 80.2378,
+        "Tree": 31.9628,
+        "Low vegetation": 59.7005,
+        "Moving car": 8.5906,
+        "Static car": 38.4882,
+        "Human": 0.0
       }
     }
   },
@@ -2804,17 +2804,17 @@
       "Human": 0.0357
     },
     "metrics": {
-      "pixel_accuracy": 11.1709,
-      "mean_iou": 3.5494,
-      "fw_iou": 4.8186,
+      "pixel_accuracy": 77.8576,
+      "mean_iou": 45.8369,
+      "fw_iou": 65.3957,
       "per_class_iou": {
-        "Background clutter": 0.641,
-        "Building": 9.1692,
-        "Road": 11.2097,
-        "Tree": 0.4758,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 6.8997,
+        "Background clutter": 46.1554,
+        "Building": 87.5882,
+        "Road": 74.6219,
+        "Tree": 38.9639,
+        "Low vegetation": 66.7397,
+        "Moving car": 9.6327,
+        "Static car": 42.9935,
         "Human": 0.0
       }
     }
@@ -2834,17 +2834,17 @@
       "Human": 0.0133
     },
     "metrics": {
-      "pixel_accuracy": 9.7305,
-      "mean_iou": 3.1795,
-      "fw_iou": 3.783,
+      "pixel_accuracy": 76.3484,
+      "mean_iou": 43.0564,
+      "fw_iou": 61.91,
       "per_class_iou": {
-        "Background clutter": 0.3614,
-        "Building": 8.3772,
-        "Road": 9.146,
-        "Tree": 3.1177,
-        "Low vegetation": 0.0,
-        "Moving car": 0.9256,
-        "Static car": 3.5078,
+        "Background clutter": 45.1195,
+        "Building": 84.203,
+        "Road": 73.8216,
+        "Tree": 10.4101,
+        "Low vegetation": 67.4102,
+        "Moving car": 22.0111,
+        "Static car": 41.4756,
         "Human": 0.0
       }
     }
@@ -2864,18 +2864,18 @@
       "Human": 0.0365
     },
     "metrics": {
-      "pixel_accuracy": 9.1508,
-      "mean_iou": 2.7676,
-      "fw_iou": 3.6513,
+      "pixel_accuracy": 74.9931,
+      "mean_iou": 50.4562,
+      "fw_iou": 59.7903,
       "per_class_iou": {
-        "Background clutter": 2.1295,
-        "Building": 6.8752,
-        "Road": 11.2829,
-        "Tree": 0.8879,
-        "Low vegetation": 0.0,
-        "Moving car": 0.9418,
-        "Static car": 0.0,
-        "Human": 0.0231
+        "Background clutter": 47.8876,
+        "Building": 77.073,
+        "Road": 67.6553,
+        "Tree": 26.9817,
+        "Low vegetation": 65.6776,
+        "Moving car": 57.601,
+        "Static car": 60.7735,
+        "Human": 0.0
       }
     }
   },
@@ -2894,17 +2894,17 @@
       "Human": 0.0421
     },
     "metrics": {
-      "pixel_accuracy": 12.8351,
-      "mean_iou": 4.7007,
-      "fw_iou": 6.8847,
+      "pixel_accuracy": 72.6748,
+      "mean_iou": 42.8024,
+      "fw_iou": 57.0204,
       "per_class_iou": {
-        "Background clutter": 2.7046,
-        "Building": 5.6312,
-        "Road": 26.2832,
-        "Tree": 0.1866,
-        "Low vegetation": 0.0,
-        "Moving car": 0.3201,
-        "Static car": 2.4795,
+        "Background clutter": 48.493,
+        "Building": 79.1287,
+        "Road": 72.8033,
+        "Tree": 37.9961,
+        "Low vegetation": 55.5167,
+        "Moving car": 48.4816,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -2924,17 +2924,17 @@
       "Human": 0.0745
     },
     "metrics": {
-      "pixel_accuracy": 8.7039,
-      "mean_iou": 2.0642,
-      "fw_iou": 3.1328,
+      "pixel_accuracy": 80.0828,
+      "mean_iou": 49.0122,
+      "fw_iou": 67.6441,
       "per_class_iou": {
-        "Background clutter": 1.8724,
-        "Building": 7.1245,
-        "Road": 6.3597,
-        "Tree": 0.1052,
-        "Low vegetation": 0.0,
-        "Moving car": 1.0516,
-        "Static car": 0.0,
+        "Background clutter": 61.0553,
+        "Building": 88.1015,
+        "Road": 81.5991,
+        "Tree": 60.5692,
+        "Low vegetation": 52.7211,
+        "Moving car": 39.8827,
+        "Static car": 8.1685,
         "Human": 0.0
       }
     }
@@ -2954,17 +2954,17 @@
       "Human": 0.0239
     },
     "metrics": {
-      "pixel_accuracy": 16.6051,
-      "mean_iou": 4.4048,
-      "fw_iou": 11.2178,
+      "pixel_accuracy": 80.4994,
+      "mean_iou": 44.8668,
+      "fw_iou": 67.8644,
       "per_class_iou": {
-        "Background clutter": 0.0714,
-        "Building": 5.5245,
-        "Road": 24.3435,
-        "Tree": 0.8687,
-        "Low vegetation": 0.0,
-        "Moving car": 0.1823,
-        "Static car": 4.2483,
+        "Background clutter": 27.2922,
+        "Building": 90.3764,
+        "Road": 81.5683,
+        "Tree": 74.6338,
+        "Low vegetation": 38.7978,
+        "Moving car": 44.6167,
+        "Static car": 1.6495,
         "Human": 0.0
       }
     }
@@ -2984,17 +2984,17 @@
       "Human": 0.0025
     },
     "metrics": {
-      "pixel_accuracy": 14.2868,
-      "mean_iou": 3.5396,
-      "fw_iou": 7.1452,
+      "pixel_accuracy": 78.2141,
+      "mean_iou": 45.5982,
+      "fw_iou": 65.9992,
       "per_class_iou": {
-        "Background clutter": 0.8246,
-        "Building": 9.8364,
-        "Road": 16.2473,
-        "Tree": 0.0189,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 1.3894,
+        "Background clutter": 37.1871,
+        "Building": 89.6157,
+        "Road": 72.4017,
+        "Tree": 69.7215,
+        "Low vegetation": 38.9107,
+        "Moving car": 33.6111,
+        "Static car": 23.3378,
         "Human": 0.0
       }
     }
@@ -3014,16 +3014,16 @@
       "Human": 0.0255
     },
     "metrics": {
-      "pixel_accuracy": 8.0116,
-      "mean_iou": 1.6558,
-      "fw_iou": 2.0288,
+      "pixel_accuracy": 76.9695,
+      "mean_iou": 45.4967,
+      "fw_iou": 62.7656,
       "per_class_iou": {
-        "Background clutter": 0.4418,
-        "Building": 7.109,
-        "Road": 4.8456,
-        "Tree": 0.8499,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 51.8062,
+        "Building": 67.0201,
+        "Road": 77.7267,
+        "Tree": 60.6583,
+        "Low vegetation": 61.8784,
+        "Moving car": 44.8841,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3044,16 +3044,16 @@
       "Human": 0.0311
     },
     "metrics": {
-      "pixel_accuracy": 6.697,
-      "mean_iou": 1.3889,
-      "fw_iou": 1.6359,
+      "pixel_accuracy": 79.6437,
+      "mean_iou": 48.4085,
+      "fw_iou": 66.7721,
       "per_class_iou": {
-        "Background clutter": 1.3395,
-        "Building": 6.3295,
-        "Road": 3.1977,
-        "Tree": 0.2442,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 57.6757,
+        "Building": 68.64,
+        "Road": 83.9657,
+        "Tree": 60.7842,
+        "Low vegetation": 64.6859,
+        "Moving car": 51.5167,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3074,16 +3074,16 @@
       "Human": 0.0156
     },
     "metrics": {
-      "pixel_accuracy": 8.4541,
-      "mean_iou": 1.6514,
-      "fw_iou": 1.569,
+      "pixel_accuracy": 78.5843,
+      "mean_iou": 47.1994,
+      "fw_iou": 65.5696,
       "per_class_iou": {
-        "Background clutter": 0.1736,
-        "Building": 8.1868,
-        "Road": 3.0664,
-        "Tree": 0.0466,
-        "Low vegetation": 0.0,
-        "Moving car": 1.7375,
+        "Background clutter": 45.5665,
+        "Building": 70.2541,
+        "Road": 82.2434,
+        "Tree": 58.4023,
+        "Low vegetation": 69.2489,
+        "Moving car": 51.8799,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3104,17 +3104,17 @@
       "Human": 0.0208
     },
     "metrics": {
-      "pixel_accuracy": 13.9018,
-      "mean_iou": 3.6988,
-      "fw_iou": 4.7997,
+      "pixel_accuracy": 77.4219,
+      "mean_iou": 47.0387,
+      "fw_iou": 63.572,
       "per_class_iou": {
-        "Background clutter": 0.0937,
-        "Building": 11.7156,
-        "Road": 15.9228,
-        "Tree": 1.8583,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 43.7347,
+        "Building": 75.0552,
+        "Road": 79.4941,
+        "Tree": 48.5156,
+        "Low vegetation": 70.4685,
+        "Moving car": 52.6052,
+        "Static car": 6.4362,
         "Human": 0.0
       }
     }
@@ -3134,16 +3134,16 @@
       "Human": 0.0164
     },
     "metrics": {
-      "pixel_accuracy": 14.5517,
-      "mean_iou": 3.3993,
-      "fw_iou": 3.809,
+      "pixel_accuracy": 78.2949,
+      "mean_iou": 39.6865,
+      "fw_iou": 64.3497,
       "per_class_iou": {
-        "Background clutter": 1.8524,
-        "Building": 15.044,
-        "Road": 7.3951,
-        "Tree": 2.562,
-        "Low vegetation": 0.0,
-        "Moving car": 0.3409,
+        "Background clutter": 41.5808,
+        "Building": 75.1257,
+        "Road": 82.2851,
+        "Tree": 41.0384,
+        "Low vegetation": 74.2887,
+        "Moving car": 3.1737,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3164,18 +3164,18 @@
       "Human": 0.0145
     },
     "metrics": {
-      "pixel_accuracy": 10.534,
-      "mean_iou": 2.3425,
-      "fw_iou": 2.7157,
+      "pixel_accuracy": 81.3866,
+      "mean_iou": 45.703,
+      "fw_iou": 68.3148,
       "per_class_iou": {
-        "Background clutter": 0.001,
-        "Building": 10.8382,
-        "Road": 2.659,
-        "Tree": 5.0813,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 43.08,
+        "Building": 68.149,
+        "Road": 80.9551,
+        "Tree": 47.3979,
+        "Low vegetation": 83.6683,
+        "Moving car": 42.3735,
         "Static car": 0.0,
-        "Human": 0.1601
+        "Human": 0.0
       }
     }
   },
@@ -3194,16 +3194,16 @@
       "Human": 0.0341
     },
     "metrics": {
-      "pixel_accuracy": 19.7436,
-      "mean_iou": 2.7373,
-      "fw_iou": 5.4588,
+      "pixel_accuracy": 81.4429,
+      "mean_iou": 45.3411,
+      "fw_iou": 68.7936,
       "per_class_iou": {
-        "Background clutter": 0.9914,
-        "Building": 20.157,
-        "Road": 0.092,
-        "Tree": 0.6581,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 53.2613,
+        "Building": 75.038,
+        "Road": 79.0204,
+        "Tree": 44.6352,
+        "Low vegetation": 82.9962,
+        "Moving car": 27.7778,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3224,16 +3224,16 @@
       "Human": 0.0415
     },
     "metrics": {
-      "pixel_accuracy": 18.9203,
-      "mean_iou": 4.1108,
-      "fw_iou": 6.5247,
+      "pixel_accuracy": 81.8264,
+      "mean_iou": 43.0884,
+      "fw_iou": 69.5608,
       "per_class_iou": {
-        "Background clutter": 2.4275,
-        "Building": 19.874,
-        "Road": 5.8042,
-        "Tree": 4.7805,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 57.1253,
+        "Building": 75.9422,
+        "Road": 72.9288,
+        "Tree": 45.5445,
+        "Low vegetation": 83.6619,
+        "Moving car": 9.5046,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3254,16 +3254,16 @@
       "Human": 0.017
     },
     "metrics": {
-      "pixel_accuracy": 19.6495,
-      "mean_iou": 3.6662,
-      "fw_iou": 6.0742,
+      "pixel_accuracy": 81.4234,
+      "mean_iou": 42.9042,
+      "fw_iou": 68.6634,
       "per_class_iou": {
-        "Background clutter": 2.1282,
-        "Building": 20.5681,
-        "Road": 1.9383,
-        "Tree": 4.6947,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 55.8317,
+        "Building": 76.4512,
+        "Road": 72.7371,
+        "Tree": 51.1979,
+        "Low vegetation": 80.8712,
+        "Moving car": 6.1443,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3284,17 +3284,17 @@
       "Human": 0.016
     },
     "metrics": {
-      "pixel_accuracy": 20.2058,
-      "mean_iou": 4.132,
-      "fw_iou": 6.741,
+      "pixel_accuracy": 81.5708,
+      "mean_iou": 48.2996,
+      "fw_iou": 68.9942,
       "per_class_iou": {
-        "Background clutter": 2.0798,
-        "Building": 20.8078,
-        "Road": 3.98,
-        "Tree": 6.1887,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 55.8682,
+        "Building": 79.9128,
+        "Road": 79.4045,
+        "Tree": 49.6773,
+        "Low vegetation": 78.0469,
+        "Moving car": 36.2167,
+        "Static car": 7.2706,
         "Human": 0.0
       }
     }
@@ -3314,17 +3314,17 @@
       "Human": 0.0127
     },
     "metrics": {
-      "pixel_accuracy": 1.3767,
-      "mean_iou": 0.4486,
-      "fw_iou": 0.1497,
+      "pixel_accuracy": 78.5062,
+      "mean_iou": 36.9766,
+      "fw_iou": 64.9082,
       "per_class_iou": {
-        "Background clutter": 0.2775,
-        "Building": 1.38,
-        "Road": 0.2502,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.1196,
-        "Static car": 1.5612,
+        "Background clutter": 70.4053,
+        "Building": 0.0,
+        "Road": 81.4965,
+        "Tree": 64.7146,
+        "Low vegetation": 50.7873,
+        "Moving car": 28.4088,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -3344,18 +3344,18 @@
       "Human": 0.0098
     },
     "metrics": {
-      "pixel_accuracy": 1.023,
-      "mean_iou": 0.2429,
-      "fw_iou": 0.015,
+      "pixel_accuracy": 81.5349,
+      "mean_iou": 38.4462,
+      "fw_iou": 69.2352,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 1.1607,
-        "Road": 0.0,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.6708,
+        "Background clutter": 72.033,
+        "Building": 0.0,
+        "Road": 82.3861,
+        "Tree": 72.316,
+        "Low vegetation": 51.7764,
+        "Moving car": 29.0583,
         "Static car": 0.0,
-        "Human": 0.1114
+        "Human": 0.0
       }
     }
   },
@@ -3374,18 +3374,18 @@
       "Human": 0.0108
     },
     "metrics": {
-      "pixel_accuracy": 1.2917,
-      "mean_iou": 0.2403,
-      "fw_iou": 0.0207,
+      "pixel_accuracy": 80.967,
+      "mean_iou": 38.4969,
+      "fw_iou": 68.2951,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 1.4268,
-        "Road": 0.0,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.4821,
+        "Background clutter": 69.6553,
+        "Building": 0.0,
+        "Road": 83.4091,
+        "Tree": 71.9071,
+        "Low vegetation": 52.0557,
+        "Moving car": 30.9482,
         "Static car": 0.0,
-        "Human": 0.0136
+        "Human": 0.0
       }
     }
   },
@@ -3404,18 +3404,18 @@
       "Human": 0.0085
     },
     "metrics": {
-      "pixel_accuracy": 1.1892,
-      "mean_iou": 0.2789,
-      "fw_iou": 0.0215,
+      "pixel_accuracy": 80.7938,
+      "mean_iou": 44.2115,
+      "fw_iou": 67.7735,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 1.2741,
-        "Road": 0.0,
-        "Tree": 0.001,
-        "Low vegetation": 0.0,
-        "Moving car": 0.8767,
+        "Background clutter": 66.6132,
+        "Building": 0.0,
+        "Road": 81.7887,
+        "Tree": 71.7989,
+        "Low vegetation": 56.49,
+        "Moving car": 32.7899,
         "Static car": 0.0,
-        "Human": 0.0796
+        "Human": 0.0
       }
     }
   },
@@ -3434,18 +3434,18 @@
       "Human": 0.0098
     },
     "metrics": {
-      "pixel_accuracy": 1.1636,
-      "mean_iou": 0.1996,
-      "fw_iou": 0.0989,
+      "pixel_accuracy": 80.6208,
+      "mean_iou": 39.7019,
+      "fw_iou": 67.5638,
       "per_class_iou": {
-        "Background clutter": 0.0478,
-        "Building": 1.2094,
-        "Road": 0.0,
-        "Tree": 0.2005,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 61.5601,
+        "Building": 4.1792,
+        "Road": 80.7301,
+        "Tree": 72.1036,
+        "Low vegetation": 61.0442,
+        "Moving car": 37.9976,
         "Static car": 0.0,
-        "Human": 0.1396
+        "Human": 0.0
       }
     }
   },
@@ -3464,18 +3464,18 @@
       "Human": 0.027
     },
     "metrics": {
-      "pixel_accuracy": 1.5768,
-      "mean_iou": 0.5108,
-      "fw_iou": 0.3958,
+      "pixel_accuracy": 80.5482,
+      "mean_iou": 38.0065,
+      "fw_iou": 67.046,
       "per_class_iou": {
-        "Background clutter": 0.4625,
-        "Building": 1.3168,
-        "Road": 2.1363,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 48.7538,
+        "Building": 0.0,
+        "Road": 77.7027,
+        "Tree": 73.345,
+        "Low vegetation": 67.7388,
+        "Moving car": 36.5121,
         "Static car": 0.0,
-        "Human": 0.171
+        "Human": 0.0
       }
     }
   },
@@ -3494,18 +3494,18 @@
       "Human": 0.0145
     },
     "metrics": {
-      "pixel_accuracy": 1.8731,
-      "mean_iou": 0.9918,
-      "fw_iou": 0.8576,
+      "pixel_accuracy": 79.8403,
+      "mean_iou": 37.7056,
+      "fw_iou": 66.504,
       "per_class_iou": {
-        "Background clutter": 2.1053,
-        "Building": 1.1065,
-        "Road": 3.7578,
-        "Tree": 0.0025,
-        "Low vegetation": 0.0,
-        "Moving car": 0.9128,
+        "Background clutter": 44.5428,
+        "Building": 0.0,
+        "Road": 82.4277,
+        "Tree": 72.8762,
+        "Low vegetation": 62.4728,
+        "Moving car": 39.3252,
         "Static car": 0.0,
-        "Human": 0.0498
+        "Human": 0.0
       }
     }
   },
@@ -3524,18 +3524,18 @@
       "Human": 0.0243
     },
     "metrics": {
-      "pixel_accuracy": 2.4213,
-      "mean_iou": 0.9609,
-      "fw_iou": 0.8362,
+      "pixel_accuracy": 79.0334,
+      "mean_iou": 37.2949,
+      "fw_iou": 65.6436,
       "per_class_iou": {
-        "Background clutter": 3.7713,
-        "Building": 1.7317,
-        "Road": 1.177,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.9377,
+        "Background clutter": 51.2396,
+        "Building": 0.0,
+        "Road": 80.8036,
+        "Tree": 74.628,
+        "Low vegetation": 51.0221,
+        "Moving car": 40.6656,
         "Static car": 0.0,
-        "Human": 0.0699
+        "Human": 0.0
       }
     }
   },
@@ -3554,18 +3554,18 @@
       "Human": 0.0303
     },
     "metrics": {
-      "pixel_accuracy": 1.9601,
-      "mean_iou": 0.7969,
-      "fw_iou": 0.5097,
+      "pixel_accuracy": 80.7994,
+      "mean_iou": 36.3167,
+      "fw_iou": 67.9206,
       "per_class_iou": {
-        "Background clutter": 0.0898,
-        "Building": 1.5575,
-        "Road": 2.9298,
-        "Tree": 0.0026,
-        "Low vegetation": 0.0,
-        "Moving car": 1.6827,
+        "Background clutter": 39.12,
+        "Building": 0.0,
+        "Road": 82.0967,
+        "Tree": 77.2162,
+        "Low vegetation": 54.6413,
+        "Moving car": 37.4597,
         "Static car": 0.0,
-        "Human": 0.113
+        "Human": 0.0
       }
     }
   },
@@ -3584,18 +3584,18 @@
       "Human": 0.0349
     },
     "metrics": {
-      "pixel_accuracy": 2.0307,
-      "mean_iou": 0.848,
-      "fw_iou": 0.6398,
+      "pixel_accuracy": 82.178,
+      "mean_iou": 37.9413,
+      "fw_iou": 70.8131,
       "per_class_iou": {
-        "Background clutter": 2.3035,
-        "Building": 1.5289,
-        "Road": 1.9264,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.9846,
+        "Background clutter": 39.0959,
+        "Building": 0.0,
+        "Road": 81.83,
+        "Tree": 80.0592,
+        "Low vegetation": 58.9626,
+        "Moving car": 43.5824,
         "Static car": 0.0,
-        "Human": 0.0407
+        "Human": 0.0
       }
     }
   },
@@ -3614,18 +3614,18 @@
       "Human": 0.1128
     },
     "metrics": {
-      "pixel_accuracy": 30.4979,
-      "mean_iou": 4.2536,
-      "fw_iou": 10.9941,
+      "pixel_accuracy": 85.2481,
+      "mean_iou": 48.1334,
+      "fw_iou": 75.0254,
       "per_class_iou": {
-        "Background clutter": 0.196,
-        "Building": 31.5494,
-        "Road": 0.0,
-        "Tree": 1.4054,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.7847,
-        "Human": 0.0936
+        "Background clutter": 62.8992,
+        "Building": 84.8612,
+        "Road": 60.3013,
+        "Tree": 83.1827,
+        "Low vegetation": 37.2734,
+        "Moving car": 39.3527,
+        "Static car": 17.1968,
+        "Human": 0.0
       }
     }
   },
@@ -3644,18 +3644,18 @@
       "Human": 0.1408
     },
     "metrics": {
-      "pixel_accuracy": 35.1142,
-      "mean_iou": 5.2157,
-      "fw_iou": 15.8992,
+      "pixel_accuracy": 84.8605,
+      "mean_iou": 44.7913,
+      "fw_iou": 74.8909,
       "per_class_iou": {
-        "Background clutter": 0.6632,
-        "Building": 36.5034,
-        "Road": 3.2805,
-        "Tree": 0.0932,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0878,
-        "Static car": 0.0,
-        "Human": 1.0979
+        "Background clutter": 46.5998,
+        "Building": 88.1128,
+        "Road": 64.477,
+        "Tree": 84.5562,
+        "Low vegetation": 3.5378,
+        "Moving car": 35.4399,
+        "Static car": 35.6066,
+        "Human": 0.0
       }
     }
   },
@@ -3674,18 +3674,18 @@
       "Human": 0.1084
     },
     "metrics": {
-      "pixel_accuracy": 31.2492,
-      "mean_iou": 4.9144,
-      "fw_iou": 12.3539,
+      "pixel_accuracy": 84.729,
+      "mean_iou": 44.1083,
+      "fw_iou": 75.1461,
       "per_class_iou": {
-        "Background clutter": 0.0685,
-        "Building": 34.1927,
-        "Road": 3.045,
-        "Tree": 0.0524,
-        "Low vegetation": 0.0,
-        "Moving car": 1.0199,
-        "Static car": 0.8835,
-        "Human": 0.0534
+        "Background clutter": 51.8556,
+        "Building": 84.7909,
+        "Road": 54.416,
+        "Tree": 85.4689,
+        "Low vegetation": 45.5339,
+        "Moving car": 17.7566,
+        "Static car": 13.0445,
+        "Human": 0.0
       }
     }
   },
@@ -3704,17 +3704,17 @@
       "Human": 0.104
     },
     "metrics": {
-      "pixel_accuracy": 35.6258,
-      "mean_iou": 5.9314,
-      "fw_iou": 15.1138,
+      "pixel_accuracy": 86.4601,
+      "mean_iou": 44.1235,
+      "fw_iou": 77.3907,
       "per_class_iou": {
-        "Background clutter": 0.0012,
-        "Building": 37.8502,
-        "Road": 3.2907,
-        "Tree": 0.248,
-        "Low vegetation": 0.0,
-        "Moving car": 3.1874,
-        "Static car": 2.8737,
+        "Background clutter": 55.3549,
+        "Building": 88.8707,
+        "Road": 63.164,
+        "Tree": 84.5201,
+        "Low vegetation": 40.0254,
+        "Moving car": 18.1611,
+        "Static car": 2.8916,
         "Human": 0.0
       }
     }
@@ -3734,18 +3734,18 @@
       "Human": 0.0972
     },
     "metrics": {
-      "pixel_accuracy": 37.0835,
-      "mean_iou": 7.1028,
-      "fw_iou": 17.2802,
+      "pixel_accuracy": 85.8191,
+      "mean_iou": 47.5127,
+      "fw_iou": 75.8885,
       "per_class_iou": {
-        "Background clutter": 0.0752,
-        "Building": 41.1951,
-        "Road": 13.0534,
-        "Tree": 1.0904,
-        "Low vegetation": 1.0895,
-        "Moving car": 0.0,
-        "Static car": 0.2457,
-        "Human": 0.0734
+        "Background clutter": 63.785,
+        "Building": 86.72,
+        "Road": 60.5384,
+        "Tree": 79.9321,
+        "Low vegetation": 50.3531,
+        "Moving car": 22.4547,
+        "Static car": 16.3186,
+        "Human": 0.0
       }
     }
   },
@@ -3764,18 +3764,18 @@
       "Human": 0.1186
     },
     "metrics": {
-      "pixel_accuracy": 25.381,
-      "mean_iou": 3.6775,
-      "fw_iou": 8.7076,
+      "pixel_accuracy": 88.0455,
+      "mean_iou": 52.3643,
+      "fw_iou": 79.3614,
       "per_class_iou": {
-        "Background clutter": 0.0516,
-        "Building": 28.6707,
-        "Road": 0.0,
-        "Tree": 0.0085,
-        "Low vegetation": 0.0,
-        "Moving car": 0.6268,
-        "Static car": 0.0,
-        "Human": 0.0623
+        "Background clutter": 77.1796,
+        "Building": 86.3093,
+        "Road": 62.575,
+        "Tree": 83.1653,
+        "Low vegetation": 47.3576,
+        "Moving car": 36.5285,
+        "Static car": 25.7987,
+        "Human": 0.0
       }
     }
   },
@@ -3794,16 +3794,16 @@
       "Human": 0.1121
     },
     "metrics": {
-      "pixel_accuracy": 18.5882,
-      "mean_iou": 2.575,
-      "fw_iou": 4.1928,
+      "pixel_accuracy": 89.7664,
+      "mean_iou": 48.474,
+      "fw_iou": 81.7098,
       "per_class_iou": {
-        "Background clutter": 0.0797,
-        "Building": 20.3013,
-        "Road": 0.0,
-        "Tree": 0.0275,
-        "Low vegetation": 0.1913,
-        "Moving car": 0.0,
+        "Background clutter": 82.6687,
+        "Building": 82.5141,
+        "Road": 67.4278,
+        "Tree": 86.71,
+        "Low vegetation": 30.2504,
+        "Moving car": 38.2212,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3824,16 +3824,16 @@
       "Human": 0.1543
     },
     "metrics": {
-      "pixel_accuracy": 13.7926,
-      "mean_iou": 2.4514,
-      "fw_iou": 2.6072,
+      "pixel_accuracy": 87.1155,
+      "mean_iou": 41.906,
+      "fw_iou": 77.4861,
       "per_class_iou": {
-        "Background clutter": 0.0009,
-        "Building": 14.771,
-        "Road": 4.7673,
-        "Tree": 0.0722,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 80.0646,
+        "Building": 71.8131,
+        "Road": 63.9986,
+        "Tree": 85.1826,
+        "Low vegetation": 8.3195,
+        "Moving car": 25.8699,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -3854,18 +3854,18 @@
       "Human": 0.2201
     },
     "metrics": {
-      "pixel_accuracy": 11.9759,
-      "mean_iou": 1.84,
-      "fw_iou": 2.0811,
+      "pixel_accuracy": 88.3856,
+      "mean_iou": 44.7037,
+      "fw_iou": 79.5045,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 13.4999,
-        "Road": 0.307,
-        "Tree": 0.5178,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 84.4117,
+        "Building": 81.2665,
+        "Road": 57.4318,
+        "Tree": 83.3499,
+        "Low vegetation": 16.4195,
+        "Moving car": 34.7501,
         "Static car": 0.0,
-        "Human": 0.3954
+        "Human": 0.0
       }
     }
   },
@@ -3884,18 +3884,18 @@
       "Human": 0.1549
     },
     "metrics": {
-      "pixel_accuracy": 13.7124,
-      "mean_iou": 2.0838,
-      "fw_iou": 2.4219,
+      "pixel_accuracy": 87.4724,
+      "mean_iou": 44.6538,
+      "fw_iou": 77.8792,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 15.666,
-        "Road": 0.7301,
-        "Tree": 0.1821,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 83.806,
+        "Building": 80.3917,
+        "Road": 59.0009,
+        "Tree": 80.3362,
+        "Low vegetation": 18.8293,
+        "Moving car": 34.866,
         "Static car": 0.0,
-        "Human": 0.0918
+        "Human": 0.0
       }
     }
   },
@@ -3914,18 +3914,18 @@
       "Human": 0.0463
     },
     "metrics": {
-      "pixel_accuracy": 57.7386,
-      "mean_iou": 8.1827,
-      "fw_iou": 37.3394,
+      "pixel_accuracy": 90.1375,
+      "mean_iou": 37.2002,
+      "fw_iou": 82.1474,
       "per_class_iou": {
-        "Background clutter": 3.9044,
-        "Building": 58.2539,
-        "Road": 2.6009,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.4966,
-        "Human": 0.2055
+        "Background clutter": 6.9269,
+        "Building": 90.7205,
+        "Road": 80.9019,
+        "Tree": 84.3509,
+        "Low vegetation": 10.7143,
+        "Moving car": 23.6823,
+        "Static car": 0.305,
+        "Human": 0.0
       }
     }
   },
@@ -3944,17 +3944,17 @@
       "Human": 0.06
     },
     "metrics": {
-      "pixel_accuracy": 56.4514,
-      "mean_iou": 9.1206,
-      "fw_iou": 38.5407,
+      "pixel_accuracy": 90.5459,
+      "mean_iou": 38.0907,
+      "fw_iou": 83.0772,
       "per_class_iou": {
-        "Background clutter": 9.3991,
-        "Building": 58.2155,
-        "Road": 2.3258,
-        "Tree": 0.0953,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 2.9293,
+        "Background clutter": 17.5268,
+        "Building": 92.2162,
+        "Road": 77.7685,
+        "Tree": 82.0656,
+        "Low vegetation": 16.0826,
+        "Moving car": 3.0525,
+        "Static car": 16.0131,
         "Human": 0.0
       }
     }
@@ -3974,17 +3974,17 @@
       "Human": 0.1053
     },
     "metrics": {
-      "pixel_accuracy": 33.4562,
-      "mean_iou": 6.3854,
-      "fw_iou": 22.0083,
+      "pixel_accuracy": 88.6939,
+      "mean_iou": 42.202,
+      "fw_iou": 80.2598,
       "per_class_iou": {
-        "Background clutter": 0.8744,
-        "Building": 34.0814,
-        "Road": 9.3735,
-        "Tree": 6.7241,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0297,
+        "Background clutter": 29.8528,
+        "Building": 89.2784,
+        "Road": 77.3616,
+        "Tree": 82.4886,
+        "Low vegetation": 22.8974,
+        "Moving car": 21.2165,
+        "Static car": 14.5207,
         "Human": 0.0
       }
     }
@@ -4004,17 +4004,17 @@
       "Human": 0.1167
     },
     "metrics": {
-      "pixel_accuracy": 33.4421,
-      "mean_iou": 7.5872,
-      "fw_iou": 18.8274,
+      "pixel_accuracy": 87.0077,
+      "mean_iou": 42.0488,
+      "fw_iou": 77.4891,
       "per_class_iou": {
-        "Background clutter": 2.9339,
-        "Building": 33.9858,
-        "Road": 18.8299,
-        "Tree": 3.2884,
-        "Low vegetation": 0.0,
-        "Moving car": 0.5462,
-        "Static car": 1.1132,
+        "Background clutter": 25.2099,
+        "Building": 88.1121,
+        "Road": 78.4532,
+        "Tree": 83.0036,
+        "Low vegetation": 17.4099,
+        "Moving car": 24.9478,
+        "Static car": 19.2541,
         "Human": 0.0
       }
     }
@@ -4034,18 +4034,18 @@
       "Human": 0.097
     },
     "metrics": {
-      "pixel_accuracy": 53.6865,
-      "mean_iou": 8.331,
-      "fw_iou": 36.1256,
+      "pixel_accuracy": 90.61,
+      "mean_iou": 43.4279,
+      "fw_iou": 83.6946,
       "per_class_iou": {
-        "Background clutter": 2.0268,
-        "Building": 55.1903,
-        "Road": 3.5442,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 5.827,
-        "Human": 0.0594
+        "Background clutter": 23.9128,
+        "Building": 93.0302,
+        "Road": 77.9687,
+        "Tree": 80.4893,
+        "Low vegetation": 22.8002,
+        "Moving car": 17.3979,
+        "Static car": 31.824,
+        "Human": 0.0
       }
     }
   },
@@ -4064,17 +4064,17 @@
       "Human": 0.1308
     },
     "metrics": {
-      "pixel_accuracy": 55.8383,
-      "mean_iou": 7.1203,
-      "fw_iou": 37.6983,
+      "pixel_accuracy": 90.6522,
+      "mean_iou": 45.9487,
+      "fw_iou": 83.7618,
       "per_class_iou": {
-        "Background clutter": 0.067,
-        "Building": 56.7535,
-        "Road": 0.0,
-        "Tree": 0.1421,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 35.6353,
+        "Building": 93.5243,
+        "Road": 74.4127,
+        "Tree": 78.9529,
+        "Low vegetation": 36.8406,
+        "Moving car": 27.9286,
+        "Static car": 20.2951,
         "Human": 0.0
       }
     }
@@ -4094,17 +4094,17 @@
       "Human": 0.2886
     },
     "metrics": {
-      "pixel_accuracy": 51.2523,
-      "mean_iou": 7.0748,
-      "fw_iou": 33.2927,
+      "pixel_accuracy": 87.669,
+      "mean_iou": 39.5772,
+      "fw_iou": 79.3963,
       "per_class_iou": {
-        "Background clutter": 4.0667,
-        "Building": 52.3945,
-        "Road": 0.063,
-        "Tree": 0.0745,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 39.573,
+        "Building": 92.4327,
+        "Road": 64.7702,
+        "Tree": 73.8914,
+        "Low vegetation": 16.2413,
+        "Moving car": 27.9916,
+        "Static car": 1.7172,
         "Human": 0.0
       }
     }
@@ -4124,17 +4124,17 @@
       "Human": 0.3256
     },
     "metrics": {
-      "pixel_accuracy": 43.3839,
-      "mean_iou": 5.8946,
-      "fw_iou": 25.4117,
+      "pixel_accuracy": 80.8368,
+      "mean_iou": 36.2258,
+      "fw_iou": 71.5231,
       "per_class_iou": {
-        "Background clutter": 0.1365,
-        "Building": 44.4395,
-        "Road": 2.1703,
-        "Tree": 0.0218,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.3884,
+        "Background clutter": 20.917,
+        "Building": 89.9272,
+        "Road": 53.494,
+        "Tree": 71.0676,
+        "Low vegetation": 21.413,
+        "Moving car": 19.1673,
+        "Static car": 13.8203,
         "Human": 0.0
       }
     }
@@ -4154,18 +4154,18 @@
       "Human": 0.4074
     },
     "metrics": {
-      "pixel_accuracy": 39.9763,
-      "mean_iou": 5.6442,
-      "fw_iou": 26.0021,
+      "pixel_accuracy": 84.4842,
+      "mean_iou": 36.708,
+      "fw_iou": 75.5609,
       "per_class_iou": {
-        "Background clutter": 0.9989,
-        "Building": 42.1023,
-        "Road": 0.8582,
-        "Tree": 0.5034,
-        "Low vegetation": 0.0,
-        "Moving car": 0.5327,
-        "Static car": 0.0463,
-        "Human": 0.1117
+        "Background clutter": 30.1322,
+        "Building": 91.9826,
+        "Road": 64.2878,
+        "Tree": 66.838,
+        "Low vegetation": 29.9864,
+        "Moving car": 8.6435,
+        "Static car": 1.7934,
+        "Human": 0.0
       }
     }
   },
@@ -4184,18 +4184,18 @@
       "Human": 0.6271
     },
     "metrics": {
-      "pixel_accuracy": 38.7213,
-      "mean_iou": 6.8487,
-      "fw_iou": 19.8574,
+      "pixel_accuracy": 77.8912,
+      "mean_iou": 37.9668,
+      "fw_iou": 66.5431,
       "per_class_iou": {
-        "Background clutter": 2.6737,
-        "Building": 40.646,
-        "Road": 6.97,
-        "Tree": 2.5941,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 1.5793,
-        "Human": 0.3268
+        "Background clutter": 33.3204,
+        "Building": 88.7482,
+        "Road": 60.266,
+        "Tree": 70.3498,
+        "Low vegetation": 26.8639,
+        "Moving car": 13.5346,
+        "Static car": 10.6513,
+        "Human": 0.0
       }
     }
   },
@@ -4214,17 +4214,17 @@
       "Human": 0.0575
     },
     "metrics": {
-      "pixel_accuracy": 19.0048,
-      "mean_iou": 3.9362,
-      "fw_iou": 7.0375,
+      "pixel_accuracy": 76.8287,
+      "mean_iou": 45.8691,
+      "fw_iou": 63.9874,
       "per_class_iou": {
-        "Background clutter": 1.2926,
-        "Building": 18.8188,
-        "Road": 7.6173,
-        "Tree": 3.6861,
-        "Low vegetation": 0.0,
-        "Moving car": 0.075,
-        "Static car": 0.0,
+        "Background clutter": 61.5068,
+        "Building": 82.2669,
+        "Road": 75.2543,
+        "Tree": 44.3847,
+        "Low vegetation": 38.0551,
+        "Moving car": 53.7489,
+        "Static car": 11.7359,
         "Human": 0.0
       }
     }
@@ -4244,16 +4244,16 @@
       "Human": 0.0625
     },
     "metrics": {
-      "pixel_accuracy": 18.9769,
-      "mean_iou": 3.6283,
-      "fw_iou": 7.2747,
+      "pixel_accuracy": 77.6647,
+      "mean_iou": 45.2871,
+      "fw_iou": 65.0927,
       "per_class_iou": {
-        "Background clutter": 0.1775,
-        "Building": 19.0511,
-        "Road": 8.3144,
-        "Tree": 1.4831,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 56.8294,
+        "Building": 81.5824,
+        "Road": 77.7512,
+        "Tree": 48.6876,
+        "Low vegetation": 39.8613,
+        "Moving car": 57.5847,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -4274,17 +4274,17 @@
       "Human": 0.0586
     },
     "metrics": {
-      "pixel_accuracy": 20.4261,
-      "mean_iou": 3.9369,
-      "fw_iou": 7.8348,
+      "pixel_accuracy": 78.6078,
+      "mean_iou": 44.5254,
+      "fw_iou": 66.1336,
       "per_class_iou": {
-        "Background clutter": 2.3627,
-        "Building": 20.2781,
-        "Road": 8.0099,
-        "Tree": 0.448,
-        "Low vegetation": 0.0743,
-        "Moving car": 0.1481,
-        "Static car": 0.1741,
+        "Background clutter": 61.7901,
+        "Building": 79.2135,
+        "Road": 81.5574,
+        "Tree": 42.6144,
+        "Low vegetation": 44.889,
+        "Moving car": 46.1389,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -4304,16 +4304,16 @@
       "Human": 0.1013
     },
     "metrics": {
-      "pixel_accuracy": 16.4635,
-      "mean_iou": 2.8359,
-      "fw_iou": 4.6404,
+      "pixel_accuracy": 76.5214,
+      "mean_iou": 41.928,
+      "fw_iou": 63.27,
       "per_class_iou": {
-        "Background clutter": 0.8616,
-        "Building": 16.4777,
-        "Road": 5.0895,
-        "Tree": 0.2584,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
+        "Background clutter": 64.9003,
+        "Building": 72.5859,
+        "Road": 76.9974,
+        "Tree": 49.8039,
+        "Low vegetation": 28.5921,
+        "Moving car": 42.5443,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -4334,16 +4334,16 @@
       "Human": 0.0758
     },
     "metrics": {
-      "pixel_accuracy": 17.8248,
-      "mean_iou": 3.1,
-      "fw_iou": 5.2643,
+      "pixel_accuracy": 78.4641,
+      "mean_iou": 43.9536,
+      "fw_iou": 65.3867,
       "per_class_iou": {
-        "Background clutter": 1.1842,
-        "Building": 18.3699,
-        "Road": 4.8436,
-        "Tree": 0.0526,
-        "Low vegetation": 0.0,
-        "Moving car": 0.3495,
+        "Background clutter": 67.4583,
+        "Building": 74.4542,
+        "Road": 76.1356,
+        "Tree": 43.2061,
+        "Low vegetation": 44.7889,
+        "Moving car": 45.5857,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -4364,17 +4364,17 @@
       "Human": 0.0588
     },
     "metrics": {
-      "pixel_accuracy": 14.9732,
-      "mean_iou": 2.9162,
-      "fw_iou": 4.6261,
+      "pixel_accuracy": 79.6887,
+      "mean_iou": 46.4154,
+      "fw_iou": 67.9169,
       "per_class_iou": {
-        "Background clutter": 1.2066,
-        "Building": 15.1756,
-        "Road": 6.1368,
-        "Tree": 0.8102,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
+        "Background clutter": 69.6941,
+        "Building": 87.0171,
+        "Road": 72.1417,
+        "Tree": 55.3675,
+        "Low vegetation": 35.0251,
+        "Moving car": 45.5683,
+        "Static car": 6.5097,
         "Human": 0.0
       }
     }
@@ -4394,17 +4394,17 @@
       "Human": 0.0814
     },
     "metrics": {
-      "pixel_accuracy": 15.4925,
-      "mean_iou": 2.9255,
-      "fw_iou": 4.4968,
+      "pixel_accuracy": 80.5534,
+      "mean_iou": 49.0803,
+      "fw_iou": 68.7527,
       "per_class_iou": {
-        "Background clutter": 1.5537,
-        "Building": 15.5608,
-        "Road": 4.8786,
-        "Tree": 0.1356,
-        "Low vegetation": 0.0,
-        "Moving car": 1.2753,
-        "Static car": 0.0,
+        "Background clutter": 68.1439,
+        "Building": 90.6453,
+        "Road": 65.1659,
+        "Tree": 62.3817,
+        "Low vegetation": 42.0269,
+        "Moving car": 50.7596,
+        "Static car": 13.5189,
         "Human": 0.0
       }
     }
@@ -4424,16 +4424,16 @@
       "Human": 0.0839
     },
     "metrics": {
-      "pixel_accuracy": 10.0249,
-      "mean_iou": 2.2529,
-      "fw_iou": 2.8916,
+      "pixel_accuracy": 80.8046,
+      "mean_iou": 47.4734,
+      "fw_iou": 67.9798,
       "per_class_iou": {
-        "Background clutter": 2.3578,
-        "Building": 9.5576,
-        "Road": 0.8003,
-        "Tree": 1.368,
-        "Low vegetation": 0.1534,
-        "Moving car": 3.786,
+        "Background clutter": 64.5043,
+        "Building": 82.3312,
+        "Road": 78.2771,
+        "Tree": 63.7877,
+        "Low vegetation": 51.5716,
+        "Moving car": 39.3151,
         "Static car": 0.0,
         "Human": 0.0
       }
@@ -4454,17 +4454,17 @@
       "Human": 0.0341
     },
     "metrics": {
-      "pixel_accuracy": 11.6209,
-      "mean_iou": 2.4439,
-      "fw_iou": 3.8072,
+      "pixel_accuracy": 79.8416,
+      "mean_iou": 47.3573,
+      "fw_iou": 67.0892,
       "per_class_iou": {
-        "Background clutter": 1.2526,
-        "Building": 11.4063,
-        "Road": 2.3939,
-        "Tree": 2.7758,
-        "Low vegetation": 0.0,
-        "Moving car": 1.7227,
-        "Static car": 0.0,
+        "Background clutter": 60.5097,
+        "Building": 82.1986,
+        "Road": 75.4919,
+        "Tree": 62.612,
+        "Low vegetation": 53.0475,
+        "Moving car": 42.1209,
+        "Static car": 2.8777,
         "Human": 0.0
       }
     }
@@ -4484,17 +4484,17 @@
       "Human": 0.0542
     },
     "metrics": {
-      "pixel_accuracy": 9.9898,
-      "mean_iou": 2.0626,
-      "fw_iou": 3.2939,
+      "pixel_accuracy": 74.9498,
+      "mean_iou": 42.986,
+      "fw_iou": 62.1382,
       "per_class_iou": {
-        "Background clutter": 2.2727,
-        "Building": 9.2916,
-        "Road": 2.5943,
-        "Tree": 1.6063,
-        "Low vegetation": 0.0,
-        "Moving car": 0.6414,
-        "Static car": 0.0944,
+        "Background clutter": 61.9755,
+        "Building": 76.8465,
+        "Road": 80.8247,
+        "Tree": 43.7085,
+        "Low vegetation": 34.3583,
+        "Moving car": 38.8905,
+        "Static car": 7.2837,
         "Human": 0.0
       }
     }
@@ -4514,17 +4514,17 @@
       "Human": 0.0039
     },
     "metrics": {
-      "pixel_accuracy": 18.68,
-      "mean_iou": 3.4882,
-      "fw_iou": 6.1781,
+      "pixel_accuracy": 84.1121,
+      "mean_iou": 41.7606,
+      "fw_iou": 73.4593,
       "per_class_iou": {
-        "Background clutter": 0.4584,
-        "Building": 19.6897,
-        "Road": 7.6964,
-        "Tree": 0.0269,
-        "Low vegetation": 0.0,
+        "Background clutter": 69.3429,
+        "Building": 87.1204,
+        "Road": 58.4464,
+        "Tree": 77.189,
+        "Low vegetation": 41.9866,
         "Moving car": 0.0,
-        "Static car": 0.034,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -4544,15 +4544,15 @@
       "Human": 0.0042
     },
     "metrics": {
-      "pixel_accuracy": 22.7635,
-      "mean_iou": 3.142,
-      "fw_iou": 7.1103,
+      "pixel_accuracy": 86.6738,
+      "mean_iou": 40.2133,
+      "fw_iou": 77.1069,
       "per_class_iou": {
-        "Background clutter": 0.1125,
-        "Building": 23.8558,
-        "Road": 1.1222,
-        "Tree": 0.0454,
-        "Low vegetation": 0.0,
+        "Background clutter": 72.0522,
+        "Building": 89.4245,
+        "Road": 43.7748,
+        "Tree": 80.8403,
+        "Low vegetation": 35.6148,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -4574,17 +4574,17 @@
       "Human": 0.0129
     },
     "metrics": {
-      "pixel_accuracy": 21.9007,
-      "mean_iou": 4.0719,
-      "fw_iou": 8.1705,
+      "pixel_accuracy": 86.8785,
+      "mean_iou": 42.21,
+      "fw_iou": 77.4717,
       "per_class_iou": {
-        "Background clutter": 2.8312,
-        "Building": 23.0172,
-        "Road": 6.6465,
-        "Tree": 0.0361,
-        "Low vegetation": 0.0,
+        "Background clutter": 72.7963,
+        "Building": 91.1763,
+        "Road": 54.0596,
+        "Tree": 79.2335,
+        "Low vegetation": 40.4142,
         "Moving car": 0.0,
-        "Static car": 0.0441,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -4604,17 +4604,17 @@
       "Human": 0.0419
     },
     "metrics": {
-      "pixel_accuracy": 18.613,
-      "mean_iou": 2.9531,
-      "fw_iou": 6.4335,
+      "pixel_accuracy": 82.1179,
+      "mean_iou": 40.9236,
+      "fw_iou": 70.1985,
       "per_class_iou": {
-        "Background clutter": 0.0036,
-        "Building": 19.9262,
-        "Road": 1.5657,
-        "Tree": 2.1296,
-        "Low vegetation": 0.0,
+        "Background clutter": 66.8037,
+        "Building": 83.4996,
+        "Road": 49.7494,
+        "Tree": 72.449,
+        "Low vegetation": 52.2903,
         "Moving car": 0.0,
-        "Static car": 0.0,
+        "Static car": 2.5964,
         "Human": 0.0
       }
     }
@@ -4634,17 +4634,17 @@
       "Human": 0.0089
     },
     "metrics": {
-      "pixel_accuracy": 54.88,
-      "mean_iou": 8.8866,
-      "fw_iou": 43.9675,
+      "pixel_accuracy": 86.5274,
+      "mean_iou": 37.9824,
+      "fw_iou": 78.4451,
       "per_class_iou": {
-        "Background clutter": 5.0996,
-        "Building": 57.3596,
-        "Road": 7.9514,
-        "Tree": 0.6362,
-        "Low vegetation": 0.0,
+        "Background clutter": 32.7547,
+        "Building": 90.7641,
+        "Road": 50.4575,
+        "Tree": 50.8148,
+        "Low vegetation": 40.2693,
         "Moving car": 0.0,
-        "Static car": 0.0463,
+        "Static car": 0.8163,
         "Human": 0.0
       }
     }
@@ -4664,17 +4664,17 @@
       "Human": 0.0058
     },
     "metrics": {
-      "pixel_accuracy": 9.1155,
-      "mean_iou": 1.9237,
-      "fw_iou": 3.6883,
+      "pixel_accuracy": 83.0581,
+      "mean_iou": 34.0115,
+      "fw_iou": 71.1648,
       "per_class_iou": {
-        "Background clutter": 3.9053,
-        "Building": 7.7244,
-        "Road": 0.2865,
-        "Tree": 3.3429,
-        "Low vegetation": 0.0,
+        "Background clutter": 74.3029,
+        "Building": 73.9779,
+        "Road": 0.0,
+        "Tree": 77.0936,
+        "Low vegetation": 46.7173,
         "Moving car": 0.0,
-        "Static car": 0.1304,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -4694,18 +4694,18 @@
       "Human": 0.026
     },
     "metrics": {
-      "pixel_accuracy": 10.8223,
-      "mean_iou": 2.4746,
-      "fw_iou": 3.9492,
+      "pixel_accuracy": 76.2579,
+      "mean_iou": 41.8331,
+      "fw_iou": 61.2898,
       "per_class_iou": {
-        "Background clutter": 1.4514,
-        "Building": 9.5171,
-        "Road": 0.6462,
-        "Tree": 8.0835,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.0983
+        "Background clutter": 65.8323,
+        "Building": 63.983,
+        "Road": 55.4031,
+        "Tree": 67.6965,
+        "Low vegetation": 36.2722,
+        "Moving car": 41.8667,
+        "Static car": 3.611,
+        "Human": 0.0
       }
     }
   },
@@ -4724,17 +4724,17 @@
       "Human": 0.0181
     },
     "metrics": {
-      "pixel_accuracy": 9.8281,
-      "mean_iou": 2.9867,
-      "fw_iou": 2.9825,
+      "pixel_accuracy": 80.4805,
+      "mean_iou": 44.3778,
+      "fw_iou": 67.3814,
       "per_class_iou": {
-        "Background clutter": 0.0211,
-        "Building": 8.2127,
-        "Road": 14.9933,
-        "Tree": 0.6127,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0537,
+        "Background clutter": 61.6655,
+        "Building": 60.5275,
+        "Road": 64.3789,
+        "Tree": 77.8235,
+        "Low vegetation": 58.0446,
+        "Moving car": 30.2661,
+        "Static car": 2.3163,
         "Human": 0.0
       }
     }
@@ -4754,17 +4754,17 @@
       "Human": 0.0083
     },
     "metrics": {
-      "pixel_accuracy": 13.3983,
-      "mean_iou": 2.7507,
-      "fw_iou": 3.1285,
+      "pixel_accuracy": 82.8466,
+      "mean_iou": 46.6319,
+      "fw_iou": 71.0275,
       "per_class_iou": {
-        "Background clutter": 0.4409,
-        "Building": 14.009,
-        "Road": 6.5809,
-        "Tree": 0.2369,
-        "Low vegetation": 0.0,
-        "Moving car": 0.3002,
-        "Static car": 0.4377,
+        "Background clutter": 67.7694,
+        "Building": 73.0696,
+        "Road": 71.3821,
+        "Tree": 78.0629,
+        "Low vegetation": 46.1783,
+        "Moving car": 36.5929,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -4784,17 +4784,17 @@
       "Human": 0.0014
     },
     "metrics": {
-      "pixel_accuracy": 13.4531,
-      "mean_iou": 2.5048,
-      "fw_iou": 4.1807,
+      "pixel_accuracy": 83.2913,
+      "mean_iou": 43.491,
+      "fw_iou": 72.227,
       "per_class_iou": {
-        "Background clutter": 1.4097,
-        "Building": 16.2944,
-        "Road": 0.3145,
-        "Tree": 1.9775,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0424,
+        "Background clutter": 70.7738,
+        "Building": 74.0864,
+        "Road": 74.5148,
+        "Tree": 75.9506,
+        "Low vegetation": 36.316,
+        "Moving car": 16.286,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -4814,18 +4814,18 @@
       "Human": 0.9402
     },
     "metrics": {
-      "pixel_accuracy": 28.0557,
-      "mean_iou": 5.4558,
-      "fw_iou": 11.0957,
+      "pixel_accuracy": 77.4155,
+      "mean_iou": 42.1719,
+      "fw_iou": 64.8865,
       "per_class_iou": {
-        "Background clutter": 8.3044,
-        "Building": 28.3048,
-        "Road": 2.1184,
-        "Tree": 4.1145,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.8042
+        "Background clutter": 48.2871,
+        "Building": 88.6732,
+        "Road": 68.5059,
+        "Tree": 71.2596,
+        "Low vegetation": 30.5753,
+        "Moving car": 19.1662,
+        "Static car": 10.9083,
+        "Human": 0.0
       }
     }
   },
@@ -4844,18 +4844,18 @@
       "Human": 0.7492
     },
     "metrics": {
-      "pixel_accuracy": 29.8495,
-      "mean_iou": 4.482,
-      "fw_iou": 11.0147,
+      "pixel_accuracy": 78.4105,
+      "mean_iou": 41.7717,
+      "fw_iou": 66.7361,
       "per_class_iou": {
-        "Background clutter": 0.106,
-        "Building": 30.4848,
-        "Road": 0.2807,
-        "Tree": 4.7815,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.2034
+        "Background clutter": 29.8014,
+        "Building": 89.8666,
+        "Road": 72.7295,
+        "Tree": 71.0265,
+        "Low vegetation": 29.9367,
+        "Moving car": 21.6169,
+        "Static car": 19.1956,
+        "Human": 0.0
       }
     }
   },
@@ -4874,18 +4874,18 @@
       "Human": 0.5542
     },
     "metrics": {
-      "pixel_accuracy": 34.0606,
-      "mean_iou": 4.8574,
-      "fw_iou": 14.4679,
+      "pixel_accuracy": 84.7949,
+      "mean_iou": 49.0515,
+      "fw_iou": 75.361,
       "per_class_iou": {
-        "Background clutter": 0.0017,
-        "Building": 34.2382,
-        "Road": 3.8843,
-        "Tree": 0.3883,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0,
-        "Human": 0.347
+        "Background clutter": 35.4027,
+        "Building": 93.0203,
+        "Road": 76.361,
+        "Tree": 77.4021,
+        "Low vegetation": 39.4157,
+        "Moving car": 36.4607,
+        "Static car": 34.3497,
+        "Human": 0.0
       }
     }
   },
@@ -4904,18 +4904,18 @@
       "Human": 0.3306
     },
     "metrics": {
-      "pixel_accuracy": 26.1796,
-      "mean_iou": 5.6185,
-      "fw_iou": 12.2584,
+      "pixel_accuracy": 81.1534,
+      "mean_iou": 47.5566,
+      "fw_iou": 69.8432,
       "per_class_iou": {
-        "Background clutter": 0.4465,
-        "Building": 25.3729,
-        "Road": 13.6098,
-        "Tree": 1.8504,
-        "Low vegetation": 0.0,
-        "Moving car": 0.3568,
-        "Static car": 2.436,
-        "Human": 0.8759
+        "Background clutter": 40.3081,
+        "Building": 87.1314,
+        "Road": 74.5337,
+        "Tree": 71.7746,
+        "Low vegetation": 46.7809,
+        "Moving car": 32.0866,
+        "Static car": 27.8374,
+        "Human": 0.0
       }
     }
   },
@@ -4934,18 +4934,18 @@
       "Human": 0.2589
     },
     "metrics": {
-      "pixel_accuracy": 16.9354,
-      "mean_iou": 3.3726,
-      "fw_iou": 7.2448,
+      "pixel_accuracy": 75.9053,
+      "mean_iou": 44.6752,
+      "fw_iou": 63.0782,
       "per_class_iou": {
-        "Background clutter": 1.3165,
-        "Building": 16.4034,
-        "Road": 8.6791,
-        "Tree": 0.3487,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0369,
-        "Human": 0.1963
+        "Background clutter": 38.2248,
+        "Building": 84.5441,
+        "Road": 67.6258,
+        "Tree": 61.622,
+        "Low vegetation": 47.0994,
+        "Moving car": 20.2758,
+        "Static car": 38.0099,
+        "Human": 0.0
       }
     }
   },
@@ -4964,17 +4964,17 @@
       "Human": 0.3308
     },
     "metrics": {
-      "pixel_accuracy": 44.093,
-      "mean_iou": 6.3686,
-      "fw_iou": 24.2285,
+      "pixel_accuracy": 88.4205,
+      "mean_iou": 48.5562,
+      "fw_iou": 80.3736,
       "per_class_iou": {
-        "Background clutter": 0.1166,
-        "Building": 46.1011,
-        "Road": 3.4381,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 1.2927,
+        "Background clutter": 64.4063,
+        "Building": 92.1864,
+        "Road": 71.5436,
+        "Tree": 77.3828,
+        "Low vegetation": 12.607,
+        "Moving car": 26.4504,
+        "Static car": 43.8729,
         "Human": 0.0
       }
     }
@@ -4994,17 +4994,17 @@
       "Human": 0.5137
     },
     "metrics": {
-      "pixel_accuracy": 50.044,
-      "mean_iou": 7.5324,
-      "fw_iou": 28.3375,
+      "pixel_accuracy": 87.3463,
+      "mean_iou": 45.9069,
+      "fw_iou": 78.6971,
       "per_class_iou": {
-        "Background clutter": 0.1683,
-        "Building": 51.6848,
-        "Road": 6.8392,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 1.5672,
+        "Background clutter": 64.051,
+        "Building": 90.7609,
+        "Road": 62.0477,
+        "Tree": 75.6525,
+        "Low vegetation": 17.9389,
+        "Moving car": 13.0946,
+        "Static car": 43.7098,
         "Human": 0.0
       }
     }
@@ -5024,18 +5024,18 @@
       "Human": 0.1478
     },
     "metrics": {
-      "pixel_accuracy": 50.3403,
-      "mean_iou": 8.119,
-      "fw_iou": 33.297,
+      "pixel_accuracy": 89.3335,
+      "mean_iou": 49.3747,
+      "fw_iou": 81.9119,
       "per_class_iou": {
-        "Background clutter": 0.4718,
-        "Building": 54.7384,
-        "Road": 4.2741,
-        "Tree": 0.0113,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 5.219,
-        "Human": 0.2375
+        "Background clutter": 66.7748,
+        "Building": 92.6706,
+        "Road": 65.6037,
+        "Tree": 74.5475,
+        "Low vegetation": 33.7902,
+        "Moving car": 10.4527,
+        "Static car": 51.1581,
+        "Human": 0.0
       }
     }
   },
@@ -5054,18 +5054,18 @@
       "Human": 0.0988
     },
     "metrics": {
-      "pixel_accuracy": 51.4948,
-      "mean_iou": 9.9356,
-      "fw_iou": 34.5775,
+      "pixel_accuracy": 88.2909,
+      "mean_iou": 49.2778,
+      "fw_iou": 80.3897,
       "per_class_iou": {
-        "Background clutter": 0.8932,
-        "Building": 55.2863,
-        "Road": 10.0577,
-        "Tree": 0.2977,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 12.8461,
-        "Human": 0.1039
+        "Background clutter": 62.8447,
+        "Building": 91.2992,
+        "Road": 66.938,
+        "Tree": 69.4706,
+        "Low vegetation": 26.1835,
+        "Moving car": 20.104,
+        "Static car": 57.3821,
+        "Human": 0.0
       }
     }
   },
@@ -5084,17 +5084,17 @@
       "Human": 0.0662
     },
     "metrics": {
-      "pixel_accuracy": 55.8125,
-      "mean_iou": 11.7834,
-      "fw_iou": 36.8363,
+      "pixel_accuracy": 87.8557,
+      "mean_iou": 48.634,
+      "fw_iou": 79.6586,
       "per_class_iou": {
-        "Background clutter": 2.8696,
-        "Building": 57.88,
-        "Road": 18.7443,
-        "Tree": 0.0779,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 14.6956,
+        "Background clutter": 55.5173,
+        "Building": 91.2156,
+        "Road": 66.7501,
+        "Tree": 73.4863,
+        "Low vegetation": 27.7168,
+        "Moving car": 23.029,
+        "Static car": 51.3572,
         "Human": 0.0
       }
     }
@@ -5114,18 +5114,18 @@
       "Human": 0.0114
     },
     "metrics": {
-      "pixel_accuracy": 14.1202,
-      "mean_iou": 3.4141,
-      "fw_iou": 4.0722,
+      "pixel_accuracy": 82.3297,
+      "mean_iou": 39.3957,
+      "fw_iou": 69.7695,
       "per_class_iou": {
-        "Background clutter": 1.4707,
-        "Building": 17.0296,
-        "Road": 7.8254,
-        "Tree": 0.8472,
-        "Low vegetation": 0.0,
+        "Background clutter": 72.3004,
+        "Building": 81.0396,
+        "Road": 40.9077,
+        "Tree": 76.5509,
+        "Low vegetation": 44.3667,
         "Moving car": 0.0,
-        "Static car": 0.0895,
-        "Human": 0.0501
+        "Static car": 0.0,
+        "Human": 0.0
       }
     }
   },
@@ -5144,15 +5144,15 @@
       "Human": 0.0
     },
     "metrics": {
-      "pixel_accuracy": 4.6044,
-      "mean_iou": 1.0277,
-      "fw_iou": 0.8107,
+      "pixel_accuracy": 85.1325,
+      "mean_iou": 48.7533,
+      "fw_iou": 73.989,
       "per_class_iou": {
-        "Background clutter": 1.1553,
-        "Building": 4.8209,
-        "Road": 2.2455,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
+        "Background clutter": 79.7367,
+        "Building": 79.7193,
+        "Road": 0.0,
+        "Tree": 80.2153,
+        "Low vegetation": 52.8484,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5174,15 +5174,15 @@
       "Human": 0.0075
     },
     "metrics": {
-      "pixel_accuracy": 19.1356,
-      "mean_iou": 4.0219,
-      "fw_iou": 7.7239,
+      "pixel_accuracy": 81.9778,
+      "mean_iou": 38.9953,
+      "fw_iou": 68.9872,
       "per_class_iou": {
-        "Background clutter": 7.9866,
-        "Building": 21.6824,
-        "Road": 1.1705,
-        "Tree": 1.3353,
-        "Low vegetation": 0.0,
+        "Background clutter": 69.6096,
+        "Building": 76.5606,
+        "Road": 0.0,
+        "Tree": 78.6653,
+        "Low vegetation": 48.1318,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5204,17 +5204,17 @@
       "Human": 0.0137
     },
     "metrics": {
-      "pixel_accuracy": 21.5224,
-      "mean_iou": 3.4783,
-      "fw_iou": 10.3761,
+      "pixel_accuracy": 82.8096,
+      "mean_iou": 32.6721,
+      "fw_iou": 71.0172,
       "per_class_iou": {
-        "Background clutter": 0.8732,
-        "Building": 23.0782,
-        "Road": 0.0,
-        "Tree": 3.8419,
-        "Low vegetation": 0.0,
+        "Background clutter": 55.4934,
+        "Building": 85.3941,
+        "Road": 10.431,
+        "Tree": 80.8325,
+        "Low vegetation": 29.226,
         "Moving car": 0.0,
-        "Static car": 0.033,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -5234,17 +5234,17 @@
       "Human": 0.0257
     },
     "metrics": {
-      "pixel_accuracy": 34.8493,
-      "mean_iou": 4.988,
-      "fw_iou": 18.3518,
+      "pixel_accuracy": 82.3792,
+      "mean_iou": 39.0242,
+      "fw_iou": 71.3892,
       "per_class_iou": {
-        "Background clutter": 1.0486,
-        "Building": 36.4955,
-        "Road": 0.0,
-        "Tree": 2.3599,
-        "Low vegetation": 0.0,
+        "Background clutter": 47.4871,
+        "Building": 84.9349,
+        "Road": 46.5823,
+        "Tree": 80.2913,
+        "Low vegetation": 30.9869,
         "Moving car": 0.0,
-        "Static car": 0.0,
+        "Static car": 21.9114,
         "Human": 0.0
       }
     }
@@ -5264,17 +5264,17 @@
       "Human": 0.0336
     },
     "metrics": {
-      "pixel_accuracy": 43.2938,
-      "mean_iou": 6.1424,
-      "fw_iou": 27.0902,
+      "pixel_accuracy": 82.7886,
+      "mean_iou": 44.2919,
+      "fw_iou": 71.6462,
       "per_class_iou": {
-        "Background clutter": 0.7676,
-        "Building": 46.6996,
-        "Road": 0.9396,
-        "Tree": 0.3618,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.3709,
+        "Background clutter": 50.5921,
+        "Building": 86.4135,
+        "Road": 52.3466,
+        "Tree": 62.6436,
+        "Low vegetation": 37.7152,
+        "Moving car": 60.1073,
+        "Static car": 4.5167,
         "Human": 0.0
       }
     }
@@ -5294,18 +5294,18 @@
       "Human": 0.0149
     },
     "metrics": {
-      "pixel_accuracy": 37.0129,
-      "mean_iou": 6.2106,
-      "fw_iou": 20.5659,
+      "pixel_accuracy": 82.0569,
+      "mean_iou": 37.3066,
+      "fw_iou": 70.8438,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 38.9919,
-        "Road": 10.5644,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
+        "Background clutter": 46.7946,
+        "Building": 88.5184,
+        "Road": 43.9294,
+        "Tree": 68.7183,
+        "Low vegetation": 50.4919,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.1286
+        "Human": 0.0
       }
     }
   },
@@ -5324,15 +5324,15 @@
       "Human": 0.011
     },
     "metrics": {
-      "pixel_accuracy": 21.5025,
-      "mean_iou": 3.2078,
-      "fw_iou": 8.414,
+      "pixel_accuracy": 82.347,
+      "mean_iou": 40.7413,
+      "fw_iou": 70.3296,
       "per_class_iou": {
-        "Background clutter": 0.7608,
-        "Building": 22.3171,
-        "Road": 2.5847,
-        "Tree": 0.0,
-        "Low vegetation": 0.0,
+        "Background clutter": 57.3185,
+        "Building": 84.8032,
+        "Road": 54.3831,
+        "Tree": 77.4728,
+        "Low vegetation": 51.953,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5354,17 +5354,17 @@
       "Human": 0.0064
     },
     "metrics": {
-      "pixel_accuracy": 9.2965,
-      "mean_iou": 1.3877,
-      "fw_iou": 2.0578,
+      "pixel_accuracy": 81.1954,
+      "mean_iou": 39.6688,
+      "fw_iou": 68.533,
       "per_class_iou": {
-        "Background clutter": 0.4722,
-        "Building": 9.4537,
-        "Road": 0.0239,
-        "Tree": 1.0885,
-        "Low vegetation": 0.0,
+        "Background clutter": 59.7375,
+        "Building": 77.9593,
+        "Road": 60.069,
+        "Tree": 82.4654,
+        "Low vegetation": 37.119,
         "Moving car": 0.0,
-        "Static car": 0.0629,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -5384,17 +5384,17 @@
       "Human": 0.006
     },
     "metrics": {
-      "pixel_accuracy": 14.635,
-      "mean_iou": 1.9621,
-      "fw_iou": 3.1788,
+      "pixel_accuracy": 81.5185,
+      "mean_iou": 40.6623,
+      "fw_iou": 68.7031,
       "per_class_iou": {
-        "Background clutter": 0.0992,
-        "Building": 15.453,
-        "Road": 0.0,
-        "Tree": 0.1329,
-        "Low vegetation": 0.0,
+        "Background clutter": 58.6495,
+        "Building": 80.2487,
+        "Road": 62.9759,
+        "Tree": 81.5736,
+        "Low vegetation": 41.851,
         "Moving car": 0.0,
-        "Static car": 0.0119,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -5414,17 +5414,17 @@
       "Human": 0.0
     },
     "metrics": {
-      "pixel_accuracy": 7.0538,
-      "mean_iou": 1.5334,
-      "fw_iou": 2.5727,
+      "pixel_accuracy": 86.2309,
+      "mean_iou": 39.0512,
+      "fw_iou": 76.5599,
       "per_class_iou": {
-        "Background clutter": 5.5847,
-        "Building": 5.4676,
+        "Background clutter": 73.901,
+        "Building": 67.4957,
         "Road": 0.0,
-        "Tree": 1.1507,
-        "Low vegetation": 0.0,
+        "Tree": 84.324,
+        "Low vegetation": 47.6379,
         "Moving car": 0.0,
-        "Static car": 0.0644,
+        "Static car": 0.0,
         "Human": 0.0
       }
     }
@@ -5444,15 +5444,15 @@
       "Human": 0.0006
     },
     "metrics": {
-      "pixel_accuracy": 10.8563,
-      "mean_iou": 2.5708,
-      "fw_iou": 3.1074,
+      "pixel_accuracy": 90.1786,
+      "mean_iou": 36.8788,
+      "fw_iou": 82.8574,
       "per_class_iou": {
-        "Background clutter": 10.1475,
-        "Building": 10.0337,
+        "Background clutter": 68.4631,
+        "Building": 80.4903,
         "Road": 0.0,
-        "Tree": 0.3856,
-        "Low vegetation": 0.0,
+        "Tree": 90.436,
+        "Low vegetation": 55.641,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5474,15 +5474,15 @@
       "Human": 0.0004
     },
     "metrics": {
-      "pixel_accuracy": 8.8382,
-      "mean_iou": 2.0863,
-      "fw_iou": 2.287,
+      "pixel_accuracy": 85.7323,
+      "mean_iou": 40.0856,
+      "fw_iou": 76.5798,
       "per_class_iou": {
-        "Background clutter": 8.1603,
-        "Building": 8.3697,
+        "Background clutter": 75.1933,
+        "Building": 80.8173,
         "Road": 0.0,
-        "Tree": 0.1605,
-        "Low vegetation": 0.0,
+        "Tree": 83.0567,
+        "Low vegetation": 41.5321,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5504,15 +5504,15 @@
       "Human": 0.0
     },
     "metrics": {
-      "pixel_accuracy": 12.9815,
-      "mean_iou": 2.5839,
-      "fw_iou": 2.8832,
+      "pixel_accuracy": 84.0168,
+      "mean_iou": 51.2201,
+      "fw_iou": 72.6293,
       "per_class_iou": {
-        "Background clutter": 2.1821,
-        "Building": 13.7254,
-        "Road": 4.7059,
-        "Tree": 0.0583,
-        "Low vegetation": 0.0,
+        "Background clutter": 64.4373,
+        "Building": 85.8877,
+        "Road": 71.4877,
+        "Tree": 82.1493,
+        "Low vegetation": 54.5789,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5534,15 +5534,15 @@
       "Human": 0.0253
     },
     "metrics": {
-      "pixel_accuracy": 15.0355,
-      "mean_iou": 2.8388,
-      "fw_iou": 4.1708,
+      "pixel_accuracy": 82.9236,
+      "mean_iou": 43.8228,
+      "fw_iou": 71.4198,
       "per_class_iou": {
-        "Background clutter": 0.4161,
-        "Building": 16.8899,
-        "Road": 4.7862,
-        "Tree": 0.6179,
-        "Low vegetation": 0.0,
+        "Background clutter": 68.1158,
+        "Building": 85.7678,
+        "Road": 71.3409,
+        "Tree": 74.7247,
+        "Low vegetation": 50.633,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5564,15 +5564,15 @@
       "Human": 0.0125
     },
     "metrics": {
-      "pixel_accuracy": 17.3343,
-      "mean_iou": 4.9463,
-      "fw_iou": 6.1309,
+      "pixel_accuracy": 83.6001,
+      "mean_iou": 45.0908,
+      "fw_iou": 73.398,
       "per_class_iou": {
-        "Background clutter": 0.3748,
-        "Building": 16.2586,
-        "Road": 22.6369,
-        "Tree": 0.2998,
-        "Low vegetation": 0.0,
+        "Background clutter": 70.9309,
+        "Building": 90.2988,
+        "Road": 80.4792,
+        "Tree": 69.521,
+        "Low vegetation": 49.4963,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5594,15 +5594,15 @@
       "Human": 0.0108
     },
     "metrics": {
-      "pixel_accuracy": 17.2083,
-      "mean_iou": 2.6253,
-      "fw_iou": 4.6292,
+      "pixel_accuracy": 86.088,
+      "mean_iou": 46.2476,
+      "fw_iou": 76.637,
       "per_class_iou": {
-        "Background clutter": 0.2447,
-        "Building": 20.1877,
-        "Road": 0.0704,
-        "Tree": 0.4993,
-        "Low vegetation": 0.0,
+        "Background clutter": 73.687,
+        "Building": 88.9816,
+        "Road": 75.4634,
+        "Tree": 80.0439,
+        "Low vegetation": 51.8052,
         "Moving car": 0.0,
         "Static car": 0.0,
         "Human": 0.0
@@ -5624,18 +5624,18 @@
       "Human": 0.0154
     },
     "metrics": {
-      "pixel_accuracy": 12.5623,
-      "mean_iou": 2.3218,
-      "fw_iou": 3.0933,
+      "pixel_accuracy": 82.0546,
+      "mean_iou": 44.4383,
+      "fw_iou": 70.403,
       "per_class_iou": {
-        "Background clutter": 3.0389,
-        "Building": 12.6659,
-        "Road": 2.7118,
-        "Tree": 0.0,
-        "Low vegetation": 0.1152,
+        "Background clutter": 66.9795,
+        "Building": 77.2067,
+        "Road": 77.5979,
+        "Tree": 76.8218,
+        "Low vegetation": 56.9005,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0424
+        "Human": 0.0
       }
     }
   },
@@ -5654,18 +5654,18 @@
       "Human": 0.0116
     },
     "metrics": {
-      "pixel_accuracy": 12.1827,
-      "mean_iou": 2.297,
-      "fw_iou": 2.6147,
+      "pixel_accuracy": 80.3385,
+      "mean_iou": 43.6749,
+      "fw_iou": 68.8964,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 13.351,
-        "Road": 4.9057,
-        "Tree": 0.1092,
-        "Low vegetation": 0.0,
+        "Background clutter": 63.6196,
+        "Building": 83.5825,
+        "Road": 78.1355,
+        "Tree": 72.805,
+        "Low vegetation": 51.2566,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.0101
+        "Human": 0.0
       }
     }
   },
@@ -5684,18 +5684,18 @@
       "Human": 0.0166
     },
     "metrics": {
-      "pixel_accuracy": 12.7568,
-      "mean_iou": 2.0066,
-      "fw_iou": 2.5961,
+      "pixel_accuracy": 78.3428,
+      "mean_iou": 42.813,
+      "fw_iou": 65.9589,
       "per_class_iou": {
-        "Background clutter": 0.2856,
-        "Building": 13.8306,
-        "Road": 1.5303,
-        "Tree": 0.1356,
-        "Low vegetation": 0.0,
+        "Background clutter": 61.1989,
+        "Building": 86.723,
+        "Road": 77.4778,
+        "Tree": 66.0936,
+        "Low vegetation": 51.0108,
         "Moving car": 0.0,
         "Static car": 0.0,
-        "Human": 0.271
+        "Human": 0.0
       }
     }
   },
@@ -5714,17 +5714,17 @@
       "Human": 0.0835
     },
     "metrics": {
-      "pixel_accuracy": 19.6493,
-      "mean_iou": 4.9781,
-      "fw_iou": 10.0175,
+      "pixel_accuracy": 81.0332,
+      "mean_iou": 50.5958,
+      "fw_iou": 69.847,
       "per_class_iou": {
-        "Background clutter": 0.1888,
-        "Building": 17.2375,
-        "Road": 16.2158,
-        "Tree": 4.1518,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 2.0309,
+        "Background clutter": 41.4886,
+        "Building": 82.9207,
+        "Road": 76.1945,
+        "Tree": 76.7543,
+        "Low vegetation": 67.6273,
+        "Moving car": 37.3023,
+        "Static car": 22.4787,
         "Human": 0.0
       }
     }
@@ -5744,17 +5744,17 @@
       "Human": 0.0897
     },
     "metrics": {
-      "pixel_accuracy": 17.5052,
-      "mean_iou": 3.8104,
-      "fw_iou": 8.4743,
+      "pixel_accuracy": 80.2126,
+      "mean_iou": 47.4666,
+      "fw_iou": 69.1127,
       "per_class_iou": {
-        "Background clutter": 0.7933,
-        "Building": 17.5054,
-        "Road": 6.7556,
-        "Tree": 5.06,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.3689,
+        "Background clutter": 38.7949,
+        "Building": 84.21,
+        "Road": 78.7071,
+        "Tree": 71.18,
+        "Low vegetation": 42.9395,
+        "Moving car": 39.5745,
+        "Static car": 24.3269,
         "Human": 0.0
       }
     }
@@ -5774,17 +5774,17 @@
       "Human": 0.1279
     },
     "metrics": {
-      "pixel_accuracy": 18.1424,
-      "mean_iou": 4.5918,
-      "fw_iou": 9.9363,
+      "pixel_accuracy": 78.6314,
+      "mean_iou": 47.5109,
+      "fw_iou": 67.267,
       "per_class_iou": {
-        "Background clutter": 1.3839,
-        "Building": 17.0938,
-        "Road": 12.7059,
-        "Tree": 3.6908,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 1.86,
+        "Background clutter": 43.0042,
+        "Building": 85.8248,
+        "Road": 72.2583,
+        "Tree": 74.0997,
+        "Low vegetation": 40.6652,
+        "Moving car": 40.2163,
+        "Static car": 24.0189,
         "Human": 0.0
       }
     }
@@ -5804,18 +5804,18 @@
       "Human": 0.1777
     },
     "metrics": {
-      "pixel_accuracy": 17.8086,
-      "mean_iou": 4.9003,
-      "fw_iou": 8.5136,
+      "pixel_accuracy": 74.7676,
+      "mean_iou": 46.4127,
+      "fw_iou": 60.2533,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 15.4191,
-        "Road": 18.3847,
-        "Tree": 3.165,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 1.2015,
-        "Human": 1.0322
+        "Background clutter": 49.8588,
+        "Building": 77.5881,
+        "Road": 65.3388,
+        "Tree": 71.8347,
+        "Low vegetation": 36.5528,
+        "Moving car": 40.9712,
+        "Static car": 29.157,
+        "Human": 0.0
       }
     }
   },
@@ -5834,17 +5834,17 @@
       "Human": 0.0797
     },
     "metrics": {
-      "pixel_accuracy": 16.5885,
-      "mean_iou": 4.0917,
-      "fw_iou": 7.2156,
+      "pixel_accuracy": 78.235,
+      "mean_iou": 42.5404,
+      "fw_iou": 67.9535,
       "per_class_iou": {
-        "Background clutter": 0.9194,
-        "Building": 15.8943,
-        "Road": 12.7183,
-        "Tree": 1.0379,
-        "Low vegetation": 0.0,
+        "Background clutter": 54.1175,
+        "Building": 93.8485,
+        "Road": 28.4231,
+        "Tree": 84.076,
+        "Low vegetation": 30.3681,
         "Moving car": 0.0,
-        "Static car": 2.1635,
+        "Static car": 49.4899,
         "Human": 0.0
       }
     }
@@ -5864,17 +5864,17 @@
       "Human": 0.0403
     },
     "metrics": {
-      "pixel_accuracy": 19.9169,
-      "mean_iou": 5.6591,
-      "fw_iou": 11.6411,
+      "pixel_accuracy": 84.735,
+      "mean_iou": 51.6518,
+      "fw_iou": 74.4396,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 17.0378,
-        "Road": 26.2674,
-        "Tree": 0.1825,
-        "Low vegetation": 0.0,
+        "Background clutter": 62.3535,
+        "Building": 91.9411,
+        "Road": 68.4836,
+        "Tree": 70.2786,
+        "Low vegetation": 66.5284,
         "Moving car": 0.0,
-        "Static car": 1.7849,
+        "Static car": 53.6295,
         "Human": 0.0
       }
     }
@@ -5894,17 +5894,17 @@
       "Human": 0.0266
     },
     "metrics": {
-      "pixel_accuracy": 16.3081,
-      "mean_iou": 4.0177,
-      "fw_iou": 7.984,
+      "pixel_accuracy": 84.8748,
+      "mean_iou": 55.4062,
+      "fw_iou": 74.2467,
       "per_class_iou": {
-        "Background clutter": 0.2825,
-        "Building": 13.95,
-        "Road": 13.8775,
-        "Tree": 3.7985,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.2332,
+        "Background clutter": 58.0571,
+        "Building": 88.2263,
+        "Road": 76.5178,
+        "Tree": 81.1193,
+        "Low vegetation": 60.9138,
+        "Moving car": 36.9647,
+        "Static car": 41.4507,
         "Human": 0.0
       }
     }
@@ -5924,17 +5924,17 @@
       "Human": 0.0658
     },
     "metrics": {
-      "pixel_accuracy": 18.6163,
-      "mean_iou": 4.275,
-      "fw_iou": 8.2162,
+      "pixel_accuracy": 87.3264,
+      "mean_iou": 55.1306,
+      "fw_iou": 77.5414,
       "per_class_iou": {
-        "Background clutter": 0.1054,
-        "Building": 18.4163,
-        "Road": 13.6096,
-        "Tree": 1.8006,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.2681,
+        "Background clutter": 67.3683,
+        "Building": 84.7514,
+        "Road": 83.6603,
+        "Tree": 83.4726,
+        "Low vegetation": 43.1758,
+        "Moving car": 45.8009,
+        "Static car": 32.8152,
         "Human": 0.0
       }
     }
@@ -5954,17 +5954,17 @@
       "Human": 0.0164
     },
     "metrics": {
-      "pixel_accuracy": 16.1447,
-      "mean_iou": 3.4261,
-      "fw_iou": 6.5669,
+      "pixel_accuracy": 87.7745,
+      "mean_iou": 51.7611,
+      "fw_iou": 78.5563,
       "per_class_iou": {
-        "Background clutter": 1.1698,
-        "Building": 16.6813,
-        "Road": 7.4756,
-        "Tree": 2.0189,
-        "Low vegetation": 0.0,
-        "Moving car": 0.0,
-        "Static car": 0.0633,
+        "Background clutter": 65.835,
+        "Building": 81.6485,
+        "Road": 88.3563,
+        "Tree": 83.4074,
+        "Low vegetation": 42.9927,
+        "Moving car": 40.3722,
+        "Static car": 11.4764,
         "Human": 0.0
       }
     }
@@ -5984,17 +5984,17 @@
       "Human": 0.0
     },
     "metrics": {
-      "pixel_accuracy": 17.9122,
-      "mean_iou": 2.9987,
-      "fw_iou": 4.3836,
+      "pixel_accuracy": 81.3262,
+      "mean_iou": 45.5176,
+      "fw_iou": 68.2776,
       "per_class_iou": {
-        "Background clutter": 0.0,
-        "Building": 18.1906,
-        "Road": 5.6371,
-        "Tree": 0.1622,
-        "Low vegetation": 0.0,
+        "Background clutter": 59.6378,
+        "Building": 79.8718,
+        "Road": 7.9601,
+        "Tree": 78.6597,
+        "Low vegetation": 46.7465,
         "Moving car": 0.0,
-        "Static car": 0.0,
+        "Static car": 0.2299,
         "Human": 0.0
       }
     }
