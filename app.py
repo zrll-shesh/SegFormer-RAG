@@ -1,7 +1,7 @@
 """
 UAVid RAG Explorer - Streamlit Application
 SegFormer-B0 semantic segmentation + RAG Q&A for UAVid dataset.
-Premium design with neon glow effects, smooth animations, and glassmorphism.
+Ultimate modern design with glassmorphism, neon effects, and smooth animations.
 """
 
 import os
@@ -36,7 +36,7 @@ from segmentation import color_to_class_id, compute_per_class_stats, generate_in
 
 
 # ============================================================================
-# ULTRA PREMIUM CSS WITH NEON GLOW, ANIMATIONS & GLASSMORPHISM
+# ULTRA PREMIUM CSS WITH GLASSMORPHISM, NEON GLOW & ANIMATIONS
 # ============================================================================
 st.set_page_config(
     page_title="UAVid Remote Sensing AI",
@@ -60,7 +60,7 @@ html, body, [class*="css"] {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/* ===== ANIMATIONS ===== */
+/* ===== KEYFRAME ANIMATIONS ===== */
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(40px) scale(0.96); }
     to { opacity: 1; transform: translateY(0) scale(1); }
@@ -83,21 +83,21 @@ html, body, [class*="css"] {
 
 @keyframes neonPulse {
     0%, 100% { 
-        box-shadow: 0 0 20px rgba(59, 130, 246, 0.2), 0 0 40px rgba(59, 130, 246, 0.05);
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.15), 0 0 40px rgba(59, 130, 246, 0.05);
     }
     50% { 
-        box-shadow: 0 0 40px rgba(59, 130, 246, 0.4), 0 0 80px rgba(59, 130, 246, 0.1), 0 0 120px rgba(139, 92, 246, 0.05);
+        box-shadow: 0 0 40px rgba(59, 130, 246, 0.3), 0 0 80px rgba(59, 130, 246, 0.08), 0 0 120px rgba(139, 92, 246, 0.04);
     }
 }
 
 @keyframes neonPulseBlue {
     0%, 100% { 
-        box-shadow: 0 0 15px rgba(59, 130, 246, 0.3), 0 0 30px rgba(59, 130, 246, 0.1);
-        border-color: rgba(59, 130, 246, 0.15);
+        box-shadow: 0 0 15px rgba(59, 130, 246, 0.2), 0 0 30px rgba(59, 130, 246, 0.05);
+        border-color: rgba(59, 130, 246, 0.1);
     }
     50% { 
-        box-shadow: 0 0 35px rgba(59, 130, 246, 0.5), 0 0 70px rgba(59, 130, 246, 0.15);
-        border-color: rgba(59, 130, 246, 0.35);
+        box-shadow: 0 0 35px rgba(59, 130, 246, 0.4), 0 0 70px rgba(59, 130, 246, 0.1);
+        border-color: rgba(59, 130, 246, 0.25);
     }
 }
 
@@ -129,8 +129,8 @@ html, body, [class*="css"] {
 }
 
 @keyframes borderGlow {
-    0%, 100% { border-color: rgba(59, 130, 246, 0.1); }
-    50% { border-color: rgba(59, 130, 246, 0.3); }
+    0%, 100% { border-color: rgba(59, 130, 246, 0.08); }
+    50% { border-color: rgba(59, 130, 246, 0.2); }
 }
 
 @keyframes breathe {
@@ -144,15 +144,20 @@ html, body, [class*="css"] {
     100% { transform: scale(0) rotate(360deg); opacity: 0; }
 }
 
+@keyframes dataStream {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 200% 0%; }
+}
+
 /* ===== BACKGROUND WITH NEON ORBS ===== */
 .main {
-    background: #070b18;
+    background: #060a16;
     background-image: 
-        radial-gradient(ellipse at 15% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 60%),
-        radial-gradient(ellipse at 85% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
-        radial-gradient(ellipse at 50% 50%, rgba(6, 182, 212, 0.04) 0%, transparent 70%),
-        radial-gradient(ellipse at 20% 80%, rgba(236, 72, 153, 0.03) 0%, transparent 50%);
-    animation: gradientShift 15s ease-in-out infinite;
+        radial-gradient(ellipse at 15% 20%, rgba(59, 130, 246, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse at 85% 80%, rgba(139, 92, 246, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse at 50% 50%, rgba(6, 182, 212, 0.03) 0%, transparent 70%),
+        radial-gradient(ellipse at 20% 80%, rgba(236, 72, 153, 0.02) 0%, transparent 50%);
+    animation: gradientShift 20s ease-in-out infinite;
     position: relative;
 }
 
@@ -160,65 +165,65 @@ html, body, [class*="css"] {
 .glow-orb {
     position: fixed;
     border-radius: 50%;
-    filter: blur(100px);
+    filter: blur(120px);
     pointer-events: none;
     z-index: 0;
-    animation: floatSlow 12s ease-in-out infinite;
+    animation: floatSlow 14s ease-in-out infinite;
 }
 
 .glow-orb-1 {
-    width: 500px;
-    height: 500px;
-    background: rgba(59, 130, 246, 0.06);
-    top: -150px;
-    right: -100px;
+    width: 600px;
+    height: 600px;
+    background: rgba(59, 130, 246, 0.04);
+    top: -200px;
+    right: -150px;
     animation-delay: 0s;
 }
 
 .glow-orb-2 {
-    width: 400px;
-    height: 400px;
-    background: rgba(139, 92, 246, 0.05);
-    bottom: -100px;
-    left: -80px;
-    animation-delay: -4s;
+    width: 500px;
+    height: 500px;
+    background: rgba(139, 92, 246, 0.03);
+    bottom: -150px;
+    left: -100px;
+    animation-delay: -5s;
 }
 
 .glow-orb-3 {
-    width: 300px;
-    height: 300px;
-    background: rgba(6, 182, 212, 0.04);
+    width: 400px;
+    height: 400px;
+    background: rgba(6, 182, 212, 0.03);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation-delay: -8s;
+    animation-delay: -10s;
 }
 
 /* ===== GLASSMORPHISM ===== */
 .glass {
-    background: rgba(15, 23, 42, 0.55);
+    background: rgba(15, 23, 42, 0.5);
     backdrop-filter: blur(24px) saturate(1.8);
     -webkit-backdrop-filter: blur(24px) saturate(1.8);
-    border: 1px solid rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.03);
     border-radius: 16px;
-    animation: neonPulse 4s ease-in-out infinite;
+    animation: neonPulse 5s ease-in-out infinite;
 }
 
 .glass-strong {
-    background: rgba(15, 23, 42, 0.75);
+    background: rgba(15, 23, 42, 0.7);
     backdrop-filter: blur(28px) saturate(2);
     -webkit-backdrop-filter: blur(28px) saturate(2);
-    border: 1px solid rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.06);
     border-radius: 16px;
-    animation: neonPulseBlue 5s ease-in-out infinite;
+    animation: neonPulseBlue 6s ease-in-out infinite;
 }
 
 /* ===== SIDEBAR ===== */
 div[data-testid="stSidebarContent"] {
-    background: rgba(7, 11, 24, 0.92) !important;
-    backdrop-filter: blur(28px) saturate(2);
-    -webkit-backdrop-filter: blur(28px) saturate(2);
-    border-right: 1px solid rgba(59, 130, 246, 0.06);
+    background: rgba(6, 10, 22, 0.94) !important;
+    backdrop-filter: blur(32px) saturate(2);
+    -webkit-backdrop-filter: blur(32px) saturate(2);
+    border-right: 1px solid rgba(59, 130, 246, 0.04);
     padding: 24px 16px;
     position: relative;
     z-index: 10;
@@ -229,9 +234,9 @@ div[data-testid="stSidebarContent"]::before {
     position: absolute;
     inset: 0;
     background: linear-gradient(180deg, 
-        rgba(59, 130, 246, 0.04) 0%, 
+        rgba(59, 130, 246, 0.03) 0%, 
         transparent 40%, 
-        rgba(139, 92, 246, 0.04) 100%);
+        rgba(139, 92, 246, 0.03) 100%);
     pointer-events: none;
 }
 
@@ -244,15 +249,15 @@ div[data-testid="stSidebarContent"]::after {
     height: 100%;
     background: linear-gradient(180deg, 
         transparent 0%, 
-        rgba(59, 130, 246, 0.15) 30%, 
-        rgba(139, 92, 246, 0.15) 70%, 
+        rgba(59, 130, 246, 0.1) 30%, 
+        rgba(139, 92, 246, 0.1) 70%, 
         transparent 100%);
 }
 
 /* ===== SIDEBAR TITLE ===== */
 .sidebar-title {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 700;
     background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6, #60a5fa);
     background-size: 300% 300%;
@@ -270,7 +275,7 @@ div[data-testid="stSidebarContent"]::after {
     position: absolute;
     bottom: -6px;
     left: 0;
-    width: 40px;
+    width: 44px;
     height: 2.5px;
     background: linear-gradient(90deg, #3b82f6, #8b5cf6, #f472b6);
     background-size: 200% 100%;
@@ -279,11 +284,11 @@ div[data-testid="stSidebarContent"]::after {
 }
 
 .sidebar-sub {
-    font-size: 0.65rem;
-    color: rgba(100, 116, 139, 0.6);
+    font-size: 0.62rem;
+    color: rgba(100, 116, 139, 0.5);
     margin-bottom: 20px;
     font-weight: 400;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.35em;
     text-transform: uppercase;
 }
 
@@ -292,7 +297,7 @@ div[data-testid="stSidebarContent"] .stRadio label {
     color: #94a3b8 !important;
     font-size: 0.85rem !important;
     font-weight: 500 !important;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
     padding: 10px 14px !important;
     border-radius: 10px !important;
     margin: 2px 0 !important;
@@ -307,16 +312,16 @@ div[data-testid="stSidebarContent"] .stRadio label::before {
     top: 50%;
     transform: translateY(-50%) scaleX(0);
     width: 3px;
-    height: 60%;
+    height: 50%;
     background: linear-gradient(180deg, #3b82f6, #8b5cf6);
     border-radius: 0 3px 3px 0;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 div[data-testid="stSidebarContent"] .stRadio label:hover {
-    background: rgba(59, 130, 246, 0.06) !important;
+    background: rgba(59, 130, 246, 0.05) !important;
     color: #e2e8f0 !important;
-    transform: translateX(4px);
+    transform: translateX(5px);
 }
 
 div[data-testid="stSidebarContent"] .stRadio label:hover::before {
@@ -326,14 +331,14 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 /* ===== PAGE TITLE ===== */
 .page-title {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #f1f5f9 15%, #60a5fa 50%, #a78bfa 75%, #f472b6 100%);
+    background: linear-gradient(135deg, #f1f5f9 15%, #60a5fa 45%, #a78bfa 70%, #f472b6 100%);
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: gradientShift 5s ease-in-out infinite;
+    animation: gradientShift 6s ease-in-out infinite;
     margin-bottom: 2px;
     letter-spacing: -0.5px;
     animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
@@ -346,7 +351,7 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     position: absolute;
     bottom: -8px;
     left: 4px;
-    width: 60px;
+    width: 70px;
     height: 3px;
     background: linear-gradient(90deg, #3b82f6, #8b5cf6, #f472b6);
     background-size: 200% 100%;
@@ -355,26 +360,26 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 }
 
 .page-sub {
-    font-size: 0.88rem;
+    font-size: 0.9rem;
     color: #64748b;
     margin-bottom: 28px;
     font-weight: 400;
     animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.15s both;
     padding-left: 4px;
-    padding-top: 12px;
+    padding-top: 14px;
     letter-spacing: 0.02em;
 }
 
 /* ===== SECTION HEADER ===== */
 .section-header {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     color: #60a5fa;
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.28em;
     margin: 28px 0 14px 0;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(59, 130, 246, 0.06);
+    border-bottom: 1px solid rgba(59, 130, 246, 0.04);
     display: flex;
     align-items: center;
     gap: 12px;
@@ -385,12 +390,12 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 .section-header::before {
     content: '';
     width: 3px;
-    height: 20px;
+    height: 22px;
     background: linear-gradient(180deg, #3b82f6, #8b5cf6, #f472b6);
     border-radius: 2px;
     display: inline-block;
     flex-shrink: 0;
-    animation: breathe 2s ease-in-out infinite;
+    animation: breathe 2.5s ease-in-out infinite;
 }
 
 .section-header::after {
@@ -401,26 +406,26 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     width: 100%;
     height: 1px;
     background: linear-gradient(90deg, 
-        rgba(59, 130, 246, 0.3) 0%, 
-        transparent 30%, 
-        transparent 70%, 
-        rgba(139, 92, 246, 0.3) 100%);
+        rgba(59, 130, 246, 0.2) 0%, 
+        transparent 40%, 
+        transparent 60%, 
+        rgba(139, 92, 246, 0.2) 100%);
 }
 
 /* ===== METRIC CARDS ===== */
 .metric-card {
-    background: rgba(15, 23, 42, 0.4);
+    background: rgba(15, 23, 42, 0.35);
     backdrop-filter: blur(16px) saturate(1.4);
     -webkit-backdrop-filter: blur(16px) saturate(1.4);
-    border: 1px solid rgba(59, 130, 246, 0.06);
+    border: 1px solid rgba(59, 130, 246, 0.04);
     border-radius: 14px;
     padding: 20px 16px;
     text-align: center;
     margin: 4px 0;
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
-    animation: neonPulseBlue 4s ease-in-out infinite;
+    animation: neonPulseBlue 5s ease-in-out infinite;
 }
 
 .metric-card::before {
@@ -428,9 +433,9 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg, 
-        rgba(59, 130, 246, 0.04) 0%, 
+        rgba(59, 130, 246, 0.03) 0%, 
         transparent 40%, 
-        rgba(139, 92, 246, 0.04) 60%, 
+        rgba(139, 92, 246, 0.03) 60%, 
         transparent 100%);
     pointer-events: none;
 }
@@ -443,7 +448,7 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     width: 200%;
     height: 200%;
     background: radial-gradient(circle at center, 
-        rgba(59, 130, 246, 0.03) 0%, 
+        rgba(59, 130, 246, 0.02) 0%, 
         transparent 70%);
     opacity: 0;
     transition: opacity 0.6s ease;
@@ -451,9 +456,9 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 }
 
 .metric-card:hover {
-    transform: translateY(-4px) scale(1.01);
-    border-color: rgba(59, 130, 246, 0.2);
-    box-shadow: 0 12px 40px rgba(59, 130, 246, 0.08);
+    transform: translateY(-4px) scale(1.02);
+    border-color: rgba(59, 130, 246, 0.15);
+    box-shadow: 0 12px 48px rgba(59, 130, 246, 0.06);
 }
 
 .metric-card:hover::after {
@@ -462,7 +467,7 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 
 .metric-value {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 700;
     background: linear-gradient(135deg, #60a5fa, #a78bfa);
     -webkit-background-clip: text;
@@ -474,10 +479,10 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 }
 
 .metric-label {
-    font-size: 0.65rem;
+    font-size: 0.62rem;
     color: #64748b;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.14em;
     margin-top: 6px;
     font-weight: 500;
     position: relative;
@@ -487,16 +492,16 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 /* ===== INSIGHT CARD ===== */
 .insight-card {
     background: linear-gradient(135deg, 
-        rgba(15, 23, 42, 0.7), 
-        rgba(30, 41, 59, 0.3));
+        rgba(15, 23, 42, 0.6), 
+        rgba(30, 41, 59, 0.25));
     backdrop-filter: blur(20px) saturate(1.6);
     -webkit-backdrop-filter: blur(20px) saturate(1.6);
-    border: 1px solid rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.06);
     border-radius: 14px;
     padding: 20px 24px;
     font-size: 0.85rem;
     color: #cbd5e1;
-    line-height: 2;
+    line-height: 2.1;
     margin: 10px 0;
     animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
@@ -511,9 +516,9 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     width: 200%;
     height: 200%;
     background: radial-gradient(circle at 30% 50%, 
-        rgba(59, 130, 246, 0.03) 0%, 
+        rgba(59, 130, 246, 0.02) 0%, 
         transparent 60%);
-    animation: rotateGlow 20s linear infinite;
+    animation: rotateGlow 25s linear infinite;
     pointer-events: none;
 }
 
@@ -524,24 +529,19 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     z-index: 1;
 }
 
-.insight-card span {
-    position: relative;
-    z-index: 1;
-}
-
 /* ===== ANSWER CARD ===== */
 .answer-card {
-    background: rgba(15, 23, 42, 0.6);
+    background: rgba(15, 23, 42, 0.55);
     backdrop-filter: blur(20px) saturate(1.6);
     -webkit-backdrop-filter: blur(20px) saturate(1.6);
-    border: 1px solid rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.06);
     border-left: 4px solid;
     border-image: linear-gradient(180deg, #3b82f6, #8b5cf6, #f472b6) 1;
     border-radius: 14px;
     padding: 24px 28px;
     color: #e2e8f0;
     font-size: 0.92rem;
-    line-height: 2;
+    line-height: 2.1;
     margin-top: 12px;
     animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
@@ -569,8 +569,8 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     font-weight: 600 !important;
     font-size: 0.85rem !important;
     padding: 10px 28px !important;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    box-shadow: 0 4px 24px rgba(59, 130, 246, 0.15) !important;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 28px rgba(59, 130, 246, 0.12) !important;
     position: relative !important;
     overflow: hidden !important;
 }
@@ -580,10 +580,10 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg, 
-        rgba(255, 255, 255, 0.08) 0%, 
+        rgba(255, 255, 255, 0.06) 0%, 
         transparent 40%, 
         transparent 60%, 
-        rgba(255, 255, 255, 0.04) 100%);
+        rgba(255, 255, 255, 0.03) 100%);
     pointer-events: none;
 }
 
@@ -595,7 +595,7 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     width: 200%;
     height: 200%;
     background: radial-gradient(circle at center, 
-        rgba(255, 255, 255, 0.05) 0%, 
+        rgba(255, 255, 255, 0.04) 0%, 
         transparent 70%);
     opacity: 0;
     transition: opacity 0.6s ease;
@@ -603,8 +603,8 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 }
 
 .stButton button:hover {
-    transform: translateY(-3px) scale(1.02) !important;
-    box-shadow: 0 8px 40px rgba(59, 130, 246, 0.3) !important;
+    transform: translateY(-3px) scale(1.03) !important;
+    box-shadow: 0 8px 48px rgba(59, 130, 246, 0.25) !important;
 }
 
 .stButton button:hover::after {
@@ -612,18 +612,18 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 }
 
 .stButton button:active {
-    transform: translateY(0) scale(0.98) !important;
+    transform: translateY(0) scale(0.97) !important;
 }
 
 /* ===== TABS ===== */
 .stTabs [data-baseweb="tab-list"] {
     gap: 4px;
-    background: rgba(15, 23, 42, 0.25);
+    background: rgba(15, 23, 42, 0.2);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-radius: 12px;
     padding: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.01);
 }
 
 .stTabs [data-baseweb="tab"] {
@@ -633,122 +633,122 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
     font-weight: 500 !important;
     font-size: 0.8rem !important;
     color: #94a3b8 !important;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
 .stTabs [data-baseweb="tab"]:hover {
     color: #e2e8f0 !important;
-    background: rgba(59, 130, 246, 0.05) !important;
+    background: rgba(59, 130, 246, 0.04) !important;
 }
 
 .stTabs [data-baseweb="tab"][aria-selected="true"] {
-    background: rgba(59, 130, 246, 0.1) !important;
+    background: rgba(59, 130, 246, 0.08) !important;
     color: #60a5fa !important;
-    box-shadow: 0 0 30px rgba(59, 130, 246, 0.05) !important;
+    box-shadow: 0 0 40px rgba(59, 130, 246, 0.03) !important;
 }
 
 /* ===== FILE UPLOADER ===== */
 .upload-zone {
-    background: rgba(15, 23, 42, 0.2);
+    background: rgba(15, 23, 42, 0.15);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border: 2px dashed rgba(59, 130, 246, 0.1);
+    border: 2px dashed rgba(59, 130, 246, 0.08);
     border-radius: 14px;
     padding: 32px;
     text-align: center;
     color: #64748b;
-    transition: all 0.4s ease;
-    animation: borderGlow 3s ease-in-out infinite;
+    transition: all 0.5s ease;
+    animation: borderGlow 4s ease-in-out infinite;
 }
 
 .upload-zone:hover {
-    border-color: rgba(59, 130, 246, 0.3);
-    background: rgba(15, 23, 42, 0.3);
+    border-color: rgba(59, 130, 246, 0.25);
+    background: rgba(15, 23, 42, 0.25);
 }
 
 /* ===== EXPANDER ===== */
 .streamlit-expanderHeader {
-    background: rgba(15, 23, 42, 0.2) !important;
+    background: rgba(15, 23, 42, 0.15) !important;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 10px !important;
-    border: 1px solid rgba(59, 130, 246, 0.04) !important;
+    border: 1px solid rgba(59, 130, 246, 0.03) !important;
     font-family: 'Inter', sans-serif !important;
     font-weight: 500 !important;
     color: #94a3b8 !important;
-    transition: all 0.3s ease !important;
+    transition: all 0.4s ease !important;
 }
 
 .streamlit-expanderHeader:hover {
-    background: rgba(15, 23, 42, 0.3) !important;
-    border-color: rgba(59, 130, 246, 0.1) !important;
+    background: rgba(15, 23, 42, 0.25) !important;
+    border-color: rgba(59, 130, 246, 0.08) !important;
 }
 
 /* ===== DATA FRAME ===== */
 .dataframe-container {
-    background: rgba(15, 23, 42, 0.2);
+    background: rgba(15, 23, 42, 0.15);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 12px;
-    border: 1px solid rgba(59, 130, 246, 0.04);
+    border: 1px solid rgba(59, 130, 246, 0.03);
     padding: 4px;
 }
 
 /* ===== SLIDER ===== */
 .stSlider div[data-baseweb="slider"] {
-    background: rgba(59, 130, 246, 0.06) !important;
+    background: rgba(59, 130, 246, 0.04) !important;
 }
 
 .stSlider div[role="slider"] {
     background: linear-gradient(135deg, #3b82f6, #8b5cf6) !important;
-    border: 2px solid rgba(255, 255, 255, 0.06) !important;
-    box-shadow: 0 0 30px rgba(59, 130, 246, 0.15) !important;
-    transition: all 0.3s ease !important;
+    border: 2px solid rgba(255, 255, 255, 0.04) !important;
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.1) !important;
+    transition: all 0.4s ease !important;
 }
 
 .stSlider div[role="slider"]:hover {
-    box-shadow: 0 0 50px rgba(59, 130, 246, 0.3) !important;
-    transform: scale(1.1);
+    box-shadow: 0 0 50px rgba(59, 130, 246, 0.2) !important;
+    transform: scale(1.12);
 }
 
 /* ===== TEXT INPUT ===== */
 .stTextInput input, .stTextArea textarea {
-    background: rgba(15, 23, 42, 0.3) !important;
+    background: rgba(15, 23, 42, 0.25) !important;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(59, 130, 246, 0.06) !important;
+    border: 1px solid rgba(59, 130, 246, 0.04) !important;
     border-radius: 10px !important;
     color: #e2e8f0 !important;
     font-family: 'Inter', sans-serif !important;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
 .stTextInput input:focus, .stTextArea textarea:focus {
-    border-color: rgba(59, 130, 246, 0.25) !important;
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.04) !important;
-    background: rgba(15, 23, 42, 0.4) !important;
+    border-color: rgba(59, 130, 246, 0.2) !important;
+    box-shadow: 0 0 50px rgba(59, 130, 246, 0.03) !important;
+    background: rgba(15, 23, 42, 0.35) !important;
     transform: scale(1.005);
 }
 
 /* ===== SELECTBOX ===== */
 .stSelectbox div[data-baseweb="select"] {
-    background: rgba(15, 23, 42, 0.3) !important;
+    background: rgba(15, 23, 42, 0.25) !important;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 10px !important;
-    border: 1px solid rgba(59, 130, 246, 0.06) !important;
-    transition: all 0.3s ease !important;
+    border: 1px solid rgba(59, 130, 246, 0.04) !important;
+    transition: all 0.4s ease !important;
 }
 
 .stSelectbox div[data-baseweb="select"]:hover {
-    border-color: rgba(59, 130, 246, 0.15) !important;
+    border-color: rgba(59, 130, 246, 0.12) !important;
 }
 
 /* ===== CHECKBOX ===== */
 .stCheckbox label {
     color: #94a3b8 !important;
     font-weight: 500 !important;
-    transition: color 0.3s ease !important;
+    transition: color 0.4s ease !important;
 }
 
 .stCheckbox label:hover {
@@ -758,7 +758,7 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 .stCheckbox div[data-baseweb="checkbox"] div:first-child {
     border-color: #334155 !important;
     border-radius: 6px !important;
-    transition: all 0.3s ease !important;
+    transition: all 0.4s ease !important;
 }
 
 .stCheckbox div[data-baseweb="checkbox"] div:first-child[data-checked="true"] {
@@ -781,7 +781,7 @@ div[data-testid="stSidebarContent"] .stRadio label:hover::before {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(15, 23, 42, 0.2);
+    background: rgba(15, 23, 42, 0.15);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -873,10 +873,10 @@ def render_class_bars(stats_dict):
         bar_w = max(pct * 1.8, 0.3)
         st.markdown(
             f'<div style="display:flex;align-items:center;gap:10px;margin:4px 0;padding:2px 0;">'
-            f'<div style="width:14px;height:14px;background:{hx};border-radius:4px;flex-shrink:0;border:1px solid rgba(255,255,255,0.04);box-shadow:0 0 10px {hx}33;"></div>'
+            f'<div style="width:14px;height:14px;background:{hx};border-radius:4px;flex-shrink:0;border:1px solid rgba(255,255,255,0.03);box-shadow:0 0 15px {hx}22;"></div>'
             f'<span style="font-family:JetBrains Mono,monospace;font-size:0.72rem;color:#94a3b8;width:150px;flex-shrink:0;">{cls_name}</span>'
-            f'<div style="flex:1;background:rgba(255,255,255,0.02);border-radius:4px;height:8px;overflow:hidden;min-width:20px;box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);">'
-            f'<div style="background:linear-gradient(90deg,{hx},{hx}dd);width:{bar_w:.1f}%;height:100%;border-radius:4px;transition:width 0.8s cubic-bezier(0.4,0,0.2,1);box-shadow:0 0 15px {hx}44;"></div>'
+            f'<div style="flex:1;background:rgba(255,255,255,0.015);border-radius:4px;height:8px;overflow:hidden;min-width:20px;box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);">'
+            f'<div style="background:linear-gradient(90deg,{hx},{hx}dd);width:{bar_w:.1f}%;height:100%;border-radius:4px;transition:width 1s cubic-bezier(0.4,0,0.2,1);box-shadow:0 0 20px {hx}33;"></div>'
             f'</div>'
             f'<span style="font-family:JetBrains Mono,monospace;font-size:0.72rem;color:#e2e8f0;min-width:50px;text-align:right;">{pct:.2f}%</span>'
             f'</div>',
@@ -896,25 +896,23 @@ def render_coverage_radar(stats_dict, title="Coverage Radar"):
     fig.patch.set_facecolor("none")
     ax.set_facecolor("none")
     
-    # Plot with glow effect
-    ax.plot(angles, values_plot, color="#3b82f6", linewidth=3, alpha=0.95)
-    ax.fill(angles, values_plot, color="#3b82f6", alpha=0.12)
+    ax.plot(angles, values_plot, color="#3b82f6", linewidth=3, alpha=0.9)
+    ax.fill(angles, values_plot, color="#3b82f6", alpha=0.1)
     
-    # Add glow around the line
     for i in range(len(angles)-1):
         ax.plot([angles[i], angles[i+1]], [values_plot[i], values_plot[i+1]], 
-                color="#3b82f6", linewidth=8, alpha=0.08)
+                color="#3b82f6", linewidth=8, alpha=0.05)
     
     ax.set_thetagrids(np.degrees(angles[:-1]), classes, 
                       fontsize=7, color="#94a3b8", fontweight="500")
     ax.tick_params(colors="#64748b")
-    ax.spines["polar"].set_color("rgba(255,255,255,0.04)")
+    ax.spines["polar"].set_color("rgba(255,255,255,0.03)")
     ax.set_title(title, fontsize=9, color="#e2e8f0", pad=20, fontweight="600")
     
     for label in ax.get_yticklabels():
         label.set_color("#64748b")
     
-    ax.grid(alpha=0.04, color="#64748b")
+    ax.grid(alpha=0.03, color="#64748b")
     plt.tight_layout()
     return fig
 
@@ -1023,10 +1021,10 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
             bar_w = max(iou_val * 1.5, 0.3)
             st.markdown(
                 f'<div style="display:flex;align-items:center;gap:10px;margin:3px 0;padding:2px 0;">'
-                f'<div style="width:12px;height:12px;background:{hx};border-radius:3px;flex-shrink:0;border:1px solid rgba(255,255,255,0.04);box-shadow:0 0 8px {hx}33;"></div>'
+                f'<div style="width:12px;height:12px;background:{hx};border-radius:3px;flex-shrink:0;border:1px solid rgba(255,255,255,0.03);box-shadow:0 0 12px {hx}22;"></div>'
                 f'<span style="font-family:JetBrains Mono,monospace;font-size:0.7rem;color:#94a3b8;width:140px;flex-shrink:0;">{cls_name}</span>'
-                f'<div style="flex:1;background:rgba(255,255,255,0.02);border-radius:3px;height:6px;overflow:hidden;min-width:20px;box-shadow:inset 0 1px 2px rgba(0,0,0,0.2);">'
-                f'<div style="background:linear-gradient(90deg,{hx},{hx}dd);width:{bar_w:.1f}%;height:100%;border-radius:3px;transition:width 0.8s cubic-bezier(0.4,0,0.2,1);box-shadow:0 0 12px {hx}44;"></div>'
+                f'<div style="flex:1;background:rgba(255,255,255,0.015);border-radius:3px;height:6px;overflow:hidden;min-width:20px;box-shadow:inset 0 1px 3px rgba(0,0,0,0.3);">'
+                f'<div style="background:linear-gradient(90deg,{hx},{hx}dd);width:{bar_w:.1f}%;height:100%;border-radius:3px;transition:width 1s cubic-bezier(0.4,0,0.2,1);box-shadow:0 0 16px {hx}33;"></div>'
                 f'</div>'
                 f'<span style="font-family:JetBrains Mono,monospace;font-size:0.7rem;color:#e2e8f0;min-width:50px;text-align:right;">{iou_val:.2f}%</span>'
                 f'</div>',
@@ -1152,10 +1150,10 @@ def page_dataset_overview():
     for i, (cls_name, color) in enumerate(CLASS_MAP.items()):
         hx = hex_color(color)
         cols[i % 4].markdown(
-            f'<div style="display:flex;align-items:center;gap:10px;margin:6px 0;padding:8px 12px;background:rgba(15,23,42,0.3);backdrop-filter:blur(8px);border-radius:10px;border:1px solid rgba(59,130,246,0.04);transition:all 0.3s ease;animation:borderGlow 3s ease-in-out infinite;">'
-            f'<div style="width:20px;height:20px;background:{hx};border-radius:4px;border:1px solid rgba(255,255,255,0.04);flex-shrink:0;box-shadow:0 0 15px {hx}33;"></div>'
+            f'<div style="display:flex;align-items:center;gap:10px;margin:6px 0;padding:8px 12px;background:rgba(15,23,42,0.25);backdrop-filter:blur(8px);border-radius:10px;border:1px solid rgba(59,130,246,0.03);transition:all 0.4s ease;animation:borderGlow 4s ease-in-out infinite;">'
+            f'<div style="width:20px;height:20px;background:{hx};border-radius:4px;border:1px solid rgba(255,255,255,0.03);flex-shrink:0;box-shadow:0 0 20px {hx}22;"></div>'
             f'<span style="font-size:0.82rem;color:#cbd5e1;font-weight:500;">{cls_name}</span>'
-            f'<span style="font-family:JetBrains Mono,monospace;font-size:0.65rem;color:#475569;margin-left:auto;">RGB{color}</span>'
+            f'<span style="font-family:JetBrains Mono,monospace;font-size:0.62rem;color:#475569;margin-left:auto;">RGB{color}</span>'
             f'</div>',
             unsafe_allow_html=True
         )
@@ -1238,24 +1236,23 @@ def page_evaluation_metrics():
     w = 0.35
     if "train" in loaded:
         iou_t = [loaded["train"]["per_class_iou"].get(c, 0) for c in CLASS_NAMES]
-        bars = ax.bar(x - w/2, iou_t, w, label="Train", color="#3b82f6", alpha=0.85, edgecolor="none", linewidth=0)
-        for bar in bars:
-            bar.set_alpha(0.85)
+        bars = ax.bar(x - w/2, iou_t, w, label="Train", color="#3b82f6", alpha=0.8, edgecolor="none")
     if "val" in loaded:
         iou_v = [loaded["val"]["per_class_iou"].get(c, 0) for c in CLASS_NAMES]
-        bars = ax.bar(x + w/2, iou_v, w, label="Val", color="#a78bfa", alpha=0.85, edgecolor="none", linewidth=0)
-        for bar in bars:
-            bar.set_alpha(0.85)
+        bars = ax.bar(x + w/2, iou_v, w, label="Val", color="#a78bfa", alpha=0.8, edgecolor="none")
     
     ax.set_xticks(x)
     ax.set_xticklabels(CLASS_NAMES, rotation=30, ha="right", fontsize=8, color="#94a3b8", fontweight="500")
     ax.set_ylabel("IoU (%)", color="#94a3b8", fontweight="500")
     ax.set_title("Per-Class IoU — SegFormer-B0", color="#e2e8f0", fontsize=11, fontweight="600")
-    ax.legend(labelcolor="#e2e8f0", facecolor="rgba(15,23,42,0.3)", edgecolor="rgba(255,255,255,0.03)", labelspacing=0.5)
-    ax.grid(axis="y", alpha=0.04, color="#64748b")
+    
+    legend = ax.legend(labelcolor="#e2e8f0", facecolor="rgba(15,23,42,0.3)", edgecolor="rgba(255,255,255,0.02)", labelspacing=0.5, framealpha=0.5)
+    legend.get_frame().set_alpha(0.5)
+    
+    ax.grid(axis="y", alpha=0.03, color="#64748b")
     ax.tick_params(colors="#64748b")
     for spine in ax.spines.values():
-        spine.set_color("rgba(255,255,255,0.03)")
+        spine.set_color("rgba(255,255,255,0.02)")
     plt.tight_layout()
     st.pyplot(fig)
     plt.close()
@@ -1314,15 +1311,15 @@ def page_batch_insights():
     ax.set_facecolor("none")
     
     colors_norm = [tuple(c/255 for c in CLASS_MAP.get(cls, (128, 128, 128))) for cls in dom_counts.index]
-    bars = ax.bar(dom_counts.index, dom_counts.values, color=colors_norm, edgecolor="none", linewidth=0, alpha=0.85)
+    bars = ax.bar(dom_counts.index, dom_counts.values, color=colors_norm, edgecolor="none", alpha=0.8)
     
     ax.set_ylabel("Number of images", color="#94a3b8", fontweight="500")
     ax.set_title("Dominant Class per Image", color="#e2e8f0", fontsize=11, fontweight="600")
     ax.tick_params(axis="x", rotation=30, labelsize=8, colors="#94a3b8")
     ax.tick_params(axis="y", colors="#64748b")
     for spine in ax.spines.values():
-        spine.set_color("rgba(255,255,255,0.03)")
-    ax.grid(axis="y", alpha=0.04, color="#64748b")
+        spine.set_color("rgba(255,255,255,0.02)")
+    ax.grid(axis="y", alpha=0.03, color="#64748b")
     plt.tight_layout()
     st.pyplot(fig)
     plt.close()
@@ -1336,7 +1333,7 @@ def page_rag():
 
     if not api_key:
         st.markdown("""
-        <div style="background:rgba(15,23,42,0.4);backdrop-filter:blur(16px);border:1px solid rgba(59,130,246,0.06);border-radius:14px;padding:24px;animation:neonPulseBlue 4s ease-in-out infinite;">
+        <div style="background:rgba(15,23,42,0.35);backdrop-filter:blur(16px);border:1px solid rgba(59,130,246,0.04);border-radius:14px;padding:24px;animation:neonPulseBlue 5s ease-in-out infinite;">
         <p style="color:#94a3b8;margin:0;font-weight:400;">Enter your Gemini API Key in the sidebar to activate Q&A.</p>
         <p style="color:#64748b;font-size:0.82rem;margin-top:8px;">Get a free key at <a href="https://aistudio.google.com" style="color:#60a5fa;text-decoration:none;font-weight:500;">aistudio.google.com</a></p>
         </div>
@@ -1394,7 +1391,7 @@ def page_rag():
             for i, (meta, dist) in enumerate(zip(results["metadatas"][0], results["distances"][0])):
                 sim = 1.0 - dist
                 st.markdown(
-                    f'<div style="background:rgba(15,23,42,0.2);border:1px solid rgba(59,130,246,0.04);border-radius:10px;padding:10px 14px;margin:4px 0;transition:all 0.3s ease;animation:borderGlow 3s ease-in-out infinite;">'
+                    f'<div style="background:rgba(15,23,42,0.15);border:1px solid rgba(59,130,246,0.03);border-radius:10px;padding:10px 14px;margin:4px 0;transition:all 0.4s ease;animation:borderGlow 4s ease-in-out infinite;">'
                     f'<span style="color:#60a5fa;font-family:JetBrains Mono,monospace;font-size:0.75rem;font-weight:600;">[{i+1}]</span> '
                     f'<span style="color:#e2e8f0;font-size:0.82rem;font-weight:500;">{meta.get("image_name","N/A")}</span> '
                     f'<span style="color:#64748b;font-size:0.75rem;"> | split={meta.get("split","?")} | sim={sim:.3f} | dominant={meta.get("dominant_class","?")}</span>'
@@ -1478,8 +1475,8 @@ def main():
         
         if page == "Live Inference":
             st.markdown(
-                '<div style="font-size:0.7rem;color:#60a5fa;font-family:JetBrains Mono,monospace;'
-                'text-transform:uppercase;letter-spacing:0.15em;margin-bottom:8px;font-weight:600;">Analysis Options</div>',
+                '<div style="font-size:0.68rem;color:#60a5fa;font-family:JetBrains Mono,monospace;'
+                'text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;font-weight:600;">Analysis Options</div>',
                 unsafe_allow_html=True
             )
             run_deep = st.checkbox(
@@ -1488,7 +1485,7 @@ def main():
                 help="Uncertainty map, per-class confidence, boundary detection, spatial heatmap"
             )
             st.markdown(
-                '<div style="font-size:0.65rem;color:#475569;margin-top:4px;">'
+                '<div style="font-size:0.62rem;color:#475569;margin-top:4px;">'
                 'Uncertainty + Confidence + Boundary</div>',
                 unsafe_allow_html=True
             )
@@ -1497,7 +1494,7 @@ def main():
         st.markdown("---")
         
         st.markdown(
-            '<div style="font-size:0.72rem;color:#475569;line-height:2;">'
+            '<div style="font-size:0.7rem;color:#475569;line-height:2.1;">'
             '<b style="color:#64748b;font-weight:600;">Dataset</b><br>UAVid Modified<br><br>'
             '<b style="color:#64748b;font-weight:600;">Segmentation</b><br>SegFormer-B0<br><br>'
             '<b style="color:#64748b;font-weight:600;">LLM</b><br>Gemini 2.5 Flash<br><br>'
