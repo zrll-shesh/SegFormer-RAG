@@ -254,9 +254,18 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
     overlay      = (img_arr * 0.45 + color_final * 0.55).astype(np.uint8)
 
     col1, col2, col3 = st.columns(3)
-    col1.image(img_arr,     caption="Input Image",        use_container_width=True)
-    col2.image(color_final, caption="SegFormer-B0 Mask",  use_container_width=True)
-    col3.image(overlay,     caption="Overlay (55% seg)",  use_container_width=True)
+    try:
+        col1.image(img_arr.astype(np.uint8), caption="Input Image", use_container_width=True)
+    except Exception as e:
+        col1.warning(f"Could not render input image: {e}")
+    try:
+        col2.image(color_final.astype(np.uint8), caption="SegFormer-B0 Mask", use_container_width=True)
+    except Exception as e:
+        col2.warning(f"Could not render mask: {e}")
+    try:
+        col3.image(overlay.astype(np.uint8), caption="Overlay (55% seg)", use_container_width=True)
+    except Exception as e:
+        col3.warning(f"Could not render overlay: {e}")
 
     st.markdown('<div class="section-header">Class Coverage</div>', unsafe_allow_html=True)
     col_bar, col_radar = st.columns([1.3, 1])
@@ -343,8 +352,11 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
                 model, image, source_label, save_dir=save_dir
             )
             dash_path = Path(result_data["dashboard_path"])
-            if dash_path.exists():
-                st.image(str(dash_path), use_container_width=True)
+            if dash_path.exists() and dash_path.stat().st_size > 0:
+                try:
+                    st.image(str(dash_path), use_container_width=True)
+                except Exception as e:
+                    st.warning(f"Could not render dashboard image: {e}")
 
             st.markdown('<div class="section-header">Analysis Metrics</div>', unsafe_allow_html=True)
             a1,a2,a3 = st.columns(3)
@@ -458,7 +470,15 @@ def page_dataset_overview():
     if eda_files:
         cols = st.columns(2)
         for i, f in enumerate(eda_files[:8]):
-            cols[i % 2].image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
+            try:
+                if f.stat().st_size == 0:
+                    cols[i % 2].warning(f"Skipped (empty file): {f.name}")
+                    continue
+                with Image.open(f) as im:
+                    im.verify()
+                cols[i % 2].image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
+            except Exception as e:
+                cols[i % 2].warning(f"Skipped (could not load {f.name}): {e}")
     else:
         st.info("Run `python src/eda.py` to generate EDA charts.")
 
@@ -466,7 +486,15 @@ def page_dataset_overview():
     seg_files = sorted(OUTPUT_DIR.glob("seg_overlay_*.png"))
     if seg_files:
         for f in seg_files[:4]:
-            st.image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
+            try:
+                if f.stat().st_size == 0:
+                    st.warning(f"Skipped (empty file): {f.name}")
+                    continue
+                with Image.open(f) as im:
+                    im.verify()
+                st.image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
+            except Exception as e:
+                st.warning(f"Skipped (could not load {f.name}): {e}")
     else:
         st.info("Run `python pipeline.py` to generate segmentation samples.")
 
@@ -532,8 +560,11 @@ def page_evaluation_metrics():
     plt.close()
 
     metrics_img = OUTPUT_DIR / "metrics_comparison.png"
-    if metrics_img.exists():
-        st.image(str(metrics_img), caption="Metrics Comparison Chart", use_container_width=True)
+    if metrics_img.exists() and metrics_img.stat().st_size > 0:
+        try:
+            st.image(str(metrics_img), caption="Metrics Comparison Chart", use_container_width=True)
+        except Exception as e:
+            st.warning(f"Could not render metrics comparison chart: {e}")
 
 
 def page_batch_insights():
