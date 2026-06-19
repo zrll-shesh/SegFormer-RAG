@@ -191,6 +191,38 @@ def hex_color(rgb_tuple):
     return "#{:02x}{:02x}{:02x}".format(*rgb_tuple)
 
 
+# --- Version-safe image renderer -------------------------------------------------
+# Different Streamlit versions support different "full width" kwargs for st.image:
+#   - older versions: use_container_width=True
+#   - newer versions: width="stretch"
+#   - very new/old versions: neither (just omit the kwarg)
+# We detect what's actually supported once at import time and reuse that everywhere,
+# so this never breaks again regardless of which Streamlit version is deployed.
+import inspect as _inspect
+_IMAGE_PARAMS = set(_inspect.signature(st.image).parameters.keys())
+if "use_container_width" in _IMAGE_PARAMS:
+    _IMAGE_WIDTH_KW = {"use_container_width": True}
+elif "width" in _IMAGE_PARAMS:
+    _IMAGE_WIDTH_KW = {"width": "stretch"}
+else:
+    _IMAGE_WIDTH_KW = {}
+
+
+def safe_image(container, image_src, caption=None):
+    """Render an image with whatever full-width kwarg this Streamlit version supports.
+    `container` can be `st` itself or any column/element (e.g. col1, cols[i])."""
+    kwargs = dict(_IMAGE_WIDTH_KW)
+    if caption is not None:
+        kwargs["caption"] = caption
+    try:
+        container.image(image_src, **kwargs)
+    except TypeError:
+        # Last-resort fallback: no width kwarg at all.
+        fallback_kwargs = {"caption": caption} if caption is not None else {}
+        container.image(image_src, **fallback_kwargs)
+# -----------------------------------------------------------------------------------
+
+
 def render_class_bars(stats_dict):
     sorted_items = sorted(stats_dict.items(), key=lambda x: x[1]["coverage_pct"], reverse=True)
     for cls_name, s in sorted_items:
@@ -255,15 +287,15 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
 
     col1, col2, col3 = st.columns(3)
     try:
-        col1.image(img_arr.astype(np.uint8), caption="Input Image", use_container_width=True)
+        safe_image(col1, img_arr.astype(np.uint8), caption="Input Image")
     except Exception as e:
         col1.warning(f"Could not render input image: {e}")
     try:
-        col2.image(color_final.astype(np.uint8), caption="SegFormer-B0 Mask", use_container_width=True)
+        safe_image(col2, color_final.astype(np.uint8), caption="SegFormer-B0 Mask")
     except Exception as e:
         col2.warning(f"Could not render mask: {e}")
     try:
-        col3.image(overlay.astype(np.uint8), caption="Overlay (55% seg)", use_container_width=True)
+        safe_image(col3, overlay.astype(np.uint8), caption="Overlay (55% seg)")
     except Exception as e:
         col3.warning(f"Could not render overlay: {e}")
 
@@ -354,7 +386,7 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
             dash_path = Path(result_data["dashboard_path"])
             if dash_path.exists() and dash_path.stat().st_size > 0:
                 try:
-                    st.image(str(dash_path), use_container_width=True)
+                    safe_image(st, str(dash_path))
                 except Exception as e:
                     st.warning(f"Could not render dashboard image: {e}")
 
@@ -476,7 +508,7 @@ def page_dataset_overview():
                     continue
                 with Image.open(f) as im:
                     im.verify()
-                cols[i % 2].image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
+                safe_image(cols[i % 2], str(f), caption=f.stem.replace("_", " ").title())
             except Exception as e:
                 cols[i % 2].warning(f"Skipped (could not load {f.name}): {e}")
     else:
@@ -492,7 +524,7 @@ def page_dataset_overview():
                     continue
                 with Image.open(f) as im:
                     im.verify()
-                st.image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
+                safe_image(st, str(f), caption=f.stem.replace("_", " ").title())
             except Exception as e:
                 st.warning(f"Skipped (could not load {f.name}): {e}")
     else:
@@ -562,7 +594,7 @@ def page_evaluation_metrics():
     metrics_img = OUTPUT_DIR / "metrics_comparison.png"
     if metrics_img.exists() and metrics_img.stat().st_size > 0:
         try:
-            st.image(str(metrics_img), caption="Metrics Comparison Chart", use_container_width=True)
+            safe_image(st, str(metrics_img), caption="Metrics Comparison Chart")
         except Exception as e:
             st.warning(f"Could not render metrics comparison chart: {e}")
 
