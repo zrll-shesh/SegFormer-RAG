@@ -254,9 +254,9 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
     overlay      = (img_arr * 0.45 + color_final * 0.55).astype(np.uint8)
 
     col1, col2, col3 = st.columns(3)
-    col1.image(img_arr,     caption="Input Image",        width="stretch")
-    col2.image(color_final, caption="SegFormer-B0 Mask",  width="stretch")
-    col3.image(overlay,     caption="Overlay (55% seg)",  width="stretch")
+    col1.image(img_arr,     caption="Input Image",        use_container_width=True)
+    col2.image(color_final, caption="SegFormer-B0 Mask",  use_container_width=True)
+    col3.image(overlay,     caption="Overlay (55% seg)",  use_container_width=True)
 
     st.markdown('<div class="section-header">Class Coverage</div>', unsafe_allow_html=True)
     col_bar, col_radar = st.columns([1.3, 1])
@@ -344,7 +344,7 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
             )
             dash_path = Path(result_data["dashboard_path"])
             if dash_path.exists():
-                st.image(str(dash_path), width="stretch")
+                st.image(str(dash_path), use_container_width=True)
 
             st.markdown('<div class="section-header">Analysis Metrics</div>', unsafe_allow_html=True)
             a1,a2,a3 = st.columns(3)
@@ -458,7 +458,7 @@ def page_dataset_overview():
     if eda_files:
         cols = st.columns(2)
         for i, f in enumerate(eda_files[:8]):
-            cols[i % 2].image(str(f), caption=f.stem.replace("_", " ").title(), width="stretch")
+            cols[i % 2].image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
     else:
         st.info("Run `python src/eda.py` to generate EDA charts.")
 
@@ -466,7 +466,7 @@ def page_dataset_overview():
     seg_files = sorted(OUTPUT_DIR.glob("seg_overlay_*.png"))
     if seg_files:
         for f in seg_files[:4]:
-            st.image(str(f), caption=f.stem.replace("_", " ").title(), width="stretch")
+            st.image(str(f), caption=f.stem.replace("_", " ").title(), use_container_width=True)
     else:
         st.info("Run `python pipeline.py` to generate segmentation samples.")
 
@@ -533,7 +533,7 @@ def page_evaluation_metrics():
 
     metrics_img = OUTPUT_DIR / "metrics_comparison.png"
     if metrics_img.exists():
-        st.image(str(metrics_img), caption="Metrics Comparison Chart", width="stretch")
+        st.image(str(metrics_img), caption="Metrics Comparison Chart", use_container_width=True)
 
 
 def page_batch_insights():
