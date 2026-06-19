@@ -906,7 +906,7 @@ def render_coverage_radar(stats_dict, title="Coverage Radar"):
     ax.set_thetagrids(np.degrees(angles[:-1]), classes, 
                       fontsize=7, color="#94a3b8", fontweight="500")
     ax.tick_params(colors="#64748b")
-    ax.spines["polar"].set_color("rgba(255,255,255,0.03)")
+    ax.spines["polar"].set_color((255, 255, 255, 0.03))
     ax.set_title(title, fontsize=9, color="#e2e8f0", pad=20, fontweight="600")
     
     for label in ax.get_yticklabels():
@@ -1236,18 +1236,30 @@ def page_evaluation_metrics():
     w = 0.35
     if "train" in loaded:
         iou_t = [loaded["train"]["per_class_iou"].get(c, 0) for c in CLASS_NAMES]
-        bars = ax.bar(x - w/2, iou_t, w, label="Train", color="#3b82f6", alpha=0.8, edgecolor="none")
+        ax.bar(x - w/2, iou_t, w, label="Train", color="#3b82f6", alpha=0.8, edgecolor="none")
     if "val" in loaded:
         iou_v = [loaded["val"]["per_class_iou"].get(c, 0) for c in CLASS_NAMES]
-        bars = ax.bar(x + w/2, iou_v, w, label="Val", color="#a78bfa", alpha=0.8, edgecolor="none")
+        ax.bar(x + w/2, iou_v, w, label="Val", color="#a78bfa", alpha=0.8, edgecolor="none")
     
     ax.set_xticks(x)
     ax.set_xticklabels(CLASS_NAMES, rotation=30, ha="right", fontsize=8, color="#94a3b8", fontweight="500")
     ax.set_ylabel("IoU (%)", color="#94a3b8", fontweight="500")
     ax.set_title("Per-Class IoU — SegFormer-B0", color="#e2e8f0", fontsize=11, fontweight="600")
     
-    legend = ax.legend(labelcolor="#e2e8f0", facecolor="rgba(15,23,42,0.3)", edgecolor="rgba(255,255,255,0.02)", labelspacing=0.5, framealpha=0.5)
-    legend.get_frame().set_alpha(0.5)
+    # Simplified legend to avoid color issues
+    from matplotlib.patches import Patch
+    legend_elements = []
+    if "train" in loaded:
+        legend_elements.append(Patch(facecolor="#3b82f6", label="Train", alpha=0.8))
+    if "val" in loaded:
+        legend_elements.append(Patch(facecolor="#a78bfa", label="Val", alpha=0.8))
+    
+    if legend_elements:
+        legend = ax.legend(handles=legend_elements, loc="upper right", framealpha=0.3)
+        legend.get_frame().set_facecolor((15/255, 23/255, 42/255, 0.3))
+        legend.get_frame().set_edgecolor((255/255, 255/255, 255/255, 0.02))
+        for text in legend.get_texts():
+            text.set_color("#e2e8f0")
     
     ax.grid(axis="y", alpha=0.03, color="#64748b")
     ax.tick_params(colors="#64748b")
@@ -1311,7 +1323,7 @@ def page_batch_insights():
     ax.set_facecolor("none")
     
     colors_norm = [tuple(c/255 for c in CLASS_MAP.get(cls, (128, 128, 128))) for cls in dom_counts.index]
-    bars = ax.bar(dom_counts.index, dom_counts.values, color=colors_norm, edgecolor="none", alpha=0.8)
+    ax.bar(dom_counts.index, dom_counts.values, color=colors_norm, edgecolor="none", alpha=0.8)
     
     ax.set_ylabel("Number of images", color="#94a3b8", fontweight="500")
     ax.set_title("Dominant Class per Image", color="#e2e8f0", fontsize=11, fontweight="600")
