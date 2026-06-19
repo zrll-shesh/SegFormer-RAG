@@ -1,6 +1,7 @@
 """
 UAVid RAG Explorer - Streamlit Application
 SegFormer-B0 semantic segmentation + RAG Q&A for UAVid dataset.
+Ultra-modern UI with glassmorphism, animations, and premium design.
 """
 
 import os
@@ -16,6 +17,7 @@ from PIL import Image
 from pathlib import Path
 from collections import defaultdict
 import io
+import base64
 
 import streamlit as st
 
@@ -32,6 +34,9 @@ from segformer_model import (
 from segmentation import color_to_class_id, compute_per_class_stats, generate_insight_text
 
 
+# ============================================================================
+# ULTRA MODERN CSS WITH GLASSMORPHISM & ANIMATIONS
+# ============================================================================
 st.set_page_config(
     page_title="UAVid Remote Sensing AI",
     page_icon="",
@@ -41,128 +46,551 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
-html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
-
-.main { background: #0a0e1a; }
-
-.page-title {
-    font-family: 'Space Mono', monospace;
-    font-size: 1.9rem;
-    font-weight: 700;
-    color: #e2e8f0;
-    border-left: 4px solid #3b82f6;
-    padding-left: 16px;
-    margin-bottom: 4px;
-    letter-spacing: -0.5px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-40px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(40px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.2); }
+    50% { box-shadow: 0 0 40px rgba(59, 130, 246, 0.4), 0 0 80px rgba(59, 130, 246, 0.1); }
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+}
+
+@keyframes rotateSlow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes borderGlow {
+    0%, 100% { border-color: rgba(59, 130, 246, 0.2); }
+    50% { border-color: rgba(59, 130, 246, 0.5); }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ===== BACKGROUND ===== */
+.main {
+    background: #080c1a;
+    background-image: 
+        radial-gradient(ellipse at 10% 20%, rgba(59, 130, 246, 0.06) 0%, transparent 60%),
+        radial-gradient(ellipse at 90% 80%, rgba(139, 92, 246, 0.06) 0%, transparent 60%),
+        radial-gradient(ellipse at 50% 50%, rgba(6, 182, 212, 0.03) 0%, transparent 70%);
+    position: relative;
+}
+
+/* ===== GLASSMORPHISM BASE ===== */
+.glass {
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(20px) saturate(1.8);
+    -webkit-backdrop-filter: blur(20px) saturate(1.8);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+}
+
+.glass-strong {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(24px) saturate(2);
+    -webkit-backdrop-filter: blur(24px) saturate(2);
+    border: 1px solid rgba(59, 130, 246, 0.12);
+    border-radius: 16px;
+}
+
+/* ===== SIDEBAR ===== */
+div[data-testid="stSidebarContent"] {
+    background: rgba(8, 12, 26, 0.92) !important;
+    backdrop-filter: blur(24px) saturate(2);
+    -webkit-backdrop-filter: blur(24px) saturate(2);
+    border-right: 1px solid rgba(59, 130, 246, 0.08);
+    padding: 24px 16px;
+}
+
+div[data-testid="stSidebarContent"]::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, 
+        rgba(59, 130, 246, 0.03) 0%, 
+        transparent 40%, 
+        rgba(139, 92, 246, 0.03) 100%);
+    pointer-events: none;
+}
+
+/* ===== SIDEBAR TITLE ===== */
+.sidebar-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.05rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #60a5fa, #a78bfa, #60a5fa);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 4s ease-in-out infinite;
+    letter-spacing: -0.5px;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.sidebar-title::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 32px;
+    height: 2.5px;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    border-radius: 2px;
+}
+
+.sidebar-sub {
+    font-size: 0.68rem;
+    color: rgba(100, 116, 139, 0.7);
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+/* ===== SIDEBAR NAVIGATION ===== */
+div[data-testid="stSidebarContent"] .stRadio label {
+    color: #94a3b8 !important;
+    font-size: 0.85rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    padding: 10px 14px !important;
+    border-radius: 10px !important;
+    margin: 2px 0 !important;
+    cursor: pointer !important;
+    position: relative !important;
+}
+
+div[data-testid="stSidebarContent"] .stRadio label:hover {
+    background: rgba(59, 130, 246, 0.08) !important;
+    color: #e2e8f0 !important;
+    transform: translateX(4px);
+}
+
+div[data-testid="stSidebarContent"] .stRadio div[data-baseweb="radio"] > div:first-child {
+    border-color: #334155 !important;
+}
+
+div[data-testid="stSidebarContent"] .stRadio div[data-baseweb="radio"] [data-testid="stMarkdownContainer"] {
+    color: #94a3b8 !important;
+}
+
+/* ===== PAGE TITLE ===== */
+.page-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #f1f5f9 20%, #60a5fa 60%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 2px;
+    letter-spacing: -0.5px;
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 4px;
+}
+
 .page-sub {
     font-size: 0.88rem;
     color: #64748b;
-    padding-left: 22px;
-    margin-bottom: 24px;
-    font-family: 'Space Mono', monospace;
+    margin-bottom: 28px;
+    font-weight: 400;
+    animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.15s both;
+    padding-left: 4px;
+    letter-spacing: 0.02em;
 }
+
+/* ===== SECTION HEADER ===== */
+.section-header {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: #60a5fa;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 28px 0 14px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: slideInLeft 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-header::before {
+    content: '';
+    width: 3px;
+    height: 18px;
+    background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+    border-radius: 2px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* ===== METRIC CARDS ===== */
 .metric-card {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    border: 1px solid #1e3a5f;
-    border-radius: 10px;
-    padding: 18px 16px;
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(12px) saturate(1.4);
+    -webkit-backdrop-filter: blur(12px) saturate(1.4);
+    border: 1px solid rgba(59, 130, 246, 0.08);
+    border-radius: 14px;
+    padding: 20px 16px;
     text-align: center;
     margin: 4px 0;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
 }
+
+.metric-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+        rgba(59, 130, 246, 0.03) 0%, 
+        transparent 50%, 
+        rgba(139, 92, 246, 0.03) 100%);
+    pointer-events: none;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(59, 130, 246, 0.2);
+    box-shadow: 0 8px 30px rgba(59, 130, 246, 0.08);
+}
+
 .metric-value {
-    font-family: 'Space Mono', monospace;
-    font-size: 1.7rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.6rem;
     font-weight: 700;
-    color: #3b82f6;
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
 }
+
 .metric-label {
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     color: #64748b;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-top: 4px;
+    letter-spacing: 0.12em;
+    margin-top: 6px;
+    font-weight: 500;
 }
+
+/* ===== INSIGHT CARD ===== */
 .insight-card {
-    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-    border: 1px solid #1e40af;
-    border-radius: 10px;
-    padding: 16px 20px;
-    font-size: 0.87rem;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.5));
+    backdrop-filter: blur(16px) saturate(1.6);
+    -webkit-backdrop-filter: blur(16px) saturate(1.6);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    border-radius: 14px;
+    padding: 18px 22px;
+    font-size: 0.85rem;
     color: #cbd5e1;
-    line-height: 1.7;
+    line-height: 1.8;
     margin: 10px 0;
+    animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
 }
+
+.insight-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+        rgba(59, 130, 246, 0.03) 0%, 
+        transparent 40%, 
+        rgba(139, 92, 246, 0.02) 100%);
+    pointer-events: none;
+}
+
+.insight-card b {
+    color: #60a5fa;
+    font-weight: 600;
+}
+
+/* ===== ANSWER CARD ===== */
 .answer-card {
-    background: #0f172a;
-    border: 1px solid #1d4ed8;
-    border-left: 5px solid #3b82f6;
-    border-radius: 10px;
-    padding: 20px 24px;
+    background: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(16px) saturate(1.6);
+    -webkit-backdrop-filter: blur(16px) saturate(1.6);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+    border-left: 3px solid #3b82f6;
+    border-radius: 14px;
+    padding: 22px 26px;
     color: #e2e8f0;
     font-size: 0.92rem;
-    line-height: 1.8;
+    line-height: 1.9;
     margin-top: 12px;
+    animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.class-chip {
-    display: inline-block;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-size: 0.75rem;
-    margin: 2px;
-    font-family: 'Space Mono', monospace;
-}
-.section-header {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.8rem;
-    color: #3b82f6;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    margin: 20px 0 8px 0;
-    border-bottom: 1px solid #1e293b;
-    padding-bottom: 6px;
-}
-div[data-testid="stSidebarContent"] {
-    background: #050810;
-    border-right: 1px solid #1e293b;
-}
-div[data-testid="stSidebarContent"] label,
-div[data-testid="stSidebarContent"] .stRadio label {
-    color: #94a3b8 !important;
-    font-size: 0.88rem;
-}
-div[data-testid="stSidebarContent"] p {
-    color: #64748b;
-    font-size: 0.8rem;
-}
+
+/* ===== BUTTONS ===== */
 .stButton button {
-    background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%) !important;
+    background: linear-gradient(135deg, #2563eb, #7c3aed) !important;
     color: white !important;
     border: none !important;
-    border-radius: 8px !important;
-    font-family: 'Space Mono', monospace !important;
+    border-radius: 10px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
     font-size: 0.82rem !important;
-    padding: 8px 20px !important;
-    transition: all 0.2s ease !important;
+    padding: 10px 24px !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 16px rgba(59, 130, 246, 0.2) !important;
+    position: relative !important;
+    overflow: hidden !important;
 }
+
+.stButton button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 0.1) 0%, 
+        transparent 60%);
+    pointer-events: none;
+}
+
 .stButton button:hover {
-    background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%) !important;
-    transform: translateY(-1px) !important;
+    transform: translateY(-2px) scale(1.01) !important;
+    box-shadow: 0 8px 30px rgba(59, 130, 246, 0.35) !important;
 }
-.upload-zone {
-    background: #0f172a;
-    border: 2px dashed #1e40af;
+
+.stButton button:active {
+    transform: translateY(0) scale(0.98) !important;
+}
+
+/* ===== TABS ===== */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 6px;
+    background: rgba(15, 23, 42, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border-radius: 12px;
-    padding: 24px;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px !important;
+    padding: 8px 20px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 0.82rem !important;
+    color: #94a3b8 !important;
+    transition: all 0.3s ease !important;
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    color: #e2e8f0 !important;
+    background: rgba(59, 130, 246, 0.06) !important;
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background: rgba(59, 130, 246, 0.12) !important;
+    color: #60a5fa !important;
+}
+
+/* ===== FILE UPLOADER ===== */
+.upload-zone {
+    background: rgba(15, 23, 42, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 2px dashed rgba(59, 130, 246, 0.15);
+    border-radius: 14px;
+    padding: 32px;
     text-align: center;
     color: #64748b;
+    transition: all 0.3s ease;
+}
+
+.upload-zone:hover {
+    border-color: rgba(59, 130, 246, 0.3);
+    background: rgba(15, 23, 42, 0.4);
+}
+
+/* ===== EXPANDER ===== */
+.streamlit-expanderHeader {
+    background: rgba(15, 23, 42, 0.3) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px !important;
+    border: 1px solid rgba(59, 130, 246, 0.06) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+    color: #94a3b8 !important;
+}
+
+.streamlit-expanderHeader:hover {
+    background: rgba(15, 23, 42, 0.4) !important;
+    border-color: rgba(59, 130, 246, 0.15) !important;
+}
+
+/* ===== DATA FRAME ===== */
+.dataframe-container {
+    background: rgba(15, 23, 42, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 12px;
+    border: 1px solid rgba(59, 130, 246, 0.06);
+    padding: 4px;
+}
+
+/* ===== SLIDER ===== */
+.stSlider div[data-baseweb="slider"] {
+    background: rgba(59, 130, 246, 0.1) !important;
+}
+
+.stSlider div[role="slider"] {
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6) !important;
+    border: 2px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.2) !important;
+}
+
+/* ===== TEXT INPUT ===== */
+.stTextInput input, .stTextArea textarea {
+    background: rgba(15, 23, 42, 0.4) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(59, 130, 246, 0.08) !important;
+    border-radius: 10px !important;
+    color: #e2e8f0 !important;
+    font-family: 'Inter', sans-serif !important;
+    transition: all 0.3s ease !important;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus {
+    border-color: rgba(59, 130, 246, 0.3) !important;
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.05) !important;
+    background: rgba(15, 23, 42, 0.5) !important;
+}
+
+/* ===== SELECTBOX ===== */
+.stSelectbox div[data-baseweb="select"] {
+    background: rgba(15, 23, 42, 0.4) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px !important;
+    border: 1px solid rgba(59, 130, 246, 0.08) !important;
+}
+
+/* ===== CHECKBOX ===== */
+.stCheckbox label {
+    color: #94a3b8 !important;
+    font-weight: 500 !important;
+}
+
+.stCheckbox div[data-baseweb="checkbox"] div:first-child {
+    border-color: #334155 !important;
+    border-radius: 6px !important;
+}
+
+/* ===== INFO/WARNING/ERROR ===== */
+.stAlert {
+    border-radius: 12px !important;
+    border: none !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/* ===== CLASS CHIPS ===== */
+.class-chip {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    margin: 2px 3px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #2563eb, #7c3aed);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 1.4rem;
+    }
+    .metric-value {
+        font-size: 1.2rem;
+    }
 }
 </style>
 """, unsafe_allow_html=True)
 
 
+# ============================================================================
+# CACHED RESOURCES
+# ============================================================================
 @st.cache_resource(show_spinner="Loading SegFormer-B0 model...")
 def get_segformer_model():
     return build_segformer_model()
@@ -191,13 +619,9 @@ def hex_color(rgb_tuple):
     return "#{:02x}{:02x}{:02x}".format(*rgb_tuple)
 
 
-# --- Version-safe image renderer -------------------------------------------------
-# Different Streamlit versions support different "full width" kwargs for st.image:
-#   - older versions: use_container_width=True
-#   - newer versions: width="stretch"
-#   - very new/old versions: neither (just omit the kwarg)
-# We detect what's actually supported once at import time and reuse that everywhere,
-# so this never breaks again regardless of which Streamlit version is deployed.
+# ============================================================================
+# VERSION-SAFE IMAGE RENDERER
+# ============================================================================
 import inspect as _inspect
 _IMAGE_PARAMS = set(_inspect.signature(st.image).parameters.keys())
 if "use_container_width" in _IMAGE_PARAMS:
@@ -209,33 +633,34 @@ else:
 
 
 def safe_image(container, image_src, caption=None):
-    """Render an image with whatever full-width kwarg this Streamlit version supports.
-    `container` can be `st` itself or any column/element (e.g. col1, cols[i])."""
     kwargs = dict(_IMAGE_WIDTH_KW)
     if caption is not None:
         kwargs["caption"] = caption
     try:
         container.image(image_src, **kwargs)
     except TypeError:
-        # Last-resort fallback: no width kwarg at all.
         fallback_kwargs = {"caption": caption} if caption is not None else {}
         container.image(image_src, **fallback_kwargs)
-# -----------------------------------------------------------------------------------
 
 
+# ============================================================================
+# RENDER FUNCTIONS
+# ============================================================================
 def render_class_bars(stats_dict):
     sorted_items = sorted(stats_dict.items(), key=lambda x: x[1]["coverage_pct"], reverse=True)
     for cls_name, s in sorted_items:
-        pct   = s["coverage_pct"]
+        pct = s["coverage_pct"]
         color = CLASS_MAP[cls_name]
-        hx    = hex_color(color)
+        hx = hex_color(color)
         bar_w = max(pct * 1.8, 0.3)
         st.markdown(
-            f'<div style="display:flex;align-items:center;gap:10px;margin:4px 0">'
-            f'<div style="width:14px;height:14px;background:{hx};border-radius:3px;flex-shrink:0"></div>'
-            f'<span style="font-family:Space Mono,monospace;font-size:0.75rem;color:#94a3b8;width:150px;flex-shrink:0">{cls_name}</span>'
-            f'<div style="background:{hx};opacity:0.85;width:{bar_w:.1f}%;height:12px;border-radius:2px;min-width:3px"></div>'
-            f'<span style="font-family:Space Mono,monospace;font-size:0.75rem;color:#e2e8f0">{pct:.2f}%</span>'
+            f'<div style="display:flex;align-items:center;gap:10px;margin:4px 0;padding:2px 0;">'
+            f'<div style="width:14px;height:14px;background:{hx};border-radius:4px;flex-shrink:0;border:1px solid rgba(255,255,255,0.05)"></div>'
+            f'<span style="font-family:JetBrains Mono,monospace;font-size:0.72rem;color:#94a3b8;width:150px;flex-shrink:0">{cls_name}</span>'
+            f'<div style="flex:1;background:rgba(255,255,255,0.03);border-radius:4px;height:8px;overflow:hidden;min-width:20px;">'
+            f'<div style="background:linear-gradient(90deg,{hx},{hx}dd);width:{bar_w:.1f}%;height:100%;border-radius:4px;transition:width 0.6s cubic-bezier(0.4,0,0.2,1)"></div>'
+            f'</div>'
+            f'<span style="font-family:JetBrains Mono,monospace;font-size:0.72rem;color:#e2e8f0;min-width:50px;text-align:right">{pct:.2f}%</span>'
             f'</div>',
             unsafe_allow_html=True,
         )
@@ -243,47 +668,64 @@ def render_class_bars(stats_dict):
 
 def render_coverage_radar(stats_dict, title="Coverage Radar"):
     classes = CLASS_NAMES
-    values  = [stats_dict[c]["coverage_pct"] if isinstance(stats_dict[c], dict)
-               else stats_dict[c] for c in classes]
+    values = [stats_dict[c]["coverage_pct"] if isinstance(stats_dict[c], dict)
+              else stats_dict[c] for c in classes]
     values_plot = values + [values[0]]
-    angles  = np.linspace(0, 2 * np.pi, len(classes), endpoint=False).tolist() + \
-              [np.linspace(0, 2 * np.pi, len(classes), endpoint=False)[0]]
+    angles = np.linspace(0, 2 * np.pi, len(classes), endpoint=False).tolist() + \
+             [np.linspace(0, 2 * np.pi, len(classes), endpoint=False)[0]]
 
     fig, ax = plt.subplots(figsize=(5, 5), subplot_kw={"polar": True})
-    fig.patch.set_facecolor("#0a0e1a")
-    ax.set_facecolor("#0f172a")
-    ax.plot(angles, values_plot, color="#3b82f6", linewidth=2)
-    ax.fill(angles, values_plot, color="#3b82f6", alpha=0.2)
-    ax.set_thetagrids(np.degrees(angles[:-1]), classes, fontsize=7, color="#94a3b8")
+    fig.patch.set_facecolor("none")
+    ax.set_facecolor("none")
+    
+    ax.plot(angles, values_plot, color="#3b82f6", linewidth=2.5, alpha=0.9)
+    ax.fill(angles, values_plot, color="#3b82f6", alpha=0.15)
+    
+    ax.set_thetagrids(np.degrees(angles[:-1]), classes, fontsize=7, color="#94a3b8", fontweight="500")
     ax.tick_params(colors="#64748b")
-    ax.spines["polar"].set_color("#1e293b")
-    ax.set_title(title, fontsize=9, color="#e2e8f0", pad=20)
-    ax.yaxis.label.set_color("#64748b")
+    ax.spines["polar"].set_color("rgba(255,255,255,0.05)")
+    ax.set_title(title, fontsize=9, color="#e2e8f0", pad=20, fontweight="600")
+    
     for label in ax.get_yticklabels():
         label.set_color("#64748b")
+    
+    ax.grid(alpha=0.1, color="#64748b")
     plt.tight_layout()
     return fig
 
 
+def render_modern_metric(label, value, color="#3b82f6"):
+    st.markdown(
+        f'<div class="metric-card">'
+        f'<div class="metric-value">{value}</div>'
+        f'<div class="metric-label">{label}</div>'
+        f'</div>',
+        unsafe_allow_html=True
+    )
+
+
+# ============================================================================
+# CORE SEGMENTATION FUNCTION
+# ============================================================================
 def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_mask=None, run_analysis=False):
     model = get_segformer_model()
 
     with st.spinner("Running SegFormer-B0 inference..."):
-        result  = run_inference(model, image)
+        result = run_inference(model, image)
 
-    pred_mask  = result["pred_mask"]
-    stats      = result["stats"]
-    elapsed    = result["elapsed"]
-    img_arr    = np.array(image.convert("RGB"))
+    pred_mask = result["pred_mask"]
+    stats = result["stats"]
+    elapsed = result["elapsed"]
+    img_arr = np.array(image.convert("RGB"))
     orig_h, orig_w = img_arr.shape[:2]
 
     import torch
     import torch.nn.functional as tfF
-    pred_t       = torch.tensor(pred_mask).unsqueeze(0).unsqueeze(0).float()
+    pred_t = torch.tensor(pred_mask).unsqueeze(0).unsqueeze(0).float()
     pred_resized = tfF.interpolate(pred_t, size=(orig_h, orig_w), mode="nearest")
-    pred_final   = pred_resized.squeeze().numpy().astype(np.uint8)
-    color_final  = mask_to_color(pred_final)
-    overlay      = (img_arr * 0.45 + color_final * 0.55).astype(np.uint8)
+    pred_final = pred_resized.squeeze().numpy().astype(np.uint8)
+    color_final = mask_to_color(pred_final)
+    overlay = (img_arr * 0.45 + color_final * 0.55).astype(np.uint8)
 
     col1, col2, col3 = st.columns(3)
     try:
@@ -300,7 +742,7 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
         col3.warning(f"Could not render overlay: {e}")
 
     st.markdown('<div class="section-header">Class Coverage</div>', unsafe_allow_html=True)
-    col_bar, col_radar = st.columns([1.3, 1])
+    col_bar, col_radar = st.columns([1.4, 1])
     with col_bar:
         render_class_bars(stats)
     with col_radar:
@@ -309,12 +751,12 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
         plt.close()
 
     dominant = max(stats, key=lambda c: stats[c]["coverage_pct"])
-    veg      = stats["Tree"]["coverage_pct"] + stats["Low vegetation"]["coverage_pct"]
-    cars     = stats["Moving car"]["coverage_pct"] + stats["Static car"]["coverage_pct"]
-    scene    = ("Urban Dense" if stats["Building"]["coverage_pct"] > 30 else
-                "Mixed Urban" if stats["Building"]["coverage_pct"] > 10 else "Natural/Open")
+    veg = stats["Tree"]["coverage_pct"] + stats["Low vegetation"]["coverage_pct"]
+    cars = stats["Moving car"]["coverage_pct"] + stats["Static car"]["coverage_pct"]
+    scene = ("Urban Dense" if stats["Building"]["coverage_pct"] > 30 else
+             "Mixed Urban" if stats["Building"]["coverage_pct"] > 10 else "Natural/Open")
 
-    c1,c2,c3,c4,c5,c6 = st.columns(6)
+    c1, c2, c3, c4, c5, c6 = st.columns(6)
     c1.markdown(f'<div class="metric-card"><div class="metric-value">{stats[dominant]["coverage_pct"]:.1f}%</div><div class="metric-label">Dominant</div></div>', unsafe_allow_html=True)
     c2.markdown(f'<div class="metric-card"><div class="metric-value">{veg:.1f}%</div><div class="metric-label">Vegetation</div></div>', unsafe_allow_html=True)
     c3.markdown(f'<div class="metric-card"><div class="metric-value">{stats["Road"]["coverage_pct"]:.1f}%</div><div class="metric-label">Road</div></div>', unsafe_allow_html=True)
@@ -324,34 +766,34 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
 
     st.markdown('<div class="section-header">Scene Intelligence</div>', unsafe_allow_html=True)
     sorted_cls = sorted(stats.items(), key=lambda x: x[1]["coverage_pct"], reverse=True)
-    top3_str   = " | ".join([f"{c}: {s['coverage_pct']:.1f}%" for c,s in sorted_cls[:3]])
-    present    = [c for c,s in stats.items() if s["coverage_pct"] > 1.0]
-    absent     = [c for c,s in stats.items() if s["coverage_pct"] < 0.1]
-    urban_idx  = (stats["Building"]["coverage_pct"] * 0.4 +
-                  stats["Road"]["coverage_pct"] * 0.35 +
-                  cars * 0.25)
-    green_idx  = veg
+    top3_str = " | ".join([f"{c}: {s['coverage_pct']:.1f}%" for c, s in sorted_cls[:3]])
+    present = [c for c, s in stats.items() if s["coverage_pct"] > 1.0]
+    absent = [c for c, s in stats.items() if s["coverage_pct"] < 0.1]
+    urban_idx = (stats["Building"]["coverage_pct"] * 0.4 +
+                 stats["Road"]["coverage_pct"] * 0.35 +
+                 cars * 0.25)
+    green_idx = veg
     human_risk = ("DETECTED" if stats["Human"]["coverage_pct"] > 0.5 else
                   "TRACE" if stats["Human"]["coverage_pct"] > 0.05 else "NOT DETECTED")
 
     insight_html = f"""
     <div class="insight-card">
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">SCENE TYPE:</b> {scene}<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">TOP CLASSES:</b> {top3_str}<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">PRESENT (&gt;1%):</b> {", ".join(present) if present else "none"}<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">ABSENT (&lt;0.1%):</b> {", ".join(absent) if absent else "none"}<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">URBAN INDEX:</b> {urban_idx:.1f}% (Building+Road+Vehicle weighted)<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">GREEN INDEX:</b> {green_idx:.1f}% (Tree+LowVegetation)<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">HUMAN PRESENCE:</b> {human_risk} ({stats["Human"]["coverage_pct"]:.3f}%)<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">MOVING VEHICLES:</b> {stats["Moving car"]["coverage_pct"]:.2f}% | PARKED: {stats["Static car"]["coverage_pct"]:.2f}%<br>
-    <b style="color:#3b82f6;font-family:Space Mono,monospace">BACKGROUND CLUTTER:</b> {stats["Background clutter"]["coverage_pct"]:.2f}%
+    <b>SCENE TYPE:</b> {scene}<br>
+    <b>TOP CLASSES:</b> {top3_str}<br>
+    <b>PRESENT (>1%):</b> {", ".join(present) if present else "none"}<br>
+    <b>ABSENT (<0.1%):</b> {", ".join(absent) if absent else "none"}<br>
+    <b>URBAN INDEX:</b> {urban_idx:.1f}% (Building+Road+Vehicle weighted)<br>
+    <b>GREEN INDEX:</b> {green_idx:.1f}% (Tree+LowVegetation)<br>
+    <b>HUMAN PRESENCE:</b> {human_risk} ({stats["Human"]["coverage_pct"]:.3f}%)<br>
+    <b>MOVING VEHICLES:</b> {stats["Moving car"]["coverage_pct"]:.2f}% | PARKED: {stats["Static car"]["coverage_pct"]:.2f}%<br>
+    <b>BACKGROUND CLUTTER:</b> {stats["Background clutter"]["coverage_pct"]:.2f}%
     </div>"""
     st.markdown(insight_html, unsafe_allow_html=True)
 
     if gt_mask is not None:
         metrics = compute_metrics_from_masks(pred_final, gt_mask)
         st.markdown('<div class="section-header">Evaluation vs Ground Truth</div>', unsafe_allow_html=True)
-        m1,m2,m3,m4 = st.columns(4)
+        m1, m2, m3, m4 = st.columns(4)
         m1.markdown(f'<div class="metric-card"><div class="metric-value">{metrics["pixel_accuracy"]:.2f}%</div><div class="metric-label">Pixel Accuracy</div></div>', unsafe_allow_html=True)
         m2.markdown(f'<div class="metric-card"><div class="metric-value">{metrics["mean_iou"]:.2f}%</div><div class="metric-label">Mean IoU</div></div>', unsafe_allow_html=True)
         m3.markdown(f'<div class="metric-card"><div class="metric-value">{metrics["fw_iou"]:.2f}%</div><div class="metric-label">FW-IoU</div></div>', unsafe_allow_html=True)
@@ -362,14 +804,16 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
         iou_sorted = sorted(metrics["per_class_iou"].items(), key=lambda x: x[1], reverse=True)
         for cls_name, iou_val in iou_sorted:
             color = CLASS_MAP[cls_name]
-            hx    = "#{:02x}{:02x}{:02x}".format(*color)
+            hx = "#{:02x}{:02x}{:02x}".format(*color)
             bar_w = max(iou_val * 1.5, 0.3)
             st.markdown(
-                f'<div style="display:flex;align-items:center;gap:10px;margin:3px 0">' +
-                f'<div style="width:12px;height:12px;background:{hx};border-radius:2px;flex-shrink:0"></div>' +
-                f'<span style="font-family:Space Mono,monospace;font-size:0.72rem;color:#94a3b8;width:140px">{cls_name}</span>' +
-                f'<div style="background:{hx};opacity:0.8;width:{bar_w:.1f}%;height:10px;border-radius:2px;min-width:2px"></div>' +
-                f'<span style="font-family:Space Mono,monospace;font-size:0.72rem;color:#e2e8f0">{iou_val:.2f}%</span>' +
+                f'<div style="display:flex;align-items:center;gap:10px;margin:3px 0;padding:2px 0;">'
+                f'<div style="width:12px;height:12px;background:{hx};border-radius:3px;flex-shrink:0;border:1px solid rgba(255,255,255,0.05)"></div>'
+                f'<span style="font-family:JetBrains Mono,monospace;font-size:0.7rem;color:#94a3b8;width:140px;flex-shrink:0">{cls_name}</span>'
+                f'<div style="flex:1;background:rgba(255,255,255,0.03);border-radius:3px;height:6px;overflow:hidden;min-width:20px;">'
+                f'<div style="background:linear-gradient(90deg,{hx},{hx}dd);width:{bar_w:.1f}%;height:100%;border-radius:3px;transition:width 0.6s cubic-bezier(0.4,0,0.2,1)"></div>'
+                f'</div>'
+                f'<span style="font-family:JetBrains Mono,monospace;font-size:0.7rem;color:#e2e8f0;min-width:50px;text-align:right">{iou_val:.2f}%</span>'
                 f'</div>',
                 unsafe_allow_html=True
             )
@@ -391,7 +835,7 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
                     st.warning(f"Could not render dashboard image: {e}")
 
             st.markdown('<div class="section-header">Analysis Metrics</div>', unsafe_allow_html=True)
-            a1,a2,a3 = st.columns(3)
+            a1, a2, a3 = st.columns(3)
             a1.markdown(f'<div class="metric-card"><div class="metric-value">{result_data["mean_entropy"]:.4f}</div><div class="metric-label">Mean Entropy (lower=better)</div></div>', unsafe_allow_html=True)
             a2.markdown(f'<div class="metric-card"><div class="metric-value">{result_data["high_uncertainty_pct"]:.1f}%</div><div class="metric-label">High-Uncertainty Pixels</div></div>', unsafe_allow_html=True)
             a3.markdown(f'<div class="metric-card"><div class="metric-value">{result_data["boundary_pct"]:.1f}%</div><div class="metric-label">Boundary Pixels</div></div>', unsafe_allow_html=True)
@@ -404,14 +848,18 @@ def segment_and_display(image: Image.Image, source_label="Uploaded Image", gt_ma
                 conf_rows.append({
                     "Class": cls_name,
                     "Mean Confidence": f'{c["mean_conf"]:.4f}',
-                    "Max Confidence":  f'{c["max_conf"]:.4f}',
-                    "High Conf >80%":  f'{c["high_conf_pct"]:.2f}%',
-                    "Predicted Area":  f'{c["area_pct"]:.2f}%',
+                    "Max Confidence": f'{c["max_conf"]:.4f}',
+                    "High Conf >80%": f'{c["high_conf_pct"]:.2f}%',
+                    "Predicted Area": f'{c["area_pct"]:.2f}%',
                 })
             st.dataframe(pd.DataFrame(conf_rows), use_container_width=True)
 
     return stats, pred_final
 
+
+# ============================================================================
+# PAGE FUNCTIONS
+# ============================================================================
 def page_live_inference():
     st.markdown('<div class="page-title">Live Inference</div>', unsafe_allow_html=True)
     st.markdown('<div class="page-sub">Upload an image or use your camera for real-time SegFormer-B0 segmentation</div>', unsafe_allow_html=True)
@@ -440,9 +888,9 @@ def page_live_inference():
 
     with tab_dataset:
         st.markdown('<div class="section-header">Analyze from Dataset</div>', unsafe_allow_html=True)
-        split_sel  = st.selectbox("Split", ["train", "val", "test"])
-        img_dir    = TRAIN_IMAGES if split_sel == "train" else (VAL_IMAGES if split_sel == "val" else TEST_IMAGES)
-        lbl_dir    = TRAIN_LABELS if split_sel == "train" else (VAL_LABELS if split_sel == "val" else None)
+        split_sel = st.selectbox("Split", ["train", "val", "test"])
+        img_dir = TRAIN_IMAGES if split_sel == "train" else (VAL_IMAGES if split_sel == "val" else TEST_IMAGES)
+        lbl_dir = TRAIN_LABELS if split_sel == "train" else (VAL_LABELS if split_sel == "val" else None)
 
         if not img_dir.exists():
             st.warning(f"Directory not found: {img_dir}")
@@ -452,16 +900,16 @@ def page_live_inference():
                 st.warning("No images found.")
             else:
                 img_names = [p.name for p in img_paths]
-                selected  = st.selectbox("Select image", img_names)
-                img_path  = img_dir / selected
+                selected = st.selectbox("Select image", img_names)
+                img_path = img_dir / selected
 
                 if st.button("Run Segmentation", key="run_dataset"):
-                    image   = Image.open(img_path).convert("RGB")
+                    image = Image.open(img_path).convert("RGB")
                     gt_mask = None
                     if lbl_dir:
                         lbl_path = lbl_dir / selected
                         if lbl_path.exists():
-                            gt_arr  = np.array(Image.open(lbl_path).convert("RGB"))
+                            gt_arr = np.array(Image.open(lbl_path).convert("RGB"))
                             gt_mask = color_to_class_id(gt_arr)
                     segment_and_display(image, source_label=selected, gt_mask=gt_mask, run_analysis=st.session_state.get("run_deep", False))
 
@@ -471,10 +919,10 @@ def page_dataset_overview():
     st.markdown('<div class="page-sub">UAVid Modified Dataset - Exploratory Analysis</div>', unsafe_allow_html=True)
 
     train_imgs = sorted(TRAIN_IMAGES.glob("*.png")) if TRAIN_IMAGES.exists() else []
-    val_imgs   = sorted(VAL_IMAGES.glob("*.png"))   if VAL_IMAGES.exists()   else []
-    test_imgs  = sorted(TEST_IMAGES.glob("*.png"))  if TEST_IMAGES.exists()  else []
+    val_imgs = sorted(VAL_IMAGES.glob("*.png")) if VAL_IMAGES.exists() else []
+    test_imgs = sorted(TEST_IMAGES.glob("*.png")) if TEST_IMAGES.exists() else []
     train_lbls = sorted(TRAIN_LABELS.glob("*.png")) if TRAIN_LABELS.exists() else []
-    val_lbls   = sorted(VAL_LABELS.glob("*.png"))   if VAL_LABELS.exists()   else []
+    val_lbls = sorted(VAL_LABELS.glob("*.png")) if VAL_LABELS.exists() else []
 
     c1, c2, c3, c4, c5 = st.columns(5)
     for col, label, val in zip(
@@ -489,10 +937,10 @@ def page_dataset_overview():
     for i, (cls_name, color) in enumerate(CLASS_MAP.items()):
         hx = hex_color(color)
         cols[i % 4].markdown(
-            f'<div style="display:flex;align-items:center;gap:8px;margin:5px 0;padding:6px 10px;background:#0f172a;border-radius:6px;border:1px solid #1e293b">'
-            f'<div style="width:18px;height:18px;background:{hx};border-radius:3px;border:1px solid #374151;flex-shrink:0"></div>'
-            f'<span style="font-size:0.82rem;color:#cbd5e1">{cls_name}</span>'
-            f'<span style="font-family:Space Mono,monospace;font-size:0.7rem;color:#475569;margin-left:auto">RGB{color}</span>'
+            f'<div style="display:flex;align-items:center;gap:10px;margin:6px 0;padding:8px 12px;background:rgba(15,23,42,0.4);backdrop-filter:blur(8px);border-radius:10px;border:1px solid rgba(59,130,246,0.06);transition:all 0.3s ease;">'
+            f'<div style="width:20px;height:20px;background:{hx};border-radius:4px;border:1px solid rgba(255,255,255,0.05);flex-shrink:0;"></div>'
+            f'<span style="font-size:0.82rem;color:#cbd5e1;font-weight:500;">{cls_name}</span>'
+            f'<span style="font-family:JetBrains Mono,monospace;font-size:0.65rem;color:#475569;margin-left:auto;">RGB{color}</span>'
             f'</div>',
             unsafe_allow_html=True
         )
@@ -568,25 +1016,27 @@ def page_evaluation_metrics():
 
     st.markdown('<div class="section-header">IoU Bar Chart</div>', unsafe_allow_html=True)
     fig, ax = plt.subplots(figsize=(12, 4))
-    fig.patch.set_facecolor("#0a0e1a")
-    ax.set_facecolor("#0f172a")
+    fig.patch.set_facecolor("none")
+    ax.set_facecolor("none")
+    
     x = np.arange(len(CLASS_NAMES))
     w = 0.35
     if "train" in loaded:
         iou_t = [loaded["train"]["per_class_iou"].get(c, 0) for c in CLASS_NAMES]
-        ax.bar(x - w/2, iou_t, w, label="Train", color="#3b82f6", alpha=0.85, edgecolor="#1e40af", linewidth=0.5)
+        ax.bar(x - w/2, iou_t, w, label="Train", color="#3b82f6", alpha=0.85, edgecolor="none", linewidth=0)
     if "val" in loaded:
         iou_v = [loaded["val"]["per_class_iou"].get(c, 0) for c in CLASS_NAMES]
-        ax.bar(x + w/2, iou_v, w, label="Val",   color="#f97316", alpha=0.85, edgecolor="#c2410c", linewidth=0.5)
+        ax.bar(x + w/2, iou_v, w, label="Val", color="#a78bfa", alpha=0.85, edgecolor="none", linewidth=0)
+    
     ax.set_xticks(x)
-    ax.set_xticklabels(CLASS_NAMES, rotation=30, ha="right", fontsize=8, color="#94a3b8")
-    ax.set_ylabel("IoU (%)", color="#94a3b8")
-    ax.set_title("Per-Class IoU — SegFormer-B0", color="#e2e8f0", fontsize=11)
-    ax.legend(labelcolor="#e2e8f0", facecolor="#1e293b", edgecolor="#334155")
-    ax.grid(axis="y", alpha=0.2, color="#334155")
+    ax.set_xticklabels(CLASS_NAMES, rotation=30, ha="right", fontsize=8, color="#94a3b8", fontweight="500")
+    ax.set_ylabel("IoU (%)", color="#94a3b8", fontweight="500")
+    ax.set_title("Per-Class IoU — SegFormer-B0", color="#e2e8f0", fontsize=11, fontweight="600")
+    ax.legend(labelcolor="#e2e8f0", facecolor="rgba(15,23,42,0.5)", edgecolor="rgba(255,255,255,0.05)", labelspacing=0.5)
+    ax.grid(axis="y", alpha=0.06, color="#64748b")
     ax.tick_params(colors="#64748b")
     for spine in ax.spines.values():
-        spine.set_color("#1e293b")
+        spine.set_color("rgba(255,255,255,0.04)")
     plt.tight_layout()
     st.pyplot(fig)
     plt.close()
@@ -616,13 +1066,13 @@ def page_batch_insights():
     for item in insights:
         stats = item.get("class_stats", {})
         rows.append({
-            "Image":       item.get("image_name", ""),
-            "Split":       item.get("split", ""),
-            "Dominant":    max(stats, key=stats.get) if stats else "",
-            "Road %":      round(stats.get("Road", 0), 2),
-            "Building %":  round(stats.get("Building", 0), 2),
-            "Tree %":      round(stats.get("Tree", 0), 2),
-            "Human %":     round(stats.get("Human", 0), 4),
+            "Image": item.get("image_name", ""),
+            "Split": item.get("split", ""),
+            "Dominant": max(stats, key=stats.get) if stats else "",
+            "Road %": round(stats.get("Road", 0), 2),
+            "Building %": round(stats.get("Building", 0), 2),
+            "Tree %": round(stats.get("Tree", 0), 2),
+            "Human %": round(stats.get("Human", 0), 4),
         })
     df = pd.DataFrame(rows)
 
@@ -640,17 +1090,20 @@ def page_batch_insights():
 
     st.markdown('<div class="section-header">Dominant Class Distribution</div>', unsafe_allow_html=True)
     dom_counts = df["Dominant"].value_counts()
-    fig, ax    = plt.subplots(figsize=(8, 4))
-    fig.patch.set_facecolor("#0a0e1a")
-    ax.set_facecolor("#0f172a")
-    colors_norm = [tuple(c/255 for c in CLASS_MAP.get(cls, (128,128,128))) for cls in dom_counts.index]
-    ax.bar(dom_counts.index, dom_counts.values, color=colors_norm, edgecolor="#1e293b", linewidth=0.5)
-    ax.set_ylabel("Number of images", color="#94a3b8")
-    ax.set_title("Dominant Class per Image", color="#e2e8f0")
+    fig, ax = plt.subplots(figsize=(8, 4))
+    fig.patch.set_facecolor("none")
+    ax.set_facecolor("none")
+    
+    colors_norm = [tuple(c/255 for c in CLASS_MAP.get(cls, (128, 128, 128))) for cls in dom_counts.index]
+    bars = ax.bar(dom_counts.index, dom_counts.values, color=colors_norm, edgecolor="none", linewidth=0, alpha=0.85)
+    
+    ax.set_ylabel("Number of images", color="#94a3b8", fontweight="500")
+    ax.set_title("Dominant Class per Image", color="#e2e8f0", fontsize=11, fontweight="600")
     ax.tick_params(axis="x", rotation=30, labelsize=8, colors="#94a3b8")
     ax.tick_params(axis="y", colors="#64748b")
     for spine in ax.spines.values():
-        spine.set_color("#1e293b")
+        spine.set_color("rgba(255,255,255,0.04)")
+    ax.grid(axis="y", alpha=0.06, color="#64748b")
     plt.tight_layout()
     st.pyplot(fig)
     plt.close()
@@ -664,9 +1117,9 @@ def page_rag():
 
     if not api_key:
         st.markdown("""
-        <div style="background:#0f172a;border:1px solid #1e3a5f;border-radius:10px;padding:20px">
-        <p style="color:#94a3b8;margin:0">Enter your Gemini API Key in the sidebar to activate Q&A.</p>
-        <p style="color:#64748b;font-size:0.82rem;margin-top:8px">Get a free key at <a href="https://aistudio.google.com" style="color:#3b82f6">aistudio.google.com</a></p>
+        <div style="background:rgba(15,23,42,0.5);backdrop-filter:blur(12px);border:1px solid rgba(59,130,246,0.08);border-radius:14px;padding:24px;">
+        <p style="color:#94a3b8;margin:0;font-weight:400;">Enter your Gemini API Key in the sidebar to activate Q&A.</p>
+        <p style="color:#64748b;font-size:0.82rem;margin-top:8px;">Get a free key at <a href="https://aistudio.google.com" style="color:#60a5fa;text-decoration:none;font-weight:500;">aistudio.google.com</a></p>
         </div>
         """, unsafe_allow_html=True)
         return
@@ -712,9 +1165,9 @@ def page_rag():
         from rag_pipeline import retrieve, format_context
 
         with st.spinner("Searching vector store..."):
-            t0      = time.time()
+            t0 = time.time()
             results = retrieve(query.strip(), collection, encoder, top_k)
-            t_ret   = time.time() - t0
+            t_ret = time.time() - t0
 
         st.markdown(f'<div class="section-header">Retrieved {top_k} Documents in {t_ret:.3f}s</div>', unsafe_allow_html=True)
 
@@ -722,10 +1175,10 @@ def page_rag():
             for i, (meta, dist) in enumerate(zip(results["metadatas"][0], results["distances"][0])):
                 sim = 1.0 - dist
                 st.markdown(
-                    f'<div style="background:#0f172a;border:1px solid #1e293b;border-radius:6px;padding:8px 12px;margin:4px 0">'
-                    f'<span style="color:#3b82f6;font-family:Space Mono,monospace;font-size:0.75rem">[{i+1}]</span> '
-                    f'<span style="color:#e2e8f0;font-size:0.82rem">{meta.get("image_name","N/A")}</span> '
-                    f'<span style="color:#64748b;font-size:0.78rem"> | split={meta.get("split","?")} | sim={sim:.3f} | dominant={meta.get("dominant_class","?")}</span>'
+                    f'<div style="background:rgba(15,23,42,0.3);border:1px solid rgba(59,130,246,0.06);border-radius:10px;padding:10px 14px;margin:4px 0;transition:all 0.3s ease;">'
+                    f'<span style="color:#60a5fa;font-family:JetBrains Mono,monospace;font-size:0.75rem;font-weight:600;">[{i+1}]</span> '
+                    f'<span style="color:#e2e8f0;font-size:0.82rem;font-weight:500;">{meta.get("image_name","N/A")}</span> '
+                    f'<span style="color:#64748b;font-size:0.75rem;"> | split={meta.get("split","?")} | sim={sim:.3f} | dominant={meta.get("dominant_class","?")}</span>'
                     f'</div>',
                     unsafe_allow_html=True
                 )
@@ -748,8 +1201,8 @@ def page_rag():
         import google.generativeai as genai
         from config import GEMINI_MODELS
 
-        answer     = None
-        t_llm      = 0.0
+        answer = None
+        t_llm = 0.0
         used_model = None
 
         model_try_order = GEMINI_MODELS
@@ -758,18 +1211,19 @@ def page_rag():
             with st.spinner(f"Calling {model_name}..."):
                 try:
                     genai.configure(api_key=api_key)
-                    gemini   = genai.GenerativeModel(model_name)
-                    t0       = time.time()
+                    gemini = genai.GenerativeModel(model_name)
+                    t0 = time.time()
                     response = gemini.generate_content(prompt)
-                    answer   = response.text
-                    t_llm    = time.time() - t0
+                    answer = response.text
+                    t_llm = time.time() - t0
                     used_model = model_name
                     break
                 except Exception as e:
                     err_str = str(e)
                     if any(x in err_str for x in ["429", "quota", "RESOURCE_EXHAUSTED", "rate"]):
                         st.warning(f"{model_name} quota exceeded — trying next model...")
-                        import time as _t; _t.sleep(4)
+                        import time as _t
+                        _t.sleep(4)
                         continue
                     else:
                         st.error(f"API error ({model_name}): {e}")
@@ -782,24 +1236,31 @@ def page_rag():
             st.error("All Gemini models returned quota errors. Wait a few minutes and try again, or check billing at https://aistudio.google.com")
             st.info("Free tier limit: 15 requests/min on gemini-1.5-flash. Try waiting 60s.")
 
+
+# ============================================================================
+# MAIN APPLICATION
+# ============================================================================
 def main():
     with st.sidebar:
         st.markdown(
-            '<div style="font-family:Space Mono,monospace;font-size:1rem;color:#e2e8f0;font-weight:700;margin-bottom:4px">UAVid AI Explorer</div>'
-            '<div style="font-size:0.75rem;color:#475569;margin-bottom:20px">Remote Sensing Analysis</div>',
+            '<div class="sidebar-title">UAVid AI Explorer</div>'
+            '<div class="sidebar-sub">Remote Sensing Analysis</div>',
             unsafe_allow_html=True
         )
         st.markdown("---")
+        
         page = st.radio(
             "Navigation",
             ["Live Inference", "Dataset Overview", "Evaluation Metrics", "Batch Insights", "RAG Q&A"],
             label_visibility="collapsed"
         )
+        
         st.markdown("---")
+        
         if page == "Live Inference":
             st.markdown(
-                '<div style="font-size:0.78rem;color:#3b82f6;font-family:Space Mono,monospace;'
-                'text-transform:uppercase;letter-spacing:0.1em;margin-bottom:8px">Analysis Options</div>',
+                '<div style="font-size:0.72rem;color:#60a5fa;font-family:JetBrains Mono,monospace;'
+                'text-transform:uppercase;letter-spacing:0.15em;margin-bottom:8px;font-weight:600;">Analysis Options</div>',
                 unsafe_allow_html=True
             )
             run_deep = st.checkbox(
@@ -808,19 +1269,21 @@ def main():
                 help="Uncertainty map, per-class confidence, boundary detection, spatial heatmap"
             )
             st.markdown(
-                '<div style="font-size:0.72rem;color:#475569;margin-top:4px">'
+                '<div style="font-size:0.7rem;color:#475569;margin-top:4px;">'
                 'Uncertainty + Confidence + Boundary</div>',
                 unsafe_allow_html=True
             )
             st.session_state["run_deep"] = run_deep
+        
         st.markdown("---")
+        
         st.markdown(
-            '<div style="font-size:0.78rem;color:#475569;line-height:1.8">'
-            '<b style="color:#64748b">Dataset</b><br>UAVid Modified<br><br>'
-            '<b style="color:#64748b">Segmentation</b><br>SegFormer-B0<br><br>'
-            '<b style="color:#64748b">LLM</b><br>Gemini 2.5 Flash<br><br>'
-            '<b style="color:#64748b">Embeddings</b><br>all-MiniLM-L6-v2<br><br>'
-            '<b style="color:#64748b">Vector DB</b><br>ChromaDB'
+            '<div style="font-size:0.75rem;color:#475569;line-height:1.9;">'
+            '<b style="color:#64748b;font-weight:600;">Dataset</b><br>UAVid Modified<br><br>'
+            '<b style="color:#64748b;font-weight:600;">Segmentation</b><br>SegFormer-B0<br><br>'
+            '<b style="color:#64748b;font-weight:600;">LLM</b><br>Gemini 2.5 Flash<br><br>'
+            '<b style="color:#64748b;font-weight:600;">Embeddings</b><br>all-MiniLM-L6-v2<br><br>'
+            '<b style="color:#64748b;font-weight:600;">Vector DB</b><br>ChromaDB'
             '</div>',
             unsafe_allow_html=True
         )
